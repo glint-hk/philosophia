@@ -1,0 +1,2279 @@
+{
+  "_metadata": {
+    "version": "5.0",
+    "chunk": "2 of 7",
+    "concepts_in_chunk": "51–100",
+    "instruction": "For each object, find the matching concept in concepts.json by 'name' (exact match, case-sensitive). Add or overwrite: thinkerBio, quote, tags, related, books. All other fields remain unchanged.",
+    "affiliate_note": "books[].url format: https://bookshop.org/a/philosophia/ISBN — replace ISBN after joining Bookshop.org affiliate program."
+  },
+  "completion": [
+    {
+      "name": "Democracy",
+      "thinkerBio": "Jean-Jacques Rousseau (1712–1778) grounded democracy in the general will; John Dewey (1859–1952) argued democracy is primarily a form of associated life; Jürgen Habermas (b. 1929) developed deliberative democracy grounded in communicative rationality.",
+      "quote": "Democracy is not just a form of government — it is primarily a mode of associated living.",
+      "tags": [
+        "political",
+        "democracy",
+        "rousseau",
+        "dewey",
+        "deliberation"
+      ],
+      "related": [
+        {
+          "name": "Deliberative Democracy",
+          "type": "Extends",
+          "note": "Deliberative democracy is the most developed account of what genuine democratic legitimacy requires — reasoned public justification rather than mere majoritarian procedure."
+        },
+        {
+          "name": "Social Contract",
+          "type": "Extends",
+          "note": "Democratic authority is grounded in the social contract tradition — Rousseau's general will is the democratic transformation of the contract idea."
+        },
+        {
+          "name": "Republicanism",
+          "type": "Extends",
+          "note": "Non-domination requires democratic institutions that prevent arbitrary power — republican and democratic ideals are historically intertwined."
+        },
+        {
+          "name": "Political Epistemology",
+          "type": "Extends",
+          "note": "Deliberative democracy has epistemic dimensions — democratic processes can track morally correct outcomes better than alternatives."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Social Contract",
+          "author": "Jean-Jacques Rousseau",
+          "url": "https://bookshop.org/a/philosophia/9780140442014",
+          "why": "Rousseau's foundational account of genuine democratic self-governance through the general will."
+        },
+        {
+          "title": "Democracy and Education",
+          "author": "John Dewey",
+          "url": "https://bookshop.org/a/philosophia/9781420955231",
+          "why": "Dewey's argument that democracy is a form of associated life rather than merely a political procedure."
+        },
+        {
+          "title": "Between Facts and Norms",
+          "author": "Jürgen Habermas",
+          "url": "https://bookshop.org/a/philosophia/9780262581622",
+          "why": "Habermas's systematic theory of deliberative democracy — the most comprehensive contemporary account."
+        }
+      ]
+    },
+    {
+      "name": "Republicanism",
+      "thinkerBio": "Philip Pettit (b. 1945) at Princeton reconstructed the republican tradition in Republicanism (1997); Hannah Arendt (1906–1975) developed a contrasting republican emphasis on political action and the public realm in The Human Condition (1958).",
+      "quote": "Freedom is not the absence of interference — it is the absence of arbitrary power over one's life.",
+      "tags": [
+        "political",
+        "republicanism",
+        "pettit",
+        "arendt",
+        "non-domination"
+      ],
+      "related": [
+        {
+          "name": "Liberalism",
+          "type": "Opposes",
+          "note": "Liberalism defines freedom as non-interference; republicanism argues this is insufficient — a non-interfering master still dominates."
+        },
+        {
+          "name": "Democracy",
+          "type": "Extends",
+          "note": "Non-domination requires democratic institutions that prevent any person or group from holding arbitrary power over others."
+        },
+        {
+          "name": "Power and Domination",
+          "type": "Extends",
+          "note": "Republicanism's concept of non-domination provides the most precise political analysis of what domination consists in and what institutions prevent it."
+        },
+        {
+          "name": "Civil Disobedience",
+          "type": "Extends",
+          "note": "Civil disobedience against tyranny is the republican paradigm of political action — principled resistance to domination."
+        }
+      ],
+      "books": [
+        {
+          "title": "Republicanism",
+          "author": "Philip Pettit",
+          "url": "https://bookshop.org/a/philosophia/9780198296423",
+          "why": "The foundational text reconstructing republican political philosophy — freedom as non-domination."
+        },
+        {
+          "title": "The Human Condition",
+          "author": "Hannah Arendt",
+          "url": "https://bookshop.org/a/philosophia/9780226025988",
+          "why": "Arendt's account of political action as freedom — the public realm as the space of human plurality and new beginnings."
+        },
+        {
+          "title": "Domination and the Arts of Resistance",
+          "author": "James Scott",
+          "url": "https://bookshop.org/a/philosophia/9780300056693",
+          "why": "The empirical complement to republican theory — how dominated groups create and maintain resistance."
+        }
+      ]
+    },
+    {
+      "name": "Liberalism",
+      "thinkerBio": "John Locke (1632–1704) grounded natural rights liberalism in self-ownership; John Stuart Mill (1806–1873) grounded it in the harm principle; John Rawls (1921–2002) constructed a systematic liberal theory from a contractualist foundation — together they define the liberal tradition.",
+      "quote": "The only purpose for which power can be rightfully exercised over any member of a civilised community, against his will, is to prevent harm to others.",
+      "tags": [
+        "political",
+        "liberalism",
+        "locke",
+        "mill",
+        "rawls"
+      ],
+      "related": [
+        {
+          "name": "Social Contract",
+          "type": "Extends",
+          "note": "Classical liberalism is built on the Lockean social contract — governments formed to protect pre-political rights can be resisted when they violate them."
+        },
+        {
+          "name": "Communitarianism",
+          "type": "Opposes",
+          "note": "Communitarianism challenges liberal individualism — the self is constituted by community, not prior to it and independent of it."
+        },
+        {
+          "name": "Feminist Political Philosophy",
+          "type": "Opposes",
+          "note": "Feminist critics show the public/private distinction systematically excludes domestic injustice from liberal political analysis."
+        },
+        {
+          "name": "Rights",
+          "type": "Extends",
+          "note": "Rights are the primary currency of liberal political theory — the pre-political entitlements that the state exists to protect."
+        }
+      ],
+      "books": [
+        {
+          "title": "Two Treatises of Government",
+          "author": "John Locke",
+          "url": "https://bookshop.org/a/philosophia/9780521357302",
+          "why": "The foundational natural rights liberalism — the text that grounds the entire liberal tradition."
+        },
+        {
+          "title": "On Liberty",
+          "author": "John Stuart Mill",
+          "url": "https://bookshop.org/a/philosophia/9780521347044",
+          "why": "Mill's harm principle and the case for individual freedom of thought and action — the clearest liberal argument."
+        },
+        {
+          "title": "Political Liberalism",
+          "author": "John Rawls",
+          "url": "https://bookshop.org/a/philosophia/9780231130899",
+          "why": "Rawls's development of liberalism as a political doctrine appropriate for pluralist democratic societies."
+        }
+      ]
+    },
+    {
+      "name": "Hard Problem of Consciousness",
+      "thinkerBio": "David Chalmers (b. 1966) at NYU articulated the hard problem in 'Facing Up to the Problem of Consciousness' (1995) and The Conscious Mind (1996); Daniel Dennett (b. 1942) at Tufts has been his principal opponent in the most productive debate in contemporary philosophy of mind.",
+      "quote": "Why is there something it is like to undergo conscious experience? Why doesn't all this information-processing go on in the dark?",
+      "tags": [
+        "mind",
+        "consciousness",
+        "hard-problem",
+        "chalmers",
+        "qualia"
+      ],
+      "related": [
+        {
+          "name": "Qualia",
+          "type": "Extends",
+          "note": "Qualia are the specific phenomenal properties whose existence generates the hard problem — the redness of red, the painfulness of pain."
+        },
+        {
+          "name": "Functionalism",
+          "type": "Opposes",
+          "note": "Functionalism holds mental states are defined by causal roles — but even a perfect functional duplicate might lack phenomenal experience."
+        },
+        {
+          "name": "Panpsychism",
+          "type": "Resolves",
+          "note": "Panpsychism avoids the emergence of consciousness from non-conscious matter by making consciousness fundamental rather than emergent."
+        },
+        {
+          "name": "The Hard Problem Revisited",
+          "type": "Extends",
+          "note": "Contemporary responses — type-B physicalism, illusionism, Russellian monism — are all attempts to resolve or dissolve the hard problem."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Conscious Mind",
+          "author": "David Chalmers",
+          "url": "https://bookshop.org/a/philosophia/9780195117899",
+          "why": "The foundational text — Chalmers's full argument for the hard problem and its implications for physicalism."
+        },
+        {
+          "title": "Consciousness Explained",
+          "author": "Daniel Dennett",
+          "url": "https://bookshop.org/a/philosophia/9780316180658",
+          "why": "The major opposition — Dennett's eliminativist account that the hard problem is an illusion produced by confused thinking."
+        },
+        {
+          "title": "The Character of Consciousness",
+          "author": "David Chalmers",
+          "url": "https://bookshop.org/a/philosophia/9780195311105",
+          "why": "Chalmers's comprehensive later treatment addressing all major responses to the hard problem."
+        }
+      ]
+    },
+    {
+      "name": "Qualia",
+      "thinkerBio": "Thomas Nagel (b. 1937) at NYU introduced the what-it's-like formulation in 'What Is It Like to Be a Bat?' (1974); Frank Jackson (b. 1943) developed the knowledge argument through Mary's room in 'Epiphenomenal Qualia' (1982) — Jackson later recanted but the argument remains foundational.",
+      "quote": "What it is like to see red — the redness of red — is not captured by any physical description of the visual system.",
+      "tags": [
+        "mind",
+        "consciousness",
+        "qualia",
+        "phenomenal",
+        "jackson"
+      ],
+      "related": [
+        {
+          "name": "Hard Problem of Consciousness",
+          "type": "Extends",
+          "note": "Qualia are the specific phenomenal properties whose existence generates the hard problem."
+        },
+        {
+          "name": "Functionalism",
+          "type": "Opposes",
+          "note": "Inverted and absent qualia arguments show that functional organization does not fix phenomenal character."
+        },
+        {
+          "name": "Chinese Room",
+          "type": "Extends",
+          "note": "The Chinese Room and qualia arguments both challenge the sufficiency of functional organization for genuine mental states."
+        },
+        {
+          "name": "Embodied Cognition",
+          "type": "Opposes",
+          "note": "Embodied cognition theorists argue qualia are not inner mental objects but features of embedded, embodied engagement with the world."
+        }
+      ],
+      "books": [
+        {
+          "title": "Mortal Questions",
+          "author": "Thomas Nagel",
+          "url": "https://bookshop.org/a/philosophia/9780521406765",
+          "why": "Contains 'What Is It Like to Be a Bat?' — the essay that put qualia at the center of analytic philosophy of mind."
+        },
+        {
+          "title": "Philosophy of Mind: Classical and Contemporary Readings",
+          "author": "David Chalmers (ed.)",
+          "url": "https://bookshop.org/a/philosophia/9780195145816",
+          "why": "The essential anthology including Jackson's knowledge argument and all major responses."
+        },
+        {
+          "title": "There's Something About Mary",
+          "author": "Peter Ludlow (ed.)",
+          "url": "https://bookshop.org/a/philosophia/9780262622103",
+          "why": "The anthology focused specifically on the knowledge argument and its implications for physicalism."
+        }
+      ]
+    },
+    {
+      "name": "Chinese Room",
+      "thinkerBio": "John Searle (b. 1932) at Berkeley published 'Minds, Brains, and Programs' in Behavioral and Brain Sciences in 1980 with over 20 peer commentaries; the Chinese Room remains the most discussed thought experiment in philosophy of mind and philosophy of AI.",
+      "quote": "Syntax is not sufficient for semantics — symbol manipulation is not understanding.",
+      "tags": [
+        "mind",
+        "consciousness",
+        "searle",
+        "artificial-intelligence",
+        "intentionality"
+      ],
+      "related": [
+        {
+          "name": "Functionalism",
+          "type": "Opposes",
+          "note": "The Chinese Room is directed specifically against functionalism — implementing the right program is not sufficient for genuine understanding."
+        },
+        {
+          "name": "Artificial Intelligence and Mind",
+          "type": "Extends",
+          "note": "The Chinese Room remains the central philosophical challenge to strong AI — whether computational systems can genuinely understand."
+        },
+        {
+          "name": "The Intentionality of Consciousness",
+          "type": "Extends",
+          "note": "The argument grounds in intentionality — syntax does not generate semantics, and genuine understanding requires intrinsic intentionality."
+        },
+        {
+          "name": "Language of Thought",
+          "type": "Opposes",
+          "note": "Fodor's language of thought holds that mental syntax is sufficient for mental content; Searle's argument denies this."
+        }
+      ],
+      "books": [
+        {
+          "title": "Minds, Brains and Science",
+          "author": "John Searle",
+          "url": "https://bookshop.org/a/philosophia/9780674576339",
+          "why": "Searle's accessible development of the Chinese Room and its implications for AI and consciousness."
+        },
+        {
+          "title": "The Mystery of Consciousness",
+          "author": "John Searle",
+          "url": "https://bookshop.org/a/philosophia/9780940322066",
+          "why": "Searle's review essays engaging with major positions in consciousness theory through the Chinese Room lens."
+        },
+        {
+          "title": "Consciousness Explained",
+          "author": "Daniel Dennett",
+          "url": "https://bookshop.org/a/philosophia/9780316180658",
+          "why": "The most developed response to the Chinese Room — the systems reply elaborated into a full philosophy of mind."
+        }
+      ]
+    },
+    {
+      "name": "Functionalism",
+      "thinkerBio": "Hilary Putnam (1926–2016) at Harvard introduced multiple realizability and functionalism in the 1960s–70s; Jerry Fodor (1935–2017) developed the language of thought as the functionalist cognitive architecture — both defined the computational theory of mind for a generation.",
+      "quote": "Mental states are defined by their causal roles, not by their physical composition.",
+      "tags": [
+        "mind",
+        "consciousness",
+        "functionalism",
+        "putnam",
+        "multiple-realizability"
+      ],
+      "related": [
+        {
+          "name": "Multiple Realizability",
+          "type": "Extends",
+          "note": "Multiple realizability is Putnam's argument for functionalism — if mental states can be realized in different substrates, they must be defined by function not composition."
+        },
+        {
+          "name": "Hard Problem of Consciousness",
+          "type": "Opposes",
+          "note": "Chalmers's hard problem challenges functionalism — even perfect functional organization might leave phenomenal experience unexplained."
+        },
+        {
+          "name": "Chinese Room",
+          "type": "Opposes",
+          "note": "Searle's Chinese Room attacks the sufficiency of functional organization for genuine understanding."
+        },
+        {
+          "name": "Artificial Intelligence and Mind",
+          "type": "Extends",
+          "note": "Functionalism is the philosophical foundation for strong AI — if minds are functional organizations, they can in principle be implemented in silicon."
+        }
+      ],
+      "books": [
+        {
+          "title": "Representation and Reality",
+          "author": "Hilary Putnam",
+          "url": "https://bookshop.org/a/philosophia/9780262660747",
+          "why": "Putnam's later re-evaluation of functionalism — he ultimately rejected it, and the reasons illuminate its limits."
+        },
+        {
+          "title": "The Language of Thought",
+          "author": "Jerry Fodor",
+          "url": "https://bookshop.org/a/philosophia/9780674509849",
+          "why": "The most developed functionalist cognitive architecture — mentalese and computational mental representations."
+        },
+        {
+          "title": "Philosophy of Mind",
+          "author": "Jaegwon Kim",
+          "url": "https://bookshop.org/a/philosophia/9780813344584",
+          "why": "The clearest textbook treatment of functionalism, its motivations, and its challenges."
+        }
+      ]
+    },
+    {
+      "name": "Free Will vs Determinism",
+      "thinkerBio": "The modern debate was shaped by David Hume (1711–1776) and Immanuel Kant (1724–1804); Peter Strawson (1919–2006) transformed it with 'Freedom and Resentment' (1962); Peter van Inwagen (b. 1942) and Harry Frankfurt (b. 1929) define the contemporary incompatibilist and compatibilist positions.",
+      "quote": "The question of free will is whether our choices can be genuinely ours in a causally determined world.",
+      "tags": [
+        "mind",
+        "free-will",
+        "determinism",
+        "compatibilism",
+        "moral-responsibility"
+      ],
+      "related": [
+        {
+          "name": "Free Will and Moral Responsibility",
+          "type": "Extends",
+          "note": "The free will debate directly concerns moral responsibility — whether persons can be held accountable for actions in a determined world."
+        },
+        {
+          "name": "Moral Luck",
+          "type": "Extends",
+          "note": "Moral luck presses the same tension — if outcomes are not fully under our control, the basis for differential moral assessment is threatened."
+        },
+        {
+          "name": "Karma",
+          "type": "Parallel",
+          "note": "Both karma and compatibilist free will attempt to preserve moral accountability within a causally structured universe."
+        },
+        {
+          "name": "Causation",
+          "type": "Extends",
+          "note": "The debate turns on the nature of causation — whether deterministic causation is compatible with the self-determination freedom requires."
+        }
+      ],
+      "books": [
+        {
+          "title": "An Essay on Free Will",
+          "author": "Peter van Inwagen",
+          "url": "https://bookshop.org/a/philosophia/9780198249245",
+          "why": "The most rigorous contemporary defence of incompatibilism — the consequence argument stated with full precision."
+        },
+        {
+          "title": "Freedom Evolves",
+          "author": "Daniel Dennett",
+          "url": "https://bookshop.org/a/philosophia/9780142003848",
+          "why": "Dennett's compatibilist argument — why free will is worth wanting and how evolution explains how we got it."
+        },
+        {
+          "title": "Free Will",
+          "author": "Gary Watson (ed.)",
+          "url": "https://bookshop.org/a/philosophia/9780198752103",
+          "why": "The definitive anthology covering the full debate including Frankfurt's hierarchical compatibilism."
+        }
+      ]
+    },
+    {
+      "name": "Personal Identity",
+      "thinkerBio": "John Locke (1632–1704) formulated the memory criterion in An Essay Concerning Human Understanding (1689); Derek Parfit (1942–2017) transformed the debate in Reasons and Persons (1984) by arguing that personal identity is indeterminate and not what matters in survival.",
+      "quote": "Personal identity consists not in the identity of substance, but in the identity of consciousness.",
+      "tags": [
+        "mind",
+        "personal-identity",
+        "locke",
+        "parfit",
+        "persistence"
+      ],
+      "related": [
+        {
+          "name": "Identity Over Time",
+          "type": "Extends",
+          "note": "Personal identity over time is the specific application of the general problem of persistence through change."
+        },
+        {
+          "name": "The Ship of Theseus",
+          "type": "Extends",
+          "note": "The Ship of Theseus is the general puzzle of which personal identity is the most urgent and practically significant version."
+        },
+        {
+          "name": "Anatta",
+          "type": "Parallel",
+          "note": "Buddhist anatta and Parfit's no-self conclusion arrive at structurally similar results through very different routes."
+        },
+        {
+          "name": "Narrative Identity",
+          "type": "Extends",
+          "note": "Narrative identity theory is a response to Parfit — even if there is no metaphysical self, persons constitute identity through the stories they tell."
+        }
+      ],
+      "books": [
+        {
+          "title": "Reasons and Persons",
+          "author": "Derek Parfit",
+          "url": "https://bookshop.org/a/philosophia/9780198246152",
+          "why": "The most important work on personal identity — Parfit's argument that identity is indeterminate and not what matters."
+        },
+        {
+          "title": "Personal Identity",
+          "author": "John Perry (ed.)",
+          "url": "https://bookshop.org/a/philosophia/9780520051508",
+          "why": "The essential anthology including Locke, Hume, Williams, and contemporary papers."
+        },
+        {
+          "title": "Self and World",
+          "author": "Quassim Cassam",
+          "url": "https://bookshop.org/a/philosophia/9780199248919",
+          "why": "Contemporary account connecting metaphysical questions about personal identity to phenomenology and epistemology."
+        }
+      ]
+    },
+    {
+      "name": "Embodied Cognition",
+      "thinkerBio": "Maurice Merleau-Ponty (1908–1961) provided the phenomenological foundation in Phenomenology of Perception (1945); Francisco Varela (1946–2001), Evan Thompson, and Eleanor Rosch developed enactivist cognitive science in The Embodied Mind (1991).",
+      "quote": "The body is not an object the mind uses — it is the very medium through which we have a world.",
+      "tags": [
+        "mind",
+        "embodied-cognition",
+        "merleau-ponty",
+        "enactivism",
+        "4e-cognition"
+      ],
+      "related": [
+        {
+          "name": "Phenomenology of Perception",
+          "type": "Extends",
+          "note": "The phenomenological foundation — Merleau-Ponty's analysis of the body as the pre-reflective vehicle of all experience."
+        },
+        {
+          "name": "Functionalism",
+          "type": "Opposes",
+          "note": "Functionalism abstracts from the biological substrate; embodied cognition insists the specific body partly constitutes the character of cognition."
+        },
+        {
+          "name": "Extended Mind",
+          "type": "Extends",
+          "note": "Embodied cognition and the extended mind thesis are parts of the 4E approach — cognition is embodied, embedded, enacted, and extended."
+        },
+        {
+          "name": "Dependent Origination",
+          "type": "Parallel",
+          "note": "Enactivist embodied cognition and Buddhist dependent origination both hold that cognition is constituted through interdependent relations rather than internal representations."
+        }
+      ],
+      "books": [
+        {
+          "title": "Phenomenology of Perception",
+          "author": "Maurice Merleau-Ponty",
+          "url": "https://bookshop.org/a/philosophia/9780415610001",
+          "why": "The philosophical foundation of embodied cognition — the body as the subject of perception."
+        },
+        {
+          "title": "The Embodied Mind",
+          "author": "Varela, Thompson, and Rosch",
+          "url": "https://bookshop.org/a/philosophia/9780262720212",
+          "why": "The foundational scientific-philosophical text of enactivist cognitive science."
+        },
+        {
+          "title": "Being There",
+          "author": "Andy Clark",
+          "url": "https://bookshop.org/a/philosophia/9780262531566",
+          "why": "Clark's accessible account of embodied, embedded cognition — minds extended into their environment."
+        }
+      ]
+    },
+    {
+      "name": "Dharma",
+      "thinkerBio": "The concept of dharma is central to all Indian philosophical and religious traditions; it is discussed systematically in the Dharmasutras, the Bhagavad Gita, and in Buddhist texts including the Dhammapada and the Pali Canon, representing over two millennia of philosophical development.",
+      "quote": "Better is one's own dharma, though imperfectly performed, than the dharma of another well performed.",
+      "tags": [
+        "eastern",
+        "dharma",
+        "hinduism",
+        "buddhism",
+        "duty"
+      ],
+      "related": [
+        {
+          "name": "Karma",
+          "type": "Extends",
+          "note": "Dharma and karma are interdependent — living in accordance with dharma generates good karma; violating dharma generates negative karmic consequences."
+        },
+        {
+          "name": "The Bhagavad Gita and Action",
+          "type": "Extends",
+          "note": "The Gita's central teaching is fulfilling one's dharma without attachment to results — nishkama karma is the ideal of dharmic action."
+        },
+        {
+          "name": "Virtue Ethics",
+          "type": "Parallel",
+          "note": "Both dharma and Aristotelian virtue ethics ground ethics in acting in accordance with one's nature and proper function within a larger order."
+        },
+        {
+          "name": "Categorical Imperative",
+          "type": "Parallel",
+          "note": "Both Kant's categorical imperative and dharma seek a universal moral law, but dharma is role-relative while the categorical imperative applies universally."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Bhagavad Gita",
+          "author": "trans. Barbara Stoler Miller",
+          "url": "https://bookshop.org/a/philosophia/9780553213614",
+          "why": "The primary philosophical source for dharma as duty and the path of action without attachment."
+        },
+        {
+          "title": "The Dhammapada",
+          "author": "trans. Eknath Easwaran",
+          "url": "https://bookshop.org/a/philosophia/9781586380205",
+          "why": "The Buddhist account of dharma as the Buddha's teaching and the path to liberation."
+        },
+        {
+          "title": "The Laws of Manu",
+          "author": "trans. Wendy Doniger",
+          "url": "https://bookshop.org/a/philosophia/9780140445404",
+          "why": "The classical Hindu codification of dharma — social roles, duties, and the cosmic order."
+        }
+      ]
+    },
+    {
+      "name": "Karma",
+      "thinkerBio": "The concept of karma is found across Hindu, Buddhist, and Jain traditions; its first systematic discussion appears in the Upanishads (c. 800–400 BCE), with the Bhagavad Gita providing the most philosophically sophisticated treatment through the doctrine of nishkama karma.",
+      "quote": "As a man acts, as he behaves, so does he become — the doer of good becomes good, the doer of evil becomes evil.",
+      "tags": [
+        "eastern",
+        "karma",
+        "buddhism",
+        "hinduism",
+        "intentional-action"
+      ],
+      "related": [
+        {
+          "name": "Dharma",
+          "type": "Extends",
+          "note": "Dharma and karma are interdependent — acting according to one's dharma generates good karma; violation generates negative consequences."
+        },
+        {
+          "name": "Free Will vs Determinism",
+          "type": "Parallel",
+          "note": "Karma raises the same question as the free will debate — how is moral accountability possible within a causally structured universe?"
+        },
+        {
+          "name": "Moral Luck",
+          "type": "Opposes",
+          "note": "Karma denies moral luck at the cosmic level — apparent luck is the result of prior karma, making no suffering ultimately arbitrary."
+        },
+        {
+          "name": "Buddhist Ethics",
+          "type": "Extends",
+          "note": "Karma is the causal mechanism through which ethical action bears fruit — understanding it is fundamental to Buddhist ethical motivation."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Bhagavad Gita",
+          "author": "trans. Barbara Stoler Miller",
+          "url": "https://bookshop.org/a/philosophia/9780553213614",
+          "why": "The most philosophically sophisticated treatment of karma and the doctrine of nishkama karma."
+        },
+        {
+          "title": "What the Buddha Taught",
+          "author": "Walpola Rahula",
+          "url": "https://bookshop.org/a/philosophia/9780802130310",
+          "why": "The clearest short explanation of the Buddhist doctrine of karma and its relation to dependent origination."
+        },
+        {
+          "title": "Karma and Rebirth in Classical Indian Traditions",
+          "author": "Wendy Doniger O'Flaherty (ed.)",
+          "url": "https://bookshop.org/a/philosophia/9780520039230",
+          "why": "Comprehensive scholarly anthology of karma doctrines across Hindu, Buddhist, and Jain traditions."
+        }
+      ]
+    },
+    {
+      "name": "Wu Wei",
+      "thinkerBio": "Wu wei is the central practical virtue of Taoism, developed by Laozi (sixth/fifth century BCE) in the Tao Te Ching and Zhuangzi (c. 369–286 BCE) in the Zhuangzi — both texts remain the primary philosophical sources for the doctrine of non-action.",
+      "quote": "The Tao does nothing, yet leaves nothing undone.",
+      "tags": [
+        "eastern",
+        "taoism",
+        "wu-wei",
+        "non-action",
+        "spontaneity"
+      ],
+      "related": [
+        {
+          "name": "The Tao",
+          "type": "Extends",
+          "note": "Wu wei is the practical expression of the Tao — acting in alignment with the natural flow rather than imposing human will against it."
+        },
+        {
+          "name": "Daoism and the Political",
+          "type": "Extends",
+          "note": "Wu wei grounds Taoist political philosophy — the sage ruler governs through non-interference rather than active imposition."
+        },
+        {
+          "name": "Embodied Cognition",
+          "type": "Parallel",
+          "note": "Embodied cognition's account of skilled action — effortless, automatic, non-deliberate — is the cognitive science analog of wu wei."
+        },
+        {
+          "name": "Virtue Ethics",
+          "type": "Parallel",
+          "note": "Wu wei and Aristotelian virtue both describe action that flows from character rather than deliberate calculation — effortless excellence."
+        }
+      ],
+      "books": [
+        {
+          "title": "Tao Te Ching",
+          "author": "trans. Ursula K. Le Guin",
+          "url": "https://bookshop.org/a/philosophia/9781611806465",
+          "why": "Le Guin's literary translation — the most beautiful English version of the classic text on the Tao and wu wei."
+        },
+        {
+          "title": "The Complete Works of Zhuangzi",
+          "author": "trans. Burton Watson",
+          "url": "https://bookshop.org/a/philosophia/9780231164740",
+          "why": "Zhuangzi's elaboration of wu wei through parable, dialogue, and philosophical argument."
+        },
+        {
+          "title": "The Way and Its Power",
+          "author": "trans. Arthur Waley",
+          "url": "https://bookshop.org/a/philosophia/9780802150851",
+          "why": "Waley's translation and commentary on the Tao Te Ching — one of the best philosophical introductions."
+        }
+      ]
+    },
+    {
+      "name": "Anatta",
+      "thinkerBio": "The doctrine of no-self (anatta/anatman) was first taught by the historical Buddha (c. 480–400 BCE) in the Anattalakkhana Sutta; it was developed philosophically by the Abhidharma schools and most rigorously by Nagarjuna in the Madhyamaka tradition.",
+      "quote": "When searching for the self, you find only processes — there is no separate, permanent self to be found.",
+      "tags": [
+        "eastern",
+        "buddhism",
+        "anatta",
+        "no-self",
+        "impermanence"
+      ],
+      "related": [
+        {
+          "name": "Dependent Origination",
+          "type": "Extends",
+          "note": "Anatta is explained by dependent origination — there is no self because everything arises dependently, including what we call 'I.'"
+        },
+        {
+          "name": "Personal Identity",
+          "type": "Parallel",
+          "note": "Parfit's no-self conclusion in personal identity arrives at structurally similar results to anatta through analytic philosophical argument."
+        },
+        {
+          "name": "Dukkha",
+          "type": "Extends",
+          "note": "The illusion of a permanent self is the root cause of dukkha — clinging to what cannot be grasped because no fixed self exists."
+        },
+        {
+          "name": "Madhyamaka Philosophy",
+          "type": "Extends",
+          "note": "Nagarjuna radicalized anatta into a metaphysics of universal emptiness — not only the self but all phenomena are empty of intrinsic existence."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Heart of the Buddha's Teaching",
+          "author": "Thich Nhat Hanh",
+          "url": "https://bookshop.org/a/philosophia/9780767903691",
+          "why": "An accessible account of anatta in the context of Buddhist practice and the three marks of existence."
+        },
+        {
+          "title": "The Selfless Mind",
+          "author": "Peter Harvey",
+          "url": "https://bookshop.org/a/philosophia/9780700702541",
+          "why": "A scholarly philosophical analysis of anatta and its implications for consciousness and liberation."
+        },
+        {
+          "title": "Buddhism Without Beliefs",
+          "author": "Stephen Batchelor",
+          "url": "https://bookshop.org/a/philosophia/9781573226998",
+          "why": "A secular philosophical engagement with anatta freed from metaphysical commitments about rebirth."
+        }
+      ]
+    },
+    {
+      "name": "Advaita Vedanta",
+      "thinkerBio": "Adi Shankaracharya (c. 788–820 CE) was an Indian philosopher and theologian who systematized Advaita Vedanta in commentaries on the Upanishads, the Bhagavad Gita, and the Brahma Sutras; he revitalized Hinduism and established four monastic centers across India.",
+      "quote": "Brahman alone is real, the world is appearance, and the individual self is non-different from Brahman.",
+      "tags": [
+        "eastern",
+        "advaita",
+        "vedanta",
+        "shankara",
+        "non-dualism"
+      ],
+      "related": [
+        {
+          "name": "Brahman and Atman",
+          "type": "Extends",
+          "note": "Advaita Vedanta is the systematic philosophical development of the Upanishadic identity of Atman and Brahman."
+        },
+        {
+          "name": "Idealism",
+          "type": "Parallel",
+          "note": "Both Advaita Vedanta and Western idealism hold that mind or consciousness is fundamental to reality — though Advaita's non-dual Brahman differs structurally."
+        },
+        {
+          "name": "Madhyamaka Philosophy",
+          "type": "Parallel",
+          "note": "Both Advaita and Madhyamaka are non-dualist traditions that challenge conventional distinctions as ultimately unreal, by different arguments."
+        },
+        {
+          "name": "Panpsychism",
+          "type": "Parallel",
+          "note": "Both make consciousness fundamental to all reality — Advaita identifies ultimate reality as pure consciousness; panpsychism distributes proto-consciousness through matter."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Crest-Jewel of Discrimination",
+          "author": "Shankaracharya (trans. Swami Prabhavananda)",
+          "url": "https://bookshop.org/a/philosophia/9780874810370",
+          "why": "Shankara's most accessible summary of Advaita Vedanta — the best introduction to his philosophy."
+        },
+        {
+          "title": "Advaita Vedanta: A Philosophical Reconstruction",
+          "author": "Eliot Deutsch",
+          "url": "https://bookshop.org/a/philosophia/9780824800611",
+          "why": "Rigorous philosophical analysis of Advaita in dialogue with Western metaphysics."
+        },
+        {
+          "title": "A History of Indian Philosophy Vol. 1",
+          "author": "Surendranath Dasgupta",
+          "url": "https://bookshop.org/a/philosophia/9788120804098",
+          "why": "The definitive scholarly history covering Advaita Vedanta in relation to other Indian philosophical schools."
+        }
+      ]
+    },
+    {
+      "name": "Dukkha",
+      "thinkerBio": "The Buddha (c. 563–483 BCE) declared dukkha the first of the Four Noble Truths in his first sermon; the entire Buddhist philosophical and soteriological project flows from this diagnosis — understanding dukkha is the beginning of the path to liberation.",
+      "quote": "Birth is dukkha, aging is dukkha, sickness is dukkha, death is dukkha — the five aggregates of clinging are dukkha.",
+      "tags": [
+        "eastern",
+        "buddhism",
+        "dukkha",
+        "suffering",
+        "four-noble-truths"
+      ],
+      "related": [
+        {
+          "name": "Anatta",
+          "type": "Extends",
+          "note": "Dukkha arises from the illusion of a permanent self — clinging to what cannot be grasped because no fixed self exists."
+        },
+        {
+          "name": "Dependent Origination",
+          "type": "Extends",
+          "note": "The twelve links of dependent origination describe precisely how dukkha perpetuates itself through craving, clinging, and becoming."
+        },
+        {
+          "name": "Nirvana",
+          "type": "Resolves",
+          "note": "Nirvana is the complete cessation of dukkha — the third noble truth establishes that liberation from suffering is achievable."
+        },
+        {
+          "name": "Stoic Ethics",
+          "type": "Parallel",
+          "note": "Both Stoicism and Buddhism identify attachment to externals as the source of suffering, though their prescriptions and metaphysics differ significantly."
+        }
+      ],
+      "books": [
+        {
+          "title": "In the Buddha's Words",
+          "author": "Bhikkhu Bodhi (ed.)",
+          "url": "https://bookshop.org/a/philosophia/9780861714919",
+          "why": "An anthology of the Buddha's teachings organized thematically — includes the primary suttas on dukkha and the Four Noble Truths."
+        },
+        {
+          "title": "The Miracle of Mindfulness",
+          "author": "Thich Nhat Hanh",
+          "url": "https://bookshop.org/a/philosophia/9780807012390",
+          "why": "A practical introduction to working with dukkha through mindfulness practice."
+        },
+        {
+          "title": "Why Buddhism is True",
+          "author": "Robert Wright",
+          "url": "https://bookshop.org/a/philosophia/9781439195468",
+          "why": "A secular philosophical defence of Buddhist insights about dukkha using evolutionary psychology."
+        }
+      ]
+    },
+    {
+      "name": "Zen Koans",
+      "thinkerBio": "The koan tradition was systematized by Dahui Zonggao (1089–1163 CE) in China and developed in Japan through the Rinzai school founded by Eisai (1141–1215 CE); the most famous collection, the Mumonkan (Gateless Barrier), was compiled by Wumen Huikai (1183–1260 CE).",
+      "quote": "What is the sound of one hand clapping?",
+      "tags": [
+        "eastern",
+        "zen",
+        "buddhism",
+        "koan",
+        "awakening"
+      ],
+      "related": [
+        {
+          "name": "Language Games",
+          "type": "Parallel",
+          "note": "Wittgenstein's philosophical therapy and koan practice both aim to break through conceptual confusions — though koans target awakening, not dissolution of puzzles."
+        },
+        {
+          "name": "Buddhist Meditation and Epistemology",
+          "type": "Extends",
+          "note": "Koan practice is the most radical form of Buddhist epistemology — direct yogic perception that bypasses all conceptual mediation."
+        },
+        {
+          "name": "Epistemic Humility",
+          "type": "Extends",
+          "note": "Koans enforce radical epistemic humility — the complete abandonment of confidence in conceptual knowledge as a vehicle for insight."
+        },
+        {
+          "name": "Existential Communication",
+          "type": "Parallel",
+          "note": "Kierkegaard's indirect communication and the koan tradition both hold that existential truths cannot be conveyed directly but must be catalyzed in the student's own experience."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Gateless Gate",
+          "author": "Wumen Huikai (trans. Koun Yamada)",
+          "url": "https://bookshop.org/a/philosophia/9780861714162",
+          "why": "The classic koan collection with commentary — the primary anthology of Rinzai Zen koans."
+        },
+        {
+          "title": "The Three Pillars of Zen",
+          "author": "Phillip Kapleau",
+          "url": "https://bookshop.org/a/philosophia/9780385260936",
+          "why": "An accessible introduction to koan practice including first-hand accounts of koan training."
+        },
+        {
+          "title": "Zen and the Brain",
+          "author": "James Austin",
+          "url": "https://bookshop.org/a/philosophia/9780262511094",
+          "why": "A neurologist's analysis of Zen practice and koan experience — connecting Buddhist epistemology to neuroscience."
+        }
+      ]
+    },
+    {
+      "name": "Confucian Ren",
+      "thinkerBio": "Confucius (551–479 BCE) is the Latinized name of Kong Qiu, whose conversations recorded in the Analects became the foundation of Confucianism; Mencius (371–289 BCE) further developed ren in the Mengzi, grounding it in the innate moral sprouts of human nature.",
+      "quote": "The man of ren, wishing to be established himself, seeks also to establish others; wishing to be enlarged himself, he seeks also to enlarge others.",
+      "tags": [
+        "eastern",
+        "confucianism",
+        "ren",
+        "humaneness",
+        "relationships"
+      ],
+      "related": [
+        {
+          "name": "Confucian Li",
+          "type": "Extends",
+          "note": "Li (ritual propriety) is the external form through which ren is expressed — and through whose practice ren is cultivated in return."
+        },
+        {
+          "name": "Confucian Self and Society",
+          "type": "Extends",
+          "note": "Ren is constituted through relationships — it is the quality of genuine co-humanity rather than an individual achievement."
+        },
+        {
+          "name": "Care Ethics",
+          "type": "Parallel",
+          "note": "Care ethics and Confucian ren both center ethics on attentive care for particular others within ongoing relationships rather than abstract universal principles."
+        },
+        {
+          "name": "Virtue Ethics",
+          "type": "Parallel",
+          "note": "Both Aristotelian virtue and Confucian ren are character ideals achieved through cultivation within communities of practice."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Analects",
+          "author": "Confucius (trans. Edward Slingerland)",
+          "url": "https://bookshop.org/a/philosophia/9780872206359",
+          "why": "The primary source — Confucius's conversations in which ren is discussed but never exhaustively defined."
+        },
+        {
+          "title": "Confucianism: A Very Short Introduction",
+          "author": "Daniel K. Gardner",
+          "url": "https://bookshop.org/a/philosophia/9780195398311",
+          "why": "A clear introduction to Confucianism including ren, li, and their interconnections."
+        },
+        {
+          "title": "The Trouble with Confucianism",
+          "author": "William Theodore de Bary",
+          "url": "https://bookshop.org/a/philosophia/9780674910867",
+          "why": "Addresses the political and social dimensions of Confucian ren — its liberating and its constraining aspects."
+        }
+      ]
+    },
+    {
+      "name": "The Sublime",
+      "thinkerBio": "Edmund Burke (1729–1797) wrote A Philosophical Enquiry into the Origin of Our Ideas of the Sublime and Beautiful (1757) — the first systematic aesthetic treatment; Immanuel Kant (1724–1804) gave it philosophical rigor in the Critique of Judgment (1790), making it central to Romantic aesthetics.",
+      "quote": "Whatever is fitted in any sort to excite the ideas of pain and danger — whatever is in any sort terrible — is a source of the sublime.",
+      "tags": [
+        "aesthetics",
+        "sublime",
+        "kant",
+        "burke",
+        "beauty"
+      ],
+      "related": [
+        {
+          "name": "Aesthetic Disinterestedness",
+          "type": "Extends",
+          "note": "The sublime requires a distinctive form of disinterested attention — the person threatened by the storm cannot experience its sublimity."
+        },
+        {
+          "name": "The Uncanny",
+          "type": "Parallel",
+          "note": "Both the sublime and the uncanny involve encounters with what exceeds comfortable comprehension — though the sublime is elevating and the uncanny disturbing."
+        },
+        {
+          "name": "Environmental Aesthetics",
+          "type": "Extends",
+          "note": "The sublime is the central concept in natural aesthetic experience — vast, overwhelming landscapes are the paradigm cases."
+        },
+        {
+          "name": "Aesthetic Experience",
+          "type": "Extends",
+          "note": "Schopenhauer's account of aesthetic experience as liberation from the will is most intense for the sublime — the highest form of will-less contemplation."
+        }
+      ],
+      "books": [
+        {
+          "title": "A Philosophical Enquiry into the Sublime and Beautiful",
+          "author": "Edmund Burke",
+          "url": "https://bookshop.org/a/philosophia/9780140436259",
+          "why": "Burke's foundational empirical account — the physiological and psychological sources of the sublime."
+        },
+        {
+          "title": "Critique of Judgment",
+          "author": "Immanuel Kant",
+          "url": "https://bookshop.org/a/philosophia/9780872202122",
+          "why": "Kant's systematic account of the mathematical and dynamical sublime — the most philosophically rigorous treatment."
+        },
+        {
+          "title": "The Romantic Sublime",
+          "author": "Thomas Weiskel",
+          "url": "https://bookshop.org/a/philosophia/9780801823565",
+          "why": "The cultural and philosophical development of the sublime in Romantic art and literature."
+        }
+      ]
+    },
+    {
+      "name": "Mimesis",
+      "thinkerBio": "Plato (428–348 BCE) attacked mimesis in the Republic as epistemically and morally dangerous; Aristotle (384–322 BCE) defended it in the Poetics as philosophically valuable — the imitation of universal human patterns rather than mere copying of particulars.",
+      "quote": "The object of mimesis is not what has happened, but what might happen according to necessity or probability.",
+      "tags": [
+        "aesthetics",
+        "mimesis",
+        "aristotle",
+        "plato",
+        "representation"
+      ],
+      "related": [
+        {
+          "name": "Katharsis",
+          "type": "Extends",
+          "note": "Katharsis is the effect that mimesis in tragedy achieves — it justifies artistic representation against Plato's attack."
+        },
+        {
+          "name": "Art and Morality",
+          "type": "Extends",
+          "note": "The debate about art and morality is partly a debate about mimesis — whether representing evil inflames or educates."
+        },
+        {
+          "name": "Narrative and Fiction",
+          "type": "Extends",
+          "note": "Fictional narrative is the most developed form of mimesis — the representation of possible human actions in temporal sequence."
+        },
+        {
+          "name": "Art as Expression",
+          "type": "Opposes",
+          "note": "Expression theory locates art's value in externalizing inner experience; mimesis locates it in representing external reality."
+        }
+      ],
+      "books": [
+        {
+          "title": "Poetics",
+          "author": "Aristotle (trans. Malcolm Heath)",
+          "url": "https://bookshop.org/a/philosophia/9780140446364",
+          "why": "The primary source — Aristotle's account of mimesis in tragedy as philosophically more valuable than history."
+        },
+        {
+          "title": "Mimesis",
+          "author": "Erich Auerbach",
+          "url": "https://bookshop.org/a/philosophia/9780691113357",
+          "why": "The classic study of mimesis across Western literature from Homer to Woolf."
+        },
+        {
+          "title": "Plato's Republic",
+          "author": "Plato (trans. C.D.C. Reeve)",
+          "url": "https://bookshop.org/a/philosophia/9780872207364",
+          "why": "Contains Plato's attack on mimesis — the foundational critique that Aristotle's Poetics answered."
+        }
+      ]
+    },
+    {
+      "name": "Aesthetic Disinterestedness",
+      "thinkerBio": "Immanuel Kant (1724–1804) formulated aesthetic disinterestedness in the Critique of Judgment (1790) as the defining feature of genuinely aesthetic pleasure; Arthur Schopenhauer (1788–1860) radicalized the concept in The World as Will and Representation (1818).",
+      "quote": "Taste is the faculty of estimating an object or a mode of representation by means of a delight or aversion apart from any interest.",
+      "tags": [
+        "aesthetics",
+        "kant",
+        "disinterestedness",
+        "beauty",
+        "aesthetic-judgment"
+      ],
+      "related": [
+        {
+          "name": "The Sublime",
+          "type": "Extends",
+          "note": "The sublime also requires disinterested attention — the person threatened by the storm cannot experience its sublimity."
+        },
+        {
+          "name": "Formalism in Art",
+          "type": "Extends",
+          "note": "Aesthetic formalism inherits Kantian disinterestedness — pure formal appreciation requires suspension of all practical interests."
+        },
+        {
+          "name": "Aesthetic Experience",
+          "type": "Extends",
+          "note": "Schopenhauer's account of aesthetic experience as liberation from the will radicalizes disinterestedness."
+        },
+        {
+          "name": "Wu Wei",
+          "type": "Parallel",
+          "note": "Taoist wu wei and Kantian disinterestedness both describe a mode of pure engagement freed from self-interested willing."
+        }
+      ],
+      "books": [
+        {
+          "title": "Critique of Judgment",
+          "author": "Immanuel Kant",
+          "url": "https://bookshop.org/a/philosophia/9780872202122",
+          "why": "The primary source — Kant's analysis of disinterested pleasure as the foundation of aesthetic judgment."
+        },
+        {
+          "title": "The World as Will and Representation Vol. 1",
+          "author": "Arthur Schopenhauer",
+          "url": "https://bookshop.org/a/philosophia/9780486217611",
+          "why": "Schopenhauer's radicalization of disinterestedness as liberation from the will."
+        },
+        {
+          "title": "Aesthetic Theory",
+          "author": "Theodor Adorno",
+          "url": "https://bookshop.org/a/philosophia/9780816618002",
+          "why": "Adorno's critical development of aesthetic disinterestedness as social resistance."
+        }
+      ]
+    },
+    {
+      "name": "Katharsis",
+      "thinkerBio": "Aristotle (384–322 BCE) introduced katharsis in the Poetics (c. 335 BCE) in a single famously obscure sentence; the debate about its meaning — purgation, purification, or clarification — has continued for two thousand years.",
+      "quote": "Tragedy effects through pity and fear the proper purgation of these emotions.",
+      "tags": [
+        "aesthetics",
+        "katharsis",
+        "aristotle",
+        "tragedy",
+        "emotion"
+      ],
+      "related": [
+        {
+          "name": "Mimesis",
+          "type": "Extends",
+          "note": "Katharsis is the effect that mimesis in tragedy achieves — it justifies artistic representation against Plato's attack."
+        },
+        {
+          "name": "Art and Morality",
+          "type": "Resolves",
+          "note": "Katharsis is Aristotle's response to Plato's fear that tragedy inflames emotion — it purifies, educates, or clarifies rather than corrupting."
+        },
+        {
+          "name": "Tragedy",
+          "type": "Extends",
+          "note": "Katharsis is the defining effect of tragedy as a genre — what distinguishes it from mere depiction of suffering."
+        },
+        {
+          "name": "Emotions and Cognition",
+          "type": "Extends",
+          "note": "Nussbaum's cognitive theory of emotion supports the clarification interpretation — tragedy educates emotional intelligence."
+        }
+      ],
+      "books": [
+        {
+          "title": "Poetics",
+          "author": "Aristotle (trans. Malcolm Heath)",
+          "url": "https://bookshop.org/a/philosophia/9780140446364",
+          "why": "The primary source — the famous definition and its context in Aristotle's analysis of tragedy."
+        },
+        {
+          "title": "The Fragility of Goodness",
+          "author": "Martha Nussbaum",
+          "url": "https://bookshop.org/a/philosophia/9780521794732",
+          "why": "Nussbaum's influential cognitive interpretation of katharsis as emotional education through tragedy."
+        },
+        {
+          "title": "Aristotle on the Art of Poetry",
+          "author": "Ingram Bywater",
+          "url": "https://bookshop.org/a/philosophia/9780198143697",
+          "why": "A scholarly commentary on the Poetics including the full history of katharsis interpretation."
+        }
+      ]
+    },
+    {
+      "name": "Art as Expression",
+      "thinkerBio": "Benedetto Croce (1866–1952) identified art with intuitive expression in Aesthetic (1902); R.G. Collingwood (1889–1943) refined this in The Principles of Art (1938), arguing that genuine art is the process of clarifying emotional experience rather than producing a finished artifact.",
+      "quote": "Art is the expression of emotion, and expression is a process of clarification — not the discharge of feeling but its transformation into something understood.",
+      "tags": [
+        "aesthetics",
+        "expression",
+        "collingwood",
+        "croce",
+        "emotion"
+      ],
+      "related": [
+        {
+          "name": "Aesthetic Experience",
+          "type": "Extends",
+          "note": "Expression theory locates art's value in the experience of expression and reception — the artist clarifying emotion, the audience re-experiencing this clarification."
+        },
+        {
+          "name": "Mimesis",
+          "type": "Opposes",
+          "note": "Mimesis locates art's value in representing the world; expression theory locates it in externalizing inner experience."
+        },
+        {
+          "name": "The Philosophy of Music",
+          "type": "Extends",
+          "note": "Expression theory is most naturally applied to music — the paradigm art of emotional expression with apparently no representational content."
+        },
+        {
+          "name": "Imagination",
+          "type": "Extends",
+          "note": "Expression requires imagination — both the artist's imaginative clarification and the audience's imaginative reception of the work."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Principles of Art",
+          "author": "R.G. Collingwood",
+          "url": "https://bookshop.org/a/philosophia/9780198810834",
+          "why": "The most philosophically developed expression theory — Collingwood's account of art as the clarification of emotional experience."
+        },
+        {
+          "title": "Aesthetic",
+          "author": "Benedetto Croce",
+          "url": "https://bookshop.org/a/philosophia/9781351186605",
+          "why": "Croce's founding text of expression theory — the identification of art with intuitive-expressive activity."
+        },
+        {
+          "title": "Art and Its Objects",
+          "author": "Richard Wollheim",
+          "url": "https://bookshop.org/a/philosophia/9780521293846",
+          "why": "Wollheim's philosophical analysis of art including a critique and refinement of expression theory."
+        }
+      ]
+    },
+    {
+      "name": "The Uncanny",
+      "thinkerBio": "Sigmund Freud (1856–1939) published 'The Uncanny' (Das Unheimliche) in 1919, drawing on Ernst Jentsch's earlier work; Martin Heidegger (1889–1976) used Unheimlichkeit independently in Being and Time (1927) as an ontological concept.",
+      "quote": "The uncanny is that class of the frightening which leads back to what is known of old and long familiar.",
+      "tags": [
+        "aesthetics",
+        "uncanny",
+        "freud",
+        "heidegger",
+        "horror"
+      ],
+      "related": [
+        {
+          "name": "The Sublime",
+          "type": "Parallel",
+          "note": "Both involve encounters with what exceeds comfortable comprehension — the sublime is elevating and the uncanny is disturbing."
+        },
+        {
+          "name": "Being-toward-death",
+          "type": "Extends",
+          "note": "Heidegger's Unheimlichkeit — not-at-home-ness — is the fundamental anxiety of being-toward-death revealing Dasein's groundlessness."
+        },
+        {
+          "name": "The Unconscious",
+          "type": "Extends",
+          "note": "For Freud, the uncanny arises from the return of repressed unconscious content — what was formerly familiar made strange by repression."
+        },
+        {
+          "name": "Angst",
+          "type": "Parallel",
+          "note": "Heidegger's Angst and Freud's uncanny both name the mood in which the familiar world becomes alien and threatening."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Uncanny",
+          "author": "Sigmund Freud (trans. David McLintock)",
+          "url": "https://bookshop.org/a/philosophia/9780143105831",
+          "why": "Freud's original essay — automata, doubles, and the return of repressed material."
+        },
+        {
+          "title": "The Uncanny",
+          "author": "Nicholas Royle",
+          "url": "https://bookshop.org/a/philosophia/9780719055096",
+          "why": "A literary-philosophical exploration of the uncanny across literature, philosophy, and psychoanalysis."
+        },
+        {
+          "title": "Ghostly Matters",
+          "author": "Avery Gordon",
+          "url": "https://bookshop.org/a/philosophia/9780816671571",
+          "why": "Applies the uncanny to social analysis — hauntings as the return of suppressed social traumas."
+        }
+      ]
+    },
+    {
+      "name": "Art and Morality",
+      "thinkerBio": "Plato (428–348 BCE) made the debate unavoidable by expelling poets from the Republic; Aristotle responded with the Poetics; the contemporary debate is shaped by Berys Gaut's ethicism, Noël Carroll's moderate moralism, and Daniel Jacobson's autonomism.",
+      "quote": "We should not allow the soul to become angry and sorrowful — the arts must be censored to protect virtue.",
+      "tags": [
+        "aesthetics",
+        "art",
+        "morality",
+        "plato",
+        "ethicism"
+      ],
+      "related": [
+        {
+          "name": "Mimesis",
+          "type": "Extends",
+          "note": "The debate is partly about mimesis — whether representing evil inflames or educates the audience."
+        },
+        {
+          "name": "Katharsis",
+          "type": "Resolves",
+          "note": "Katharsis is Aristotle's response to Plato's moral concern — tragedy does not corrupt emotion but purifies or clarifies it."
+        },
+        {
+          "name": "Aesthetic Disinterestedness",
+          "type": "Opposes",
+          "note": "Aesthetic autonomism derives from Kantian disinterestedness — if aesthetic judgment is independent of all interest, moral assessment cannot be aesthetically relevant."
+        },
+        {
+          "name": "Narrative and Fiction",
+          "type": "Extends",
+          "note": "Whether fiction can teach moral truths is the specific form that art-morality debates take for literary aesthetics."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Republic",
+          "author": "Plato (trans. G.M.A. Grube)",
+          "url": "https://bookshop.org/a/philosophia/9780872207364",
+          "why": "Plato's foundational moral critique of art — the case that mimesis inflames passion and must be censored."
+        },
+        {
+          "title": "Art and Moral Evaluation",
+          "author": "Berys Gaut",
+          "url": "https://bookshop.org/a/philosophia/9780521001489",
+          "why": "The most sustained defence of ethicism — moral flaws in artworks are aesthetic flaws."
+        },
+        {
+          "title": "A Philosophy of Mass Art",
+          "author": "Noël Carroll",
+          "url": "https://bookshop.org/a/philosophia/9780198236153",
+          "why": "Carroll's moderate moralism — a nuanced account of when moral evaluation is relevant to aesthetic judgment."
+        }
+      ]
+    },
+    {
+      "name": "Scientific Realism",
+      "thinkerBio": "Hilary Putnam (1926–2016) formulated the no-miracles argument for scientific realism; Richard Boyd (b. 1942) developed a sophisticated causal scientific realism; Bas van Fraassen (b. 1941) at Princeton produced the most rigorous contemporary anti-realist alternative in The Scientific Image (1980).",
+      "quote": "The only philosophy that doesn't make the success of science a miracle is realism.",
+      "tags": [
+        "philosophy-of-science",
+        "scientific-realism",
+        "putnam",
+        "truth",
+        "unobservables"
+      ],
+      "related": [
+        {
+          "name": "Underdetermination",
+          "type": "Opposes",
+          "note": "Underdetermination challenges scientific realism — if multiple incompatible theories are always empirically equivalent, realism is unjustified."
+        },
+        {
+          "name": "Inference to Best Explanation",
+          "type": "Extends",
+          "note": "The no-miracles argument is an IBE — the best explanation of scientific success is that our theories are approximately true."
+        },
+        {
+          "name": "Falsifiability",
+          "type": "Extends",
+          "note": "Scientific realism requires that successful theories be falsifiable — if there is genuine truth to track, theories must make risky testable predictions."
+        },
+        {
+          "name": "Social Studies of Science",
+          "type": "Opposes",
+          "note": "Social constructivism challenges scientific realism — scientific facts are constructed through social practices, not discovered in mind-independent reality."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Scientific Image",
+          "author": "Bas van Fraassen",
+          "url": "https://bookshop.org/a/philosophia/9780198244271",
+          "why": "The most rigorous contemporary alternative to scientific realism — constructive empiricism."
+        },
+        {
+          "title": "Scientific Realism",
+          "author": "Jarrett Leplin (ed.)",
+          "url": "https://bookshop.org/a/philosophia/9780520056770",
+          "why": "The essential anthology covering the main positions in the scientific realism debate."
+        },
+        {
+          "title": "Representing and Intervening",
+          "author": "Ian Hacking",
+          "url": "https://bookshop.org/a/philosophia/9780521282468",
+          "why": "Hacking's entity realism — a balanced philosophical treatment of observation, experiment, and theoretical commitment."
+        }
+      ]
+    },
+    {
+      "name": "Underdetermination",
+      "thinkerBio": "Pierre Duhem (1861–1916) identified holistic testing in physics in The Aim and Structure of Physical Theory (1906); W.V.O. Quine (1908–2000) generalized it in 'Two Dogmas of Empiricism' (1951) — one of the most influential papers in twentieth-century philosophy.",
+      "quote": "Our statements about the external world face the tribunal of sense experience not individually but only as a corporate body.",
+      "tags": [
+        "philosophy-of-science",
+        "underdetermination",
+        "duhem",
+        "quine",
+        "holism"
+      ],
+      "related": [
+        {
+          "name": "Falsifiability",
+          "type": "Opposes",
+          "note": "Duhem-Quine holism challenges Popper's falsificationism — no single hypothesis can be falsified in isolation."
+        },
+        {
+          "name": "Coherentism",
+          "type": "Extends",
+          "note": "Quine's holism grounds coherentism — the web of belief faces experience as a whole, and any element can be revised."
+        },
+        {
+          "name": "Scientific Realism",
+          "type": "Opposes",
+          "note": "Underdetermination challenges scientific realism — if theories are always empirically equivalent, realism about any particular theory is unjustified."
+        },
+        {
+          "name": "Naturalized Epistemology",
+          "type": "Extends",
+          "note": "Quine's naturalized epistemology follows from his holism — no beliefs are immune from revision by experience."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Aim and Structure of Physical Theory",
+          "author": "Pierre Duhem",
+          "url": "https://bookshop.org/a/philosophia/9780691025940",
+          "why": "Duhem's original account of holistic testing in physics — the source of the Duhem-Quine thesis."
+        },
+        {
+          "title": "From a Logical Point of View",
+          "author": "W.V.O. Quine",
+          "url": "https://bookshop.org/a/philosophia/9780674323513",
+          "why": "Contains 'Two Dogmas of Empiricism' — Quine's holism and its implications for empiricism."
+        },
+        {
+          "title": "The Web of Belief",
+          "author": "W.V.O. Quine and J.S. Ullian",
+          "url": "https://bookshop.org/a/philosophia/9780075536208",
+          "why": "Quine's most accessible account of holistic belief revision — epistemology as a web of mutually supporting beliefs."
+        }
+      ]
+    },
+    {
+      "name": "Theory-Ladenness of Observation",
+      "thinkerBio": "N.R. Hanson (1924–1967) made the philosophical case in Patterns of Discovery (1958); Thomas Kuhn (1922–1996) developed it into his thesis about paradigm incommensurability; Paul Feyerabend (1924–1994) drew the most radical conclusions in Against Method (1975).",
+      "quote": "There is more to seeing than meets the eyeball.",
+      "tags": [
+        "philosophy-of-science",
+        "theory-ladenness",
+        "hanson",
+        "kuhn",
+        "observation"
+      ],
+      "related": [
+        {
+          "name": "Paradigm Shift",
+          "type": "Extends",
+          "note": "Theory-ladenness explains why paradigm shifts are so difficult — scientists in different paradigms literally see different things."
+        },
+        {
+          "name": "Underdetermination",
+          "type": "Extends",
+          "note": "Theory-ladenness reinforces underdetermination — if observations are already theory-laden, they cannot serve as neutral arbiters."
+        },
+        {
+          "name": "Social Studies of Science",
+          "type": "Extends",
+          "note": "Theory-ladenness supports constructivist accounts of science — what is observed is partly constituted by the social and theoretical context."
+        },
+        {
+          "name": "Epistemic Humility",
+          "type": "Extends",
+          "note": "Theory-ladenness is an argument for epistemic humility in science — what we see depends on what we already believe."
+        }
+      ],
+      "books": [
+        {
+          "title": "Patterns of Discovery",
+          "author": "N.R. Hanson",
+          "url": "https://bookshop.org/a/philosophia/9780521094290",
+          "why": "The primary source — Hanson's analysis of theory-ladenness in visual perception and scientific observation."
+        },
+        {
+          "title": "Against Method",
+          "author": "Paul Feyerabend",
+          "url": "https://bookshop.org/a/philosophia/9781844674428",
+          "why": "The most radical development of theory-ladenness — Feyerabend's anarchist conclusion that no method is universally binding."
+        },
+        {
+          "title": "Representing and Intervening",
+          "author": "Ian Hacking",
+          "url": "https://bookshop.org/a/philosophia/9780521282468",
+          "why": "A balanced philosophical treatment of observation, experiment, and theory-ladenness in scientific practice."
+        }
+      ]
+    },
+    {
+      "name": "Inference to Best Explanation",
+      "thinkerBio": "Charles Sanders Peirce (1839–1914) introduced abduction as a third form of inference; Peter Lipton (1954–2007) at Cambridge gave IBE its most sophisticated philosophical treatment in Inference to the Best Explanation (1991/2004).",
+      "quote": "We infer the truth of a hypothesis because it provides the best explanation of the evidence.",
+      "tags": [
+        "philosophy-of-science",
+        "abduction",
+        "lipton",
+        "explanation",
+        "peirce"
+      ],
+      "related": [
+        {
+          "name": "Scientific Realism",
+          "type": "Extends",
+          "note": "The no-miracles argument for scientific realism is an IBE — the best explanation of science's predictive success is that theories are approximately true."
+        },
+        {
+          "name": "Pragmatism",
+          "type": "Parallel",
+          "note": "IBE as abduction (Peirce) and pragmatism share the same philosophical ancestry — both evaluate hypotheses by their explanatory consequences."
+        },
+        {
+          "name": "Bayesian Epistemology",
+          "type": "Extends",
+          "note": "Bayesian confirmation theory provides a formal framework for IBE — the probability of a hypothesis increases with how well it explains the evidence."
+        },
+        {
+          "name": "Causation in Science",
+          "type": "Extends",
+          "note": "IBE in causal reasoning identifies the best causal explanation of observed effects — the mechanism most plausibly producing the data."
+        }
+      ],
+      "books": [
+        {
+          "title": "Inference to the Best Explanation",
+          "author": "Peter Lipton",
+          "url": "https://bookshop.org/a/philosophia/9780415242202",
+          "why": "The definitive philosophical treatment — Lipton's account of IBE and the 'loveliest' explanation."
+        },
+        {
+          "title": "Collected Papers Vol. 2",
+          "author": "Charles Sanders Peirce",
+          "url": "https://bookshop.org/a/philosophia/9780674138025",
+          "why": "Contains Peirce's original account of abduction — the inference to a hypothesis that explains surprising facts."
+        },
+        {
+          "title": "The View from Nowhere",
+          "author": "Thomas Nagel",
+          "url": "https://bookshop.org/a/philosophia/9780195056440",
+          "why": "Nagel's account of how explanation and understanding connect to objectivity — relevant to IBE's epistemic claims."
+        }
+      ]
+    },
+    {
+      "name": "Scientific Explanation",
+      "thinkerBio": "Carl Hempel (1905–1997) developed the deductive-nomological model in 'Studies in the Logic of Explanation' (1948) with Paul Oppenheim; Wesley Salmon (1925–2001) at Pittsburgh proposed the causal-mechanical alternative in Scientific Explanation and the Causal Structure of the World (1984).",
+      "quote": "To explain a phenomenon is to subsume it under a general law — to show that it had to happen given the conditions and the laws.",
+      "tags": [
+        "philosophy-of-science",
+        "scientific-explanation",
+        "hempel",
+        "salmon",
+        "causation"
+      ],
+      "related": [
+        {
+          "name": "Laws of Nature",
+          "type": "Extends",
+          "note": "Scientific explanation on the DN model requires laws of nature — the nomological component that gives the explanandum its necessity."
+        },
+        {
+          "name": "Causation in Science",
+          "type": "Extends",
+          "note": "Salmon's causal-mechanical account makes causation the core of explanation — to explain is to exhibit the mechanism."
+        },
+        {
+          "name": "Reductionism",
+          "type": "Extends",
+          "note": "Reductive explanation is one important form — explaining higher-level phenomena by deriving them from lower-level theories and laws."
+        },
+        {
+          "name": "Emergence",
+          "type": "Extends",
+          "note": "Emergence poses a challenge — emergent properties may not be explicable by any combination of laws and initial conditions."
+        }
+      ],
+      "books": [
+        {
+          "title": "Aspects of Scientific Explanation",
+          "author": "Carl Hempel",
+          "url": "https://bookshop.org/a/philosophia/9780029143407",
+          "why": "The primary source — Hempel's definitive statement of the DN model and its variants."
+        },
+        {
+          "title": "Scientific Explanation and the Causal Structure of the World",
+          "author": "Wesley Salmon",
+          "url": "https://bookshop.org/a/philosophia/9780691020440",
+          "why": "Salmon's causal-mechanical alternative to the DN model — the most influential contemporary account."
+        },
+        {
+          "title": "The Explanation of Behaviour",
+          "author": "Charles Taylor",
+          "url": "https://bookshop.org/a/philosophia/9780710014085",
+          "why": "Taylor's analysis of teleological explanation in biology and psychology — a challenge to purely mechanical accounts."
+        }
+      ]
+    },
+    {
+      "name": "Philosophy of Biology",
+      "thinkerBio": "Ernst Mayr (1904–2005) was a German-American biologist and philosopher whose work on species concepts and teleology shaped the field; Elliott Sober (b. 1948) at Wisconsin has been the dominant philosopher of biology for four decades, connecting formal evolutionary theory to philosophy of causation.",
+      "quote": "The species problem is the most important and most difficult problem in taxonomic biology.",
+      "tags": [
+        "philosophy-of-science",
+        "philosophy-of-biology",
+        "mayr",
+        "sober",
+        "evolution"
+      ],
+      "related": [
+        {
+          "name": "Scientific Explanation",
+          "type": "Extends",
+          "note": "Philosophy of biology debates what form of explanation is appropriate for biological phenomena — functional, causal-mechanical, or evolutionary."
+        },
+        {
+          "name": "Reductionism",
+          "type": "Extends",
+          "note": "The reducibility of biology to physics and chemistry is one of philosophy of biology's central questions."
+        },
+        {
+          "name": "Essentialism",
+          "type": "Opposes",
+          "note": "Evolutionary biology challenges biological essentialism — species lack fixed essential natures because they are historical lineages."
+        },
+        {
+          "name": "Environmental Ethics",
+          "type": "Extends",
+          "note": "Philosophy of biology underlies environmental ethics — what species, ecosystems, and biodiversity are determines what environmental protection requires."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Growth of Biological Thought",
+          "author": "Ernst Mayr",
+          "url": "https://bookshop.org/a/philosophia/9780674364462",
+          "why": "Mayr's magisterial history of biology as science — rich with philosophical analysis of species, teleology, and evolution."
+        },
+        {
+          "title": "Evidence and Evolution",
+          "author": "Elliott Sober",
+          "url": "https://bookshop.org/a/philosophia/9780521692816",
+          "why": "Sober's analysis of the logic of evolutionary evidence — connecting philosophy of biology to epistemology."
+        },
+        {
+          "title": "The Philosophy of Biology",
+          "author": "David Hull and Michael Ruse (eds.)",
+          "url": "https://bookshop.org/a/philosophia/9780198752127",
+          "why": "The essential anthology covering species, selection, function, and reduction in philosophy of biology."
+        }
+      ]
+    },
+    {
+      "name": "Ubuntu",
+      "thinkerBio": "Ubuntu is a pan-African philosophical concept rooted in Nguni Bantu cultures; contemporary philosophers who have developed it academically include Thaddeus Metz, Mogobe Ramose, and Desmond Tutu; it provided the philosophical basis for the South African Truth and Reconciliation Commission.",
+      "quote": "Umuntu ngumuntu ngabantu — a person is a person through other persons.",
+      "tags": [
+        "african",
+        "ubuntu",
+        "community",
+        "personhood",
+        "relational-self"
+      ],
+      "related": [
+        {
+          "name": "Care Ethics",
+          "type": "Parallel",
+          "note": "Both Ubuntu and care ethics ground personhood and morality in relationships rather than abstract individual rights or impartial obligations."
+        },
+        {
+          "name": "Confucian Ren",
+          "type": "Parallel",
+          "note": "Ubuntu's relational personhood and Confucian ren share the insight that human excellence is constituted through proper relationships."
+        },
+        {
+          "name": "Ubuntu as Political Philosophy",
+          "type": "Extends",
+          "note": "Ubuntu as political philosophy develops the ethical concept into political theory, particularly consensus democracy."
+        },
+        {
+          "name": "Liberalism",
+          "type": "Opposes",
+          "note": "Liberal individualism assumes a pre-social self that chooses community; Ubuntu holds the self is constituted by community — a fundamental ontological disagreement."
+        }
+      ],
+      "books": [
+        {
+          "title": "An African Ethics of Personhood",
+          "author": "Thaddeus Metz",
+          "url": "https://bookshop.org/a/philosophia/9780198748946",
+          "why": "The most rigorous philosophical development of Ubuntu as a systematic ethical theory."
+        },
+        {
+          "title": "Ubuntu: An African Philosophy of Ethics",
+          "author": "Mogobe Ramose",
+          "url": "https://bookshop.org/a/philosophia/9780869752388",
+          "why": "Ramose's foundational philosophical analysis of Ubuntu and its political implications."
+        },
+        {
+          "title": "No Future Without Forgiveness",
+          "author": "Desmond Tutu",
+          "url": "https://bookshop.org/a/philosophia/9780385496902",
+          "why": "Tutu's account of Ubuntu and its role in the South African truth and reconciliation process."
+        }
+      ]
+    },
+    {
+      "name": "Negritude",
+      "thinkerBio": "Aimé Césaire (1913–2008) was a Martinican poet and politician; Léopold Sédar Senghor (1906–2001) was a Senegalese poet and the first president of Senegal — both co-founded Negritude in 1930s Paris as a response to French assimilationist colonial policy.",
+      "quote": "My Negritude is not a stone, its deafness hurled against the clamor of the day — it dips into the red flesh of the soil.",
+      "tags": [
+        "african",
+        "negritude",
+        "cesaire",
+        "senghor",
+        "colonialism"
+      ],
+      "related": [
+        {
+          "name": "Pan-Africanism",
+          "type": "Extends",
+          "note": "Negritude is the cultural and philosophical dimension of Pan-Africanism — the assertion of African cultural value as the basis for political solidarity."
+        },
+        {
+          "name": "Colonialism and Postcolonialism",
+          "type": "Extends",
+          "note": "Negritude is a founding moment of postcolonial thought — the counter-assertion of colonized cultural value against assimilationist colonial policy."
+        },
+        {
+          "name": "The Second Sex",
+          "type": "Parallel",
+          "note": "Both de Beauvoir's feminism and Negritude assert the value of a marginalized identity against the dominant framework that defines it as 'Other.'"
+        },
+        {
+          "name": "Decolonizing Knowledge",
+          "type": "Extends",
+          "note": "Negritude's assertion of African ways of knowing against Eurocentric universalism is a founding moment of the decolonizing knowledge project."
+        }
+      ],
+      "books": [
+        {
+          "title": "Notebook of a Return to the Native Land",
+          "author": "Aimé Césaire",
+          "url": "https://bookshop.org/a/philosophia/9780819564528",
+          "why": "Césaire's founding poetic text of Negritude — the assertion of Black beauty and African heritage against colonial shame."
+        },
+        {
+          "title": "On African Socialism",
+          "author": "Léopold Sédar Senghor",
+          "url": "https://bookshop.org/a/philosophia/9780269027741",
+          "why": "Senghor's philosophical development of Negritude into a theory of African socialism and cultural values."
+        },
+        {
+          "title": "Black Skin, White Masks",
+          "author": "Frantz Fanon",
+          "url": "https://bookshop.org/a/philosophia/9780802143013",
+          "why": "Fanon's psychoanalytic critique of Negritude — the most important challenge to its essentialist assumptions."
+        }
+      ]
+    },
+    {
+      "name": "African Communalism",
+      "thinkerBio": "Kwame Gyekye (1939–2019) was a Ghanaian philosopher who developed moderate communitarianism in Tradition and Modernity (1997); Kwasi Wiredu (1931–2022) at the University of South Florida developed consensus democracy and conceptual decolonization throughout his career.",
+      "quote": "The good person is one who has a friendly, generous attitude toward others — who is constituted by and through community.",
+      "tags": [
+        "african",
+        "communalism",
+        "gyekye",
+        "wiredu",
+        "community"
+      ],
+      "related": [
+        {
+          "name": "Ubuntu",
+          "type": "Extends",
+          "note": "Ubuntu is the most widely cited expression of African communalism — the philosophical grounding of community as constitutive of personhood."
+        },
+        {
+          "name": "Communitarianism",
+          "type": "Parallel",
+          "note": "Western communitarianism and African communalism both challenge liberal individualism, though African communalism has a deeper ontological claim."
+        },
+        {
+          "name": "Liberalism",
+          "type": "Opposes",
+          "note": "African communalism rejects liberal atomism — the idea of a self prior to and independent of its community."
+        },
+        {
+          "name": "Ubuntu as Political Philosophy",
+          "type": "Extends",
+          "note": "Ubuntu as political philosophy systematically develops African communalism into political theory, particularly consensus democracy."
+        }
+      ],
+      "books": [
+        {
+          "title": "Tradition and Modernity",
+          "author": "Kwame Gyekye",
+          "url": "https://bookshop.org/a/philosophia/9780813219844",
+          "why": "Gyekye's account of moderate communalism — the alternative to both liberal individualism and strong collectivism."
+        },
+        {
+          "title": "Cultural Universals and Particulars",
+          "author": "Kwasi Wiredu",
+          "url": "https://bookshop.org/a/philosophia/9780253211286",
+          "why": "Wiredu's cross-cultural philosophy including his development of African communalism and consensus democracy."
+        },
+        {
+          "title": "The Moral Foundation of Communitarian Africa",
+          "author": "Thaddeus Metz",
+          "url": "https://bookshop.org/a/philosophia/9780198816225",
+          "why": "A rigorous philosophical defence of communitarian African ethics in dialogue with Western moral philosophy."
+        }
+      ]
+    },
+    {
+      "name": "Pan-Africanism",
+      "thinkerBio": "W.E.B. Du Bois (1868–1963) organized the first Pan-African Congress in 1919 and articulated double consciousness; Marcus Garvey (1887–1940) founded the Universal Negro Improvement Association and developed a separatist Pan-Africanism focused on economic self-sufficiency.",
+      "quote": "The problem of the twentieth century is the problem of the color line.",
+      "tags": [
+        "african",
+        "pan-africanism",
+        "du-bois",
+        "garvey",
+        "diaspora"
+      ],
+      "related": [
+        {
+          "name": "Negritude",
+          "type": "Extends",
+          "note": "Negritude is the cultural and philosophical dimension of Pan-Africanism — both assert African solidarity and the value of African heritage against colonialism."
+        },
+        {
+          "name": "Colonialism and Postcolonialism",
+          "type": "Extends",
+          "note": "Pan-Africanism is the political response to colonialism — the demand for African political self-determination."
+        },
+        {
+          "name": "Race and Political Philosophy",
+          "type": "Extends",
+          "note": "Du Bois's double consciousness names the psychological condition that makes Pan-African solidarity philosophically necessary."
+        },
+        {
+          "name": "Cosmopolitanism and Obligations",
+          "type": "Opposes",
+          "note": "Pan-Africanism asserts the particular solidarity of African and diasporic peoples against cosmopolitanism's claim to universal human community."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Souls of Black Folk",
+          "author": "W.E.B. Du Bois",
+          "url": "https://bookshop.org/a/philosophia/9780199555833",
+          "why": "Du Bois's masterwork — double consciousness, the veil, and the philosophical dimensions of Black American experience."
+        },
+        {
+          "title": "The Philosophy and Opinions of Marcus Garvey",
+          "author": "Marcus Garvey",
+          "url": "https://bookshop.org/a/philosophia/9780714628417",
+          "why": "Garvey's separatist Pan-Africanism — the call for Black economic self-sufficiency and return to Africa."
+        },
+        {
+          "title": "Pan-Africanism: A Brief History",
+          "author": "Hakim Adi",
+          "url": "https://bookshop.org/a/philosophia/9780241439494",
+          "why": "A scholarly introduction to the Pan-African movement and its philosophical dimensions."
+        }
+      ]
+    },
+    {
+      "name": "Sage Philosophy",
+      "thinkerBio": "Henry Odera Oruka (1944–1995) was a Kenyan philosopher at the University of Nairobi who developed sage philosophy as a methodology for recovering African individual philosophical thought; his Sage Philosophy (1990) demonstrated individual critical reflection in traditional sages outside academic institutions.",
+      "quote": "African sages philosophize on the nature of reality, on morality, on God and the good life — not as collective belief but as individual critical reflection.",
+      "tags": [
+        "african",
+        "sage-philosophy",
+        "oruka",
+        "kenya",
+        "methodology"
+      ],
+      "related": [
+        {
+          "name": "Decolonizing Knowledge",
+          "type": "Extends",
+          "note": "Sage philosophy is a method of decolonizing knowledge — recovering philosophical thought that colonial systems denied existed."
+        },
+        {
+          "name": "Epistemic Injustice",
+          "type": "Extends",
+          "note": "The denial that African individuals engage in philosophy is a form of epistemic injustice — refusing the status of knower based on cultural identity."
+        },
+        {
+          "name": "African Logic and Reasoning",
+          "type": "Extends",
+          "note": "Both sage philosophy and African logic demonstrate that rigorous individual philosophical reasoning exists in African traditions."
+        },
+        {
+          "name": "Ordinary Language Philosophy",
+          "type": "Parallel",
+          "note": "Both sage philosophy and ordinary language philosophy find philosophical wisdom in informal, non-academic discourse."
+        }
+      ],
+      "books": [
+        {
+          "title": "Sage Philosophy",
+          "author": "Henry Odera Oruka",
+          "url": "https://bookshop.org/a/philosophia/9789966844613",
+          "why": "Oruka's foundational work — the methodology of sage philosophy and interviews with African philosophical sages."
+        },
+        {
+          "title": "African Philosophy: An Introduction",
+          "author": "Richard Wright (ed.)",
+          "url": "https://bookshop.org/a/philosophia/9780819145581",
+          "why": "An anthology covering ethnophilosophy, sage philosophy, and professional African philosophy."
+        },
+        {
+          "title": "Contemporary African Philosophy",
+          "author": "Leonard Harris (ed.)",
+          "url": "https://bookshop.org/a/philosophia/9780882866017",
+          "why": "Essays by African philosophers representing different methodological approaches including sage philosophy."
+        }
+      ]
+    },
+    {
+      "name": "The Second Sex",
+      "thinkerBio": "Simone de Beauvoir (1908–1986) was a French existentialist philosopher, novelist, and feminist activist; The Second Sex (1949) was her most philosophically ambitious work — applying Sartrean existentialism to the condition of women and founding modern feminist philosophy.",
+      "quote": "One is not born, but rather becomes, a woman.",
+      "tags": [
+        "feminist",
+        "beauvoir",
+        "gender",
+        "existentialism",
+        "other"
+      ],
+      "related": [
+        {
+          "name": "Existence Precedes Essence",
+          "type": "Extends",
+          "note": "De Beauvoir applied Sartre's 'existence precedes essence' to gender — 'woman' is not a natural given but a social construction."
+        },
+        {
+          "name": "Gender Performativity",
+          "type": "Extends",
+          "note": "Butler's gender performativity develops de Beauvoir's insight that femininity is constructed — though Butler denies even 'sex' as a pre-discursive category."
+        },
+        {
+          "name": "Feminist Metaphysics",
+          "type": "Extends",
+          "note": "The Second Sex is the founding text for feminist metaphysics — the philosophical analysis of the ontological status of gender."
+        },
+        {
+          "name": "Intersectionality",
+          "type": "Extends",
+          "note": "De Beauvoir's analysis focused on gender; intersectionality shows how race, class, and sexuality intersect with gender in producing women's subordination."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Second Sex",
+          "author": "Simone de Beauvoir",
+          "url": "https://bookshop.org/a/philosophia/9780307277787",
+          "why": "The foundational text — de Beauvoir's comprehensive philosophical analysis of women's condition."
+        },
+        {
+          "title": "The Ethics of Ambiguity",
+          "author": "Simone de Beauvoir",
+          "url": "https://bookshop.org/a/philosophia/9780806501604",
+          "why": "De Beauvoir's existentialist ethics — the positive account of freedom and responsibility that grounds her feminism."
+        },
+        {
+          "title": "Becoming Beauvoir",
+          "author": "Kate Kirkpatrick",
+          "url": "https://bookshop.org/a/philosophia/9781472937254",
+          "why": "The most philosophically engaged recent biography — essential for understanding the development of de Beauvoir's thought."
+        }
+      ]
+    },
+    {
+      "name": "Intersectionality",
+      "thinkerBio": "Kimberlé Crenshaw (b. 1959) is an American legal scholar who introduced intersectionality in 'Demarginalizing the Intersection of Race and Sex' (1989) and 'Mapping the Margins' (1991); she developed it specifically to address the failures of anti-discrimination law to protect Black women.",
+      "quote": "If I were to identify a single metaphor for intersectionality, it would be a traffic intersection — multiple roads of oppression crossing simultaneously.",
+      "tags": [
+        "feminist",
+        "intersectionality",
+        "crenshaw",
+        "race",
+        "oppression"
+      ],
+      "related": [
+        {
+          "name": "Feminist Political Philosophy",
+          "type": "Extends",
+          "note": "Intersectionality transforms feminist political philosophy by showing that gender cannot be analyzed independently of race, class, and other axes of oppression."
+        },
+        {
+          "name": "Standpoint Epistemology",
+          "type": "Extends",
+          "note": "Intersectionality specifies that standpoints are intersectional, compounding epistemic advantages and disadvantages in complex ways."
+        },
+        {
+          "name": "Epistemic Injustice",
+          "type": "Extends",
+          "note": "Intersectional subjects experience compound epistemic injustice — their testimony is deflated along multiple dimensions of marginalized identity."
+        },
+        {
+          "name": "Race and Political Philosophy",
+          "type": "Extends",
+          "note": "Intersectionality provides the analytical framework for race and political philosophy — race cannot be addressed without simultaneously addressing gender and class."
+        }
+      ],
+      "books": [
+        {
+          "title": "On Intersectionality: Essential Writings",
+          "author": "Kimberlé Crenshaw",
+          "url": "https://bookshop.org/a/philosophia/9781620974988",
+          "why": "Crenshaw's own collected essays on intersectionality — the primary source from its originator."
+        },
+        {
+          "title": "Black Feminist Thought",
+          "author": "Patricia Hill Collins",
+          "url": "https://bookshop.org/a/philosophia/9780415964722",
+          "why": "Collins's matrix of domination — the most systematic development of intersectional social theory."
+        },
+        {
+          "title": "Sister Outsider",
+          "author": "Audre Lorde",
+          "url": "https://bookshop.org/a/philosophia/9780895941411",
+          "why": "Lorde's essays on race, gender, and sexuality — essential reading for understanding the experiential basis of intersectionality."
+        }
+      ]
+    },
+    {
+      "name": "Gender Performativity",
+      "thinkerBio": "Judith Butler (b. 1956) is an American philosopher at Berkeley whose Gender Trouble (1990) transformed feminist theory, queer theory, and philosophy of gender; drawing on Foucault, Derrida, and Lacan, Butler argued that gender is constituted through repeated performance within regulatory frameworks.",
+      "quote": "There is no gender identity behind the expressions of gender — that identity is performatively constituted by the very expressions that are said to be its results.",
+      "tags": [
+        "feminist",
+        "butler",
+        "performativity",
+        "gender",
+        "queer-theory"
+      ],
+      "related": [
+        {
+          "name": "Speech Act Theory",
+          "type": "Extends",
+          "note": "Butler applies Austin's performative speech acts to gender — gendering acts constitute rather than express a pre-given gender identity."
+        },
+        {
+          "name": "The Second Sex",
+          "type": "Extends",
+          "note": "De Beauvoir's 'becoming a woman' is Butler's starting point — Butler radicalizes it by denying even 'sex' as a natural pre-discursive category."
+        },
+        {
+          "name": "Feminist Metaphysics",
+          "type": "Extends",
+          "note": "Gender performativity is a feminist metaphysics — gender has no natural or essential foundation but is constituted through discursive-performative practices."
+        },
+        {
+          "name": "Deconstruction",
+          "type": "Extends",
+          "note": "Butler applies Derrida's deconstructive analysis to gender — the binary masculine/feminine is shown to be unstable and self-undermining."
+        }
+      ],
+      "books": [
+        {
+          "title": "Gender Trouble",
+          "author": "Judith Butler",
+          "url": "https://bookshop.org/a/philosophia/9780415900430",
+          "why": "The primary source — Butler's argument that gender is performatively constituted rather than expressive of a natural inner truth."
+        },
+        {
+          "title": "Bodies That Matter",
+          "author": "Judith Butler",
+          "url": "https://bookshop.org/a/philosophia/9780415610155",
+          "why": "Butler's response to critics — the clarification that materiality is itself discursively constituted."
+        },
+        {
+          "title": "Undoing Gender",
+          "author": "Judith Butler",
+          "url": "https://bookshop.org/a/philosophia/9780415969222",
+          "why": "Butler's more accessible essays applying gender performativity to trans rights and recognition."
+        }
+      ]
+    },
+    {
+      "name": "Standpoint Epistemology",
+      "thinkerBio": "Nancy Hartsock (1943–2015) developed standpoint epistemology from a Marxist feminist framework in 'The Feminist Standpoint' (1983); Sandra Harding (b. 1935) extended it into a comprehensive feminist philosophy of science in The Science Question in Feminism (1986).",
+      "quote": "The standpoint of the oppressed provides not merely a different perspective but an epistemically superior vantage point on certain features of social reality.",
+      "tags": [
+        "feminist",
+        "standpoint-epistemology",
+        "harding",
+        "hartsock",
+        "objectivity"
+      ],
+      "related": [
+        {
+          "name": "Feminist Philosophy of Science",
+          "type": "Extends",
+          "note": "Standpoint epistemology is the foundational claim of feminist philosophy of science — marginalized standpoints generate questions and knowledge mainstream science misses."
+        },
+        {
+          "name": "Epistemic Injustice",
+          "type": "Extends",
+          "note": "Epistemic injustice is the harm done when marginalized standpoints are denied epistemic credibility — the negative side of what standpoint theory identifies."
+        },
+        {
+          "name": "Social Epistemology",
+          "type": "Extends",
+          "note": "Standpoint epistemology is a specific contribution to social epistemology — it shows how social position systematically shapes epistemic access."
+        },
+        {
+          "name": "Intersectionality",
+          "type": "Extends",
+          "note": "Intersectionality complexifies standpoint epistemology — standpoints are intersectional, compounding different epistemic advantages and disadvantages."
+        }
+      ],
+      "books": [
+        {
+          "title": "Whose Science? Whose Knowledge?",
+          "author": "Sandra Harding",
+          "url": "https://bookshop.org/a/philosophia/9780801497469",
+          "why": "Harding's comprehensive development of standpoint epistemology for feminist philosophy of science."
+        },
+        {
+          "title": "The Feminist Standpoint Theory Reader",
+          "author": "Sandra Harding (ed.)",
+          "url": "https://bookshop.org/a/philosophia/9780415945011",
+          "why": "An anthology collecting the foundational texts of standpoint epistemology from Hartsock through Collins."
+        },
+        {
+          "title": "The Science Question in Feminism",
+          "author": "Sandra Harding",
+          "url": "https://bookshop.org/a/philosophia/9780801494437",
+          "why": "Harding's earlier but more accessible introduction to feminist epistemology and standpoint theory."
+        }
+      ]
+    },
+    {
+      "name": "Supererogation",
+      "thinkerBio": "J.O. Urmson (1915–2012) introduced the concept in a 1958 paper showing that standard moral theories lack a category for saintly or heroic acts beyond duty; Joel Feinberg (1926–2004) and David Heyd subsequently developed its systematic philosophical analysis.",
+      "quote": "Some acts go beyond what duty requires — they are not obligatory, yet they are genuinely praiseworthy.",
+      "tags": [
+        "ethics",
+        "supererogation",
+        "obligation",
+        "heroism",
+        "agent-prerogative"
+      ],
+      "related": [
+        {
+          "name": "Utilitarianism",
+          "type": "Opposes",
+          "note": "Utilitarianism collapses supererogation — if you can produce more good, you are simply obligated to do so, leaving no space for acts beyond duty."
+        },
+        {
+          "name": "Virtue Ethics",
+          "type": "Extends",
+          "note": "Virtue ethics has natural space for supererogation through the concept of the morally excellent character that exceeds minimal duty."
+        },
+        {
+          "name": "Autonomy and Paternalism",
+          "type": "Extends",
+          "note": "Agent-relative prerogatives — the permission to give special weight to one's own projects — preserve supererogation against utilitarian collapse."
+        },
+        {
+          "name": "Cosmopolitanism and Obligations",
+          "type": "Extends",
+          "note": "Singer's utilitarian argument eliminates supererogation in global aid — what most people call charity becomes obligatory on his reasoning."
+        }
+      ],
+      "books": [
+        {
+          "title": "Doing Good Better",
+          "author": "William MacAskill",
+          "url": "https://bookshop.org/a/philosophia/9781592409105",
+          "why": "Engages directly with whether giving is supererogatory or obligatory — the most practically important contemporary version of the debate."
+        },
+        {
+          "title": "The Demands of Morality",
+          "author": "Liam Murphy",
+          "url": "https://bookshop.org/a/philosophia/9780195168280",
+          "why": "Murphy's cooperative principle attempts to set limits on moral demand — a direct engagement with supererogation's theoretical context."
+        },
+        {
+          "title": "Practical Ethics",
+          "author": "Peter Singer",
+          "url": "https://bookshop.org/a/philosophia/9780521707688",
+          "why": "Singer's demanding utilitarian position that eliminates the supererogatory/obligatory distinction for affluent people."
+        }
+      ]
+    },
+    {
+      "name": "Moral Motivation",
+      "thinkerBio": "David Hume (1711–1776) argued that reason alone cannot motivate and all motivation comes from passion, in A Treatise of Human Nature (1739); Immanuel Kant (1724–1804) argued that genuine moral worth requires acting from duty through reason alone — their disagreement defines the modern debate in moral psychology.",
+      "quote": "Reason is, and ought only to be, the slave of the passions.",
+      "tags": [
+        "ethics",
+        "moral-psychology",
+        "hume",
+        "kant",
+        "motivation"
+      ],
+      "related": [
+        {
+          "name": "Categorical Imperative",
+          "type": "Opposes",
+          "note": "Kant holds that genuine moral worth requires acting from duty through reason alone, not from inclination or sympathy."
+        },
+        {
+          "name": "Care Ethics",
+          "type": "Extends",
+          "note": "Care ethics aligns with Hume in treating emotional responsiveness to others as central to moral motivation rather than an obstacle."
+        },
+        {
+          "name": "Moral Psychology",
+          "type": "Extends",
+          "note": "Contemporary moral psychology engages directly with the Hume-Kant debate through dual-process accounts of how intuition and reasoning interact."
+        },
+        {
+          "name": "Virtue Ethics",
+          "type": "Resolves",
+          "note": "Virtue ethics resolves the Hume-Kant tension by making good character the integration of reason and appropriate emotional response."
+        }
+      ],
+      "books": [
+        {
+          "title": "A Treatise of Human Nature",
+          "author": "David Hume",
+          "url": "https://bookshop.org/a/philosophia/9780198751724",
+          "why": "Book III contains Hume's argument that reason alone cannot motivate and that morality is grounded in sentiment."
+        },
+        {
+          "title": "Groundwork of the Metaphysics of Morals",
+          "author": "Immanuel Kant",
+          "url": "https://bookshop.org/a/philosophia/9781107401068",
+          "why": "Kant's counter-argument that genuine moral worth requires acting from duty through reason, not from inclination."
+        },
+        {
+          "title": "Morality: An Introduction to Ethics",
+          "author": "Bernard Williams",
+          "url": "https://bookshop.org/a/philosophia/9780521457699",
+          "why": "Williams's account of moral motivation and the limits of both Humean and Kantian frameworks."
+        }
+      ]
+    }
+  ]
+}

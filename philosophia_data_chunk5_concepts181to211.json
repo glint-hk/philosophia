@@ -1,0 +1,1523 @@
+{
+  "_metadata": {
+    "version": "5.0",
+    "chunk": "5 of 7",
+    "concepts_in_chunk": "28 concepts, bringing running total to 208",
+    "instruction": "For each object, find the matching concept in concepts.json by 'name' (exact match, case-sensitive). Add or overwrite: thinkerBio, quote, tags, related, books. All other fields remain unchanged.",
+    "affiliate_note": "books[].url format: https://bookshop.org/a/philosophia/ISBN -- replace ISBN after joining Bookshop.org affiliate program."
+  },
+  "completion": [
+    {
+      "name": "Critical Theory",
+      "thinkerBio": "Max Horkheimer (1895-1973) distinguished critical theory from traditional theory in his 1937 essay; Herbert Marcuse (1898-1979) developed the critique of one-dimensional society in advanced industrial capitalism.",
+      "quote": "Critical theory recognizes that the theorist is part of the social totality being analyzed, and theory serves either to reproduce or to transform existing social relations.",
+      "tags": [
+        "continental",
+        "critical-theory",
+        "horkheimer",
+        "marcuse",
+        "frankfurt-school"
+      ],
+      "related": [
+        {
+          "name": "Dialectics",
+          "type": "Extends",
+          "note": "Critical theory's methodology of immanent critique draws directly on the dialectical method developed by Hegel and transformed materially by Marx."
+        },
+        {
+          "name": "Hegemony",
+          "type": "Parallel",
+          "note": "Critical theory and Gramsci's hegemony both address the puzzle of why the working class accepts rather than resists capitalist domination."
+        },
+        {
+          "name": "Negative Dialectics",
+          "type": "Extends",
+          "note": "Adorno's negative dialectics is the most philosophically radical development within the critical theory tradition, refusing the drive to synthesis."
+        },
+        {
+          "name": "Alienation",
+          "type": "Extends",
+          "note": "Marcuse's one-dimensional society extends Marx's alienation critique to the total administration of needs, desires, and aesthetic sensibility under late capitalism."
+        }
+      ],
+      "books": [
+        {
+          "title": "One-Dimensional Man",
+          "author": "Herbert Marcuse",
+          "url": "https://bookshop.org/a/philosophia/9780807015386",
+          "why": "Marcuse's foundational critique of how advanced industrial society absorbs and neutralizes genuine opposition."
+        },
+        {
+          "title": "Critical Theory: Selected Essays",
+          "author": "Max Horkheimer",
+          "url": "https://bookshop.org/a/philosophia/9780826401329",
+          "why": "Horkheimer's original essays distinguishing critical from traditional theory."
+        },
+        {
+          "title": "The Dialectical Imagination",
+          "author": "Martin Jay",
+          "url": "https://bookshop.org/a/philosophia/9780520204737",
+          "why": "The definitive intellectual history of the Frankfurt School and critical theory's development."
+        }
+      ]
+    },
+    {
+      "name": "Phenomenology of Spirit",
+      "thinkerBio": "G.W.F. Hegel (1770-1831) wrote the Phenomenology of Spirit in 1807, tracing the development of consciousness from bare sense-certainty through increasingly complex forms culminating in Absolute Knowledge.",
+      "quote": "The True is thus the Bacchanalian revel in which no member is not drunk; yet because each member collapses as soon as he drops out, the revel is just as much transparent and simple repose.",
+      "tags": [
+        "continental",
+        "hegel",
+        "phenomenology-of-spirit",
+        "dialectics",
+        "absolute-knowledge"
+      ],
+      "related": [
+        {
+          "name": "Dialectics",
+          "type": "Extends",
+          "note": "The Phenomenology of Spirit is dialectics demonstrated rather than merely described -- consciousness moving through contradiction toward Absolute Knowledge."
+        },
+        {
+          "name": "Idealism",
+          "type": "Extends",
+          "note": "Hegel's absolute idealism is the metaphysical framework within which the Phenomenology's dialectical history of consciousness operates."
+        },
+        {
+          "name": "Alienation",
+          "type": "Extends",
+          "note": "Hegel introduced alienation as a necessary stage in Spirit's self-development through externalization and eventual reconciliation."
+        },
+        {
+          "name": "Recognition and Misrecognition",
+          "type": "Extends",
+          "note": "The master-slave dialectic in the Phenomenology is the founding text for the entire subsequent philosophy of recognition."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Phenomenology of Spirit",
+          "author": "G.W.F. Hegel",
+          "url": "https://bookshop.org/a/philosophia/9780198245971",
+          "why": "The primary source -- Hegel's dialectical journey of consciousness culminating in Absolute Knowledge."
+        },
+        {
+          "title": "Hegel's Phenomenology of Spirit",
+          "author": "Robert Stern",
+          "url": "https://bookshop.org/a/philosophia/9780415345179",
+          "why": "The clearest contemporary guide through Hegel's notoriously difficult text, chapter by chapter."
+        },
+        {
+          "title": "Reading Hegel's Phenomenology",
+          "author": "John Russon",
+          "url": "https://bookshop.org/a/philosophia/9780253216790",
+          "why": "A rigorous philosophical commentary illuminating the systematic structure of Hegel's argument."
+        }
+      ]
+    },
+    {
+      "name": "Alienation and Reification",
+      "thinkerBio": "Georg Lukacs (1885-1971) extended Marx's alienation through reification in History and Class Consciousness (1923); Axel Honneth (b. 1949) has recently reconstructed reification theory through a phenomenology of prior recognition.",
+      "quote": "Under capitalism, social relations between persons take on the appearance of relations between things.",
+      "tags": [
+        "continental",
+        "reification",
+        "lukacs",
+        "honneth",
+        "commodity-fetishism"
+      ],
+      "related": [
+        {
+          "name": "Alienation",
+          "type": "Extends",
+          "note": "Reification extends Marx's alienation concept -- it describes how the worker's estrangement makes social relations appear as relations between mere things."
+        },
+        {
+          "name": "Critical Theory",
+          "type": "Extends",
+          "note": "Reification became central to Frankfurt School critical theory's analysis of instrumental reason's colonization of social and personal life."
+        },
+        {
+          "name": "The Spectacle",
+          "type": "Extends",
+          "note": "Debord's spectacle is a fully developed extension of reification theory -- authentic life replaced entirely by its mediated representation."
+        },
+        {
+          "name": "Power-Knowledge",
+          "type": "Parallel",
+          "note": "Both reification and Foucauldian power-knowledge examine how modern systems transform persons into objects of management and instrumental calculation."
+        }
+      ],
+      "books": [
+        {
+          "title": "History and Class Consciousness",
+          "author": "Georg Lukacs",
+          "url": "https://bookshop.org/a/philosophia/9780262620208",
+          "why": "Lukacs's foundational development of reification from Marx's alienation, one of the most influential Marxist philosophical texts."
+        },
+        {
+          "title": "Reification: A New Look at an Old Idea",
+          "author": "Axel Honneth",
+          "url": "https://bookshop.org/a/philosophia/9780195320466",
+          "why": "Honneth's contemporary reconstruction grounding reification in a phenomenology of prior recognition."
+        },
+        {
+          "title": "The Sane Society",
+          "author": "Erich Fromm",
+          "url": "https://bookshop.org/a/philosophia/9780805014020",
+          "why": "Fromm's psychoanalytic and humanistic application of alienation and reification to consumer society."
+        }
+      ]
+    },
+    {
+      "name": "Biopolitics and Bare Life",
+      "thinkerBio": "Giorgio Agamben (b. 1942) developed bare life and the state of exception in Homo Sacer (1995), extending Foucault's biopower through Carl Schmitt's theory of sovereignty and Hannah Arendt's analysis of statelessness.",
+      "quote": "The camp is the paradigm of modern sovereignty -- a space where the distinction between living and dying becomes a matter of sovereign decision.",
+      "tags": [
+        "continental",
+        "agamben",
+        "bare-life",
+        "biopolitics",
+        "state-of-exception"
+      ],
+      "related": [
+        {
+          "name": "Biopower",
+          "type": "Extends",
+          "note": "Agamben extends Foucault's biopower through bare life -- the form of life stripped of all political qualification that sovereignty produces."
+        },
+        {
+          "name": "Sovereignty",
+          "type": "Extends",
+          "note": "Agamben draws directly on Schmitt's theory of sovereignty as the decision on the exception to analyze how modern states produce bare life."
+        },
+        {
+          "name": "Panopticon",
+          "type": "Extends",
+          "note": "Agamben's bare life represents what is left when disciplinary control is applied at its absolute limit -- the stripped, controlled life of the camp."
+        },
+        {
+          "name": "Race and Political Philosophy",
+          "type": "Parallel",
+          "note": "Mills's racial contract and Agamben's bare life both analyze how political orders systematically exclude certain populations from full political and moral standing."
+        }
+      ],
+      "books": [
+        {
+          "title": "Homo Sacer",
+          "author": "Giorgio Agamben",
+          "url": "https://bookshop.org/a/philosophia/9780804732183",
+          "why": "Agamben's foundational and most widely discussed development of bare life and sovereign power."
+        },
+        {
+          "title": "State of Exception",
+          "author": "Giorgio Agamben",
+          "url": "https://bookshop.org/a/philosophia/9780226009262",
+          "why": "Agamben's extension of the analysis to contemporary emergency powers and detention practices."
+        },
+        {
+          "title": "The Origins of Totalitarianism",
+          "author": "Hannah Arendt",
+          "url": "https://bookshop.org/a/philosophia/9780156701532",
+          "why": "Arendt's analysis of statelessness and the loss of political standing that directly informs Agamben's concept of bare life."
+        }
+      ]
+    },
+    {
+      "name": "Postmodern Ethics",
+      "thinkerBio": "Zygmunt Bauman (1925-2017) developed postmodern ethics drawing on Emmanuel Levinas (1906-1995), arguing that the bureaucratic administration of modern morality enabled rather than prevented the Holocaust.",
+      "quote": "Morality cannot be institutionalized without loss -- the face of the Other makes an infinite demand that no system or procedure can fully discharge.",
+      "tags": [
+        "continental",
+        "bauman",
+        "levinas",
+        "postmodern-ethics",
+        "responsibility"
+      ],
+      "related": [
+        {
+          "name": "Hermeneutics of Suspicion",
+          "type": "Parallel",
+          "note": "Both postmodern ethics and the hermeneutics of suspicion challenge the adequacy of systematic, rule-governed approaches to morality and meaning."
+        },
+        {
+          "name": "Categorical Imperative",
+          "type": "Opposes",
+          "note": "Postmodern ethics rejects Kantian systematic moral rules in favor of the immediate, pre-theoretical responsibility generated by encountering the face of the Other."
+        },
+        {
+          "name": "Biopolitics and Bare Life",
+          "type": "Parallel",
+          "note": "Both postmodern ethics and Agamben's analysis of bare life examine how bureaucratic and administrative systems can produce or enable extreme violence."
+        },
+        {
+          "name": "Care Ethics",
+          "type": "Parallel",
+          "note": "Both postmodern ethics and care ethics ground moral responsibility in concrete, particular relationships rather than in abstract universal principles."
+        }
+      ],
+      "books": [
+        {
+          "title": "Postmodern Ethics",
+          "author": "Zygmunt Bauman",
+          "url": "https://bookshop.org/a/philosophia/9780631187937",
+          "why": "Bauman's foundational development of an ethics grounded in immediate responsibility rather than systematic rules."
+        },
+        {
+          "title": "Totality and Infinity",
+          "author": "Emmanuel Levinas",
+          "url": "https://bookshop.org/a/philosophia/9780820702456",
+          "why": "Levinas's foundational philosophical text on the ethical demand made by the face of the Other."
+        },
+        {
+          "title": "Modernity and the Holocaust",
+          "author": "Zygmunt Bauman",
+          "url": "https://bookshop.org/a/philosophia/9780801484363",
+          "why": "Bauman's sociological and philosophical analysis of how modern rationality and bureaucracy enabled the Holocaust."
+        }
+      ]
+    },
+    {
+      "name": "Deconstruction and Justice",
+      "thinkerBio": "Jacques Derrida (1930-2004) developed deconstruction's implications for law and justice most fully in 'Force of Law' (1989), distinguishing deconstructible law from justice, which exceeds every legal system.",
+      "quote": "Justice is what makes deconstruction both possible and necessary -- it is the demand that exceeds every rule.",
+      "tags": [
+        "continental",
+        "derrida",
+        "justice",
+        "deconstruction",
+        "law"
+      ],
+      "related": [
+        {
+          "name": "Deconstruction",
+          "type": "Extends",
+          "note": "Deconstruction and justice applies Derrida's broader deconstructive method specifically to the relationship between law and justice."
+        },
+        {
+          "name": "Hermeneutics",
+          "type": "Opposes",
+          "note": "Gadamer's hermeneutics seeks genuine understanding through dialogue; Derrida emphasizes the irreducible aporia between applying general law and doing justice to the singular case."
+        },
+        {
+          "name": "Punishment",
+          "type": "Extends",
+          "note": "Derrida's analysis of the aporia of justice bears directly on the philosophy of punishment -- applying general rules to singular cases always involves a kind of violence."
+        },
+        {
+          "name": "Transitional Justice",
+          "type": "Parallel",
+          "note": "Derrida's messianic, never-fully-arrived structure of justice resonates with the practical challenges of achieving justice in transitional and post-conflict societies."
+        }
+      ],
+      "books": [
+        {
+          "title": "Force of Law",
+          "author": "Jacques Derrida",
+          "url": "https://bookshop.org/a/philosophia/9780415903053",
+          "why": "Derrida's foundational essay developing the relationship between deconstructible law and justice that exceeds it."
+        },
+        {
+          "title": "Acts of Religion",
+          "author": "Jacques Derrida",
+          "url": "https://bookshop.org/a/philosophia/9780415924004",
+          "why": "Contains 'Force of Law' alongside other essays connecting deconstruction to politics, religion, and ethics."
+        },
+        {
+          "title": "Deconstruction and the Possibility of Justice",
+          "author": "Drucilla Cornell, Michel Rosenfeld, and David Carlson (eds.)",
+          "url": "https://bookshop.org/a/philosophia/9780415903053",
+          "why": "An anthology of essays applying Derridean deconstruction to legal philosophy and theories of justice."
+        }
+      ]
+    },
+    {
+      "name": "Time, Difference, and Repetition",
+      "thinkerBio": "Gilles Deleuze (1925-1995) wrote Difference and Repetition (1968) as an attempt to construct a metaphysics of pure difference, rejecting the subordination of difference to identity throughout the history of Western philosophy.",
+      "quote": "Repetition is not the return of the same but the eternal return of difference -- each instance brings something genuinely new.",
+      "tags": [
+        "continental",
+        "deleuze",
+        "difference",
+        "repetition",
+        "immanence"
+      ],
+      "related": [
+        {
+          "name": "Eternal Recurrence",
+          "type": "Extends",
+          "note": "Deleuze interprets Nietzsche's eternal recurrence as the affirmation of difference -- what eternally recurs is the production of the new, not mere sameness."
+        },
+        {
+          "name": "The Rhizome",
+          "type": "Extends",
+          "note": "Deleuze's metaphysics of difference and his later collaborative concept of the rhizome both reject hierarchical, identity-based models of structure."
+        },
+        {
+          "name": "Process Philosophy",
+          "type": "Parallel",
+          "note": "Deleuze's philosophy of pure difference and Whitehead's process metaphysics both reject substance ontology in favor of dynamic, productive becoming."
+        },
+        {
+          "name": "Will to Power",
+          "type": "Extends",
+          "note": "Deleuze's reading of Nietzsche treats will to power as the affirmative, productive principle generating genuine difference rather than mere domination."
+        }
+      ],
+      "books": [
+        {
+          "title": "Difference and Repetition",
+          "author": "Gilles Deleuze",
+          "url": "https://bookshop.org/a/philosophia/9780231081597",
+          "why": "Deleuze's foundational and demanding metaphysical text developing a philosophy of pure difference."
+        },
+        {
+          "title": "Nietzsche and Philosophy",
+          "author": "Gilles Deleuze",
+          "url": "https://bookshop.org/a/philosophia/9780231138642",
+          "why": "Deleuze's earlier and more accessible reinterpretation of Nietzsche's will to power and eternal recurrence."
+        },
+        {
+          "title": "Gilles Deleuze: An Introduction",
+          "author": "Claire Colebrook",
+          "url": "https://bookshop.org/a/philosophia/9780521593052",
+          "why": "The clearest contemporary introduction to Deleuze's challenging philosophical system."
+        }
+      ]
+    },
+    {
+      "name": "Ideology and False Consciousness",
+      "thinkerBio": "Louis Althusser (1918-1990) developed the theory of ideological state apparatuses in 'Ideology and Ideological State Apparatuses' (1970); Slavoj Zizek (b. 1949) extended ideology critique through Lacanian psychoanalysis.",
+      "quote": "They know very well what they are doing, but still they are doing it -- cynical distance is not liberation from ideology but its most effective contemporary form.",
+      "tags": [
+        "continental",
+        "ideology",
+        "althusser",
+        "zizek",
+        "interpellation"
+      ],
+      "related": [
+        {
+          "name": "Hegemony",
+          "type": "Extends",
+          "note": "Althusser's ideological state apparatuses and Gramsci's hegemony both explain how dominant classes maintain power through civil society and culture."
+        },
+        {
+          "name": "The Unconscious",
+          "type": "Extends",
+          "note": "Zizek's extension of ideology critique through Lacan locates ideological mystification in unconscious social practice rather than merely conscious false belief."
+        },
+        {
+          "name": "Power-Knowledge",
+          "type": "Parallel",
+          "note": "Both Althusserian ideology and Foucauldian power-knowledge examine how subjects are produced by structures of power that operate prior to conscious choice."
+        },
+        {
+          "name": "The Spectacle",
+          "type": "Parallel",
+          "note": "Both ideology theory and Debord's spectacle analyze how capitalist society produces forms of consciousness that obscure or naturalize its own contradictions."
+        }
+      ],
+      "books": [
+        {
+          "title": "On Ideology",
+          "author": "Louis Althusser",
+          "url": "https://bookshop.org/a/philosophia/9781844670530",
+          "why": "Contains Althusser's foundational essay on ideological state apparatuses and interpellation."
+        },
+        {
+          "title": "The Sublime Object of Ideology",
+          "author": "Slavoj Zizek",
+          "url": "https://bookshop.org/a/philosophia/9781844673001",
+          "why": "Zizek's foundational Lacanian extension of ideology critique into cynical distance and enjoyment."
+        },
+        {
+          "title": "Mapping Ideology",
+          "author": "Slavoj Zizek (ed.)",
+          "url": "https://bookshop.org/a/philosophia/9781844670431",
+          "why": "An essential anthology collecting the major texts in the development of ideology theory from Marx through Zizek."
+        }
+      ]
+    },
+    {
+      "name": "African Humanism",
+      "thinkerBio": "Leopold Sedar Senghor (1906-2001) developed the concept of civilisation de l'universel; Kwame Nkrumah (1909-1972) developed consciencism as a systematic philosophical synthesis for African decolonization.",
+      "quote": "African values of community, artistic expression, and participatory engagement with reality complement the European heritage of rationality in a genuine cultural synthesis.",
+      "tags": [
+        "african",
+        "humanism",
+        "senghor",
+        "nkrumah",
+        "decolonization"
+      ],
+      "related": [
+        {
+          "name": "Negritude",
+          "type": "Extends",
+          "note": "Senghor's African humanism develops Negritude's cultural assertions into a broader philosophical synthesis aimed at universal civilization."
+        },
+        {
+          "name": "Ubuntu",
+          "type": "Parallel",
+          "note": "African humanism and Ubuntu both place human dignity, community, and relational flourishing at the center of African philosophical and political thought."
+        },
+        {
+          "name": "Pan-Africanism",
+          "type": "Extends",
+          "note": "Nkrumah's consciencism provided philosophical grounding for Pan-African political solidarity and the broader project of African unity."
+        },
+        {
+          "name": "Decolonizing Knowledge",
+          "type": "Extends",
+          "note": "Contemporary African humanism has moved beyond the nationalist phase toward more philosophically rigorous engagement with decolonizing knowledge projects."
+        }
+      ],
+      "books": [
+        {
+          "title": "On African Socialism",
+          "author": "Leopold Sedar Senghor",
+          "url": "https://bookshop.org/a/philosophia/9780269027741",
+          "why": "Senghor's philosophical development of African humanism and its place within a universal civilization."
+        },
+        {
+          "title": "Consciencism",
+          "author": "Kwame Nkrumah",
+          "url": "https://bookshop.org/a/philosophia/9780853451130",
+          "why": "Nkrumah's systematic philosophical synthesis aimed at grounding African decolonization and unity."
+        },
+        {
+          "title": "An African Ethics of Personhood",
+          "author": "Thaddeus Metz",
+          "url": "https://bookshop.org/a/philosophia/9780198748946",
+          "why": "Metz's rigorous contemporary development connecting African humanism to systematic ethical theory."
+        }
+      ]
+    },
+    {
+      "name": "African Metaphysics",
+      "thinkerBio": "Placide Tempels (1906-1977) introduced the concept of vital force as central to Bantu metaphysics in Bantu Philosophy (1945); John Mbiti (1931-2019) developed an influential account of African conceptions of time in African Religions and Philosophy (1969).",
+      "quote": "Everything that exists possesses vital force, and the fundamental relations between things are relations of the strengthening or weakening of that force.",
+      "tags": [
+        "african",
+        "metaphysics",
+        "tempels",
+        "mbiti",
+        "vital-force"
+      ],
+      "related": [
+        {
+          "name": "Ubuntu",
+          "type": "Parallel",
+          "note": "Vital force metaphysics and Ubuntu's relational personhood share the insight that beings are constituted through dynamic relations rather than as isolated substances."
+        },
+        {
+          "name": "Process Philosophy",
+          "type": "Parallel",
+          "note": "Tempels's vital force metaphysics, treating relations and strengthening or weakening rather than static substance, has affinities with Whiteheadian process thought."
+        },
+        {
+          "name": "Time and Existence",
+          "type": "Opposes",
+          "note": "Mbiti's account of African temporality as past-oriented contrasts sharply with Western linear, future-oriented conceptions of historical time central to existentialist temporality."
+        },
+        {
+          "name": "Sage Philosophy",
+          "type": "Opposes",
+          "note": "Oruka's sage philosophy explicitly challenges the ethnophilosophical generalization that Tempels and Mbiti's accounts represent, insisting on individual critical reflection."
+        }
+      ],
+      "books": [
+        {
+          "title": "Bantu Philosophy",
+          "author": "Placide Tempels",
+          "url": "https://bookshop.org/a/philosophia/9782849090332",
+          "why": "The foundational (if controversial) text introducing vital force metaphysics as a systematic African worldview."
+        },
+        {
+          "title": "African Religions and Philosophy",
+          "author": "John Mbiti",
+          "url": "https://bookshop.org/a/philosophia/9780435895914",
+          "why": "Mbiti's influential and widely discussed account of African time, religion, and metaphysics."
+        },
+        {
+          "title": "African Philosophy: Myth and Reality",
+          "author": "Paulin Hountondji",
+          "url": "https://bookshop.org/a/philosophia/9780253212641",
+          "why": "Hountondji's critical response challenging the generalizing assumptions of ethnophilosophical approaches like Tempels's."
+        }
+      ]
+    },
+    {
+      "name": "Ubuntu as Political Philosophy",
+      "thinkerBio": "Thaddeus Metz (b. 1971) developed Ubuntu's systematic political philosophical implications; Mogobe Ramose (1939-2020) developed Ubuntu as the foundation for African jurisprudence and constitutional theory.",
+      "quote": "The fundamental principle of justice is maintaining and developing communal relationships among all members of society, not maximizing welfare or distributing primary goods.",
+      "tags": [
+        "african",
+        "ubuntu",
+        "political-philosophy",
+        "metz",
+        "ramose"
+      ],
+      "related": [
+        {
+          "name": "Ubuntu",
+          "type": "Extends",
+          "note": "This entry develops the ethical concept of Ubuntu into a systematic political theory offering alternatives to liberal and socialist frameworks."
+        },
+        {
+          "name": "Communitarianism",
+          "type": "Parallel",
+          "note": "Ubuntu political philosophy shares with Western communitarianism the rejection of individualism, though it grounds this in a deeper relational ontology."
+        },
+        {
+          "name": "Consensus Democracy",
+          "type": "Extends",
+          "note": "Ramose's Ubuntu jurisprudence informs models of consensus-based governance that prioritize communal harmony over adversarial majority rule."
+        },
+        {
+          "name": "Transitional Justice",
+          "type": "Extends",
+          "note": "Ubuntu provided the philosophical basis for South Africa's Truth and Reconciliation Commission's restorative rather than purely punitive approach to justice."
+        }
+      ],
+      "books": [
+        {
+          "title": "An African Ethics of Personhood",
+          "author": "Thaddeus Metz",
+          "url": "https://bookshop.org/a/philosophia/9780198748946",
+          "why": "Metz's most systematic development of Ubuntu as a comprehensive political and ethical theory."
+        },
+        {
+          "title": "Ubuntu: An African Philosophy of Ethics",
+          "author": "Mogobe Ramose",
+          "url": "https://bookshop.org/a/philosophia/9780869752388",
+          "why": "Ramose's foundational text developing Ubuntu's implications for African jurisprudence and constitutionalism."
+        },
+        {
+          "title": "No Future Without Forgiveness",
+          "author": "Desmond Tutu",
+          "url": "https://bookshop.org/a/philosophia/9780385496902",
+          "why": "Tutu's account of how Ubuntu informed South Africa's transitional justice process after apartheid."
+        }
+      ]
+    },
+    {
+      "name": "Decolonizing Knowledge",
+      "thinkerBio": "Paulin Hountondji (1942-2024) critiqued ethnophilosophy in African Philosophy: Myth and Reality (1976); Sabelo Ndlovu-Gatsheni (b. 1972) developed the contemporary 'coloniality of knowledge' framework drawing on Anibal Quijano and Walter Mignolo.",
+      "quote": "The very standards for what counts as knowledge have been constructed in ways that systematically favor European intellectual traditions.",
+      "tags": [
+        "african",
+        "decolonization",
+        "hountondji",
+        "ndlovu-gatsheni",
+        "epistemology"
+      ],
+      "related": [
+        {
+          "name": "Epistemic Injustice",
+          "type": "Parallel",
+          "note": "Colonial epistemic injustice is the paradigm case of hermeneutical injustice -- colonized peoples lacking the conceptual resources to articulate their own situation."
+        },
+        {
+          "name": "Sage Philosophy",
+          "type": "Extends",
+          "note": "Sage philosophy is a method of decolonizing knowledge -- recovering individual African philosophical thought that colonial systems denied existed or failed to recognize."
+        },
+        {
+          "name": "Colonialism and Postcolonialism",
+          "type": "Extends",
+          "note": "Postcolonial theory grounds the project of decolonizing knowledge -- exposing how Western epistemological frameworks were constructed through colonial power relations."
+        },
+        {
+          "name": "Standpoint Epistemology",
+          "type": "Parallel",
+          "note": "Both standpoint epistemology and decolonizing knowledge projects show how social and historical position shapes epistemic access and credibility."
+        }
+      ],
+      "books": [
+        {
+          "title": "African Philosophy: Myth and Reality",
+          "author": "Paulin Hountondji",
+          "url": "https://bookshop.org/a/philosophia/9780253212641",
+          "why": "Hountondji's foundational critique of ethnophilosophy and his case for recognizing individual African philosophical thought."
+        },
+        {
+          "title": "Epistemic Freedom in Africa",
+          "author": "Sabelo Ndlovu-Gatsheni",
+          "url": "https://bookshop.org/a/philosophia/9781138236233",
+          "why": "Ndlovu-Gatsheni's systematic development of the coloniality of knowledge framework for African decolonization."
+        },
+        {
+          "title": "The Idea of Africa",
+          "author": "V.Y. Mudimbe",
+          "url": "https://bookshop.org/a/philosophia/9780253208584",
+          "why": "Mudimbe's influential analysis of how the very concept of Africa was constructed through colonial epistemic frameworks."
+        }
+      ]
+    },
+    {
+      "name": "African Political Philosophy",
+      "thinkerBio": "Kwasi Wiredu (1931-2022) developed consensus democracy drawing on Ashanti political traditions; Emmanuel Eze (1950-2007) engaged critically with the racist legacy of canonical European philosophers including Hume, Kant, and Hegel.",
+      "quote": "Consensus democracy aims not at majority victory but at genuine agreement through dialogue that actively engages minority concerns.",
+      "tags": [
+        "african",
+        "political-philosophy",
+        "wiredu",
+        "eze",
+        "consensus-democracy"
+      ],
+      "related": [
+        {
+          "name": "Democracy",
+          "type": "Opposes",
+          "note": "Wiredu's consensus democracy offers a genuine alternative to the adversarial, majoritarian model of democracy inherited from European colonial governance."
+        },
+        {
+          "name": "African Communalism",
+          "type": "Extends",
+          "note": "Wiredu's political philosophy systematically develops African communalist principles into a concrete model of governance and decision-making."
+        },
+        {
+          "name": "Race and Political Philosophy",
+          "type": "Parallel",
+          "note": "Eze's critique of canonical European philosophers' racism connects to Mills's racial contract theory and the broader project of examining race in political philosophy."
+        },
+        {
+          "name": "Decolonizing Knowledge",
+          "type": "Parallel",
+          "note": "Eze's engagement with the racist legacy of European philosophy is itself part of the broader project of decolonizing the philosophical canon."
+        }
+      ],
+      "books": [
+        {
+          "title": "Cultural Universals and Particulars",
+          "author": "Kwasi Wiredu",
+          "url": "https://bookshop.org/a/philosophia/9780253211286",
+          "why": "Wiredu's foundational development of consensus democracy and conceptual decolonization."
+        },
+        {
+          "title": "Race and the Enlightenment",
+          "author": "Emmanuel Eze (ed.)",
+          "url": "https://bookshop.org/a/philosophia/9781557866919",
+          "why": "Eze's essential anthology documenting the racist views embedded in canonical Enlightenment philosophy."
+        },
+        {
+          "title": "Postcolonial African Philosophy",
+          "author": "Emmanuel Eze (ed.)",
+          "url": "https://bookshop.org/a/philosophia/9780631201404",
+          "why": "A comprehensive anthology of contemporary African political philosophy across multiple traditions and approaches."
+        }
+      ]
+    },
+    {
+      "name": "African Environmental Philosophy",
+      "thinkerBio": "Kai Horsthemke (b. 1965) and Philip Higgs developed African eco-philosophy as a systematic alternative to Western environmental ethics, drawing on Ubuntu and indigenous African cosmologies of relational existence.",
+      "quote": "Nature is a participant in the community of existence rather than an inert background for human exploitation.",
+      "tags": [
+        "african",
+        "environmental-ethics",
+        "horsthemke",
+        "higgs",
+        "eco-philosophy"
+      ],
+      "related": [
+        {
+          "name": "Environmental Ethics",
+          "type": "Parallel",
+          "note": "African eco-philosophy and Western deep ecology both ground environmental obligations in community membership extended beyond humans, though through different cosmological frameworks."
+        },
+        {
+          "name": "Ubuntu",
+          "type": "Extends",
+          "note": "African environmental philosophy applies Ubuntu's relational ontology to human-nature relations, extending community obligations to non-human members of the ecosystem."
+        },
+        {
+          "name": "Taoism and Nature",
+          "type": "Parallel",
+          "note": "Both African eco-philosophy and Taoist philosophy of nature critique the domination model of human-nature relations central to much Western environmental thought."
+        },
+        {
+          "name": "African Metaphysics",
+          "type": "Extends",
+          "note": "Vital force metaphysics, in which spiritual forces inhabit nature, provides the cosmological foundation for African environmental philosophy's relational approach."
+        }
+      ],
+      "books": [
+        {
+          "title": "Animals and African Ethics",
+          "author": "Kai Horsthemke",
+          "url": "https://bookshop.org/a/philosophia/9781137365911",
+          "why": "Horsthemke's systematic development of African environmental and animal ethics."
+        },
+        {
+          "title": "African Philosophy of Education",
+          "author": "Yusef Waghid",
+          "url": "https://bookshop.org/a/philosophia/9781138066386",
+          "why": "Connects African philosophical traditions to broader questions of ecological and ethical education."
+        },
+        {
+          "title": "Ubuntu: Curating the Archive",
+          "author": "Leonhard Praeg and Siphokazi Magadla (eds.)",
+          "url": "https://bookshop.org/a/philosophia/9781869142798",
+          "why": "Essays exploring Ubuntu's applications across ethics, politics, and environmental relations."
+        }
+      ]
+    },
+    {
+      "name": "African Logic and Reasoning",
+      "thinkerBio": "Kwasi Wiredu (1931-2022) analyzed Akan epistemological vocabulary; J.O. Sodipo and Barry Hallen documented sophisticated Yoruba epistemological practice through interviews with traditional healers in Knowledge, Belief and Witchcraft (1986).",
+      "quote": "The Akan language embeds an epistemological distinction between modes of knowledge that English collapses into a single concept of belief.",
+      "tags": [
+        "african",
+        "logic",
+        "wiredu",
+        "sodipo",
+        "yoruba-epistemology"
+      ],
+      "related": [
+        {
+          "name": "Sage Philosophy",
+          "type": "Parallel",
+          "note": "Both sage philosophy and African logic demonstrate that rigorous individual philosophical reasoning exists in African traditions outside formal academic philosophy."
+        },
+        {
+          "name": "Epistemic Injustice",
+          "type": "Opposes",
+          "note": "Documenting sophisticated African epistemological vocabulary directly challenges colonial epistemic injustice's denial of philosophical sophistication to African knowers."
+        },
+        {
+          "name": "Language Games",
+          "type": "Parallel",
+          "note": "Wiredu's analysis of how Akan linguistic structure embeds distinct epistemological categories parallels Wittgenstein's insight that meaning is use within particular practices."
+        },
+        {
+          "name": "Decolonizing Knowledge",
+          "type": "Extends",
+          "note": "Documenting indigenous African logical and epistemological frameworks is itself a central method of decolonizing knowledge."
+        }
+      ],
+      "books": [
+        {
+          "title": "Cultural Universals and Particulars",
+          "author": "Kwasi Wiredu",
+          "url": "https://bookshop.org/a/philosophia/9780253211286",
+          "why": "Wiredu's analysis of Akan language and its implications for epistemology and conceptual decolonization."
+        },
+        {
+          "title": "Knowledge, Belief and Witchcraft",
+          "author": "Barry Hallen and J.O. Sodipo",
+          "url": "https://bookshop.org/a/philosophia/9780804745243",
+          "why": "The foundational philosophical interviews documenting sophisticated Yoruba epistemological vocabulary and practice."
+        },
+        {
+          "title": "A Companion to African Philosophy",
+          "author": "Kwasi Wiredu (ed.)",
+          "url": "https://bookshop.org/a/philosophia/9781405143961",
+          "why": "A comprehensive anthology covering African logic, epistemology, and reasoning across multiple traditions."
+        }
+      ]
+    },
+    {
+      "name": "Political Feminism",
+      "thinkerBio": "Mary Wollstonecraft (1759-1797) founded political feminism with A Vindication of the Rights of Woman (1792); John Stuart Mill (1806-1873) extended liberal political principles to women's subjection in The Subjection of Women (1869).",
+      "quote": "The same liberal principles that ground the rights of men ground the rights of women -- there is no principled basis for exclusion.",
+      "tags": [
+        "feminist",
+        "political-feminism",
+        "wollstonecraft",
+        "mill",
+        "liberal-feminism"
+      ],
+      "related": [
+        {
+          "name": "Liberalism",
+          "type": "Extends",
+          "note": "Political feminism extends liberal principles of equal rights and opportunity systematically to women, exposing the inconsistency of restricting them by sex."
+        },
+        {
+          "name": "The Second Sex",
+          "type": "Extends",
+          "note": "De Beauvoir's existentialist analysis of women's internalized subordination develops Mill's earlier observation about manufactured consent to subjection."
+        },
+        {
+          "name": "Feminist Political Philosophy",
+          "type": "Extends",
+          "note": "Contemporary feminist political philosophy builds on the foundational liberal feminist case while extending it to structural and intersectional concerns."
+        },
+        {
+          "name": "Intersectionality",
+          "type": "Opposes",
+          "note": "Intersectionality challenges classical liberal feminism's relatively narrow focus on gender alone, without sufficient attention to race and class."
+        }
+      ],
+      "books": [
+        {
+          "title": "A Vindication of the Rights of Woman",
+          "author": "Mary Wollstonecraft",
+          "url": "https://bookshop.org/a/philosophia/9780486404766",
+          "why": "The founding text -- the case that women's apparent inferiority results from inadequate education, not natural incapacity."
+        },
+        {
+          "title": "The Subjection of Women",
+          "author": "John Stuart Mill",
+          "url": "https://bookshop.org/a/philosophia/9780486426079",
+          "why": "Mill's systematic liberal argument that women's legal subordination is wrong for the same reasons any ascribed status inequality is wrong."
+        },
+        {
+          "title": "Justice, Gender, and the Family",
+          "author": "Susan Moller Okin",
+          "url": "https://bookshop.org/a/philosophia/9780465037038",
+          "why": "Okin's foundational late-twentieth-century extension of liberal feminist critique to the structure of the family."
+        }
+      ]
+    },
+    {
+      "name": "Embodiment and Feminist Philosophy",
+      "thinkerBio": "Luce Irigaray (b. 1930) argued Western philosophy has been constituted by the suppression of sexual difference; Elizabeth Grosz (b. 1952) developed an account of bodies as the active material site of subjectivity in Volatile Bodies (1994).",
+      "quote": "The body is neither nature nor culture but the crossing point of both -- marked by gender, race, and sexuality in ways that constitute rather than merely express the subject.",
+      "tags": [
+        "feminist",
+        "embodiment",
+        "irigaray",
+        "grosz",
+        "sexual-difference"
+      ],
+      "related": [
+        {
+          "name": "The Second Sex",
+          "type": "Extends",
+          "note": "De Beauvoir's analysis of women's lived embodiment under patriarchy is the foundational text that Irigaray and Grosz further develop and complicate."
+        },
+        {
+          "name": "Phenomenology of Perception",
+          "type": "Parallel",
+          "note": "Both feminist embodiment philosophy and Merleau-Ponty's phenomenology treat the body as the active site of subjectivity rather than a passive object."
+        },
+        {
+          "name": "Gender Performativity",
+          "type": "Opposes",
+          "note": "Irigaray's sexual difference asserts a positive feminine specificity, in tension with Butler's view that all gender, including femininity, is purely performative construction."
+        },
+        {
+          "name": "Throwing Like a Girl",
+          "type": "Extends",
+          "note": "Young's phenomenological account of constrained female bodily comportment directly develops the feminist philosophy of embodiment that Irigaray and Grosz established."
+        }
+      ],
+      "books": [
+        {
+          "title": "This Sex Which Is Not One",
+          "author": "Luce Irigaray",
+          "url": "https://bookshop.org/a/philosophia/9780801493318",
+          "why": "Irigaray's foundational and challenging text developing the philosophy of sexual difference."
+        },
+        {
+          "title": "Volatile Bodies",
+          "author": "Elizabeth Grosz",
+          "url": "https://bookshop.org/a/philosophia/9780253208628",
+          "why": "Grosz's systematic account of the body as the active material site of feminist philosophical inquiry."
+        },
+        {
+          "title": "Throwing Like a Girl",
+          "author": "Iris Marion Young",
+          "url": "https://bookshop.org/a/philosophia/9780253213277",
+          "why": "Young's phenomenological essays applying feminist embodiment theory to lived bodily experience under patriarchy."
+        }
+      ]
+    },
+    {
+      "name": "Feminist Ethics of Care",
+      "thinkerBio": "Virginia Held (b. 1929) developed care ethics into a comprehensive political philosophy in The Ethics of Care (2006); Joan Tronto made explicit the political dimensions of who performs devalued care work in Moral Boundaries (1993).",
+      "quote": "The assignment of care work to women, minorities, and the poor maintains power differentials by freeing the powerful from care responsibilities.",
+      "tags": [
+        "feminist",
+        "care-ethics",
+        "held",
+        "tronto",
+        "care-work"
+      ],
+      "related": [
+        {
+          "name": "Care Ethics",
+          "type": "Extends",
+          "note": "This entry develops Gilligan and Noddings's original care ethics into a full political philosophy addressing the structural organization of care work."
+        },
+        {
+          "name": "Justice as Fairness",
+          "type": "Opposes",
+          "note": "Held argues care provides a better foundation for political philosophy than Rawlsian justice, which starts from abstract principles rather than concrete relationships of dependency."
+        },
+        {
+          "name": "Feminist Political Philosophy",
+          "type": "Extends",
+          "note": "Political care ethics extends feminist political philosophy's critique of liberalism to specifically address the political organization of dependency and care labor."
+        },
+        {
+          "name": "Ubuntu",
+          "type": "Parallel",
+          "note": "Both political care ethics and Ubuntu ground political philosophy in relationships of mutual care and interdependence rather than in atomistic individual rights."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Ethics of Care",
+          "author": "Virginia Held",
+          "url": "https://bookshop.org/a/philosophia/9780195180992",
+          "why": "Held's mature systematic development of care ethics into a comprehensive political philosophy."
+        },
+        {
+          "title": "Moral Boundaries",
+          "author": "Joan Tronto",
+          "url": "https://bookshop.org/a/philosophia/9780415906453",
+          "why": "Tronto's foundational text making explicit the political dimensions of care work's gendered and racialized distribution."
+        },
+        {
+          "title": "Love's Labor",
+          "author": "Eva Feder Kittay",
+          "url": "https://bookshop.org/a/philosophia/9780415904134",
+          "why": "Kittay's philosophical analysis of dependency work and its implications for theories of justice and equality."
+        }
+      ]
+    },
+    {
+      "name": "Feminist Metaphysics",
+      "thinkerBio": "Sally Haslanger (b. 1955) developed the ameliorative approach to gender concepts at MIT; Judith Butler's later work in Bodies That Matter (1993) clarified the material and discursive status of sex.",
+      "quote": "Someone is a woman if they are systematically subordinated along social dimensions marked by features taken to justify that subordination -- gender is real but social.",
+      "tags": [
+        "feminist",
+        "metaphysics",
+        "haslanger",
+        "butler",
+        "gender-ontology"
+      ],
+      "related": [
+        {
+          "name": "The Second Sex",
+          "type": "Extends",
+          "note": "The Second Sex is the founding text for feminist metaphysics -- the philosophical analysis of the ontological status of gender and sexual difference."
+        },
+        {
+          "name": "Gender Performativity",
+          "type": "Parallel",
+          "note": "Both Haslanger's ameliorative social-position account and Butler's performativity treat gender as real but socially constituted rather than naturally given."
+        },
+        {
+          "name": "Social Ontology",
+          "type": "Extends",
+          "note": "Feminist metaphysics is a specific application of social ontology -- the study of how social kinds like gender are constituted and maintained."
+        },
+        {
+          "name": "Standpoint Epistemology",
+          "type": "Parallel",
+          "note": "Haslanger's social position account of gender connects directly to standpoint epistemology's claim that social position shapes both identity and epistemic access."
+        }
+      ],
+      "books": [
+        {
+          "title": "Resisting Reality",
+          "author": "Sally Haslanger",
+          "url": "https://bookshop.org/a/philosophia/9780199892631",
+          "why": "Haslanger's foundational collection developing the ameliorative approach to gender and race concepts."
+        },
+        {
+          "title": "Bodies That Matter",
+          "author": "Judith Butler",
+          "url": "https://bookshop.org/a/philosophia/9780415610155",
+          "why": "Butler's clarification of the materiality of sex as itself discursively mediated rather than denied."
+        },
+        {
+          "title": "Feminism and Philosophy",
+          "author": "Ann Garry and Marilyn Pearsall (eds.)",
+          "url": "https://bookshop.org/a/philosophia/9780415917242",
+          "why": "A comprehensive anthology covering feminist metaphysics alongside other core areas of feminist philosophy."
+        }
+      ]
+    },
+    {
+      "name": "Intersectionality and Political Theory",
+      "thinkerBio": "Patricia Hill Collins (b. 1948) developed the matrix of domination, extending Crenshaw's legal intersectionality into a comprehensive social theory of interlocking systems of oppression and their controlling images.",
+      "quote": "Controlling images -- stereotyped representations that justify oppression -- function as a dimension of domination operating through cultural representation itself.",
+      "tags": [
+        "feminist",
+        "intersectionality",
+        "collins",
+        "matrix-of-domination",
+        "political-theory"
+      ],
+      "related": [
+        {
+          "name": "Intersectionality",
+          "type": "Extends",
+          "note": "This entry develops Crenshaw's original legal concept into Collins's comprehensive social theory of the matrix of domination."
+        },
+        {
+          "name": "Race and Political Philosophy",
+          "type": "Extends",
+          "note": "Collins's controlling images concept directly extends Mills's racial contract theory by analyzing how cultural representation justifies racial and gendered subordination."
+        },
+        {
+          "name": "Hegemony",
+          "type": "Parallel",
+          "note": "Controlling images and Gramscian hegemony both examine how cultural representation naturalizes and justifies systems of social domination."
+        },
+        {
+          "name": "Standpoint Epistemology",
+          "type": "Extends",
+          "note": "Collins's earlier standpoint epistemology work directly informs the matrix of domination's account of how multiple oppressions shape knowledge and experience."
+        }
+      ],
+      "books": [
+        {
+          "title": "Black Feminist Thought",
+          "author": "Patricia Hill Collins",
+          "url": "https://bookshop.org/a/philosophia/9780415964722",
+          "why": "Collins's foundational and most comprehensive development of the matrix of domination and controlling images."
+        },
+        {
+          "title": "On Intersectionality: Essential Writings",
+          "author": "Kimberle Crenshaw",
+          "url": "https://bookshop.org/a/philosophia/9781620974988",
+          "why": "Crenshaw's original collected legal essays that Collins's social theory builds upon and extends."
+        },
+        {
+          "title": "Intersectionality",
+          "author": "Patricia Hill Collins and Sirma Bilge",
+          "url": "https://bookshop.org/a/philosophia/9781509539682",
+          "why": "A comprehensive contemporary overview of intersectionality theory's development and applications."
+        }
+      ]
+    },
+    {
+      "name": "Feminist Philosophy of Science",
+      "thinkerBio": "Helen Longino (b. 1944) developed contextual empiricism examining the role of background values in scientific reasoning; Evelyn Fox Keller (b. 1936) showed how gendered scientific styles affected Barbara McClintock's groundbreaking genetics research.",
+      "quote": "A feeling for the organism -- empathetic, intimate engagement with research subjects -- enabled discoveries that a more distanced methodology had missed.",
+      "tags": [
+        "feminist",
+        "philosophy-of-science",
+        "longino",
+        "keller",
+        "objectivity"
+      ],
+      "related": [
+        {
+          "name": "Standpoint Epistemology",
+          "type": "Extends",
+          "note": "Feminist philosophy of science is the direct application of standpoint epistemology's insights to scientific practice and objectivity."
+        },
+        {
+          "name": "Scientific Realism",
+          "type": "Parallel",
+          "note": "Longino's contextual empiricism complicates simple scientific realism by showing how value-laden background assumptions partially constitute scientific knowledge."
+        },
+        {
+          "name": "Theory-Ladenness of Observation",
+          "type": "Extends",
+          "note": "Feminist philosophy of science extends theory-ladenness to show how gendered values, not just theoretical commitments, shape what scientists observe and investigate."
+        },
+        {
+          "name": "Social Epistemology",
+          "type": "Extends",
+          "note": "Longino's account of objectivity as a property of critical communities rather than individuals is a central contribution to social epistemology."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Fate of Knowledge",
+          "author": "Helen Longino",
+          "url": "https://bookshop.org/a/philosophia/9780691004478",
+          "why": "Longino's foundational development of contextual empiricism and social objectivity in science."
+        },
+        {
+          "title": "A Feeling for the Organism",
+          "author": "Evelyn Fox Keller",
+          "url": "https://bookshop.org/a/philosophia/9780716750949",
+          "why": "Keller's influential biography of Barbara McClintock showing how gendered scientific styles affected major discoveries."
+        },
+        {
+          "title": "Reflections on Gender and Science",
+          "author": "Evelyn Fox Keller",
+          "url": "https://bookshop.org/a/philosophia/9780300042466",
+          "why": "Keller's broader philosophical essays on gender, objectivity, and the practice of science."
+        }
+      ]
+    },
+    {
+      "name": "Feminist Philosophy of Language",
+      "thinkerBio": "Rae Langton (b. 1961) developed the silencing thesis applying speech act theory to pornography in 'Speech Acts and Unspeakable Acts' (1993); Jennifer Hornsby and Susan Brison further developed the analysis of how oppressive speech can silence its targets.",
+      "quote": "Pornography may silence women by constituting their refusals as something other than what the speaker intends, depriving them of illocutionary authority.",
+      "tags": [
+        "feminist",
+        "philosophy-of-language",
+        "langton",
+        "hornsby",
+        "silencing"
+      ],
+      "related": [
+        {
+          "name": "Speech Act Theory",
+          "type": "Extends",
+          "note": "Langton applies Austin's speech act framework to argue that pornography performs harmful illocutionary acts, not merely descriptive ones."
+        },
+        {
+          "name": "Speech and Power",
+          "type": "Extends",
+          "note": "The silencing thesis is a central case study for how speech can constitute and enact power relations rather than merely describing pre-existing social facts."
+        },
+        {
+          "name": "Epistemic Injustice",
+          "type": "Parallel",
+          "note": "Both the silencing thesis and epistemic injustice examine how social structures can deprive speakers of the credibility or authority needed for their speech to function normally."
+        },
+        {
+          "name": "Gender Performativity",
+          "type": "Parallel",
+          "note": "Both the silencing thesis and gender performativity draw on speech act theory to show how language constitutes rather than merely reflects social and gendered reality."
+        }
+      ],
+      "books": [
+        {
+          "title": "Sexual Solipsism",
+          "author": "Rae Langton",
+          "url": "https://bookshop.org/a/philosophia/9780199282060",
+          "why": "Langton's collected essays developing the silencing thesis and her broader philosophy of objectification and speech."
+        },
+        {
+          "title": "Speech Acts and Unspeakable Acts",
+          "author": "Rae Langton, in Philosophy and Public Affairs",
+          "url": "https://bookshop.org/a/philosophia/9780199282060",
+          "why": "Langton's original foundational paper -- included in the Sexual Solipsism collection -- developing the silencing thesis."
+        },
+        {
+          "title": "Only Words",
+          "author": "Catharine MacKinnon",
+          "url": "https://bookshop.org/a/philosophia/9780674639335",
+          "why": "MacKinnon's influential and provocative legal-philosophical argument connecting pornography to speech and harm."
+        }
+      ]
+    },
+    {
+      "name": "Nyaya Logic",
+      "thinkerBio": "Aksapada Gautama (c. second century CE) founded the Nyaya school of Indian philosophy; Dignaga (fifth century CE) and Dharmakirti (seventh century CE) developed the rigorous Buddhist epistemological tradition that engaged in extended debate with Nyaya logicians.",
+      "quote": "The five-membered argument requires that every step of inference be made fully explicit for use in public philosophical debate.",
+      "tags": [
+        "indian",
+        "nyaya",
+        "logic",
+        "aksapada",
+        "epistemology"
+      ],
+      "related": [
+        {
+          "name": "Inference to Best Explanation",
+          "type": "Parallel",
+          "note": "Nyaya's systematic treatment of inference (anumana) and contemporary IBE both investigate the structure and validity of non-deductive reasoning."
+        },
+        {
+          "name": "Formal Logic",
+          "type": "Parallel",
+          "note": "The Nyaya five-membered argument is more elaborate than Aristotle's syllogism, representing an independently developed tradition of formal logical analysis."
+        },
+        {
+          "name": "Buddhist Meditation and Epistemology",
+          "type": "Opposes",
+          "note": "Nyaya philosophers engaged in extended technical debate with Buddhist epistemologists like Dignaga and Dharmakirti over the nature of perception and inference."
+        },
+        {
+          "name": "Testimony",
+          "type": "Extends",
+          "note": "Nyaya's identification of testimony (shabda) as one of four valid pramanas anticipates contemporary anti-reductionist accounts of testimonial knowledge."
+        }
+      ],
+      "books": [
+        {
+          "title": "Nyaya-Vaisesika",
+          "author": "Karl Potter (ed.)",
+          "url": "https://bookshop.org/a/philosophia/9788120803091",
+          "why": "The definitive scholarly volume on Nyaya philosophy within the Encyclopedia of Indian Philosophies series."
+        },
+        {
+          "title": "Indian Philosophy: A Very Short Introduction",
+          "author": "Sue Hamilton",
+          "url": "https://bookshop.org/a/philosophia/9780198832530",
+          "why": "A clear introduction situating Nyaya logic within the broader landscape of classical Indian philosophy."
+        },
+        {
+          "title": "Classical Indian Philosophy",
+          "author": "Bina Gupta",
+          "url": "https://bookshop.org/a/philosophia/9780742562088",
+          "why": "A comprehensive scholarly survey covering Nyaya epistemology and logic in detail."
+        }
+      ]
+    },
+    {
+      "name": "Samkhya Dualism",
+      "thinkerBio": "Kapila (traditional founder, dates uncertain) and Ishvarakrishna (c. fourth century CE), author of the Samkhyakarika, developed the classical Samkhya system positing a strict dualism between pure consciousness (Purusha) and material nature (Prakriti).",
+      "quote": "Liberation consists in the discriminative knowledge that distinguishes Purusha from Prakriti, recognizing that consciousness was never truly bound by matter.",
+      "tags": [
+        "indian",
+        "samkhya",
+        "dualism",
+        "purusha-prakriti",
+        "liberation"
+      ],
+      "related": [
+        {
+          "name": "Substance Dualism",
+          "type": "Parallel",
+          "note": "Samkhya's Purusha-Prakriti dualism and Cartesian substance dualism both posit two fundamentally distinct kinds of reality, consciousness and matter, though through different arguments."
+        },
+        {
+          "name": "Yoga Philosophy",
+          "type": "Extends",
+          "note": "Patanjali's Yoga philosophy accepts the Samkhya metaphysical framework and adds a systematic practical methodology and theistic element for achieving liberation."
+        },
+        {
+          "name": "Moksha",
+          "type": "Extends",
+          "note": "Samkhya's account of liberation through discriminative knowledge (viveka) is one of the classical Hindu paths to moksha alongside devotion and selfless action."
+        },
+        {
+          "name": "The Bhagavad Gita and Action",
+          "type": "Extends",
+          "note": "The Bhagavad Gita's metaphysical backdrop draws significantly on Samkhya's account of self, matter, and the path to liberation through discriminative knowledge."
+        }
+      ],
+      "books": [
+        {
+          "title": "Samkhya: A Dualist Tradition in Indian Philosophy",
+          "author": "Gerald Larson",
+          "url": "https://bookshop.org/a/philosophia/9788120805032",
+          "why": "The definitive scholarly study of Samkhya philosophy, its history, and its metaphysical commitments."
+        },
+        {
+          "title": "Classical Samkhya",
+          "author": "Gerald Larson",
+          "url": "https://bookshop.org/a/philosophia/9788120805032",
+          "why": "Larson's detailed analysis of the Samkhyakarika and the systematic development of Samkhya cosmology."
+        },
+        {
+          "title": "The Yoga Sutras of Patanjali",
+          "author": "trans. Edwin Bryant",
+          "url": "https://bookshop.org/a/philosophia/9780865477360",
+          "why": "Essential context -- Patanjali's Yoga accepts and builds directly on the Samkhya metaphysical framework."
+        }
+      ]
+    },
+    {
+      "name": "Mimamsa and Vedic Authority",
+      "thinkerBio": "Jaimini (dates uncertain, possibly second century BCE) is the traditional founder of Mimamsa; Prabhakara Mishra (active c. seventh century CE) developed an influential theory of testimony and linguistic meaning within the school.",
+      "quote": "The Vedas are eternal, self-subsisting sounds whose authority does not depend on any author and cannot be undermined by questioning an author's reliability.",
+      "tags": [
+        "indian",
+        "mimamsa",
+        "vedic-authority",
+        "jaimini",
+        "testimony"
+      ],
+      "related": [
+        {
+          "name": "Testimony",
+          "type": "Extends",
+          "note": "Mimamsa's theory of self-validating testimony anticipates and parallels contemporary anti-reductionist accounts of testimonial knowledge as a basic epistemic source."
+        },
+        {
+          "name": "Nyaya Logic",
+          "type": "Parallel",
+          "note": "Both Mimamsa and Nyaya developed sophisticated theories of valid knowledge sources (pramanas) within the broader classical Indian philosophical tradition."
+        },
+        {
+          "name": "Hermeneutics",
+          "type": "Parallel",
+          "note": "Mimamsa's sophisticated hermeneutical principles for interpreting the Vedas anticipate concerns later developed independently in Western hermeneutic philosophy."
+        },
+        {
+          "name": "Frege's Sense and Reference",
+          "type": "Parallel",
+          "note": "Mimamsa's theories of linguistic meaning and the connection between words and referents independently anticipate concerns central to Fregean philosophy of language."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Mimamsa Nyaya Prakasa",
+          "author": "Apadeva (trans. Franklin Edgerton)",
+          "url": "https://bookshop.org/a/philosophia/9780300017434",
+          "why": "A classical introductory text to Mimamsa hermeneutical and epistemological principles."
+        },
+        {
+          "title": "A History of Indian Philosophy Vol. 1",
+          "author": "Surendranath Dasgupta",
+          "url": "https://bookshop.org/a/philosophia/9788120804098",
+          "why": "The definitive scholarly history covering Mimamsa philosophy in relation to other Indian philosophical schools."
+        },
+        {
+          "title": "Word and the World",
+          "author": "Bimal Krishna Matilal",
+          "url": "https://bookshop.org/a/philosophia/9780195633050",
+          "why": "Matilal's rigorous philosophical analysis of Indian theories of language and meaning, including Mimamsa contributions."
+        }
+      ]
+    },
+    {
+      "name": "Yoga Philosophy",
+      "thinkerBio": "Patanjali (dates uncertain, possibly second century BCE to fourth century CE) systematized Yoga philosophy in the Yoga Sutras, accepting the Samkhya metaphysical framework while adding a theistic element and systematic practical methodology.",
+      "quote": "Yoga is the cessation of the modifications of the mind -- when fluctuations are completely stilled, Purusha rests in its own pure nature.",
+      "tags": [
+        "indian",
+        "yoga",
+        "patanjali",
+        "samkhya",
+        "meditation"
+      ],
+      "related": [
+        {
+          "name": "Samkhya Dualism",
+          "type": "Extends",
+          "note": "Yoga philosophy accepts the Samkhya metaphysical framework of Purusha and Prakriti while adding a systematic eightfold practical path toward liberation."
+        },
+        {
+          "name": "Moksha",
+          "type": "Extends",
+          "note": "Patanjali's eightfold yogic path is the systematic practical methodology for achieving moksha through the progressive stilling of mental fluctuations."
+        },
+        {
+          "name": "Buddhist Meditation and Epistemology",
+          "type": "Parallel",
+          "note": "Both Yoga philosophy and Buddhist meditative epistemology develop systematic practices for transforming ordinary cognition toward direct, unmediated insight."
+        },
+        {
+          "name": "Embodied Cognition",
+          "type": "Opposes",
+          "note": "Yoga's dualist goal of disengaging pure consciousness from material mind and body stands in tension with embodied cognition's view that cognition is constitutively bodily."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Yoga Sutras of Patanjali",
+          "author": "trans. Edwin Bryant",
+          "url": "https://bookshop.org/a/philosophia/9780865477360",
+          "why": "The definitive scholarly translation and commentary on Patanjali's foundational text."
+        },
+        {
+          "title": "The Yoga Tradition",
+          "author": "Georg Feuerstein",
+          "url": "https://bookshop.org/a/philosophia/9781890772185",
+          "why": "A comprehensive historical and philosophical survey of the Yoga tradition's many schools and developments."
+        },
+        {
+          "title": "Light on the Yoga Sutras of Patanjali",
+          "author": "B.K.S. Iyengar",
+          "url": "https://bookshop.org/a/philosophia/9780805210513",
+          "why": "A practitioner's detailed commentary connecting Patanjali's philosophy to embodied yogic practice."
+        }
+      ]
+    },
+    {
+      "name": "Jain Epistemology",
+      "thinkerBio": "Mahavira (traditional dates: 599-527 BCE) is the founding Tirthankara whose teachings underlie Jain philosophy; Umasvati (c. second century CE) systematized Jain metaphysics and epistemology in the Tattvarthasutra.",
+      "quote": "Reality is complex and multi-faceted -- no single perspective can capture it completely, and every claim is true from some standpoint and incomplete from others.",
+      "tags": [
+        "indian",
+        "jainism",
+        "anekantavada",
+        "syadvada",
+        "epistemology"
+      ],
+      "related": [
+        {
+          "name": "Moral Relativism",
+          "type": "Opposes",
+          "note": "Jain anekantavada is not relativism -- it holds that reality genuinely exceeds any single description, not that all claims are equally valid regardless of perspective."
+        },
+        {
+          "name": "The Liar's Paradox",
+          "type": "Parallel",
+          "note": "Both syadvada's seven-fold predication and Western paradoxes of self-reference investigate how apparently contradictory predications can be coherently structured."
+        },
+        {
+          "name": "Jain Philosophy of Ahimsa",
+          "type": "Parallel",
+          "note": "Both Jain epistemology and Jain ahimsa reflect the tradition's characteristic combination of metaphysical rigor and ethical comprehensiveness."
+        },
+        {
+          "name": "Epistemic Humility",
+          "type": "Extends",
+          "note": "Anekantavada is among the most philosophically sophisticated grounds for epistemic humility in any tradition -- it builds partiality of perspective into the structure of reality itself."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Jaina Path of Purification",
+          "author": "Padmanabh Jaini",
+          "url": "https://bookshop.org/a/philosophia/9788120815780",
+          "why": "The definitive scholarly study of Jain philosophy including its sophisticated epistemological doctrines."
+        },
+        {
+          "title": "Anekantavada: The Central Philosophy of Jainism",
+          "author": "Bharat Mahodaya",
+          "url": "https://bookshop.org/a/philosophia/9788170801336",
+          "why": "A focused scholarly treatment of anekantavada and syadvada, Jainism's central epistemological doctrines."
+        },
+        {
+          "title": "Tattvartha Sutra",
+          "author": "Umasvati (trans. Nathmal Tatia)",
+          "url": "https://bookshop.org/a/philosophia/9788120816938",
+          "why": "The foundational systematic Jain philosophical text covering metaphysics and epistemology."
+        }
+      ]
+    },
+    {
+      "name": "Carvaka Materialism",
+      "thinkerBio": "Brihaspati is the legendary founder of the Carvaka (Lokayata) school of materialist philosophy in ancient India, whose original texts are lost but are known through extensive quotation and refutation in opposing philosophical texts.",
+      "quote": "Only direct perception is a valid source of knowledge -- consciousness arises from the combination of material elements and ceases when they decompose at death.",
+      "tags": [
+        "indian",
+        "carvaka",
+        "materialism",
+        "lokayata",
+        "skepticism"
+      ],
+      "related": [
+        {
+          "name": "Skepticism",
+          "type": "Parallel",
+          "note": "Carvaka's restriction of valid knowledge to direct perception alone parallels Western empiricist skepticism about inference and testimony as reliable knowledge sources."
+        },
+        {
+          "name": "Functionalism",
+          "type": "Opposes",
+          "note": "Carvaka's eliminativist view that consciousness simply ceases at the decomposition of material elements stands in contrast to functionalist accounts of mind as substrate-independent."
+        },
+        {
+          "name": "Hedonism",
+          "type": "Parallel",
+          "note": "Carvaka's practical conclusion -- enjoy life since nothing follows death -- parallels certain hedonist conclusions reached through entirely different philosophical premises."
+        },
+        {
+          "name": "Karma",
+          "type": "Opposes",
+          "note": "Carvaka explicitly rejected the doctrine of karma and rebirth as resting on unreliable inference, making it the most radical heterodox position in classical Indian philosophy."
+        }
+      ],
+      "books": [
+        {
+          "title": "A History of Indian Philosophy Vol. 1",
+          "author": "Surendranath Dasgupta",
+          "url": "https://bookshop.org/a/philosophia/9788120804098",
+          "why": "Contains the most accessible scholarly treatment of Carvaka materialism within its historical context."
+        },
+        {
+          "title": "Materialism and Immaterialism in India and the West",
+          "author": "Pradeep Gokhale",
+          "url": "https://bookshop.org/a/philosophia/9788124602977",
+          "why": "A comparative study placing Carvaka materialism in dialogue with Western materialist traditions."
+        },
+        {
+          "title": "Classical Indian Philosophy",
+          "author": "Bina Gupta",
+          "url": "https://bookshop.org/a/philosophia/9780742562088",
+          "why": "A comprehensive scholarly survey including the heterodox materialist and skeptical traditions of classical India."
+        }
+      ]
+    }
+  ]
+}
