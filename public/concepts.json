@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Categorical Imperative",
+    "thinker": "Immanuel Kant",
+    "category": "Ethics",
+    "era": "Modern",
+    "difficulty": 2,
+    "description": "The categorical imperative is Kant's central principle of morality, commanding that we act only according to maxims we could will to become universal laws. Unlike hypothetical imperatives that depend on desired outcomes, the categorical imperative is unconditional—binding on all rational agents regardless of their inclinations. Kant formulated it in several equivalent ways, the most famous being: act only according to that maxim whereby you can at the same time will that it should become a universal law. This grounds morality in pure reason rather than consequences or sentiment.",
+    "thinkerBio": "Immanuel Kant (1724–1804) was a German philosopher who spent his entire academic career at the University of Königsberg in Prussia. His three Critiques—of Pure Reason, Practical Reason, and Judgment—transformed Western philosophy and remain foundational texts in epistemology, ethics, and aesthetics.",
+    "quote": "Act only according to that maxim whereby you can at the same time will that it should become a universal law.",
+    "related": [
+      { "name": "Deontology", "type": "extends" },
+      { "name": "Utilitarianism", "type": "opposes" },
+      { "name": "Virtue Ethics", "type": "parallel" },
+      { "name": "Contractualism", "type": "parallel" }
+    ],
+    "books": [
+      { "title": "Groundwork of the Metaphysics of Morals", "author": "Immanuel Kant", "url": "https://bookshop.org/search?keywords=groundwork+metaphysics+morals+kant" },
+      { "title": "Critique of Practical Reason", "author": "Immanuel Kant", "url": "https://bookshop.org/search?keywords=critique+practical+reason+kant" }
+    ],
+    "tags": ["ethics", "duty", "kant", "rationalism"]
+  },
+  {
+    "name": "Utilitarianism",
+    "thinker": "Jeremy Bentham",
+    "category": "Ethics",
+    "era": "Modern",
+    "difficulty": 1,
+    "description": "Utilitarianism holds that the right action is the one that produces the greatest happiness for the greatest number of people. Founded by Jeremy Bentham and refined by John Stuart Mill, it judges actions purely by their consequences—specifically the balance of pleasure over pain they produce. Mill elevated the theory by distinguishing higher and lower pleasures, arguing that intellectual satisfactions are worth more than mere bodily ones. Utilitarianism remains the most influential consequentialist framework in contemporary ethical and political debate.",
+    "thinkerBio": "Jeremy Bentham (1748–1832) was an English philosopher and social reformer who founded the philosophical school of Utilitarianism. His influence extended to law, economics, and politics, and he remains one of the most practically minded of all moral philosophers.",
+    "quote": "The greatest happiness of the greatest number is the foundation of morals and legislation.",
+    "related": [
+      { "name": "Consequentialism", "type": "extends" },
+      { "name": "Categorical Imperative", "type": "opposes" },
+      { "name": "Virtue Ethics", "type": "opposes" },
+      { "name": "Contractualism", "type": "parallel" }
+    ],
+    "books": [
+      { "title": "Utilitarianism", "author": "John Stuart Mill", "url": "https://bookshop.org/search?keywords=utilitarianism+mill" },
+      { "title": "An Introduction to the Principles of Morals and Legislation", "author": "Jeremy Bentham", "url": "https://bookshop.org/search?keywords=principles+morals+legislation+bentham" }
+    ],
+    "tags": ["ethics", "happiness", "consequentialism", "bentham"]
+  },
+  {
+    "name": "Virtue Ethics",
+    "thinker": "Aristotle",
+    "category": "Ethics",
+    "era": "Ancient",
+    "difficulty": 1,
+    "description": "Virtue ethics focuses on the character of the moral agent rather than on rules or consequences. Aristotle argued that a good life is one of eudaimonia—flourishing—achieved by cultivating virtues like courage, justice, and practical wisdom. Virtues are stable dispositions to act, feel, and reason in excellent ways, developed through habit and practice. The virtuous person does the right thing, at the right time, toward the right person, in the right way—not from duty or calculation but from a well-formed character.",
+    "thinkerBio": "Aristotle (384–322 BCE) was an ancient Greek philosopher and student of Plato who founded the Lyceum in Athens. His works span logic, biology, physics, metaphysics, ethics, and politics, and his Nicomachean Ethics remains the defining text of virtue ethics.",
+    "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+    "related": [
+      { "name": "Utilitarianism", "type": "opposes" },
+      { "name": "Categorical Imperative", "type": "parallel" },
+      { "name": "Care Ethics", "type": "extends" },
+      { "name": "Existentialism", "type": "parallel" }
+    ],
+    "books": [
+      { "title": "Nicomachean Ethics", "author": "Aristotle", "url": "https://bookshop.org/search?keywords=nicomachean+ethics+aristotle" },
+      { "title": "After Virtue", "author": "Alasdair MacIntyre", "url": "https://bookshop.org/search?keywords=after+virtue+macintyre" }
+    ],
+    "tags": ["ethics", "character", "aristotle", "flourishing"]
+  },
+  {
+    "name": "Falsifiability",
+    "thinker": "Karl Popper",
+    "category": "Philosophy of Science",
+    "era": "Contemporary",
+    "difficulty": 1,
+    "description": "Falsifiability is Karl Popper's criterion for distinguishing genuine science from pseudoscience: a theory is scientific only if it makes predictions that could, in principle, be proven wrong by observation or experiment. Popper argued that science does not progress by accumulating verified instances but by bold conjectures subjected to rigorous attempts at refutation. A theory that explains everything—and therefore can never be falsified—explains nothing scientifically. This demarcation criterion has profoundly shaped both the philosophy of science and scientific practice itself.",
+    "thinkerBio": "Karl Popper (1902–1994) was an Austrian-British philosopher of science born in Vienna who spent much of his career at the London School of Economics. His philosophy of critical rationalism, developed in The Logic of Scientific Discovery and The Open Society and Its Enemies, challenged both logical positivism and Marxist historicism.",
+    "quote": "Our knowledge can only be finite, while our ignorance must necessarily be infinite.",
+    "related": [
+      { "name": "Paradigm Shift", "type": "parallel" },
+      { "name": "Scientific Realism", "type": "extends" },
+      { "name": "Empiricism", "type": "extends" },
+      { "name": "A Priori Knowledge", "type": "opposes" }
+    ],
+    "books": [
+      { "title": "The Logic of Scientific Discovery", "author": "Karl Popper", "url": "https://bookshop.org/search?keywords=logic+scientific+discovery+popper" },
+      { "title": "Conjectures and Refutations", "author": "Karl Popper", "url": "https://bookshop.org/search?keywords=conjectures+refutations+popper" }
+    ],
+    "tags": ["science", "epistemology", "popper", "demarcation"]
+  },
+  {
+    "name": "Paradigm Shift",
+    "thinker": "Thomas Kuhn",
+    "category": "Philosophy of Science",
+    "era": "Contemporary",
+    "difficulty": 1,
+    "description": "Thomas Kuhn's concept of the paradigm shift describes how scientific revolutions occur not through gradual accumulation but through sudden, discontinuous overturning of entire frameworks. Normal science operates within an accepted paradigm—a set of assumptions, methods, and exemplary problems—until anomalies accumulate and trigger a crisis. A scientific revolution replaces one paradigm with another that is incommensurable with its predecessor, meaning the two cannot be directly compared on the same rational scale. Kuhn's account challenged the view of science as purely rational and progressive.",
+    "thinkerBio": "Thomas Kuhn (1922–1996) was an American historian and philosopher of science who taught at Harvard, Berkeley, and MIT. His 1962 book The Structure of Scientific Revolutions is one of the most cited academic works of the twentieth century and fundamentally changed how people understand science.",
+    "quote": "Normal science does not aim at novelties of fact or theory and, when successful, finds none.",
+    "related": [
+      { "name": "Falsifiability", "type": "parallel" },
+      { "name": "Scientific Realism", "type": "opposes" },
+      { "name": "Theory-Ladenness", "type": "extends" },
+      { "name": "Relativism", "type": "parallel" }
+    ],
+    "books": [
+      { "title": "The Structure of Scientific Revolutions", "author": "Thomas Kuhn", "url": "https://bookshop.org/search?keywords=structure+scientific+revolutions+kuhn" },
+      { "title": "The Essential Tension", "author": "Thomas Kuhn", "url": "https://bookshop.org/search?keywords=essential+tension+kuhn" }
+    ],
+    "tags": ["science", "history", "kuhn", "revolution"]
+  },
+  {
+    "name": "Existentialism",
+    "thinker": "Jean-Paul Sartre",
+    "category": "Existentialism",
+    "era": "Contemporary",
+    "difficulty": 1,
+    "description": "Existentialism holds that human beings are radically free and therefore fully responsible for who they are and what they do. Sartre's slogan 'existence precedes essence' captures the core claim: we are not born with a fixed human nature or purpose but must create ourselves through our choices. This freedom is inescapable and constitutes both our dignity and our burden—Sartre called the anxiety it generates 'anguish.' Existentialism emerged partly as a response to the apparent meaninglessness revealed by twentieth-century catastrophe and influenced literature, psychology, and political thought.",
+    "thinkerBio": "Jean-Paul Sartre (1905–1980) was a French philosopher, playwright, and novelist who declined the Nobel Prize in Literature in 1964. His philosophical works, including Being and Nothingness, and his plays and novels made existentialism a major cultural movement in post-war Europe.",
+    "quote": "Man first of all exists, encounters himself, surges up in the world—and defines himself afterwards.",
+    "related": [
+      { "name": "Absurdism", "type": "parallel" },
+      { "name": "Virtue Ethics", "type": "parallel" },
+      { "name": "Determinism", "type": "opposes" },
+      { "name": "Authenticity", "type": "extends" }
+    ],
+    "books": [
+      { "title": "Being and Nothingness", "author": "Jean-Paul Sartre", "url": "https://bookshop.org/search?keywords=being+and+nothingness+sartre" },
+      { "title": "Existentialism is a Humanism", "author": "Jean-Paul Sartre", "url": "https://bookshop.org/search?keywords=existentialism+humanism+sartre" }
+    ],
+    "tags": ["existence", "freedom", "sartre", "consciousness"]
+  },
+  {
+    "name": "Empiricism",
+    "thinker": "John Locke",
+    "category": "Epistemology",
+    "era": "Modern",
+    "difficulty": 1,
+    "description": "Empiricism is the view that all knowledge derives from sensory experience. Against the rationalist claim that some knowledge is innate or available through reason alone, Locke argued that the mind begins as a blank slate—a tabula rasa—filled entirely by experience. Hume extended this by arguing that even our ideas of causation and the self are nothing more than patterns of sensation. Empiricism underpins modern science and remains the dominant epistemological framework among scientists and many philosophers today.",
+    "thinkerBio": "John Locke (1632–1704) was an English philosopher and physician whose work on epistemology and political theory profoundly shaped the Enlightenment. His Essay Concerning Human Understanding argues that all knowledge originates in sense experience, while his political writings influenced the American Declaration of Independence.",
+    "quote": "The senses at first let in particular ideas, and furnish the yet empty cabinet.",
+    "related": [
+      { "name": "Rationalism", "type": "opposes" },
+      { "name": "A Priori Knowledge", "type": "opposes" },
+      { "name": "Falsifiability", "type": "parallel" },
+      { "name": "Scientific Realism", "type": "extends" }
+    ],
+    "books": [
+      { "title": "An Essay Concerning Human Understanding", "author": "John Locke", "url": "https://bookshop.org/search?keywords=essay+concerning+human+understanding+locke" },
+      { "title": "An Enquiry Concerning Human Understanding", "author": "David Hume", "url": "https://bookshop.org/search?keywords=enquiry+concerning+human+understanding+hume" }
+    ],
+    "tags": ["knowledge", "experience", "locke", "perception"]
+  },
+  {
+    "name": "Social Contract",
+    "thinker": "Jean-Jacques Rousseau",
+    "category": "Political Philosophy",
+    "era": "Modern",
+    "difficulty": 1,
+    "description": "The social contract is the idea that political authority is legitimate only when grounded in an agreement—implicit or explicit—among the people it governs. Hobbes saw the contract as a surrender of freedoms to a sovereign in exchange for security. Locke grounded it in natural rights and made government answerable to the governed. Rousseau added the concept of the 'general will'—the collective good that legitimate government must express. Social contract theory remains the dominant framework for liberal democratic legitimacy.",
+    "thinkerBio": "Jean-Jacques Rousseau (1712–1778) was a Genevan philosopher and writer who profoundly influenced the French Revolution and Romantic thought. His works on education (Émile), politics (The Social Contract), and autobiography (Confessions) continue to shape debates in political theory, education, and moral psychology.",
+    "quote": "Man is born free, and everywhere he is in chains.",
+    "related": [
+      { "name": "Liberalism", "type": "extends" },
+      { "name": "Anarchism", "type": "opposes" },
+      { "name": "Justice as Fairness", "type": "extends" },
+      { "name": "Communitarianism", "type": "opposes" }
+    ],
+    "books": [
+      { "title": "The Social Contract", "author": "Jean-Jacques Rousseau", "url": "https://bookshop.org/search?keywords=social+contract+rousseau" },
+      { "title": "Leviathan", "author": "Thomas Hobbes", "url": "https://bookshop.org/search?keywords=leviathan+hobbes" }
+    ],
+    "tags": ["politics", "legitimacy", "rousseau", "democracy"]
+  },
+  {
+    "name": "Hard Problem of Consciousness",
+    "thinker": "David Chalmers",
+    "category": "Philosophy of Mind",
+    "era": "Contemporary",
+    "difficulty": 2,
+    "description": "The hard problem of consciousness, named by David Chalmers, is the challenge of explaining why physical processes in the brain give rise to subjective experience—why there is 'something it is like' to see red or feel pain. The easy problems, by contrast, concern how the brain processes information, integrates stimuli, and controls behavior—difficult but tractable scientifically. The hard problem may require entirely new concepts or even a revision of our understanding of nature, as no purely functional explanation seems to account for the felt quality of experience.",
+    "thinkerBio": "David Chalmers (born 1966) is an Australian philosopher and cognitive scientist at New York University and the Australian National University. His 1995 paper and 1996 book The Conscious Mind put the hard problem on the philosophical map and made him one of the most influential figures in contemporary philosophy of mind.",
+    "quote": "Consciousness is the biggest mystery. It may be the largest outstanding obstacle in our quest for a scientific understanding of the universe.",
+    "related": [
+      { "name": "Qualia", "type": "extends" },
+      { "name": "Functionalism", "type": "opposes" },
+      { "name": "Eliminative Materialism", "type": "opposes" },
+      { "name": "Substance Dualism", "type": "parallel" }
+    ],
+    "books": [
+      { "title": "The Conscious Mind", "author": "David Chalmers", "url": "https://bookshop.org/search?keywords=conscious+mind+chalmers" },
+      { "title": "Consciousness Explained", "author": "Daniel Dennett", "url": "https://bookshop.org/search?keywords=consciousness+explained+dennett" }
+    ],
+    "tags": ["consciousness", "qualia", "mind", "chalmers"]
+  },
+  {
+    "name": "Language Games",
+    "thinker": "Ludwig Wittgenstein",
+    "category": "Philosophy of Language",
+    "era": "Contemporary",
+    "difficulty": 2,
+    "description": "Wittgenstein's concept of language games captures the idea that words get their meaning from their use within specific social practices and forms of life, not from private mental meanings or reference to abstract objects. A 'language game' is any rule-governed activity in which language plays a role—from giving orders to telling jokes to scientific inquiry. There is no single essence to language, just a family of overlapping practices. This view dismantled the picture theory of meaning he had earlier proposed and redirected philosophy toward attention to ordinary usage.",
+    "thinkerBio": "Ludwig Wittgenstein (1889–1951) was an Austrian-British philosopher who made major contributions to logic, the philosophy of mathematics, and the philosophy of language. His two masterworks—the Tractatus Logico-Philosophicus and the posthumous Philosophical Investigations—represent two radically different approaches to meaning and represent two of the most influential texts in twentieth-century philosophy.",
+    "quote": "To imagine a language means to imagine a form of life.",
+    "related": [
+      { "name": "Meaning as Use", "type": "extends" },
+      { "name": "Speech Act Theory", "type": "parallel" },
+      { "name": "Empiricism", "type": "parallel" },
+      { "name": "Rationalism", "type": "opposes" }
+    ],
+    "books": [
+      { "title": "Philosophical Investigations", "author": "Ludwig Wittgenstein", "url": "https://bookshop.org/search?keywords=philosophical+investigations+wittgenstein" },
+      { "title": "The Blue and Brown Books", "author": "Ludwig Wittgenstein", "url": "https://bookshop.org/search?keywords=blue+brown+books+wittgenstein" }
+    ],
+    "tags": ["language", "meaning", "wittgenstein", "practice"]
+  }
+]
