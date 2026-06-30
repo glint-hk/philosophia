@@ -4,6 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "parse-volumes": "node scripts/parse-volumes.js",
+    "merge": "node scripts/merge-concepts.js",
+    "build-data": "npm run parse-volumes && npm run merge",
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",

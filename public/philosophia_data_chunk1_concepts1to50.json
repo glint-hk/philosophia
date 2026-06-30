@@ -1,0 +1,2716 @@
+{
+  "_metadata": {
+    "version": "5.0",
+    "chunk": "1 of 7",
+    "concepts_in_chunk": "1–50",
+    "instruction": "For each object, find the matching concept in concepts.json by 'name' (exact match, case-sensitive). Add or overwrite: thinkerBio, quote, tags, related, books. All other fields remain unchanged.",
+    "affiliate_note": "books[].url format: https://bookshop.org/a/philosophia/ISBN — replace ISBN with real ISBN-13 after joining Bookshop.org affiliate program.",
+    "related_types": [
+      "Opposes",
+      "Extends",
+      "Parallel",
+      "Resolves"
+    ]
+  },
+  "completion": [
+    {
+      "name": "Categorical Imperative",
+      "thinkerBio": "Immanuel Kant (1724–1804) was a German philosopher who spent his career at Königsberg; his Groundwork for the Metaphysics of Morals established deontological ethics as a systematic alternative to both consequentialism and divine command theory.",
+      "quote": "Act only according to that maxim whereby you can at the same time will that it should become a universal law.",
+      "tags": [
+        "ethics",
+        "deontology",
+        "kant",
+        "universalizability"
+      ],
+      "related": [
+        {
+          "name": "Utilitarianism",
+          "type": "Opposes",
+          "note": "Kant grounds morality in universalizable duty regardless of outcomes; utilitarianism grounds it entirely in aggregate consequences."
+        },
+        {
+          "name": "Contractualism",
+          "type": "Parallel",
+          "note": "Both ground morality in what rational agents could agree to or universalize, differing on the specific procedure."
+        },
+        {
+          "name": "Autonomy and Paternalism",
+          "type": "Resolves",
+          "note": "The humanity formula — treat persons as ends, never merely as means — directly grounds the wrongness of hard paternalism."
+        },
+        {
+          "name": "Rights",
+          "type": "Extends",
+          "note": "Kantian rights are derived from the categorical imperative: each person's rational nature creates inviolable claims against others."
+        }
+      ],
+      "books": [
+        {
+          "title": "Groundwork of the Metaphysics of Morals",
+          "author": "Immanuel Kant",
+          "url": "https://bookshop.org/a/philosophia/9781107401068",
+          "why": "The primary source — Kant's compressed argument for the categorical imperative in under 100 pages."
+        },
+        {
+          "title": "Kant's Ethics",
+          "author": "Allen Wood",
+          "url": "https://bookshop.org/a/philosophia/9780521528474",
+          "why": "The clearest contemporary guide to Kant's moral philosophy by one of its leading scholars."
+        },
+        {
+          "title": "The Metaphysics of Morals",
+          "author": "Immanuel Kant",
+          "url": "https://bookshop.org/a/philosophia/9780521626706",
+          "why": "Kant's application of the categorical imperative to rights, duties, and virtue — the full practical system."
+        }
+      ]
+    },
+    {
+      "name": "Utilitarianism",
+      "thinkerBio": "Jeremy Bentham (1748–1832) founded utilitarianism and proposed the hedonic calculus; John Stuart Mill (1806–1873) refined it by distinguishing higher from lower pleasures and connecting it to liberal political philosophy in On Liberty and Utilitarianism.",
+      "quote": "It is better to be Socrates dissatisfied than a fool satisfied.",
+      "tags": [
+        "ethics",
+        "consequentialism",
+        "welfare",
+        "bentham",
+        "mill"
+      ],
+      "related": [
+        {
+          "name": "Categorical Imperative",
+          "type": "Opposes",
+          "note": "Utilitarianism judges actions by outcomes; the categorical imperative judges by universalizability of the maxim regardless of outcome."
+        },
+        {
+          "name": "Original Position",
+          "type": "Opposes",
+          "note": "Rawls designed the original position specifically to block utilitarian reasoning that sacrifices individuals for aggregate gain."
+        },
+        {
+          "name": "Care Ethics",
+          "type": "Opposes",
+          "note": "Utilitarianism requires strict impartiality; care ethics holds partiality toward particular relationships is morally required, not a failing."
+        },
+        {
+          "name": "Population Ethics",
+          "type": "Extends",
+          "note": "Parfit's repugnant conclusion arises directly from applying utilitarian aggregation logic to questions of population size."
+        }
+      ],
+      "books": [
+        {
+          "title": "Utilitarianism",
+          "author": "John Stuart Mill",
+          "url": "https://bookshop.org/a/philosophia/9780872206052",
+          "why": "Mill's elegant 50-page defence — the most readable entry point into the utilitarian tradition."
+        },
+        {
+          "title": "The Expanding Circle",
+          "author": "Peter Singer",
+          "url": "https://bookshop.org/a/philosophia/9780691150697",
+          "why": "The most important contemporary application of utilitarian reasoning to our obligations to animals and the global poor."
+        },
+        {
+          "title": "Reasons and Persons",
+          "author": "Derek Parfit",
+          "url": "https://bookshop.org/a/philosophia/9780198246152",
+          "why": "Parfit's masterwork explores and challenges utilitarian theory through thought experiments that permanently changed moral philosophy."
+        }
+      ]
+    },
+    {
+      "name": "Virtue Ethics",
+      "thinkerBio": "Aristotle (384–322 BCE) was a student of Plato whose Nicomachean Ethics remains the foundational text of virtue theory; the approach was revived in analytic philosophy by G.E.M. Anscombe, Philippa Foot, and Alasdair MacIntyre from the 1950s onward.",
+      "quote": "We are what we repeatedly do. Excellence, then, is not an act but a habit.",
+      "tags": [
+        "ethics",
+        "virtue",
+        "character",
+        "aristotle",
+        "eudaimonia"
+      ],
+      "related": [
+        {
+          "name": "Eudaimonia",
+          "type": "Extends",
+          "note": "Virtue ethics aims at eudaimonia — virtuous character exercised over a complete life just is what human flourishing consists in."
+        },
+        {
+          "name": "Care Ethics",
+          "type": "Parallel",
+          "note": "Both focus on character and relationship over abstract rules; care ethics reads as virtue ethics with attentive caring as the central virtue."
+        },
+        {
+          "name": "Moral Particularism",
+          "type": "Extends",
+          "note": "Practical wisdom (phronesis) — the virtue that identifies what each situation requires — is the basis for particularist moral perception."
+        },
+        {
+          "name": "Confucian Ren",
+          "type": "Parallel",
+          "note": "Both ground ethics in cultivated character dispositions acquired through practice and embedded in relationships rather than abstract principles."
+        }
+      ],
+      "books": [
+        {
+          "title": "Nicomachean Ethics",
+          "author": "Aristotle",
+          "url": "https://bookshop.org/a/philosophia/9780872204645",
+          "why": "The foundational text — Aristotle's full account of virtue, character, friendship, and human flourishing."
+        },
+        {
+          "title": "After Virtue",
+          "author": "Alasdair MacIntyre",
+          "url": "https://bookshop.org/a/philosophia/9780268035044",
+          "why": "MacIntyre's argument for returning to Aristotelian virtue ethics after the failure of Enlightenment moral philosophy."
+        },
+        {
+          "title": "Natural Goodness",
+          "author": "Philippa Foot",
+          "url": "https://bookshop.org/a/philosophia/9780198235088",
+          "why": "Foot's late masterwork grounding virtue ethics in natural facts about human flourishing — the most rigorous contemporary defence."
+        }
+      ]
+    },
+    {
+      "name": "Moral Relativism",
+      "thinkerBio": "Moral relativism draws on anthropologists like Ruth Benedict (1887–1948) and philosophers including Gilbert Harman (1938–2021); its modern philosophical articulation owes most to Harman's work, though the empirical motivation comes from cross-cultural anthropology.",
+      "quote": "What is right in one culture may be wrong in another, and neither verdict is objectively correct.",
+      "tags": [
+        "ethics",
+        "metaethics",
+        "relativism",
+        "culture",
+        "anti-realism"
+      ],
+      "related": [
+        {
+          "name": "Moral Realism",
+          "type": "Opposes",
+          "note": "Moral realism holds moral facts are objective and universal; relativism denies any mind-independent moral truth."
+        },
+        {
+          "name": "Error Theory",
+          "type": "Parallel",
+          "note": "Both deny objective moral truth; error theory says moral claims are false while relativism says they are true relative to a framework."
+        },
+        {
+          "name": "Standpoint Epistemology",
+          "type": "Extends",
+          "note": "Standpoint theory accepts that social position shapes moral knowledge, though it stops short of full relativism."
+        },
+        {
+          "name": "Multiculturalism",
+          "type": "Extends",
+          "note": "Multicultural politics draws on relativist intuitions about cultural legitimacy while typically resisting the full relativist conclusion."
+        }
+      ],
+      "books": [
+        {
+          "title": "Ethics: Inventing Right and Wrong",
+          "author": "J.L. Mackie",
+          "url": "https://bookshop.org/a/philosophia/9780140135588",
+          "why": "Mackie's error theory is the most philosophically disciplined anti-realist position, engaging seriously with both relativism and objectivism."
+        },
+        {
+          "title": "Morality: An Introduction to Ethics",
+          "author": "Bernard Williams",
+          "url": "https://bookshop.org/a/philosophia/9780521457699",
+          "why": "Williams challenges both naive relativism and naive objectivism with characteristic philosophical precision."
+        },
+        {
+          "title": "Patterns of Culture",
+          "author": "Ruth Benedict",
+          "url": "https://bookshop.org/a/philosophia/9780618619450",
+          "why": "The classic anthropological case for cultural relativism — still the most readable empirical motivation for the view."
+        }
+      ]
+    },
+    {
+      "name": "Original Position",
+      "thinkerBio": "John Rawls (1921–2002) was a Harvard political philosopher whose A Theory of Justice (1971) revived systematic political philosophy after decades of metaethical preoccupation; his work dominated political philosophy for the final decades of the twentieth century.",
+      "quote": "Justice is the first virtue of social institutions, as truth is of systems of thought.",
+      "tags": [
+        "ethics",
+        "justice",
+        "rawls",
+        "social-contract",
+        "political"
+      ],
+      "related": [
+        {
+          "name": "Social Contract",
+          "type": "Extends",
+          "note": "The original position is Rawls's transformation of the social contract tradition into a rigorous thought experiment about the standpoint of fairness."
+        },
+        {
+          "name": "Utilitarianism",
+          "type": "Opposes",
+          "note": "The difference principle blocks utilitarian reasoning — behind the veil, no rational agent would accept utilitarian risk of being the worst-off."
+        },
+        {
+          "name": "Justice as Fairness",
+          "type": "Extends",
+          "note": "The original position is the device through which the two principles of justice as fairness are derived."
+        },
+        {
+          "name": "Communitarianism",
+          "type": "Opposes",
+          "note": "Sandel's critique targets the unencumbered self behind the veil as a psychologically implausible abstraction stripped of constitutive attachments."
+        }
+      ],
+      "books": [
+        {
+          "title": "A Theory of Justice",
+          "author": "John Rawls",
+          "url": "https://bookshop.org/a/philosophia/9780674000780",
+          "why": "The source — Rawls's full argument for justice as fairness including the original position and difference principle."
+        },
+        {
+          "title": "Liberalism and the Limits of Justice",
+          "author": "Michael Sandel",
+          "url": "https://bookshop.org/a/philosophia/9780521567411",
+          "why": "The most influential communitarian critique of Rawls — essential for understanding what the original position assumes."
+        },
+        {
+          "title": "Justice: What's the Right Thing to Do?",
+          "author": "Michael Sandel",
+          "url": "https://bookshop.org/a/philosophia/9780374532508",
+          "why": "The most accessible entry to debates about justice, using vivid cases to test Rawlsian and utilitarian intuitions."
+        }
+      ]
+    },
+    {
+      "name": "Care Ethics",
+      "thinkerBio": "Carol Gilligan (b. 1936) challenged Kohlberg's male-biased moral development theory in In a Different Voice (1982); Nel Noddings (b. 1929) and Virginia Held (b. 1929) developed care ethics into a systematic philosophical framework over subsequent decades.",
+      "quote": "The ideal of care is an activity of relationship, of seeing and responding to need, taking care of the world by sustaining the web of connection.",
+      "tags": [
+        "ethics",
+        "care",
+        "feminism",
+        "relationships",
+        "partiality"
+      ],
+      "related": [
+        {
+          "name": "Feminist Ethics of Care",
+          "type": "Extends",
+          "note": "Care ethics is developed into a full political philosophy by Held and Tronto, connecting it to the structural devaluation of care work."
+        },
+        {
+          "name": "Virtue Ethics",
+          "type": "Parallel",
+          "note": "Both focus on character and relationship over rules; care ethics reads as virtue ethics with attentive caring as the paradigmatic virtue."
+        },
+        {
+          "name": "Utilitarianism",
+          "type": "Opposes",
+          "note": "Utilitarianism demands strict impartiality; care ethics holds that partiality toward particular relationships is morally required, not a failing."
+        },
+        {
+          "name": "Ubuntu",
+          "type": "Parallel",
+          "note": "Both ground ethics in constitutive relationships and community rather than in abstract individual rights or impartial obligations."
+        }
+      ],
+      "books": [
+        {
+          "title": "In a Different Voice",
+          "author": "Carol Gilligan",
+          "url": "https://bookshop.org/a/philosophia/9780674445437",
+          "why": "Gilligan's foundational critique of male-biased moral development and introduction of the care orientation."
+        },
+        {
+          "title": "Caring: A Feminine Approach to Ethics",
+          "author": "Nel Noddings",
+          "url": "https://bookshop.org/a/philosophia/9780520238718",
+          "why": "The first systematic philosophical development of care ethics as a complete moral theory."
+        },
+        {
+          "title": "The Ethics of Care",
+          "author": "Virginia Held",
+          "url": "https://bookshop.org/a/philosophia/9780195180992",
+          "why": "Held's mature synthesis connecting care ethics to political philosophy, justice, and feminist theory."
+        }
+      ]
+    },
+    {
+      "name": "Moral Luck",
+      "thinkerBio": "Thomas Nagel (b. 1937) at NYU and Bernard Williams (1929–2003) jointly introduced the concept in a 1976 symposium; their contrasting approaches — Nagel more systematic, Williams more skeptical of moral theory — define the two main positions in the debate.",
+      "quote": "The truck driver who accidentally kills a child is not merely unlucky — his life is changed, and we judge him differently.",
+      "tags": [
+        "ethics",
+        "responsibility",
+        "luck",
+        "moral-psychology",
+        "accountability"
+      ],
+      "related": [
+        {
+          "name": "Free Will vs Determinism",
+          "type": "Extends",
+          "note": "Moral luck presses the same basic tension — if outcomes are not fully under our control, the basis for differential moral assessment is threatened."
+        },
+        {
+          "name": "Consequentialism and Its Limits",
+          "type": "Extends",
+          "note": "Williams's integrity argument and his work on moral luck are both critiques of how consequentialism handles the agent's relationship to their own actions."
+        },
+        {
+          "name": "Punishment",
+          "type": "Extends",
+          "note": "Moral luck directly challenges retributive punishment: if desert depends on outcomes partly outside one's control, what grounds differential sentencing?"
+        },
+        {
+          "name": "Free Will and Moral Responsibility",
+          "type": "Extends",
+          "note": "Moral luck and the problem of free will both undermine the metaphysical basis for the reactive attitudes of blame and praise."
+        }
+      ],
+      "books": [
+        {
+          "title": "Mortal Questions",
+          "author": "Thomas Nagel",
+          "url": "https://bookshop.org/a/philosophia/9780521406765",
+          "why": "Contains Nagel's foundational essay on moral luck alongside classic papers on consciousness and the meaning of life."
+        },
+        {
+          "title": "Moral Luck",
+          "author": "Daniel Statman (ed.)",
+          "url": "https://bookshop.org/a/philosophia/9780791426555",
+          "why": "The essential anthology collecting key papers including Williams and Nagel's original contributions."
+        },
+        {
+          "title": "Ethics and the Limits of Philosophy",
+          "author": "Bernard Williams",
+          "url": "https://bookshop.org/a/philosophia/9780674268586",
+          "why": "Williams's full critique of moral theory — moral luck is central to his case against systematic ethics."
+        }
+      ]
+    },
+    {
+      "name": "Contractualism",
+      "thinkerBio": "John Rawls (1921–2002) developed institutional contractualism in A Theory of Justice; T.M. Scanlon (b. 1940) at Harvard developed a distinct account of individual moral wrongness in What We Owe to Each Other (1998), making the tradition two-layered.",
+      "quote": "An act is wrong if its performance would be disallowed by any set of principles that no one could reasonably reject as a basis for general agreement.",
+      "tags": [
+        "ethics",
+        "contractualism",
+        "scanlon",
+        "justification",
+        "reasonable-rejection"
+      ],
+      "related": [
+        {
+          "name": "Original Position",
+          "type": "Extends",
+          "note": "Rawls's original position is the procedural device through which contractualist principles of justice are derived."
+        },
+        {
+          "name": "Categorical Imperative",
+          "type": "Parallel",
+          "note": "Both ground morality in what rational agents could agree to or universalize, differing on procedure and scope."
+        },
+        {
+          "name": "Rights",
+          "type": "Extends",
+          "note": "Contractualism builds individual rights into moral foundations by requiring principles to be justifiable to each person individually."
+        },
+        {
+          "name": "Utilitarianism",
+          "type": "Opposes",
+          "note": "Contractualism explicitly rejects utilitarian aggregation — a principle sacrificing one person for aggregate benefit could always be reasonably rejected by that person."
+        }
+      ],
+      "books": [
+        {
+          "title": "What We Owe to Each Other",
+          "author": "T.M. Scanlon",
+          "url": "https://bookshop.org/a/philosophia/9780674004238",
+          "why": "Scanlon's definitive statement — the source for the reasonable rejection test and its implications for moral theory."
+        },
+        {
+          "title": "A Theory of Justice",
+          "author": "John Rawls",
+          "url": "https://bookshop.org/a/philosophia/9780674000780",
+          "why": "Rawls's contractualism for institutional design — the necessary complement to Scanlon's individual wrongness account."
+        },
+        {
+          "title": "The Difficulty of Tolerance",
+          "author": "T.M. Scanlon",
+          "url": "https://bookshop.org/a/philosophia/9780521534338",
+          "why": "Scanlon's essays applying contractualism to tolerance, free speech, and global justice — the framework in action."
+        }
+      ]
+    },
+    {
+      "name": "Eudaimonia",
+      "thinkerBio": "Aristotle (384–322 BCE) developed eudaimonia in the Nicomachean Ethics as the ultimate human good; Martha Nussbaum (b. 1947) at the University of Chicago produced the most influential contemporary development through the capabilities approach.",
+      "quote": "Happiness is the meaning and the purpose of life, the whole aim and end of human existence.",
+      "tags": [
+        "ethics",
+        "flourishing",
+        "aristotle",
+        "wellbeing",
+        "teleology"
+      ],
+      "related": [
+        {
+          "name": "Virtue Ethics",
+          "type": "Extends",
+          "note": "Virtue ethics aims at eudaimonia — virtuous character exercised over a complete life just is what flourishing consists in."
+        },
+        {
+          "name": "Utilitarianism",
+          "type": "Opposes",
+          "note": "Eudaimonia is an objective condition requiring activity and external goods; utilitarian happiness is a subjective mental state of pleasure or preference satisfaction."
+        },
+        {
+          "name": "Dharma",
+          "type": "Parallel",
+          "note": "Both ground human flourishing in acting in accordance with one's nature and proper function within a larger order."
+        },
+        {
+          "name": "Buddhist Ethics",
+          "type": "Parallel",
+          "note": "The Eightfold Path and eudaimonia both describe a path to genuine flourishing through right character and action, though Buddhism denies the persistent self Aristotle's account requires."
+        }
+      ],
+      "books": [
+        {
+          "title": "Nicomachean Ethics",
+          "author": "Aristotle",
+          "url": "https://bookshop.org/a/philosophia/9780872204645",
+          "why": "The foundational text — Aristotle's full account of eudaimonia, virtue, friendship, and the contemplative life."
+        },
+        {
+          "title": "Creating Capabilities",
+          "author": "Martha Nussbaum",
+          "url": "https://bookshop.org/a/philosophia/9780674072350",
+          "why": "Nussbaum's accessible statement of her capabilities approach — eudaimonia operationalized for development policy and global justice."
+        },
+        {
+          "title": "The Fragility of Goodness",
+          "author": "Martha Nussbaum",
+          "url": "https://bookshop.org/a/philosophia/9780521794732",
+          "why": "Nussbaum's philosophical account of luck, vulnerability, and the conditions for genuine flourishing in Greek tragedy and philosophy."
+        }
+      ]
+    },
+    {
+      "name": "The Trolley Problem",
+      "thinkerBio": "Philippa Foot (1920–2010) introduced the original trolley scenario in 1967 in her paper on the doctrine of double effect; Judith Jarvis Thomson (b. 1929) at MIT developed the footbridge variant and systematized the doing/allowing distinction the cases illuminate.",
+      "quote": "It seems right to turn the trolley and save five lives, even though this means killing one person.",
+      "tags": [
+        "ethics",
+        "thought-experiment",
+        "deontology",
+        "consequentialism",
+        "moral-psychology"
+      ],
+      "related": [
+        {
+          "name": "Utilitarianism",
+          "type": "Opposes",
+          "note": "The footbridge case shows most people are not pure utilitarians — identical arithmetic, radically different moral verdict."
+        },
+        {
+          "name": "Categorical Imperative",
+          "type": "Extends",
+          "note": "The footbridge case tests Kant's humanity formula — using the large man as a mere means to save the five."
+        },
+        {
+          "name": "The Trolley Problem's Legacy",
+          "type": "Extends",
+          "note": "Decades of trolleyology developed from these cases, culminating in Greene's neuroscientific research on dual-process moral psychology."
+        },
+        {
+          "name": "Moral Psychology",
+          "type": "Extends",
+          "note": "The trolley problem is the most-used instrument in moral psychology experiments, revealing how framing and emotional salience shape moral judgment."
+        }
+      ],
+      "books": [
+        {
+          "title": "Virtues and Vices",
+          "author": "Philippa Foot",
+          "url": "https://bookshop.org/a/philosophia/9780199252305",
+          "why": "Contains Foot's original trolley paper alongside her broader virtue ethics work."
+        },
+        {
+          "title": "Would You Kill the Fat Man?",
+          "author": "David Edmonds",
+          "url": "https://bookshop.org/a/philosophia/9780691154084",
+          "why": "An accessible and thorough history of the trolley problem and what it has revealed about moral psychology."
+        },
+        {
+          "title": "Moral Tribes",
+          "author": "Joshua Greene",
+          "url": "https://bookshop.org/a/philosophia/9781594203275",
+          "why": "Greene's neuroscientific and philosophical account of what the trolley problem reveals about dual-process moral psychology."
+        }
+      ]
+    },
+    {
+      "name": "Substance Dualism",
+      "thinkerBio": "René Descartes (1596–1650) was a French philosopher and mathematician who inaugurated modern philosophy through radical doubt; his Meditations on First Philosophy (1641) remains the canonical statement of the mind-body problem.",
+      "quote": "I think, therefore I am.",
+      "tags": [
+        "metaphysics",
+        "mind-body",
+        "descartes",
+        "dualism",
+        "consciousness"
+      ],
+      "related": [
+        {
+          "name": "Hard Problem of Consciousness",
+          "type": "Extends",
+          "note": "The hard problem is the modern successor to Cartesian dualism — both hold that subjective experience cannot be explained in purely physical terms."
+        },
+        {
+          "name": "Functionalism",
+          "type": "Opposes",
+          "note": "Functionalism holds mental states are defined by causal roles realizable in multiple substrates — a direct challenge to the Cartesian immaterial mind."
+        },
+        {
+          "name": "Panpsychism",
+          "type": "Parallel",
+          "note": "Both are non-physicalist positions that take consciousness seriously as irreducible to physical description."
+        },
+        {
+          "name": "Embodied Cognition",
+          "type": "Opposes",
+          "note": "Embodied cognition directly challenges Descartes's picture of the mind as an unextended thinking substance that merely inhabits the body."
+        }
+      ],
+      "books": [
+        {
+          "title": "Meditations on First Philosophy",
+          "author": "René Descartes",
+          "url": "https://bookshop.org/a/philosophia/9781107665682",
+          "why": "The primary source — Descartes's six meditations argue from radical doubt to substance dualism."
+        },
+        {
+          "title": "The Conscious Mind",
+          "author": "David Chalmers",
+          "url": "https://bookshop.org/a/philosophia/9780195117899",
+          "why": "The most rigorous contemporary defence of non-physicalism — takes the intuitions behind dualism seriously."
+        },
+        {
+          "title": "Philosophy of Mind",
+          "author": "Jaegwon Kim",
+          "url": "https://bookshop.org/a/philosophia/9780813344584",
+          "why": "The clearest textbook introduction to the mind-body problem and its major positions."
+        }
+      ]
+    },
+    {
+      "name": "Possible Worlds",
+      "thinkerBio": "Saul Kripke (b. 1940) introduced possible worlds semantics for modal logic in the late 1950s; David Lewis (1941–2001) at Princeton developed modal realism — the radical claim that possible worlds are literally real concrete universes — in On the Plurality of Worlds (1986).",
+      "quote": "I believe, and so do you, that things could have been different in countless ways.",
+      "tags": [
+        "metaphysics",
+        "modality",
+        "possible-worlds",
+        "lewis",
+        "kripke"
+      ],
+      "related": [
+        {
+          "name": "Counterfactuals",
+          "type": "Extends",
+          "note": "Lewis's possible worlds semantics was explicitly developed to give rigorous truth conditions for counterfactual conditionals."
+        },
+        {
+          "name": "Essentialism",
+          "type": "Extends",
+          "note": "Kripke's essentialism is grounded in possible worlds — essential properties are those a thing has in every possible world in which it exists."
+        },
+        {
+          "name": "Modality and Necessity",
+          "type": "Extends",
+          "note": "Possible worlds provide the formal semantic framework within which metaphysical necessity and possibility are analyzed."
+        },
+        {
+          "name": "Four-Dimensionalism",
+          "type": "Extends",
+          "note": "Lewis's modal realism and his four-dimensionalism about persistence are parts of the same comprehensive metaphysical system."
+        }
+      ],
+      "books": [
+        {
+          "title": "On the Plurality of Worlds",
+          "author": "David Lewis",
+          "url": "https://bookshop.org/a/philosophia/9780631224426",
+          "why": "Lewis's full defence of modal realism — the most ambitious and systematic metaphysical theory of the twentieth century."
+        },
+        {
+          "title": "Naming and Necessity",
+          "author": "Saul Kripke",
+          "url": "https://bookshop.org/a/philosophia/9780631128014",
+          "why": "Kripke's lectures that transformed philosophy of language and modal metaphysics — accessible and foundational."
+        },
+        {
+          "title": "The Philosophy of Philosophy",
+          "author": "Timothy Williamson",
+          "url": "https://bookshop.org/a/philosophia/9781405133975",
+          "why": "Williamson's account of philosophical methodology through modal epistemology and the limits of possible worlds reasoning."
+        }
+      ]
+    },
+    {
+      "name": "The Ship of Theseus",
+      "thinkerBio": "The puzzle originates with Plutarch (c. 46–120 CE) in his Life of Theseus; its most philosophically rigorous modern treatment is Derek Parfit's (1942–2017) application to personal identity in Reasons and Persons (1984).",
+      "quote": "If every plank has been replaced, is it still the same ship?",
+      "tags": [
+        "metaphysics",
+        "identity",
+        "persistence",
+        "thought-experiment",
+        "change"
+      ],
+      "related": [
+        {
+          "name": "Identity Over Time",
+          "type": "Extends",
+          "note": "The Ship of Theseus is the general puzzle of which personal identity over time is the most urgent and practically significant version."
+        },
+        {
+          "name": "Personal Identity",
+          "type": "Extends",
+          "note": "Parfit used ship-of-Theseus-type cases to argue that personal identity is indeterminate and not what matters in survival."
+        },
+        {
+          "name": "Material Constitution",
+          "type": "Extends",
+          "note": "The reassembled original-planks problem is a version of material constitution — two objects with different persistence conditions sharing the same matter."
+        },
+        {
+          "name": "Mereology",
+          "type": "Extends",
+          "note": "The puzzle raises mereological questions about whether the identity of a whole is determined by its parts or by formal and functional structure."
+        }
+      ],
+      "books": [
+        {
+          "title": "Reasons and Persons",
+          "author": "Derek Parfit",
+          "url": "https://bookshop.org/a/philosophia/9780198246152",
+          "why": "Parfit's exploration of personal identity puzzles that made the Ship of Theseus philosophically central."
+        },
+        {
+          "title": "Personal Identity",
+          "author": "John Perry (ed.)",
+          "url": "https://bookshop.org/a/philosophia/9780520051508",
+          "why": "The essential anthology of personal identity including Locke, Hume, and contemporary papers."
+        },
+        {
+          "title": "Metaphysics: An Anthology",
+          "author": "Sosa, Kim, Fantl, McGrath (eds.)",
+          "url": "https://bookshop.org/a/philosophia/9781444335262",
+          "why": "Contains the key papers on identity over time and material constitution in one volume."
+        }
+      ]
+    },
+    {
+      "name": "Causation",
+      "thinkerBio": "David Hume (1711–1776) was a Scottish philosopher whose analysis of causation in the Treatise of Human Nature (1739) and Enquiry Concerning Human Understanding (1748) remains the unavoidable starting point for all subsequent theories of causation.",
+      "quote": "We have no other notion of cause and effect but that of certain objects which have always been conjoined together.",
+      "tags": [
+        "metaphysics",
+        "causation",
+        "hume",
+        "necessity",
+        "induction"
+      ],
+      "related": [
+        {
+          "name": "The Problem of Induction",
+          "type": "Extends",
+          "note": "Hume's problem of causation and his problem of induction are two sides of the same coin — both show necessary connections cannot be observed."
+        },
+        {
+          "name": "Causation in Science",
+          "type": "Extends",
+          "note": "Woodward's interventionist account and Cartwright's capacities view are direct responses to the Humean challenge."
+        },
+        {
+          "name": "Laws of Nature",
+          "type": "Extends",
+          "note": "The debate about whether laws are Humean regularities or necessitating relations between universals is a direct consequence of Hume's analysis."
+        },
+        {
+          "name": "Free Will vs Determinism",
+          "type": "Extends",
+          "note": "If causal necessity reduces to regular sequence, determinism becomes less metaphysically threatening — the basis of compatibilism."
+        }
+      ],
+      "books": [
+        {
+          "title": "An Enquiry Concerning Human Understanding",
+          "author": "David Hume",
+          "url": "https://bookshop.org/a/philosophia/9780199549900",
+          "why": "Hume's most accessible presentation of his analysis of causation, induction, and necessary connection."
+        },
+        {
+          "title": "Causation",
+          "author": "Ernest Sosa and Michael Tooley (eds.)",
+          "url": "https://bookshop.org/a/philosophia/9780198750949",
+          "why": "The essential anthology of contemporary theories of causation."
+        },
+        {
+          "title": "Making Things Happen",
+          "author": "James Woodward",
+          "url": "https://bookshop.org/a/philosophia/9780195189537",
+          "why": "The definitive statement of interventionist causation — the most influential contemporary alternative to Humean regularity theory."
+        }
+      ]
+    },
+    {
+      "name": "Eternal Recurrence",
+      "thinkerBio": "Friedrich Nietzsche (1844–1900) was a German philosopher and philologist who published prolifically from 1872 until his mental collapse in 1889; eternal recurrence appears first in The Gay Science (1882) and is developed most fully in Thus Spoke Zarathustra.",
+      "quote": "What, if some day or night a demon were to steal after you into your loneliest loneliness and say to you: 'This life as you now live it, you will have to live once more and innumerable times more'?",
+      "tags": [
+        "metaphysics",
+        "nietzsche",
+        "existence",
+        "amor-fati",
+        "time"
+      ],
+      "related": [
+        {
+          "name": "Nihilism",
+          "type": "Resolves",
+          "note": "Eternal recurrence is Nietzsche's test for whether one can affirm life without cosmic backing — the proposed answer to nihilism."
+        },
+        {
+          "name": "The Eternal Return as Ethics",
+          "type": "Extends",
+          "note": "The metaphysical thought experiment becomes an ethical criterion — can you will that you have lived as you have lived, forever?"
+        },
+        {
+          "name": "Authenticity",
+          "type": "Extends",
+          "note": "Only a life lived authentically — from one's own values without self-deception — can pass the test of eternal recurrence."
+        },
+        {
+          "name": "Time and Existence",
+          "type": "Parallel",
+          "note": "Both eternal recurrence and Heidegger's being-toward-death use the structure of time to reveal what matters in how one lives."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Gay Science",
+          "author": "Friedrich Nietzsche",
+          "url": "https://bookshop.org/a/philosophia/9780394719856",
+          "why": "Eternal recurrence's first appearance — section 341, 'The Greatest Weight,' is the most important passage."
+        },
+        {
+          "title": "Thus Spoke Zarathustra",
+          "author": "Friedrich Nietzsche",
+          "url": "https://bookshop.org/a/philosophia/9780140441185",
+          "why": "The fullest development of eternal recurrence as the test of amor fati and the will to power."
+        },
+        {
+          "title": "Nietzsche on Truth and Philosophy",
+          "author": "Maudemarie Clark",
+          "url": "https://bookshop.org/a/philosophia/9780521348508",
+          "why": "Clark's rigorous analysis of eternal recurrence as an ethical doctrine rather than a cosmological hypothesis."
+        }
+      ]
+    },
+    {
+      "name": "Panpsychism",
+      "thinkerBio": "David Chalmers (b. 1966) at NYU articulated the hard problem that motivates panpsychism; Philip Goff (b. 1981) at Durham has written the most accessible contemporary defence in Galileo's Error (2019).",
+      "quote": "Consciousness is a fundamental feature of the world, alongside mass, charge, and spin.",
+      "tags": [
+        "metaphysics",
+        "consciousness",
+        "panpsychism",
+        "mind",
+        "chalmers"
+      ],
+      "related": [
+        {
+          "name": "Hard Problem of Consciousness",
+          "type": "Resolves",
+          "note": "Panpsychism avoids the emergence of consciousness from non-conscious matter by making consciousness fundamental rather than emergent."
+        },
+        {
+          "name": "Substance Dualism",
+          "type": "Parallel",
+          "note": "Both are non-physicalist; panpsychism makes consciousness fundamental and physical rather than a separate immaterial substance."
+        },
+        {
+          "name": "Qualia",
+          "type": "Extends",
+          "note": "Panpsychism takes the irreducibility of qualia seriously as requiring revision of our conception of physical reality."
+        },
+        {
+          "name": "Process Philosophy",
+          "type": "Parallel",
+          "note": "Whitehead's process philosophy is a form of panpsychism — each actual occasion has an experiential dimension."
+        }
+      ],
+      "books": [
+        {
+          "title": "Galileo's Error",
+          "author": "Philip Goff",
+          "url": "https://bookshop.org/a/philosophia/9781524747961",
+          "why": "The most accessible and rigorous contemporary case for panpsychism, arguing consciousness was excluded from physics by a historical mistake."
+        },
+        {
+          "title": "Consciousness Explained",
+          "author": "Daniel Dennett",
+          "url": "https://bookshop.org/a/philosophia/9780316180658",
+          "why": "The major opposition — Dennett's eliminativist account that panpsychists must engage with."
+        },
+        {
+          "title": "Mind and the Cosmic Order",
+          "author": "Charles Pinter",
+          "url": "https://bookshop.org/a/philosophia/9781611040111",
+          "why": "Overview of panpsychist traditions from Leibniz through Whitehead to contemporary philosophy."
+        }
+      ]
+    },
+    {
+      "name": "Nihilism",
+      "thinkerBio": "Friedrich Nietzsche (1844–1900) provided nihilism's definitive philosophical diagnosis; the term was popularized in Ivan Turgenev's Fathers and Sons (1862) but its philosophical depth comes from Nietzsche's analysis in The Gay Science, The Will to Power, and Thus Spoke Zarathustra.",
+      "quote": "God is dead. God remains dead. And we have killed him.",
+      "tags": [
+        "metaphysics",
+        "nihilism",
+        "nietzsche",
+        "meaning",
+        "values"
+      ],
+      "related": [
+        {
+          "name": "Eternal Recurrence",
+          "type": "Resolves",
+          "note": "Eternal recurrence is Nietzsche's proposed test for whether one can create meaning without cosmic backing."
+        },
+        {
+          "name": "The Absurd",
+          "type": "Parallel",
+          "note": "Both Camus's absurdism and Nietzsche's nihilism begin from the recognition that the universe provides no inherent meaning, but they respond differently."
+        },
+        {
+          "name": "Will to Power",
+          "type": "Resolves",
+          "note": "Active nihilism expressed through will to power — creating new values — is Nietzsche's answer to the nihilistic collapse."
+        },
+        {
+          "name": "Existence Precedes Essence",
+          "type": "Parallel",
+          "note": "Both Sartrean existentialism and Nietzschean nihilism begin from the absence of pre-given human essence or cosmic meaning."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Will to Power",
+          "author": "Friedrich Nietzsche",
+          "url": "https://bookshop.org/a/philosophia/9780394704371",
+          "why": "Nietzsche's most sustained engagement with nihilism and its overcoming through value-creation."
+        },
+        {
+          "title": "Nausea",
+          "author": "Jean-Paul Sartre",
+          "url": "https://bookshop.org/a/philosophia/9780811201949",
+          "why": "The literary experience of confronting radical contingency — the experiential complement to Nietzsche's philosophical analysis."
+        },
+        {
+          "title": "The Myth of Sisyphus",
+          "author": "Albert Camus",
+          "url": "https://bookshop.org/a/philosophia/9780525564454",
+          "why": "Camus's alternative response to nihilism — revolt and affirmation rather than Nietzsche's value-creation."
+        }
+      ]
+    },
+    {
+      "name": "Essentialism",
+      "thinkerBio": "Aristotle (384–322 BCE) developed essentialism in the Metaphysics and biological works; Saul Kripke (b. 1940) revived it through possible worlds semantics in Naming and Necessity (1972/1980), demonstrating that essential truths are necessary but discovered empirically.",
+      "quote": "Water is necessarily H₂O — this was not known a priori, but once discovered, it is necessarily true.",
+      "tags": [
+        "metaphysics",
+        "essentialism",
+        "natural-kinds",
+        "kripke",
+        "aristotle"
+      ],
+      "related": [
+        {
+          "name": "Possible Worlds",
+          "type": "Extends",
+          "note": "Kripke's essentialism is grounded in possible worlds — essential properties are those a thing has in every possible world in which it exists."
+        },
+        {
+          "name": "Reference and Rigid Designation",
+          "type": "Extends",
+          "note": "Rigid designation and essentialism are two sides of the same view — names rigidly designate their bearers' essential properties."
+        },
+        {
+          "name": "A Priori / A Posteriori",
+          "type": "Resolves",
+          "note": "Kripke shows that essential truths are necessary but a posteriori — dissolving Kant's equation of the necessary with the a priori."
+        },
+        {
+          "name": "Philosophy of Biology",
+          "type": "Extends",
+          "note": "Biological essentialism — that species have essential properties — is the target of much philosophy of biology; most philosophers of biology now reject it."
+        }
+      ],
+      "books": [
+        {
+          "title": "Naming and Necessity",
+          "author": "Saul Kripke",
+          "url": "https://bookshop.org/a/philosophia/9780631128014",
+          "why": "The foundational text for contemporary essentialism — rigid designation and necessary a posteriori truths."
+        },
+        {
+          "title": "Essence and Existence",
+          "author": "Kathrin Koslicki",
+          "url": "https://bookshop.org/a/philosophia/9780199580026",
+          "why": "Rigorous contemporary treatment of essence and what it is for a property to be essential."
+        },
+        {
+          "title": "Metaphysics: The Fundamentals",
+          "author": "Robert Koons and Timothy Pickavance",
+          "url": "https://bookshop.org/a/philosophia/9780470655306",
+          "why": "Clear introduction covering essentialism, possible worlds, and natural kinds."
+        }
+      ]
+    },
+    {
+      "name": "Process Philosophy",
+      "thinkerBio": "Alfred North Whitehead (1861–1947) was a British mathematician who developed process metaphysics in Process and Reality (1929) after collaborating with Russell on Principia Mathematica; he taught at Harvard from 1924 until his death.",
+      "quote": "The art of progress is to preserve order amid change, and to preserve change amid order.",
+      "tags": [
+        "metaphysics",
+        "process",
+        "whitehead",
+        "time",
+        "change"
+      ],
+      "related": [
+        {
+          "name": "Panpsychism",
+          "type": "Parallel",
+          "note": "Whitehead's process philosophy is a form of panpsychism — each actual occasion has an experiential dimension."
+        },
+        {
+          "name": "Dependent Origination",
+          "type": "Parallel",
+          "note": "Both Buddhist dependent origination and Whiteheadian process philosophy take events rather than substances as fundamental."
+        },
+        {
+          "name": "Causation",
+          "type": "Extends",
+          "note": "Process philosophy reconceives causation as the creative advance of actual occasions rather than a relation between persistent substances."
+        },
+        {
+          "name": "Identity Over Time",
+          "type": "Opposes",
+          "note": "Process philosophy denies the persistent substance whose identity over time is in question — what we call things are stable processes."
+        }
+      ],
+      "books": [
+        {
+          "title": "Process and Reality",
+          "author": "Alfred North Whitehead",
+          "url": "https://bookshop.org/a/philosophia/9780029345153",
+          "why": "The foundational text — notoriously difficult but irreplaceable for understanding process metaphysics."
+        },
+        {
+          "title": "Adventures of Ideas",
+          "author": "Alfred North Whitehead",
+          "url": "https://bookshop.org/a/philosophia/9781614278023",
+          "why": "Whitehead's most accessible major work — his philosophical vision applied to civilization, beauty, and ideas."
+        },
+        {
+          "title": "Whitehead's Radically Different Postmodern Philosophy",
+          "author": "David Ray Griffin",
+          "url": "https://bookshop.org/a/philosophia/9780791467961",
+          "why": "The best secondary introduction to process philosophy's systematic implications."
+        }
+      ]
+    },
+    {
+      "name": "Identity Over Time",
+      "thinkerBio": "John Locke (1632–1704) formulated the memory criterion in An Essay Concerning Human Understanding (1689); Derek Parfit (1942–2017) transformed the debate in Reasons and Persons (1984) by arguing that personal identity is indeterminate and not what matters in survival.",
+      "quote": "Personal identity consists not in the identity of substance, but in the identity of consciousness.",
+      "tags": [
+        "metaphysics",
+        "personal-identity",
+        "locke",
+        "parfit",
+        "persistence"
+      ],
+      "related": [
+        {
+          "name": "The Ship of Theseus",
+          "type": "Extends",
+          "note": "Personal identity over time is the most practically urgent particular case of the general Ship of Theseus puzzle."
+        },
+        {
+          "name": "Personal Identity",
+          "type": "Extends",
+          "note": "Identity over time and personal identity are the same problem — what makes you the same person as the infant in that photograph."
+        },
+        {
+          "name": "Anatta",
+          "type": "Parallel",
+          "note": "Parfit's no-self conclusion arrives at structurally similar results to Buddhist anatta through analytic philosophical argument."
+        },
+        {
+          "name": "Memory and Personal Identity",
+          "type": "Extends",
+          "note": "Locke's memory criterion grounds identity over time in epistemological continuity — I am the same person as that child because I remember being them."
+        }
+      ],
+      "books": [
+        {
+          "title": "Reasons and Persons",
+          "author": "Derek Parfit",
+          "url": "https://bookshop.org/a/philosophia/9780198246152",
+          "why": "Part III contains Parfit's argument that personal identity is indeterminate and not what matters in survival."
+        },
+        {
+          "title": "Personal Identity",
+          "author": "Sydney Shoemaker and Richard Swinburne",
+          "url": "https://bookshop.org/a/philosophia/9780631185673",
+          "why": "Two contrasting views — psychological continuity vs substance — in one concise volume."
+        },
+        {
+          "title": "Self and World",
+          "author": "Quassim Cassam",
+          "url": "https://bookshop.org/a/philosophia/9780199248919",
+          "why": "Contemporary account connecting metaphysical questions about personal identity to phenomenology and epistemology."
+        }
+      ]
+    },
+    {
+      "name": "Cogito Ergo Sum",
+      "thinkerBio": "René Descartes (1596–1650) first stated the cogito in Discourse on the Method (1637) and developed it fully in Meditations on First Philosophy (1641); his method of radical doubt and the certainty found in self-consciousness inaugurated modern epistemology.",
+      "quote": "I think, therefore I am.",
+      "tags": [
+        "epistemology",
+        "descartes",
+        "certainty",
+        "foundationalism",
+        "self-knowledge"
+      ],
+      "related": [
+        {
+          "name": "Skepticism",
+          "type": "Resolves",
+          "note": "The cogito is Descartes's proposed escape from radical skepticism — the one truth that survives even the evil demon hypothesis."
+        },
+        {
+          "name": "Foundationalism",
+          "type": "Extends",
+          "note": "The cogito is Descartes's foundational basic belief — the self-evident starting point from which all other knowledge is to be rebuilt."
+        },
+        {
+          "name": "Substance Dualism",
+          "type": "Extends",
+          "note": "The cogito generates substance dualism — Descartes could doubt his body but not his thinking, so mind and body must be distinct."
+        },
+        {
+          "name": "The Intentionality of Consciousness",
+          "type": "Parallel",
+          "note": "Both the cogito and Brentano's intentionality make the first-person perspective philosophically foundational — consciousness is self-intimating in a way physical processes are not."
+        }
+      ],
+      "books": [
+        {
+          "title": "Meditations on First Philosophy",
+          "author": "René Descartes",
+          "url": "https://bookshop.org/a/philosophia/9781107665682",
+          "why": "The primary source — the cogito emerges in the Second Meditation as the one certain truth surviving radical doubt."
+        },
+        {
+          "title": "Descartes: An Intellectual Biography",
+          "author": "Stephen Gaukroger",
+          "url": "https://bookshop.org/a/philosophia/9780198237556",
+          "why": "The definitive intellectual biography — essential context for understanding what Descartes was trying to achieve."
+        },
+        {
+          "title": "The Cambridge Companion to Descartes",
+          "author": "John Cottingham (ed.)",
+          "url": "https://bookshop.org/a/philosophia/9780521366960",
+          "why": "Comprehensive coverage of Descartes's philosophy including the best essays on the cogito."
+        }
+      ]
+    },
+    {
+      "name": "The Gettier Problem",
+      "thinkerBio": "Edmund Gettier (b. 1927) published his three-page paper 'Is Justified True Belief Knowledge?' in Analysis in 1963, launching one of the most productive research programs in analytic epistemology; he taught at the University of Massachusetts Amherst for his entire career.",
+      "quote": "It is possible for a person to have justified true belief and yet fail to have knowledge.",
+      "tags": [
+        "epistemology",
+        "knowledge",
+        "justification",
+        "gettier",
+        "analysis"
+      ],
+      "related": [
+        {
+          "name": "Reliabilism",
+          "type": "Resolves",
+          "note": "Goldman developed reliabilism partly in response to Gettier — knowledge requires reliably produced true belief, not just justified true belief."
+        },
+        {
+          "name": "Virtue Epistemology",
+          "type": "Resolves",
+          "note": "Virtue epistemology responds to Gettier by requiring that knowledge succeed through the exercise of intellectual virtue, not just lucky coincidence."
+        },
+        {
+          "name": "Skepticism",
+          "type": "Extends",
+          "note": "Gettier cases show that justification and truth can align by luck in ways that fall short of knowledge, pressing skeptical questions into ordinary contexts."
+        },
+        {
+          "name": "Epistemic Injustice",
+          "type": "Extends",
+          "note": "Testimonial injustice produces systematic Gettier-like failures — speakers are denied knowledge attribution due to deflated credibility rather than faulty evidence."
+        }
+      ],
+      "books": [
+        {
+          "title": "Epistemology: An Anthology",
+          "author": "Sosa, Kim, Fantl, McGrath (eds.)",
+          "url": "https://bookshop.org/a/philosophia/9781405169660",
+          "why": "Contains the original Gettier paper alongside all major responses — the essential collection for the JTB debate."
+        },
+        {
+          "title": "Knowledge and Its Limits",
+          "author": "Timothy Williamson",
+          "url": "https://bookshop.org/a/philosophia/9780199256563",
+          "why": "Williamson's proposal that knowledge is primitive and unanalyzable — the most influential contemporary response to the failures of JTB analysis."
+        },
+        {
+          "title": "Theory of Knowledge",
+          "author": "Roderick Chisholm",
+          "url": "https://bookshop.org/a/philosophia/9780136393948",
+          "why": "The classic attempt at a complete epistemological theory including multiple responses to the Gettier problem."
+        }
+      ]
+    },
+    {
+      "name": "Falsifiability",
+      "thinkerBio": "Karl Popper (1902–1994) was an Austrian-British philosopher of science who developed falsifiability in The Logic of Scientific Discovery (1934/1959); he also made major contributions to political philosophy in The Open Society and Its Enemies (1945).",
+      "quote": "A theory that is not refutable by any conceivable event is non-scientific.",
+      "tags": [
+        "philosophy-of-science",
+        "falsifiability",
+        "popper",
+        "demarcation",
+        "scientific-method"
+      ],
+      "related": [
+        {
+          "name": "Paradigm Shift",
+          "type": "Opposes",
+          "note": "Kuhn showed that actual science protects paradigms from falsification — normal science doesn't abandon theories on single refutations as Popper's model requires."
+        },
+        {
+          "name": "Demarcation Problem",
+          "type": "Extends",
+          "note": "Falsifiability is Popper's proposed solution to demarcation — the criterion separating science from pseudoscience and metaphysics."
+        },
+        {
+          "name": "Scientific Method",
+          "type": "Extends",
+          "note": "Popper's hypothetico-deductivism replaces Baconian inductivism with bold conjecture and rigorous attempted refutation."
+        },
+        {
+          "name": "Underdetermination",
+          "type": "Opposes",
+          "note": "The Duhem-Quine thesis shows no single hypothesis is strictly falsifiable in isolation — tests always target whole systems of assumptions."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Logic of Scientific Discovery",
+          "author": "Karl Popper",
+          "url": "https://bookshop.org/a/philosophia/9780415278447",
+          "why": "The foundational text — Popper's full argument for falsifiability as the criterion of scientific demarcation."
+        },
+        {
+          "title": "Conjectures and Refutations",
+          "author": "Karl Popper",
+          "url": "https://bookshop.org/a/philosophia/9780415285940",
+          "why": "Popper's most accessible essays on scientific method and the growth of knowledge."
+        },
+        {
+          "title": "Criticism and the Growth of Knowledge",
+          "author": "Lakatos and Musgrave (eds.)",
+          "url": "https://bookshop.org/a/philosophia/9780521096232",
+          "why": "The 1965 colloquium where Popper, Kuhn, Lakatos, and Feyerabend debated the structure of science — essential context."
+        }
+      ]
+    },
+    {
+      "name": "Paradigm Shift",
+      "thinkerBio": "Thomas Kuhn (1922–1996) was an American historian and philosopher of science whose The Structure of Scientific Revolutions (1962) is one of the most cited academic books of the twentieth century; he taught at MIT and Princeton.",
+      "quote": "Normal science does not aim at novelties of fact or theory and, when successful, finds none.",
+      "tags": [
+        "philosophy-of-science",
+        "kuhn",
+        "scientific-revolutions",
+        "paradigm",
+        "incommensurability"
+      ],
+      "related": [
+        {
+          "name": "Falsifiability",
+          "type": "Opposes",
+          "note": "Kuhn showed that actual science protects paradigms from falsification — Popper's model describes an ideal that real science doesn't follow."
+        },
+        {
+          "name": "Theory-Ladenness of Observation",
+          "type": "Extends",
+          "note": "Theory-ladenness explains why paradigm shifts are so difficult — scientists in different paradigms literally see different things."
+        },
+        {
+          "name": "Scientific Revolutions Reconsidered",
+          "type": "Extends",
+          "note": "Lakatos's sophisticated falsificationism and Feyerabend's anarchism are both responses to the challenges posed by Kuhn's historical account."
+        },
+        {
+          "name": "Social Studies of Science",
+          "type": "Extends",
+          "note": "Kuhn's account of paradigms as social phenomena opened the door to sociological approaches to scientific knowledge production."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Structure of Scientific Revolutions",
+          "author": "Thomas Kuhn",
+          "url": "https://bookshop.org/a/philosophia/9780226458120",
+          "why": "The source — still the most important book in twentieth-century philosophy of science."
+        },
+        {
+          "title": "The Essential Tension",
+          "author": "Thomas Kuhn",
+          "url": "https://bookshop.org/a/philosophia/9780226458069",
+          "why": "Kuhn's essays clarifying his account of paradigms, normal science, and scientific progress."
+        },
+        {
+          "title": "Criticism and the Growth of Knowledge",
+          "author": "Lakatos and Musgrave (eds.)",
+          "url": "https://bookshop.org/a/philosophia/9780521096232",
+          "why": "The 1965 debate between Popper, Kuhn, Lakatos, and Feyerabend — essential for understanding the paradigm shift debate."
+        }
+      ]
+    },
+    {
+      "name": "Pragmatism",
+      "thinkerBio": "Charles Sanders Peirce (1839–1914) introduced the pragmatic maxim; William James (1842–1910) extended it to truth; John Dewey (1859–1952) developed it into a comprehensive philosophy of inquiry, education, and democracy — together they constitute classical American pragmatism.",
+      "quote": "The true is only the expedient in the way of our thinking, just as the right is only the expedient in the way of our behaving.",
+      "tags": [
+        "epistemology",
+        "pragmatism",
+        "truth",
+        "inquiry",
+        "james"
+      ],
+      "related": [
+        {
+          "name": "Naturalized Epistemology",
+          "type": "Extends",
+          "note": "Quine's naturalized epistemology is a neo-pragmatist position — epistemology as part of empirical science rather than a priori first philosophy."
+        },
+        {
+          "name": "Coherentism",
+          "type": "Parallel",
+          "note": "Both treat knowledge as a web of interconnected beliefs evaluated holistically rather than derived from certain foundations."
+        },
+        {
+          "name": "The Nature of Truth",
+          "type": "Extends",
+          "note": "James's pragmatist account of truth as what works is one of the main alternatives to correspondence and coherence theories."
+        },
+        {
+          "name": "Language Games",
+          "type": "Parallel",
+          "note": "Wittgenstein's meaning-as-use and Dewey's instrumentalism both reject the idea that thought represents a mind-independent reality rather than coordinating action."
+        }
+      ],
+      "books": [
+        {
+          "title": "Pragmatism",
+          "author": "William James",
+          "url": "https://bookshop.org/a/philosophia/9780486282701",
+          "why": "The most accessible statement of classical pragmatism — James's eight lectures on truth and meaning."
+        },
+        {
+          "title": "Consequences of Pragmatism",
+          "author": "Richard Rorty",
+          "url": "https://bookshop.org/a/philosophia/9780816610631",
+          "why": "The best introduction to neo-pragmatism — Rorty's essays connecting Peirce, James, and Dewey to analytic philosophy."
+        },
+        {
+          "title": "Experience and Nature",
+          "author": "John Dewey",
+          "url": "https://bookshop.org/a/philosophia/9780486204710",
+          "why": "Dewey's most systematic work — his naturalistic account of experience, meaning, and inquiry."
+        }
+      ]
+    },
+    {
+      "name": "Epistemic Injustice",
+      "thinkerBio": "Miranda Fricker (b. 1966) is a British philosopher at CUNY Graduate Center whose Epistemic Injustice: Power and the Ethics of Knowing (2007) created a new subfield at the intersection of epistemology, feminist philosophy, and political philosophy.",
+      "quote": "Epistemic injustice is a wrong done to someone specifically in their capacity as a knower.",
+      "tags": [
+        "epistemology",
+        "justice",
+        "testimony",
+        "fricker",
+        "feminist-epistemology"
+      ],
+      "related": [
+        {
+          "name": "Testimony",
+          "type": "Extends",
+          "note": "Testimonial injustice is the primary form of epistemic injustice — systematic deflation of a speaker's credibility based on their social identity."
+        },
+        {
+          "name": "Standpoint Epistemology",
+          "type": "Parallel",
+          "note": "Both show how social position shapes epistemic access and credibility in ways that track power structures."
+        },
+        {
+          "name": "Decolonizing Knowledge",
+          "type": "Parallel",
+          "note": "Colonial epistemic injustice is the paradigm case of hermeneutical injustice — colonized peoples lacking conceptual resources to articulate their own situation."
+        },
+        {
+          "name": "Social Epistemology",
+          "type": "Extends",
+          "note": "Epistemic injustice extends social epistemology to questions about the fair distribution of epistemic credibility and conceptual resources."
+        }
+      ],
+      "books": [
+        {
+          "title": "Epistemic Injustice",
+          "author": "Miranda Fricker",
+          "url": "https://bookshop.org/a/philosophia/9780198237907",
+          "why": "The foundational text — introduces testimonial and hermeneutical injustice grounded in a theory of epistemic virtue."
+        },
+        {
+          "title": "The Routledge Handbook of Epistemic Injustice",
+          "author": "Kidd, Medina, Pohlhaus (eds.)",
+          "url": "https://bookshop.org/a/philosophia/9780367581244",
+          "why": "The comprehensive academic overview of epistemic injustice research."
+        },
+        {
+          "title": "Epistemic Cowardice",
+          "author": "Leigh Johnson",
+          "url": "https://bookshop.org/a/philosophia/9780820362397",
+          "why": "Extension of epistemic injustice to the vice of avoiding difficult truths — a practically grounded application."
+        }
+      ]
+    },
+    {
+      "name": "A Priori / A Posteriori",
+      "thinkerBio": "Immanuel Kant (1724–1804) gave the distinction its modern philosophical form in the Critique of Pure Reason (1781); Saul Kripke's Naming and Necessity (1972) showed that necessity and a priority come apart — one of the most important results in twentieth-century analytic philosophy.",
+      "quote": "Thoughts without content are empty, intuitions without concepts are blind.",
+      "tags": [
+        "epistemology",
+        "kant",
+        "a-priori",
+        "knowledge",
+        "analyticity"
+      ],
+      "related": [
+        {
+          "name": "Analytic / Synthetic Distinction",
+          "type": "Extends",
+          "note": "Kant's a priori/a posteriori distinction intersects with the analytic/synthetic — his central question is how synthetic a priori knowledge is possible."
+        },
+        {
+          "name": "Essentialism",
+          "type": "Extends",
+          "note": "Kripke showed essential truths are necessary but a posteriori — dissolving Kant's equation of the necessary with the a priori."
+        },
+        {
+          "name": "Naturalized Epistemology",
+          "type": "Opposes",
+          "note": "Quine's dissolution of the analytic-synthetic distinction was simultaneously an attack on the a priori as a philosophically significant category."
+        },
+        {
+          "name": "Cogito Ergo Sum",
+          "type": "Extends",
+          "note": "The cogito is Descartes's paradigmatic a priori knowledge — self-evident without any empirical verification."
+        }
+      ],
+      "books": [
+        {
+          "title": "Critique of Pure Reason",
+          "author": "Immanuel Kant",
+          "url": "https://bookshop.org/a/philosophia/9780521657297",
+          "why": "The foundational text — Kant's full argument for synthetic a priori knowledge."
+        },
+        {
+          "title": "Naming and Necessity",
+          "author": "Saul Kripke",
+          "url": "https://bookshop.org/a/philosophia/9780631128014",
+          "why": "Kripke shows that necessity and a priority come apart — the discovery that transforms the framework."
+        },
+        {
+          "title": "The Empiricists",
+          "author": "R.S. Woolhouse",
+          "url": "https://bookshop.org/a/philosophia/9780192891570",
+          "why": "Essential context — the empiricist challenge to a priori knowledge that Kant's Critique answered."
+        }
+      ]
+    },
+    {
+      "name": "Coherentism",
+      "thinkerBio": "Otto Neurath (1882–1945) introduced the famous ship metaphor for coherentist justification; Laurence BonJour (b. 1943) at the University of Washington developed the most rigorous contemporary coherentist epistemology in The Structure of Empirical Knowledge (1985).",
+      "quote": "Like sailors who must rebuild their ship on the open sea, we reconstruct our knowledge piece by piece while remaining afloat.",
+      "tags": [
+        "epistemology",
+        "coherentism",
+        "justification",
+        "neurath",
+        "web-of-belief"
+      ],
+      "related": [
+        {
+          "name": "Foundationalism",
+          "type": "Opposes",
+          "note": "Coherentism rejects the hierarchical structure of foundationalism — there are no foundational beliefs, only a holistic web of mutually supporting beliefs."
+        },
+        {
+          "name": "Pragmatism",
+          "type": "Parallel",
+          "note": "Both treat knowledge as a web of interconnected beliefs evaluated holistically rather than derived from certain foundations."
+        },
+        {
+          "name": "Naturalized Epistemology",
+          "type": "Extends",
+          "note": "Quine's web of belief is the most influential coherentist picture — all beliefs face experience as a corporate body."
+        },
+        {
+          "name": "Belief Revision",
+          "type": "Extends",
+          "note": "AGM belief revision theory formalizes coherentist intuitions about how to update a web of beliefs when new information arrives."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Structure of Empirical Knowledge",
+          "author": "Laurence BonJour",
+          "url": "https://bookshop.org/a/philosophia/9780674843813",
+          "why": "The definitive contemporary defence of coherentism."
+        },
+        {
+          "title": "Word and Object",
+          "author": "W.V.O. Quine",
+          "url": "https://bookshop.org/a/philosophia/9780262670005",
+          "why": "Quine's holism — the view that no belief faces experience alone but only as part of a web."
+        },
+        {
+          "title": "Epistemology: A Contemporary Introduction",
+          "author": "Robert Audi",
+          "url": "https://bookshop.org/a/philosophia/9780415879231",
+          "why": "Balanced overview of foundationalism vs coherentism."
+        }
+      ]
+    },
+    {
+      "name": "Skepticism",
+      "thinkerBio": "Pyrrho of Elis (c. 360–270 BCE) founded ancient skepticism; René Descartes (1596–1650) developed modern skepticism as a method; David Hume (1711–1776) made the most trenchant modern case for its inescapability in matters of induction and causation.",
+      "quote": "If you would be a real seeker after truth, it is necessary that at least once in your life you doubt, as far as possible, all things.",
+      "tags": [
+        "epistemology",
+        "skepticism",
+        "descartes",
+        "doubt",
+        "knowledge"
+      ],
+      "related": [
+        {
+          "name": "Cogito Ergo Sum",
+          "type": "Resolves",
+          "note": "The cogito is Descartes's proposed escape — the one truth that survives even the evil demon hypothesis."
+        },
+        {
+          "name": "Foundationalism",
+          "type": "Extends",
+          "note": "Skepticism motivates foundationalism — if no belief is certain, we must find something certain or skepticism wins."
+        },
+        {
+          "name": "Epistemic Humility",
+          "type": "Parallel",
+          "note": "Both begin from recognition of the limits of human knowledge, though humility leads to calibrated confidence while skepticism leads to suspension of judgment."
+        },
+        {
+          "name": "The Gettier Problem",
+          "type": "Extends",
+          "note": "Gettier cases extend skeptical pressure into ordinary contexts — even justified true belief falls short of knowledge."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Skeptics",
+          "author": "R.J. Hankinson",
+          "url": "https://bookshop.org/a/philosophia/9780415045674",
+          "why": "Comprehensive history of ancient skepticism from Pyrrho through the Academic skeptics."
+        },
+        {
+          "title": "Skepticism and the Veil of Perception",
+          "author": "Michael Huemer",
+          "url": "https://bookshop.org/a/philosophia/9780742514546",
+          "why": "A contemporary direct realist response to Cartesian skepticism that takes the challenge seriously."
+        },
+        {
+          "title": "Knowledge and Its Limits",
+          "author": "Timothy Williamson",
+          "url": "https://bookshop.org/a/philosophia/9780199256563",
+          "why": "Williamson's externalist approach — treating knowledge as primitive — offers a contemporary response to skeptical challenges."
+        }
+      ]
+    },
+    {
+      "name": "Existence Precedes Essence",
+      "thinkerBio": "Jean-Paul Sartre (1905–1980) was a French philosopher, novelist, and playwright who became the leading figure of existentialism; Being and Nothingness (1943) developed the full philosophical account of radical freedom that the slogan 'existence precedes essence' encapsulates.",
+      "quote": "Man is condemned to be free.",
+      "tags": [
+        "existentialism",
+        "sartre",
+        "freedom",
+        "authenticity",
+        "responsibility"
+      ],
+      "related": [
+        {
+          "name": "Bad Faith",
+          "type": "Extends",
+          "note": "Bad faith is the flight from radical freedom — the denial of existence-preceding-essence through self-deception about having a fixed nature."
+        },
+        {
+          "name": "Authenticity",
+          "type": "Extends",
+          "note": "Authenticity is the positive ideal that existence-precedes-essence demands — genuinely taking up one's radical freedom."
+        },
+        {
+          "name": "Nihilism",
+          "type": "Parallel",
+          "note": "Both begin from the absence of pre-given human essence or cosmic meaning, but Sartre sees this as liberation."
+        },
+        {
+          "name": "Thrownness",
+          "type": "Opposes",
+          "note": "Heidegger's thrownness limits Sartrean radical freedom — we exist within a situation we did not choose that partly constitutes what we are."
+        }
+      ],
+      "books": [
+        {
+          "title": "Existentialism Is a Humanism",
+          "author": "Jean-Paul Sartre",
+          "url": "https://bookshop.org/a/philosophia/9780300115468",
+          "why": "Sartre's most accessible statement of existence-precedes-essence and its ethical implications."
+        },
+        {
+          "title": "Being and Nothingness",
+          "author": "Jean-Paul Sartre",
+          "url": "https://bookshop.org/a/philosophia/9780671867805",
+          "why": "The full ontological account — consciousness as nothingness, radical freedom, bad faith, and the Other."
+        },
+        {
+          "title": "The Roads to Freedom",
+          "author": "Jean-Paul Sartre",
+          "url": "https://bookshop.org/a/philosophia/9780141185132",
+          "why": "Sartre's trilogy — the lived experience of radical freedom in occupied France."
+        }
+      ]
+    },
+    {
+      "name": "The Absurd",
+      "thinkerBio": "Albert Camus (1913–1960) was an Algerian-French novelist and philosopher who developed the absurd in The Myth of Sisyphus (1942) and extended it politically in The Rebel (1951); he won the Nobel Prize in Literature in 1957 and died in a car accident at 46.",
+      "quote": "There is but one truly serious philosophical problem, and that is suicide.",
+      "tags": [
+        "existentialism",
+        "camus",
+        "absurd",
+        "meaning",
+        "revolt"
+      ],
+      "related": [
+        {
+          "name": "Nihilism",
+          "type": "Parallel",
+          "note": "Both begin from the recognition that the universe provides no inherent meaning, but Camus responds with revolt rather than Nietzsche's value-creation."
+        },
+        {
+          "name": "Authenticity",
+          "type": "Extends",
+          "note": "Camus's revolt is a form of authenticity — living without hope or despair, fully aware of the absurd, refusing both faith and suicide."
+        },
+        {
+          "name": "Eternal Recurrence",
+          "type": "Parallel",
+          "note": "Both Nietzsche's eternal recurrence and Camus's absurd revolt demand affirmation of life without transcendent justification."
+        },
+        {
+          "name": "Absurdism and Revolt",
+          "type": "Extends",
+          "note": "The Myth of Sisyphus introduces the absurd; The Rebel develops its political implications — revolt as the basis for a non-totalitarian politics."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Myth of Sisyphus",
+          "author": "Albert Camus",
+          "url": "https://bookshop.org/a/philosophia/9780525564454",
+          "why": "The foundational text of absurdism — Camus's argument that Sisyphus must be imagined happy."
+        },
+        {
+          "title": "The Stranger",
+          "author": "Albert Camus",
+          "url": "https://bookshop.org/a/philosophia/9780679720201",
+          "why": "The literary embodiment of the absurd — best read alongside the Myth."
+        },
+        {
+          "title": "The Rebel",
+          "author": "Albert Camus",
+          "url": "https://bookshop.org/a/philosophia/9780679733843",
+          "why": "Camus's political philosophy — revolt as the basis for a non-totalitarian politics."
+        }
+      ]
+    },
+    {
+      "name": "Bad Faith",
+      "thinkerBio": "Jean-Paul Sartre (1905–1980) developed bad faith (mauvaise foi) as the central concept of existentialist moral psychology in Being and Nothingness (1943) — the self-deception by which consciousness denies its own radical freedom and responsibility.",
+      "quote": "Man is always more than what he is said to be — bad faith is the attempt to fix oneself as a thing.",
+      "tags": [
+        "existentialism",
+        "sartre",
+        "bad-faith",
+        "self-deception",
+        "freedom"
+      ],
+      "related": [
+        {
+          "name": "Existence Precedes Essence",
+          "type": "Extends",
+          "note": "Bad faith is the flight from the radical freedom that existence-precedes-essence entails."
+        },
+        {
+          "name": "Authenticity",
+          "type": "Opposes",
+          "note": "Authenticity is the opposite of bad faith — the lucid acknowledgment of radical freedom rather than its denial."
+        },
+        {
+          "name": "Facticity",
+          "type": "Extends",
+          "note": "Bad faith often consists in treating facticity as if it were the whole of one's being — denying transcendence by identifying with one's past and roles."
+        },
+        {
+          "name": "The Gaze",
+          "type": "Extends",
+          "note": "The Other's gaze connects to bad faith — we often adopt the Other's objectifying view of us as our fixed nature."
+        }
+      ],
+      "books": [
+        {
+          "title": "Being and Nothingness",
+          "author": "Jean-Paul Sartre",
+          "url": "https://bookshop.org/a/philosophia/9780671867805",
+          "why": "The source — the waiter example and Sartre's full analysis of bad faith in Being and Nothingness."
+        },
+        {
+          "title": "Anti-Semite and Jew",
+          "author": "Jean-Paul Sartre",
+          "url": "https://bookshop.org/a/philosophia/9780805210477",
+          "why": "Sartre's analysis of bad faith in antisemitism and certain responses to it — existentialism applied to social identity."
+        },
+        {
+          "title": "The Words",
+          "author": "Jean-Paul Sartre",
+          "url": "https://bookshop.org/a/philosophia/9780394744124",
+          "why": "Sartre's autobiography — self-examination of his own bad faith as a writer and public intellectual."
+        }
+      ]
+    },
+    {
+      "name": "Being-toward-death",
+      "thinkerBio": "Martin Heidegger (1889–1976) was a German philosopher whose Being and Time (1927) is one of the most influential and difficult texts in twentieth-century philosophy; his analysis of being-toward-death transformed how philosophy thinks about finitude and authentic existence.",
+      "quote": "Death is Dasein's ownmost possibility — non-relational, certain, and indefinite as to its When.",
+      "tags": [
+        "existentialism",
+        "heidegger",
+        "death",
+        "finitude",
+        "authenticity"
+      ],
+      "related": [
+        {
+          "name": "Authenticity",
+          "type": "Extends",
+          "note": "Authentic existence requires confronting being-toward-death — running ahead to one's finitude dissolves the comfortable anonymity of the they-self."
+        },
+        {
+          "name": "Thrownness",
+          "type": "Extends",
+          "note": "Thrownness and being-toward-death together constitute the structure of finite Dasein — thrown into existence toward death."
+        },
+        {
+          "name": "Death and Dying",
+          "type": "Extends",
+          "note": "Heidegger's being-toward-death is the philosophical analysis that makes Epicurus's consolation seem inadequate — death matters because it is my ownmost possibility."
+        },
+        {
+          "name": "Angst",
+          "type": "Extends",
+          "note": "Angst individualizes Dasein by confronting it with its groundlessness — and being-toward-death is the ultimate ground of this groundlessness."
+        }
+      ],
+      "books": [
+        {
+          "title": "Being and Time",
+          "author": "Martin Heidegger",
+          "url": "https://bookshop.org/a/philosophia/9780061575594",
+          "why": "The source — Division Two contains the full analysis of being-toward-death and authentic temporality."
+        },
+        {
+          "title": "Heidegger: A Very Short Introduction",
+          "author": "Michael Inwood",
+          "url": "https://bookshop.org/a/philosophia/9780192854100",
+          "why": "The most accessible entry point to Being and Time including the analysis of death."
+        },
+        {
+          "title": "Staring at the Sun",
+          "author": "Irvin Yalom",
+          "url": "https://bookshop.org/a/philosophia/9780470401811",
+          "why": "Yalom's existential therapeutic application of being-toward-death — how confronting mortality can liberate rather than paralyze."
+        }
+      ]
+    },
+    {
+      "name": "Thrownness",
+      "thinkerBio": "Martin Heidegger (1889–1976) developed thrownness (Geworfenheit) as part of the existential analytic of Dasein in Being and Time (1927) — the fundamental condition of finding oneself already in a situation one did not choose.",
+      "quote": "Dasein finds itself thrown into existence — already in a world it did not author, with a past it did not choose.",
+      "tags": [
+        "existentialism",
+        "heidegger",
+        "thrownness",
+        "facticity",
+        "situation"
+      ],
+      "related": [
+        {
+          "name": "Facticity",
+          "type": "Parallel",
+          "note": "Thrownness (Heidegger) and facticity (Sartre) both name the given, unchosen dimension of existence — the starting point within which freedom is exercised."
+        },
+        {
+          "name": "Being-toward-death",
+          "type": "Extends",
+          "note": "Thrownness and being-toward-death together constitute finite Dasein — thrown into existence toward an inevitable end."
+        },
+        {
+          "name": "Situation",
+          "type": "Extends",
+          "note": "Beauvoir's concept of situation is the feminist existentialist development of thrownness — unchosen social structures that constrain freedom."
+        },
+        {
+          "name": "Resoluteness",
+          "type": "Extends",
+          "note": "Resoluteness is the appropriate response to thrownness — owning one's situation from the standpoint of genuine freedom rather than drifting along."
+        }
+      ],
+      "books": [
+        {
+          "title": "Being and Time",
+          "author": "Martin Heidegger",
+          "url": "https://bookshop.org/a/philosophia/9780061575594",
+          "why": "The source — Division One develops the concept of thrownness within the existential analytic of Dasein."
+        },
+        {
+          "title": "The Ethics of Ambiguity",
+          "author": "Simone de Beauvoir",
+          "url": "https://bookshop.org/a/philosophia/9780806501604",
+          "why": "De Beauvoir's development of situated freedom — the feminist existentialist response to thrownness."
+        },
+        {
+          "title": "Heidegger and Unconcealment",
+          "author": "Mark Wrathall",
+          "url": "https://bookshop.org/a/philosophia/9780521132299",
+          "why": "One of the best guides to Heidegger's existential analytic including thrownness and disclosure."
+        }
+      ]
+    },
+    {
+      "name": "Will to Power",
+      "thinkerBio": "Friedrich Nietzsche (1844–1900) developed the will to power across Thus Spoke Zarathustra (1883–85), Beyond Good and Evil (1886), and On the Genealogy of Morality (1887); the concept was distorted by his sister Elisabeth for Nazi appropriation after his 1889 mental collapse.",
+      "quote": "The will to power is the unexhausted procreative will of life.",
+      "tags": [
+        "existentialism",
+        "nietzsche",
+        "power",
+        "self-overcoming",
+        "values"
+      ],
+      "related": [
+        {
+          "name": "Eternal Recurrence",
+          "type": "Extends",
+          "note": "Only a being with genuine will to power — creative self-affirmation — can affirm eternal recurrence without collapsing into despair."
+        },
+        {
+          "name": "Nihilism",
+          "type": "Resolves",
+          "note": "Active nihilism expressed as will to power — creating new values — is Nietzsche's answer to the nihilistic collapse of inherited values."
+        },
+        {
+          "name": "The Absurd",
+          "type": "Parallel",
+          "note": "Both Nietzsche's affirmation through will to power and Camus's revolt respond to a world without inherent meaning, differing on whether creation or acceptance is primary."
+        },
+        {
+          "name": "Hegemony",
+          "type": "Parallel",
+          "note": "Both Gramsci's hegemony and Nietzsche's will to power analyze how dominant forces shape the normative landscape through cultural production rather than mere force."
+        }
+      ],
+      "books": [
+        {
+          "title": "Beyond Good and Evil",
+          "author": "Friedrich Nietzsche",
+          "url": "https://bookshop.org/a/philosophia/9780394731513",
+          "why": "Nietzsche's most systematic philosophical work — the will to power as the interpretation of all drives."
+        },
+        {
+          "title": "On the Genealogy of Morality",
+          "author": "Friedrich Nietzsche",
+          "url": "https://bookshop.org/a/philosophia/9780521694131",
+          "why": "The genealogy of morality as expressions of will to power — the master-slave analysis and ressentiment."
+        },
+        {
+          "title": "Nietzsche: Philosopher, Psychologist, Antichrist",
+          "author": "Walter Kaufmann",
+          "url": "https://bookshop.org/a/philosophia/9780691019833",
+          "why": "The definitive scholarly treatment — debunks Nazi distortion and reconstructs the actual doctrine of will to power."
+        }
+      ]
+    },
+    {
+      "name": "Angst",
+      "thinkerBio": "Søren Kierkegaard (1813–1855) analyzed anxiety as the dizziness of freedom in The Concept of Anxiety (1844); Martin Heidegger (1889–1976) transformed it into an ontological concept in Being and Time (1927) — both texts are foundational for the existentialist tradition.",
+      "quote": "Anxiety is the dizziness of freedom.",
+      "tags": [
+        "existentialism",
+        "anxiety",
+        "kierkegaard",
+        "heidegger",
+        "freedom"
+      ],
+      "related": [
+        {
+          "name": "Existence Precedes Essence",
+          "type": "Extends",
+          "note": "Existential angst is the felt experience of radical freedom — the vertiginous awareness that nothing outside you determines what you will be."
+        },
+        {
+          "name": "Bad Faith",
+          "type": "Extends",
+          "note": "Bad faith is the typical flight from angst — the comforting fiction of fixed nature that protects us from confronting radical freedom."
+        },
+        {
+          "name": "Being-toward-death",
+          "type": "Extends",
+          "note": "Heidegger's anxiety before being-toward-death individualizes Dasein and makes authentic existence possible."
+        },
+        {
+          "name": "Despair",
+          "type": "Extends",
+          "note": "Kierkegaard's despair is the existential illness that angst threatens to produce when freedom is denied rather than acknowledged."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Concept of Anxiety",
+          "author": "Søren Kierkegaard",
+          "url": "https://bookshop.org/a/philosophia/9780691020112",
+          "why": "Kierkegaard's foundational analysis of anxiety as the dizziness of freedom — the source of the existentialist concept."
+        },
+        {
+          "title": "Being and Time",
+          "author": "Martin Heidegger",
+          "url": "https://bookshop.org/a/philosophia/9780061575594",
+          "why": "Heidegger's ontological analysis of anxiety as the mood that reveals Dasein's fundamental groundlessness."
+        },
+        {
+          "title": "The Courage to Be",
+          "author": "Paul Tillich",
+          "url": "https://bookshop.org/a/philosophia/9780300084801",
+          "why": "Tillich's theological-existentialist response to anxiety — courage as the affirmation of being in the face of non-being."
+        }
+      ]
+    },
+    {
+      "name": "Authenticity",
+      "thinkerBio": "Martin Heidegger (1889–1976) developed authenticity (Eigentlichkeit) as an existential structural concept in Being and Time (1927); Jean-Paul Sartre (1905–1980) gave it more concrete ethical content through the contrast with bad faith and the demands of radical freedom.",
+      "quote": "Authenticity means taking over one's own existence as genuinely one's own — no longer living at the pace of what one does.",
+      "tags": [
+        "existentialism",
+        "authenticity",
+        "heidegger",
+        "sartre",
+        "freedom"
+      ],
+      "related": [
+        {
+          "name": "Bad Faith",
+          "type": "Opposes",
+          "note": "Bad faith is the systematic denial of authenticity — the flight from radical freedom into the comfortable anonymity of fixed nature or social role."
+        },
+        {
+          "name": "Inauthenticity and the They-Self",
+          "type": "Opposes",
+          "note": "The they-self and inauthenticity are the default conditions from which authentic existence must be won through confrontation with one's finitude."
+        },
+        {
+          "name": "Existence Precedes Essence",
+          "type": "Extends",
+          "note": "Authenticity is what existence-preceding-essence demands — genuinely taking up one's own authorship of oneself."
+        },
+        {
+          "name": "Resoluteness",
+          "type": "Extends",
+          "note": "Resoluteness is Heidegger's specific existential structure of authentic existence — owning thrownness from the standpoint of being-toward-death."
+        }
+      ],
+      "books": [
+        {
+          "title": "Being and Time",
+          "author": "Martin Heidegger",
+          "url": "https://bookshop.org/a/philosophia/9780061575594",
+          "why": "The source — Division Two develops authenticity, resoluteness, and being-toward-death as the structure of genuine existence."
+        },
+        {
+          "title": "Existentialism Is a Humanism",
+          "author": "Jean-Paul Sartre",
+          "url": "https://bookshop.org/a/philosophia/9780300115468",
+          "why": "Sartre's account of authenticity as the affirmation of radical freedom and responsibility."
+        },
+        {
+          "title": "The Ethics of Authenticity",
+          "author": "Charles Taylor",
+          "url": "https://bookshop.org/a/philosophia/9780674268951",
+          "why": "Taylor's critique of trivial authenticity cultures and defence of the genuine moral ideal."
+        }
+      ]
+    },
+    {
+      "name": "Language Games",
+      "thinkerBio": "Ludwig Wittgenstein (1889–1951) was an Austrian-British philosopher whose Tractatus Logico-Philosophicus (1921) and Philosophical Investigations (1953) represent two radically different philosophies; the Investigations, published posthumously, introduced language games as a therapeutic tool.",
+      "quote": "The meaning of a word is its use in the language.",
+      "tags": [
+        "logic-language",
+        "wittgenstein",
+        "meaning",
+        "use",
+        "ordinary-language"
+      ],
+      "related": [
+        {
+          "name": "Meaning as Use",
+          "type": "Extends",
+          "note": "Language games are the context within which meaning-as-use is cashed out — different games have different rules and different uses for the same words."
+        },
+        {
+          "name": "Hermeneutics",
+          "type": "Parallel",
+          "note": "Both Wittgenstein and Gadamer hold that meaning is embedded in practices and forms of life rather than decontextualized mental content."
+        },
+        {
+          "name": "Ordinary Language Philosophy",
+          "type": "Extends",
+          "note": "Ordinary language philosophy develops Wittgenstein's therapeutic approach — dissolving philosophical problems by returning words to their ordinary contexts."
+        },
+        {
+          "name": "Deconstruction",
+          "type": "Parallel",
+          "note": "Both Wittgenstein and Derrida challenge the assumption of unified, stable meaning — though by very different philosophical methods."
+        }
+      ],
+      "books": [
+        {
+          "title": "Philosophical Investigations",
+          "author": "Ludwig Wittgenstein",
+          "url": "https://bookshop.org/a/philosophia/9781405159289",
+          "why": "The source — Wittgenstein's development of language games, meaning as use, and the private language argument."
+        },
+        {
+          "title": "The Blue and Brown Books",
+          "author": "Ludwig Wittgenstein",
+          "url": "https://bookshop.org/a/philosophia/9780061312113",
+          "why": "Wittgenstein's preliminary notes toward the Investigations — more accessible and equally illuminating."
+        },
+        {
+          "title": "Wittgenstein",
+          "author": "Ray Monk",
+          "url": "https://bookshop.org/a/philosophia/9780099883708",
+          "why": "The definitive biography — essential for understanding the development from the Tractatus to the Investigations."
+        }
+      ]
+    },
+    {
+      "name": "Deconstruction",
+      "thinkerBio": "Jacques Derrida (1930–2004) was an Algerian-French philosopher whose Of Grammatology (1967), Writing and Difference (1967), and Speech and Phenomena (1967) introduced deconstruction and transformed literary theory, legal studies, and philosophy of language.",
+      "quote": "There is nothing outside the text.",
+      "tags": [
+        "logic-language",
+        "derrida",
+        "deconstruction",
+        "poststructuralism",
+        "meaning"
+      ],
+      "related": [
+        {
+          "name": "Structuralism",
+          "type": "Extends",
+          "note": "Deconstruction extends Saussure's insight that meaning is differential — then shows the structure itself is unstable, undermining the structuralist project."
+        },
+        {
+          "name": "Hermeneutics",
+          "type": "Opposes",
+          "note": "Gadamer's hermeneutics seeks a fusion of horizons that yields genuine meaning; Derrida's deconstruction shows meaning is always deferred and unstable."
+        },
+        {
+          "name": "Deconstruction and Justice",
+          "type": "Extends",
+          "note": "Derrida applies deconstruction to law to show that justice — which exceeds any law — is the motivating force behind deconstructive critique."
+        },
+        {
+          "name": "Language Games",
+          "type": "Parallel",
+          "note": "Both Wittgenstein and Derrida challenge the assumption of unified stable meaning — though by very different philosophical methods."
+        }
+      ],
+      "books": [
+        {
+          "title": "Of Grammatology",
+          "author": "Jacques Derrida",
+          "url": "https://bookshop.org/a/philosophia/9780801858307",
+          "why": "The foundational text of deconstruction — Derrida's critique of logocentrism and the speech-writing hierarchy."
+        },
+        {
+          "title": "Writing and Difference",
+          "author": "Jacques Derrida",
+          "url": "https://bookshop.org/a/philosophia/9780226143293",
+          "why": "The essay collection introducing deconstruction to literary theory and philosophy."
+        },
+        {
+          "title": "Derrida: A Very Short Introduction",
+          "author": "Simon Glendinning",
+          "url": "https://bookshop.org/a/philosophia/9780192804556",
+          "why": "The most accessible philosophical introduction to Derrida's central arguments."
+        }
+      ]
+    },
+    {
+      "name": "Speech Act Theory",
+      "thinkerBio": "J.L. Austin (1911–1960) developed speech act theory at Oxford in How to Do Things with Words (1962, posthumous); John Searle (b. 1932) at Berkeley systematized and extended the theory, connecting it to intentionality, social ontology, and the nature of consciousness.",
+      "quote": "To say something is to do something.",
+      "tags": [
+        "logic-language",
+        "austin",
+        "searle",
+        "speech-acts",
+        "performative"
+      ],
+      "related": [
+        {
+          "name": "Pragmatics",
+          "type": "Extends",
+          "note": "Grice's conversational implicature theory is the pragmatic development of Austin's insight that utterances do more than state facts."
+        },
+        {
+          "name": "Social Ontology",
+          "type": "Extends",
+          "note": "Searle's account of how institutional facts are constituted by status function declarations is built on the speech act framework."
+        },
+        {
+          "name": "Feminist Philosophy of Language",
+          "type": "Extends",
+          "note": "Langton's silencing thesis and analysis of pornography as a speech act develop Austin's performative framework in feminist directions."
+        },
+        {
+          "name": "Speech and Power",
+          "type": "Extends",
+          "note": "Both Habermas and Butler build on Austin's insight that language constitutes as well as describes social reality."
+        }
+      ],
+      "books": [
+        {
+          "title": "How to Do Things with Words",
+          "author": "J.L. Austin",
+          "url": "https://bookshop.org/a/philosophia/9780674411528",
+          "why": "The foundational text — Austin's development of locutionary, illocutionary, and perlocutionary acts."
+        },
+        {
+          "title": "Speech Acts",
+          "author": "John Searle",
+          "url": "https://bookshop.org/a/philosophia/9780521096263",
+          "why": "Searle's systematic development of Austin's framework with a full taxonomy of illocutionary acts."
+        },
+        {
+          "title": "The Construction of Social Reality",
+          "author": "John Searle",
+          "url": "https://bookshop.org/a/philosophia/9780029280454",
+          "why": "Searle's account of how speech acts constitute institutional reality — money, government, marriage."
+        }
+      ]
+    },
+    {
+      "name": "The Liar's Paradox",
+      "thinkerBio": "The paradox is attributed to Epimenides the Cretan (sixth century BCE); Alfred Tarski (1901–1983) provided the most influential formal response through the hierarchy of metalanguages in 'The Concept of Truth in Formalized Languages' (1933).",
+      "quote": "This sentence is false.",
+      "tags": [
+        "logic-language",
+        "paradox",
+        "truth",
+        "self-reference",
+        "logic"
+      ],
+      "related": [
+        {
+          "name": "Formal Logic",
+          "type": "Extends",
+          "note": "The Liar's Paradox reveals the limits of naive truth theories — Tarski's response requires hierarchical metalanguages to avoid the contradiction."
+        },
+        {
+          "name": "Vagueness",
+          "type": "Parallel",
+          "note": "Both the Liar's Paradox and vagueness challenge the classical principle of bivalence — every proposition is either true or false."
+        },
+        {
+          "name": "The Nature of Truth",
+          "type": "Extends",
+          "note": "The paradox motivates deflationary and hierarchical truth theories by revealing the limits of correspondence and naive truth."
+        },
+        {
+          "name": "Logical Consequence",
+          "type": "Extends",
+          "note": "Paraconsistent logics — which tolerate the Liar without explosion — represent alternative accounts of logical consequence."
+        }
+      ],
+      "books": [
+        {
+          "title": "Paradoxes",
+          "author": "R.M. Sainsbury",
+          "url": "https://bookshop.org/a/philosophia/9780521756983",
+          "why": "The best accessible philosophical treatment of the Liar and other paradoxes of self-reference."
+        },
+        {
+          "title": "Logic and Structure",
+          "author": "Dirk van Dalen",
+          "url": "https://bookshop.org/a/philosophia/9781447145578",
+          "why": "Includes formal treatment of the Liar's Paradox and its implications for logic."
+        },
+        {
+          "title": "Truth and the Absence of Fact",
+          "author": "Hartry Field",
+          "url": "https://bookshop.org/a/philosophia/9780199242894",
+          "why": "Field's essays on truth and the Liar — the most technically sophisticated contemporary engagement."
+        }
+      ]
+    },
+    {
+      "name": "Structuralism",
+      "thinkerBio": "Ferdinand de Saussure (1857–1913) established structural linguistics in Course in General Linguistics (1916); Claude Lévi-Strauss (1908–2009) applied the structural method to anthropology — together they define the structuralist movement that transformed the humanities.",
+      "quote": "In language there are only differences, with no positive terms.",
+      "tags": [
+        "logic-language",
+        "saussure",
+        "structuralism",
+        "meaning",
+        "semiotics"
+      ],
+      "related": [
+        {
+          "name": "Deconstruction",
+          "type": "Extends",
+          "note": "Derrida extends Saussure's insight that meaning is differential — then shows the structure itself is unstable."
+        },
+        {
+          "name": "Hermeneutics",
+          "type": "Opposes",
+          "note": "Structuralism seeks universal structural laws beneath surface diversity; hermeneutics insists on the irreducibility of historical particularity."
+        },
+        {
+          "name": "Language Games",
+          "type": "Parallel",
+          "note": "Both Wittgenstein and Saussure ground meaning in difference and use rather than in a direct relation between names and things."
+        },
+        {
+          "name": "The Rhizome",
+          "type": "Opposes",
+          "note": "Deleuze and Guattari's rhizome concept is an explicit critique of arborescent, hierarchical structuralism."
+        }
+      ],
+      "books": [
+        {
+          "title": "Course in General Linguistics",
+          "author": "Ferdinand de Saussure",
+          "url": "https://bookshop.org/a/philosophia/9780812690231",
+          "why": "The foundational text of structural linguistics — Saussure's account of the sign, difference, and the arbitrary nature of language."
+        },
+        {
+          "title": "Structural Anthropology",
+          "author": "Claude Lévi-Strauss",
+          "url": "https://bookshop.org/a/philosophia/9780465095193",
+          "why": "The application of structural method to myth, kinship, and culture — defines the high point of structuralism."
+        },
+        {
+          "title": "The Linguistic Turn",
+          "author": "Richard Rorty (ed.)",
+          "url": "https://bookshop.org/a/philosophia/9780226725697",
+          "why": "The essential anthology situating structuralism within the broader linguistic turn in twentieth-century philosophy."
+        }
+      ]
+    },
+    {
+      "name": "Hermeneutics",
+      "thinkerBio": "Wilhelm Dilthey (1833–1911) established hermeneutics as a philosophical discipline; Hans-Georg Gadamer (1900–2002) transformed it in Truth and Method (1960); Paul Ricoeur (1913–2005) extended it to narrative, symbol, and action theory.",
+      "quote": "To understand is always to understand otherwise.",
+      "tags": [
+        "logic-language",
+        "gadamer",
+        "ricoeur",
+        "interpretation",
+        "meaning"
+      ],
+      "related": [
+        {
+          "name": "Language Games",
+          "type": "Parallel",
+          "note": "Both Wittgenstein and Gadamer hold that meaning is embedded in practices and forms of life that cannot be fully made explicit."
+        },
+        {
+          "name": "Hermeneutics of Suspicion",
+          "type": "Opposes",
+          "note": "The hermeneutics of trust (Gadamer, Ricoeur) and the hermeneutics of suspicion (Marx, Nietzsche, Freud) are contrasting orientations toward interpretation."
+        },
+        {
+          "name": "Narrative Identity",
+          "type": "Extends",
+          "note": "Ricoeur's narrative self-constitution is the application of hermeneutics to personal identity — understanding the self through the stories one tells."
+        },
+        {
+          "name": "Structuralism",
+          "type": "Opposes",
+          "note": "Structuralism seeks universal laws beneath surface diversity; hermeneutics insists on the irreducibility of historical particularity and tradition."
+        }
+      ],
+      "books": [
+        {
+          "title": "Truth and Method",
+          "author": "Hans-Georg Gadamer",
+          "url": "https://bookshop.org/a/philosophia/9780826400185",
+          "why": "The foundational text of philosophical hermeneutics — the fusion of horizons and the universality of language."
+        },
+        {
+          "title": "Interpretation Theory",
+          "author": "Paul Ricoeur",
+          "url": "https://bookshop.org/a/philosophia/9780912646961",
+          "why": "Ricoeur's synthesis of structural analysis and hermeneutic understanding — the bridge between the two traditions."
+        },
+        {
+          "title": "Hermeneutics: An Introduction",
+          "author": "Jens Zimmermann",
+          "url": "https://bookshop.org/a/philosophia/9780801048524",
+          "why": "The clearest contemporary introduction to philosophical hermeneutics from Schleiermacher through Gadamer and Ricoeur."
+        }
+      ]
+    },
+    {
+      "name": "Occam's Razor",
+      "thinkerBio": "William of Ockham (c. 1287–1347) was an English Franciscan friar and philosopher who wielded parsimony extensively against Scholastic metaphysics; the 'razor' bears his name though it was formulated verbatim by later commentators from his principle 'Plurality must never be posited without necessity.'",
+      "quote": "Do not multiply entities beyond necessity.",
+      "tags": [
+        "logic-language",
+        "ockham",
+        "parsimony",
+        "methodology",
+        "simplicity"
+      ],
+      "related": [
+        {
+          "name": "Scientific Method",
+          "type": "Extends",
+          "note": "Occam's Razor is a fundamental methodological principle in science — among equally predictive theories, prefer the simpler."
+        },
+        {
+          "name": "Formal Logic",
+          "type": "Extends",
+          "note": "The razor grounds the preference for minimal logical vocabulary — every primitive entity or relation must earn its place."
+        },
+        {
+          "name": "Substance Dualism",
+          "type": "Opposes",
+          "note": "The razor is deployed against substance dualism — the immaterial mind is an entity multiplied beyond what the phenomena require."
+        },
+        {
+          "name": "Abstract Objects",
+          "type": "Extends",
+          "note": "Nominalism about abstract objects is motivated by Occam's Razor — universals and sets should be eliminated if possible."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Philosophy of Science: An Introduction",
+          "author": "Samir Okasha",
+          "url": "https://bookshop.org/a/philosophia/9780198745587",
+          "why": "Excellent coverage of the role of parsimony and simplicity in scientific theory choice."
+        },
+        {
+          "title": "Simplicity, Inference and Modelling",
+          "author": "Arnold Zellner et al.",
+          "url": "https://bookshop.org/a/philosophia/9780521800983",
+          "why": "Technical and philosophical analysis of simplicity as a criterion of theory selection."
+        },
+        {
+          "title": "Ockham's Philosophical Writings",
+          "author": "William of Ockham",
+          "url": "https://bookshop.org/a/philosophia/9780872201057",
+          "why": "Selections from Ockham's works — the philosophical context in which the razor is deployed against Scholastic excess."
+        }
+      ]
+    },
+    {
+      "name": "Dialectics",
+      "thinkerBio": "Georg Wilhelm Friedrich Hegel (1770–1831) developed dialectics as the inner logic of Geist in the Phenomenology of Spirit (1807) and the Science of Logic (1812–16); Karl Marx (1818–1883) inverted Hegel's idealist dialectic into a materialist one grounded in class conflict.",
+      "quote": "The truth is the whole.",
+      "tags": [
+        "logic-language",
+        "hegel",
+        "marx",
+        "dialectics",
+        "contradiction"
+      ],
+      "related": [
+        {
+          "name": "Phenomenology of Spirit",
+          "type": "Extends",
+          "note": "The Phenomenology traces dialectical development from bare sense-certainty to Absolute Knowledge — dialectics is the logic of this development."
+        },
+        {
+          "name": "Alienation",
+          "type": "Extends",
+          "note": "Marx's materialist dialectic grounds the analysis of alienation — capitalism's contradictions produce the estrangement that drives historical transformation."
+        },
+        {
+          "name": "Critical Theory",
+          "type": "Extends",
+          "note": "Frankfurt School critical theory employs dialectical analysis as a tool for immanent critique of existing society."
+        },
+        {
+          "name": "Negative Dialectics",
+          "type": "Extends",
+          "note": "Adorno's negative dialectics retains the dialectical method while refusing the Hegelian drive to synthesis."
+        }
+      ],
+      "books": [
+        {
+          "title": "Phenomenology of Spirit",
+          "author": "G.W.F. Hegel",
+          "url": "https://bookshop.org/a/philosophia/9780198245971",
+          "why": "The source — Hegel's dialectical development of consciousness through contradiction and synthesis."
+        },
+        {
+          "title": "Capital: Volume 1",
+          "author": "Karl Marx",
+          "url": "https://bookshop.org/a/philosophia/9780140445688",
+          "why": "Marx's materialist dialectics in action — the commodity form and its contradictions drive the analysis."
+        },
+        {
+          "title": "Hegel: A Very Short Introduction",
+          "author": "Peter Singer",
+          "url": "https://bookshop.org/a/philosophia/9780192802491",
+          "why": "The most accessible introduction to Hegel's dialectical method and its implications."
+        }
+      ]
+    },
+    {
+      "name": "Social Contract",
+      "thinkerBio": "Thomas Hobbes (1588–1679) grounded the contract in fear of violent death; John Locke (1632–1704) grounded it in natural rights; Jean-Jacques Rousseau (1712–1778) grounded it in the general will — together they represent the three major versions of social contract theory.",
+      "quote": "Man is born free, and everywhere he is in chains.",
+      "tags": [
+        "political",
+        "social-contract",
+        "hobbes",
+        "locke",
+        "rousseau"
+      ],
+      "related": [
+        {
+          "name": "Original Position",
+          "type": "Extends",
+          "note": "Rawls's original position is the most rigorous modern transformation of the social contract tradition — a thought experiment about the standpoint of fairness."
+        },
+        {
+          "name": "Liberalism",
+          "type": "Extends",
+          "note": "Classical liberalism is built on the Lockean social contract — governments formed to protect pre-political rights can be resisted when they violate them."
+        },
+        {
+          "name": "Anarchism",
+          "type": "Opposes",
+          "note": "Anarchism holds that no contract could legitimately authorize a state — voluntary agreement can ground only voluntary cooperation, not coercive authority."
+        },
+        {
+          "name": "Political Obligation",
+          "type": "Extends",
+          "note": "The social contract is the standard theory of political obligation — we are bound to obey because we have consented, actually or hypothetically."
+        }
+      ],
+      "books": [
+        {
+          "title": "Leviathan",
+          "author": "Thomas Hobbes",
+          "url": "https://bookshop.org/a/philosophia/9780521567978",
+          "why": "Hobbes's full argument for sovereign authority from the state of nature — the most rigorous defence of absolute government."
+        },
+        {
+          "title": "Two Treatises of Government",
+          "author": "John Locke",
+          "url": "https://bookshop.org/a/philosophia/9780521357302",
+          "why": "Locke's argument for limited government and the right of revolution — the foundational liberal text."
+        },
+        {
+          "title": "The Social Contract",
+          "author": "Jean-Jacques Rousseau",
+          "url": "https://bookshop.org/a/philosophia/9780140442014",
+          "why": "Rousseau's general will and the idea that genuine political freedom requires participating in collective self-legislation."
+        }
+      ]
+    },
+    {
+      "name": "Alienation",
+      "thinkerBio": "G.W.F. Hegel (1770–1831) introduced alienation as a stage in Spirit's self-development; Karl Marx (1818–1883) transformed it into a critique of capitalism in the Economic and Philosophic Manuscripts (1844) and implicitly throughout Capital.",
+      "quote": "The worker becomes poorer the more wealth he produces.",
+      "tags": [
+        "political",
+        "alienation",
+        "marx",
+        "capitalism",
+        "estrangement"
+      ],
+      "related": [
+        {
+          "name": "Dialectics",
+          "type": "Extends",
+          "note": "Alienation is produced by the dialectical contradictions of capitalist production — private appropriation of socially produced value."
+        },
+        {
+          "name": "Alienation and Reification",
+          "type": "Extends",
+          "note": "Lukács extended Marx's alienation through reification — how social relations take on the appearance of relations between things under capitalism."
+        },
+        {
+          "name": "The Spectacle",
+          "type": "Extends",
+          "note": "Debord's spectacle is the fully developed alienation of modern capitalism — authentic life replaced by its representation."
+        },
+        {
+          "name": "Ubuntu",
+          "type": "Opposes",
+          "note": "Ubuntu's relational personhood constituted through community is the philosophical antithesis of the alienated individual of capitalist society."
+        }
+      ],
+      "books": [
+        {
+          "title": "Economic and Philosophic Manuscripts of 1844",
+          "author": "Karl Marx",
+          "url": "https://bookshop.org/a/philosophia/9780717803881",
+          "why": "The source — Marx's account of the four forms of alienation in capitalist production."
+        },
+        {
+          "title": "The Phenomenology of Spirit",
+          "author": "G.W.F. Hegel",
+          "url": "https://bookshop.org/a/philosophia/9780198245971",
+          "why": "Hegel's account of alienation as a necessary stage in Spirit's self-development — the idealist original."
+        },
+        {
+          "title": "Alienation",
+          "author": "Bertell Ollman",
+          "url": "https://bookshop.org/a/philosophia/9780521295673",
+          "why": "The most systematic scholarly analysis of Marx's concept of alienation and its place in his mature theory."
+        }
+      ]
+    },
+    {
+      "name": "Hegemony",
+      "thinkerBio": "Antonio Gramsci (1891–1937) was an Italian Marxist theorist who developed hegemony while imprisoned by Mussolini; his Prison Notebooks (written 1929–1935, published 1947–51) constitute one of the most original contributions to twentieth-century political philosophy.",
+      "quote": "The dominant class does not merely rule — it leads. Hegemony is leadership by consent rather than domination by force.",
+      "tags": [
+        "political",
+        "gramsci",
+        "hegemony",
+        "ideology",
+        "civil-society"
+      ],
+      "related": [
+        {
+          "name": "Power-Knowledge",
+          "type": "Parallel",
+          "note": "Both Gramsci's hegemony and Foucault's power-knowledge show how power operates through the production and naturalization of knowledge rather than direct coercion."
+        },
+        {
+          "name": "Ideology and False Consciousness",
+          "type": "Extends",
+          "note": "Gramsci's hegemony and Althusser's ideological state apparatuses both explain how the dominant class maintains power through civil society and culture."
+        },
+        {
+          "name": "Critical Theory",
+          "type": "Extends",
+          "note": "Frankfurt School critical theory addresses the same puzzle as Gramsci — why the working class does not revolt against capitalism despite its interests."
+        },
+        {
+          "name": "Deliberative Democracy",
+          "type": "Opposes",
+          "note": "Gramsci's analysis of manufactured consent challenges deliberative democracy's assumption that genuine rational consensus is achievable in unequal societies."
+        }
+      ],
+      "books": [
+        {
+          "title": "Selections from the Prison Notebooks",
+          "author": "Antonio Gramsci",
+          "url": "https://bookshop.org/a/philosophia/9780717803807",
+          "why": "The source — Gramsci's development of hegemony, the organic intellectual, and the war of position."
+        },
+        {
+          "title": "Hegemony and Socialist Strategy",
+          "author": "Laclau and Mouffe",
+          "url": "https://bookshop.org/a/philosophia/9780860919674",
+          "why": "The post-Marxist extension of Gramsci's hegemony concept to contemporary radical politics."
+        },
+        {
+          "title": "Prison Notebooks",
+          "author": "Antonio Gramsci (complete)",
+          "url": "https://bookshop.org/a/philosophia/9780231160698",
+          "why": "The complete notebooks — essential for understanding Gramsci's full political philosophy."
+        }
+      ]
+    },
+    {
+      "name": "Civil Disobedience",
+      "thinkerBio": "Henry David Thoreau (1817–1862) coined the term in 'Resistance to Civil Government' (1849); Mahatma Gandhi (1869–1948) and Martin Luther King Jr. (1929–1968) transformed it into a mass political practice that changed history in India and the American South.",
+      "quote": "Under a government which imprisons any unjustly, the true place for a just man is also a prison.",
+      "tags": [
+        "political",
+        "civil-disobedience",
+        "thoreau",
+        "gandhi",
+        "king"
+      ],
+      "related": [
+        {
+          "name": "Nonviolence as Philosophy",
+          "type": "Extends",
+          "note": "Civil disobedience requires nonviolence as both a tactical and a philosophical commitment — Gandhi and King grounded it in a metaphysics of moral transformation."
+        },
+        {
+          "name": "Political Obligation",
+          "type": "Extends",
+          "note": "Civil disobedience is the most philosophically interesting test of political obligation — compliance with a higher law combined with acknowledgment of the rule of law."
+        },
+        {
+          "name": "Anarchism",
+          "type": "Parallel",
+          "note": "Civil disobedience and anarchism share the rejection of unjust positive law — they differ on whether reform or abolition of the state is the goal."
+        },
+        {
+          "name": "Power and Domination",
+          "type": "Extends",
+          "note": "Thoreau, Gandhi, and King all analyze civil disobedience as a response to structural power — not just individual injustice but systemic domination."
+        }
+      ],
+      "books": [
+        {
+          "title": "On the Duty of Civil Disobedience",
+          "author": "Henry David Thoreau",
+          "url": "https://bookshop.org/a/philosophia/9781985863774",
+          "why": "The foundational text — Thoreau's argument that individual conscience supersedes positive law."
+        },
+        {
+          "title": "Letter from Birmingham Jail",
+          "author": "Martin Luther King Jr.",
+          "url": "https://bookshop.org/a/philosophia/9780694017317",
+          "why": "The most powerful philosophical and theological defence of civil disobedience in the English language."
+        },
+        {
+          "title": "Hind Swaraj",
+          "author": "Mahatma Gandhi",
+          "url": "https://bookshop.org/a/philosophia/9780521369190",
+          "why": "Gandhi's philosophical foundation for satyagraha — the metaphysics of nonviolent civil disobedience."
+        }
+      ]
+    },
+    {
+      "name": "Biopower",
+      "thinkerBio": "Michel Foucault (1926–1984) was a French philosopher and historian of ideas whose Discipline and Punish (1975) and The History of Sexuality Vol. 1 (1976) developed the concept of biopower; his Collège de France lectures elaborated its biopolitical dimensions.",
+      "quote": "The old power of death now gives way to the administration of bodies and the calculated management of life.",
+      "tags": [
+        "political",
+        "foucault",
+        "biopower",
+        "biopolitics",
+        "power"
+      ],
+      "related": [
+        {
+          "name": "Power-Knowledge",
+          "type": "Extends",
+          "note": "Biopower is one of the most important forms of Foucauldian power-knowledge — it produces subjects and populations through medical, administrative, and statistical knowledge."
+        },
+        {
+          "name": "Biopolitics and Bare Life",
+          "type": "Extends",
+          "note": "Agamben extends Foucault's biopower through bare life — sovereignty operates by deciding which lives can be exposed to death."
+        },
+        {
+          "name": "Hegemony",
+          "type": "Parallel",
+          "note": "Both Gramsci's hegemony and Foucault's biopower explain how modern power operates through internalization and consent rather than direct coercion."
+        },
+        {
+          "name": "Sovereignty",
+          "type": "Opposes",
+          "note": "Foucault explicitly contrasted biopower with sovereign power — sovereignty 'lets live or makes die'; biopower 'makes live and lets die.'"
+        }
+      ],
+      "books": [
+        {
+          "title": "Discipline and Punish",
+          "author": "Michel Foucault",
+          "url": "https://bookshop.org/a/philosophia/9780679752554",
+          "why": "Foucault's analysis of disciplinary power — the panopticon and the production of docile bodies."
+        },
+        {
+          "title": "The History of Sexuality, Vol. 1",
+          "author": "Michel Foucault",
+          "url": "https://bookshop.org/a/philosophia/9780679724698",
+          "why": "The explicit introduction of biopower — how the administration of sexuality became a site of political power."
+        },
+        {
+          "title": "Biopolitics: An Advanced Introduction",
+          "author": "Thomas Lemke",
+          "url": "https://bookshop.org/a/philosophia/9780814752951",
+          "why": "The clearest contemporary overview of biopower and biopolitics across Foucault, Agamben, and contemporary theory."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1577 @@
+{
+  "_metadata": {
+    "version": "5.0",
+    "chunk": "4 of 7",
+    "concepts_in_chunk": "29 concepts, bringing running total to 180",
+    "instruction": "For each object, find the matching concept in concepts.json by 'name' (exact match, case-sensitive). Add or overwrite: thinkerBio, quote, tags, related, books. All other fields remain unchanged.",
+    "affiliate_note": "books[].url format: https://bookshop.org/a/philosophia/ISBN -- replace ISBN after joining Bookshop.org affiliate program."
+  },
+  "completion": [
+    {
+      "name": "Philosophy of Chemistry",
+      "thinkerBio": "Jan van Brakel (b. 1943) and Eric Scerri (b. 1953) are the leading contemporary philosophers of chemistry, examining whether chemical kinds and explanations are reducible to physics or possess genuine explanatory autonomy.",
+      "quote": "The periodic table reveals deep regularities in atomic structure, but the chemical organization it embodies may not be fully derivable from quantum mechanics alone.",
+      "tags": [
+        "philosophy-of-science",
+        "chemistry",
+        "scerri",
+        "van-brakel",
+        "reduction"
+      ],
+      "related": [
+        {
+          "name": "Reductionism",
+          "type": "Extends",
+          "note": "Philosophy of chemistry directly tests reductionism -- whether chemical kinds and explanations reduce fully to quantum mechanical description."
+        },
+        {
+          "name": "Philosophy of Biology",
+          "type": "Parallel",
+          "note": "Both philosophy of chemistry and philosophy of biology examine whether their respective sciences possess genuine explanatory autonomy from physics."
+        },
+        {
+          "name": "Essentialism",
+          "type": "Extends",
+          "note": "Scientific essentialism about natural kinds is tested rigorously by the periodic table, where elements appear to have genuinely essential atomic properties."
+        },
+        {
+          "name": "Emergence",
+          "type": "Extends",
+          "note": "Van Brakel argues chemical properties like wetness or acidity may be irreducibly emergent at the macroscopic, human-scale level."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Periodic Table: Its Story and Its Significance",
+          "author": "Eric Scerri",
+          "url": "https://bookshop.org/a/philosophia/9780190914363",
+          "why": "Scerri's authoritative account of the periodic table's philosophical and scientific significance."
+        },
+        {
+          "title": "Philosophy of Chemistry: Synthesis of a New Discipline",
+          "author": "Davis Baird, Eric Scerri, and Lee McIntyre (eds.)",
+          "url": "https://bookshop.org/a/philosophia/9781402023275",
+          "why": "The foundational anthology establishing philosophy of chemistry as a distinct discipline."
+        },
+        {
+          "title": "Philosophy of Chemistry",
+          "author": "Jaap van Brakel",
+          "url": "https://bookshop.org/a/philosophia/9780822941781",
+          "why": "Van Brakel's systematic philosophical treatment of chemical autonomy and the limits of reduction."
+        }
+      ]
+    },
+    {
+      "name": "Social Studies of Science",
+      "thinkerBio": "Bruno Latour (1947-2022) and Steve Woolgar (b. 1950) founded laboratory ethnography in Laboratory Life (1979); Harry Collins (b. 1943) developed the study of tacit knowledge in scientific practice through decades of fieldwork on gravitational wave detection.",
+      "quote": "Scientific facts are constructed through networks of human and non-human actors -- they become robust as more elements are enrolled to support them.",
+      "tags": [
+        "philosophy-of-science",
+        "latour",
+        "collins",
+        "actor-network-theory",
+        "sociology-of-science"
+      ],
+      "related": [
+        {
+          "name": "Paradigm Shift",
+          "type": "Extends",
+          "note": "Kuhn's account of paradigms as social phenomena opened the door to the sociological approaches Latour and Collins developed further."
+        },
+        {
+          "name": "Theory-Ladenness of Observation",
+          "type": "Extends",
+          "note": "Theory-ladenness supports the constructivist insight that what scientists observe is shaped by social and theoretical context, not given neutrally."
+        },
+        {
+          "name": "Scientific Realism",
+          "type": "Opposes",
+          "note": "Social constructivism challenges scientific realism -- facts are stabilized through networks of actors, not simply discovered in mind-independent reality."
+        },
+        {
+          "name": "Power-Knowledge",
+          "type": "Parallel",
+          "note": "Both Foucauldian power-knowledge and actor-network theory examine how knowledge production is inseparable from networks of power and social practice."
+        }
+      ],
+      "books": [
+        {
+          "title": "Laboratory Life",
+          "author": "Bruno Latour and Steve Woolgar",
+          "url": "https://bookshop.org/a/philosophia/9780691028323",
+          "why": "The foundational ethnographic study treating scientists as an anthropologist would study an unfamiliar culture."
+        },
+        {
+          "title": "We Have Never Been Modern",
+          "author": "Bruno Latour",
+          "url": "https://bookshop.org/a/philosophia/9780674948396",
+          "why": "Latour's mature actor-network theory and his critique of the nature-culture divide."
+        },
+        {
+          "title": "Changing Order",
+          "author": "Harry Collins",
+          "url": "https://bookshop.org/a/philosophia/9780226113763",
+          "why": "Collins's foundational study of tacit knowledge and replication in experimental science."
+        }
+      ]
+    },
+    {
+      "name": "The Anthropic Principle",
+      "thinkerBio": "Brandon Carter (b. 1942) introduced the weak and strong anthropic principles in 1973; John Barrow (1952-2020) and Frank Tipler (b. 1947) developed the most comprehensive philosophical and physical analysis in The Anthropic Cosmological Principle (1986).",
+      "quote": "We should not be surprised that the universe permits the existence of life, because if it did not, we would not be here to observe it.",
+      "tags": [
+        "philosophy-of-science",
+        "anthropic-principle",
+        "carter",
+        "barrow",
+        "fine-tuning"
+      ],
+      "related": [
+        {
+          "name": "Possible Worlds",
+          "type": "Extends",
+          "note": "The multiverse response to fine-tuning applies possible-worlds-style reasoning to cosmology -- we necessarily find ourselves in a world permitting observers."
+        },
+        {
+          "name": "The Anthropic Cosmological Principle",
+          "type": "Extends",
+          "note": "This entry surveys the broader cosmological development of the anthropic principle beyond its initial formulation."
+        },
+        {
+          "name": "Inference to Best Explanation",
+          "type": "Extends",
+          "note": "Whether the anthropic principle explains fine-tuning or merely restates the selection effect is a live question of explanatory adequacy."
+        },
+        {
+          "name": "Scientific Realism",
+          "type": "Parallel",
+          "note": "Debates about the anthropic principle parallel debates about scientific realism -- whether unfalsifiable multiverse theories constitute genuine science."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Anthropic Cosmological Principle",
+          "author": "John Barrow and Frank Tipler",
+          "url": "https://bookshop.org/a/philosophia/9780192821478",
+          "why": "The definitive comprehensive treatment of the anthropic principle across physics and philosophy."
+        },
+        {
+          "title": "Universes",
+          "author": "John Leslie",
+          "url": "https://bookshop.org/a/philosophia/9780415070435",
+          "why": "Leslie's philosophical analysis including the famous firing squad analogy for fine-tuning."
+        },
+        {
+          "title": "A Fortunate Universe",
+          "author": "Geraint Lewis and Luke Barnes",
+          "url": "https://bookshop.org/a/philosophia/9781107156616",
+          "why": "A rigorous contemporary scientific and philosophical treatment of cosmic fine-tuning."
+        }
+      ]
+    },
+    {
+      "name": "Philosophy of Mathematics",
+      "thinkerBio": "Gottlob Frege (1848-1925) developed logicism, attempting to reduce mathematics to logic; Kurt Godel (1906-1978) proved the incompleteness theorems that transformed the philosophical understanding of mathematical truth and proof.",
+      "quote": "Any sufficiently powerful consistent formal system contains true statements that cannot be proved within that system.",
+      "tags": [
+        "philosophy-of-science",
+        "mathematics",
+        "frege",
+        "godel",
+        "platonism"
+      ],
+      "related": [
+        {
+          "name": "Formal Logic",
+          "type": "Extends",
+          "note": "Frege's logicist program and Godel's incompleteness theorems both emerged from the formalization of logic that grounds mathematical philosophy."
+        },
+        {
+          "name": "The Problem of Universals",
+          "type": "Parallel",
+          "note": "Mathematical Platonism about numbers and sets is a special case of the broader debate about the existence of abstract universals."
+        },
+        {
+          "name": "A Priori / A Posteriori",
+          "type": "Extends",
+          "note": "Mathematical knowledge is the paradigm case of a priori knowledge, raising deep questions about how we can know truths independent of experience."
+        },
+        {
+          "name": "Abstract Objects",
+          "type": "Extends",
+          "note": "Whether numbers and sets exist as abstract objects independent of minds is the central ontological question in philosophy of mathematics."
+        }
+      ],
+      "books": [
+        {
+          "title": "Introduction to Mathematical Philosophy",
+          "author": "Bertrand Russell",
+          "url": "https://bookshop.org/a/philosophia/9780486277240",
+          "why": "Russell's classic accessible introduction to the logicist foundations of mathematics."
+        },
+        {
+          "title": "Godel, Escher, Bach",
+          "author": "Douglas Hofstadter",
+          "url": "https://bookshop.org/a/philosophia/9780465026562",
+          "why": "An accessible and profound exploration of Godel's incompleteness theorems and their philosophical implications."
+        },
+        {
+          "title": "Philosophy of Mathematics: Selected Readings",
+          "author": "Paul Benacerraf and Hilary Putnam (eds.)",
+          "url": "https://bookshop.org/a/philosophia/9780521296489",
+          "why": "The essential anthology covering logicism, formalism, intuitionism, and Platonism in philosophy of mathematics."
+        }
+      ]
+    },
+    {
+      "name": "The Demarcation Problem",
+      "thinkerBio": "Karl Popper (1902-1994) proposed falsifiability as the criterion of demarcation between science and pseudoscience; Imre Lakatos (1922-1974) developed the more historically sophisticated criterion of progressive versus degenerative research programmes.",
+      "quote": "What distinguishes genuine science from pseudoscience, metaphysics, and non-science?",
+      "tags": [
+        "philosophy-of-science",
+        "demarcation",
+        "popper",
+        "lakatos",
+        "pseudoscience"
+      ],
+      "related": [
+        {
+          "name": "Falsifiability",
+          "type": "Extends",
+          "note": "Falsifiability is Popper's original proposed solution to the demarcation problem, though it has been substantially refined by subsequent philosophers of science."
+        },
+        {
+          "name": "Paradigm Shift",
+          "type": "Extends",
+          "note": "Kuhn's account of normal science and paradigm shifts complicates simple demarcation criteria by showing how science protects its core commitments."
+        },
+        {
+          "name": "Scientific Revolutions Reconsidered",
+          "type": "Extends",
+          "note": "Lakatos's sophisticated falsificationism and Feyerabend's epistemological anarchism represent opposing responses to the demarcation problem's difficulties."
+        },
+        {
+          "name": "Underdetermination",
+          "type": "Extends",
+          "note": "If theory choice is always underdetermined by evidence, sharp demarcation between science and non-science becomes correspondingly harder to draw precisely."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Logic of Scientific Discovery",
+          "author": "Karl Popper",
+          "url": "https://bookshop.org/a/philosophia/9780415278447",
+          "why": "Popper's foundational proposal of falsifiability as the criterion of scientific demarcation."
+        },
+        {
+          "title": "The Methodology of Scientific Research Programmes",
+          "author": "Imre Lakatos",
+          "url": "https://bookshop.org/a/philosophia/9780521280310",
+          "why": "Lakatos's sophisticated falsificationism -- the most historically informed refinement of the demarcation criterion."
+        },
+        {
+          "title": "But Is It Science?",
+          "author": "Robert Pennock and Michael Ruse (eds.)",
+          "url": "https://bookshop.org/a/philosophia/9781616145488",
+          "why": "An anthology applying the demarcation problem directly to the creationism-evolution controversy."
+        }
+      ]
+    },
+    {
+      "name": "Republican Theory of Freedom",
+      "thinkerBio": "Quentin Skinner (b. 1940) at Cambridge reconstructed the neo-Roman republican tradition through intellectual history; Philip Pettit's systematic philosophical development complements Skinner's historical recovery of the tradition.",
+      "quote": "Freedom consists not merely in the absence of interference but in the absence of dependence on the arbitrary will of another.",
+      "tags": [
+        "political",
+        "republicanism",
+        "skinner",
+        "neo-roman",
+        "liberty"
+      ],
+      "related": [
+        {
+          "name": "Republicanism",
+          "type": "Extends",
+          "note": "This entry develops the historical intellectual recovery that complements Pettit's systematic philosophical reconstruction of republican freedom."
+        },
+        {
+          "name": "Liberalism",
+          "type": "Opposes",
+          "note": "Republican freedom as non-domination is explicitly developed against the liberal conception of freedom as mere non-interference."
+        },
+        {
+          "name": "Sovereignty",
+          "type": "Extends",
+          "note": "Neo-Roman republicanism's concern with avoiding dependence on arbitrary will connects directly to debates about the proper limits of sovereign power."
+        },
+        {
+          "name": "Civil Disobedience",
+          "type": "Extends",
+          "note": "Republican freedom grounds a robust justification for resisting laws that constitute or enable domination, even when formally legal."
+        }
+      ],
+      "books": [
+        {
+          "title": "Liberty Before Liberalism",
+          "author": "Quentin Skinner",
+          "url": "https://bookshop.org/a/philosophia/9780521639254",
+          "why": "Skinner's foundational intellectual history recovering the neo-Roman republican conception of liberty."
+        },
+        {
+          "title": "Republicanism: A Theory of Freedom and Government",
+          "author": "Philip Pettit",
+          "url": "https://bookshop.org/a/philosophia/9780198296423",
+          "why": "The systematic philosophical companion to Skinner's historical recovery of republican freedom."
+        },
+        {
+          "title": "Machiavelli: A Very Short Introduction",
+          "author": "Quentin Skinner",
+          "url": "https://bookshop.org/a/philosophia/9780192854070",
+          "why": "Skinner traces the republican tradition from its classical origins through Machiavelli's development of it."
+        }
+      ]
+    },
+    {
+      "name": "Deliberative Democracy",
+      "thinkerBio": "Jurgen Habermas (b. 1929) developed the theory of communicative action grounding deliberative democracy; Joshua Cohen (b. 1951) at Stanford and Berkeley produced the most influential formal model of deliberative democratic legitimacy.",
+      "quote": "Political legitimacy requires that decisions be justifiable through public reasoning accessible to all citizens as free and equal.",
+      "tags": [
+        "political",
+        "deliberative-democracy",
+        "habermas",
+        "cohen",
+        "legitimacy"
+      ],
+      "related": [
+        {
+          "name": "Democracy",
+          "type": "Extends",
+          "note": "Deliberative democracy is the most developed contemporary account of what genuine democratic legitimacy requires beyond mere procedural majoritarianism."
+        },
+        {
+          "name": "Political Epistemology",
+          "type": "Extends",
+          "note": "Deliberative democracy has significant epistemic dimensions -- the quality of public reasoning affects whether outcomes track morally correct results."
+        },
+        {
+          "name": "Hegemony",
+          "type": "Opposes",
+          "note": "Gramsci's analysis of manufactured consent challenges deliberative democracy's assumption that genuine rational consensus is achievable in unequal societies."
+        },
+        {
+          "name": "Speech Act Theory",
+          "type": "Extends",
+          "note": "Habermas's theory of communicative action is grounded in a normative reconstruction of the pragmatics of speech acts aimed at mutual understanding."
+        }
+      ],
+      "books": [
+        {
+          "title": "Between Facts and Norms",
+          "author": "Jurgen Habermas",
+          "url": "https://bookshop.org/a/philosophia/9780262581622",
+          "why": "Habermas's comprehensive systematic theory of deliberative democracy and discourse-theoretic legitimacy."
+        },
+        {
+          "title": "Deliberative Democracy: Essays on Reason and Politics",
+          "author": "James Bohman and William Rehg (eds.)",
+          "url": "https://bookshop.org/a/philosophia/9780262522413",
+          "why": "The essential anthology collecting the foundational papers in deliberative democratic theory."
+        },
+        {
+          "title": "The Theory of Communicative Action",
+          "author": "Jurgen Habermas",
+          "url": "https://bookshop.org/a/philosophia/9780807015074",
+          "why": "Habermas's broader philosophical framework of communicative rationality that grounds his democratic theory."
+        }
+      ]
+    },
+    {
+      "name": "Nationalism",
+      "thinkerBio": "Benedict Anderson (1936-2015) analyzed nations as imagined communities in his influential 1983 study; David Miller (b. 1946) at Oxford developed the most rigorous contemporary philosophical defence of liberal nationalism.",
+      "quote": "The nation is an imagined political community -- imagined as both inherently limited and sovereign.",
+      "tags": [
+        "political",
+        "nationalism",
+        "anderson",
+        "miller",
+        "national-identity"
+      ],
+      "related": [
+        {
+          "name": "Cosmopolitanism and Obligations",
+          "type": "Opposes",
+          "note": "Nationalism holds that special obligations exist between co-nationals; cosmopolitanism denies that national membership is morally relevant to obligations."
+        },
+        {
+          "name": "Communitarianism",
+          "type": "Parallel",
+          "note": "Liberal nationalism shares with communitarianism the view that membership in particular communities is constitutive of identity and generates special obligations."
+        },
+        {
+          "name": "Pan-Africanism",
+          "type": "Opposes",
+          "note": "Pan-Africanism's transnational solidarity across the African diaspora challenges the bounded territorial conception of nationhood central to standard nationalism."
+        },
+        {
+          "name": "Self-Determination",
+          "type": "Extends",
+          "note": "Nationalism grounds claims to national self-determination, a principle that has shaped decolonization and international law throughout the twentieth century."
+        }
+      ],
+      "books": [
+        {
+          "title": "Imagined Communities",
+          "author": "Benedict Anderson",
+          "url": "https://bookshop.org/a/philosophia/9781784786755",
+          "why": "The foundational analysis of nations as socially constructed imagined communities."
+        },
+        {
+          "title": "On Nationality",
+          "author": "David Miller",
+          "url": "https://bookshop.org/a/philosophia/9780198293569",
+          "why": "The most rigorous contemporary liberal philosophical defence of nationalism and national obligations."
+        },
+        {
+          "title": "Nations and Nationalism",
+          "author": "Ernest Gellner",
+          "url": "https://bookshop.org/a/philosophia/9780801475850",
+          "why": "Gellner's influential sociological and historical account of nationalism's modern origins."
+        }
+      ]
+    },
+    {
+      "name": "Multiculturalism",
+      "thinkerBio": "Charles Taylor (b. 1931) at McGill developed the philosophy of recognition underlying multiculturalism in 'The Politics of Recognition' (1992); Will Kymlicka (b. 1962) developed the most systematic liberal theory of minority rights.",
+      "quote": "The withholding of recognition can be a form of oppression -- our identity is partly shaped by recognition or its absence, from others.",
+      "tags": [
+        "political",
+        "multiculturalism",
+        "taylor",
+        "kymlicka",
+        "recognition"
+      ],
+      "related": [
+        {
+          "name": "Recognition and Misrecognition",
+          "type": "Extends",
+          "note": "Taylor's politics of recognition is the philosophical foundation for multiculturalism -- misrecognition by majority institutions damages minority self-understanding."
+        },
+        {
+          "name": "Liberalism",
+          "type": "Extends",
+          "note": "Kymlicka's liberal multiculturalism argues that minority rights are compatible with, and required by, core liberal commitments to individual autonomy."
+        },
+        {
+          "name": "Negritude",
+          "type": "Parallel",
+          "note": "Both multiculturalism and Negritude assert the value of marginalized cultural identities against assimilationist pressure from dominant frameworks."
+        },
+        {
+          "name": "Decolonizing Knowledge",
+          "type": "Parallel",
+          "note": "Both multiculturalism and decolonizing knowledge projects challenge the universalization of majority cultural and epistemic frameworks as neutral defaults."
+        }
+      ],
+      "books": [
+        {
+          "title": "Multiculturalism: Examining the Politics of Recognition",
+          "author": "Charles Taylor et al.",
+          "url": "https://bookshop.org/a/philosophia/9780691003711",
+          "why": "Taylor's foundational essay on recognition alongside critical responses from leading political philosophers."
+        },
+        {
+          "title": "Multicultural Citizenship",
+          "author": "Will Kymlicka",
+          "url": "https://bookshop.org/a/philosophia/9780198290919",
+          "why": "Kymlicka's systematic liberal theory of minority rights and group-differentiated citizenship."
+        },
+        {
+          "title": "Strange Multiplicity",
+          "author": "James Tully",
+          "url": "https://bookshop.org/a/philosophia/9780521436931",
+          "why": "Tully's account of constitutionalism that accommodates rather than suppresses cultural diversity."
+        }
+      ]
+    },
+    {
+      "name": "Self-Determination",
+      "thinkerBio": "Self-determination as a political and legal principle developed through twentieth-century decolonization movements; its philosophical articulation draws on Wilsonian internationalism, Leninist anti-imperialism, and the UN Charter's codification of the principle.",
+      "quote": "All peoples have the right to self-determination -- by virtue of that right they freely determine their political status.",
+      "tags": [
+        "political",
+        "self-determination",
+        "decolonization",
+        "sovereignty",
+        "international-law"
+      ],
+      "related": [
+        {
+          "name": "Nationalism",
+          "type": "Extends",
+          "note": "Self-determination is the political principle that operationalizes nationalist claims to nationhood into rights to sovereign political organization."
+        },
+        {
+          "name": "Colonialism and Postcolonialism",
+          "type": "Extends",
+          "note": "Self-determination became the central legal and political principle driving decolonization movements across Africa, Asia, and the Caribbean."
+        },
+        {
+          "name": "Sovereignty",
+          "type": "Extends",
+          "note": "Self-determination grounds claims to sovereignty for peoples seeking independence from colonial or otherwise illegitimate rule."
+        },
+        {
+          "name": "Pan-Africanism",
+          "type": "Parallel",
+          "note": "Pan-Africanism's demand for African self-determination was among the most consequential applications of the principle in twentieth-century politics."
+        }
+      ],
+      "books": [
+        {
+          "title": "Self-Determination and National Minorities",
+          "author": "Margaret Moore",
+          "url": "https://bookshop.org/a/philosophia/9780198294939",
+          "why": "A rigorous philosophical analysis of competing accounts of the right to self-determination."
+        },
+        {
+          "title": "National Self-Determination and Secession",
+          "author": "Margaret Moore (ed.)",
+          "url": "https://bookshop.org/a/philosophia/9780198293898",
+          "why": "An anthology examining the philosophical justification and limits of self-determination claims."
+        },
+        {
+          "title": "The Wretched of the Earth",
+          "author": "Frantz Fanon",
+          "url": "https://bookshop.org/a/philosophia/9780802141323",
+          "why": "Fanon's account of the struggle for self-determination from the perspective of anticolonial revolution."
+        }
+      ]
+    },
+    {
+      "name": "Attention and Consciousness",
+      "thinkerBio": "Anne Treisman (1935-2018) developed feature integration theory connecting attention to perceptual binding; Stanislas Dehaene's Global Workspace Theory makes attention the key mechanism determining what becomes conscious.",
+      "quote": "Attention is the mechanism that determines what gets broadcast to the global workspace and thereby becomes available to consciousness.",
+      "tags": [
+        "mind",
+        "attention",
+        "treisman",
+        "dehaene",
+        "binding"
+      ],
+      "related": [
+        {
+          "name": "Consciousness and the Brain",
+          "type": "Extends",
+          "note": "Global Workspace Theory closely connects attention to consciousness -- attention determines what gets broadcast to the global workspace."
+        },
+        {
+          "name": "The Binding Problem",
+          "type": "Extends",
+          "note": "Treisman's feature integration theory proposes that attention is the mechanism that binds separately processed features into unified perceptual objects."
+        },
+        {
+          "name": "Hard Problem of Consciousness",
+          "type": "Opposes",
+          "note": "Even a complete account of attention's role in consciousness leaves the hard problem of why attended information is accompanied by subjective experience."
+        },
+        {
+          "name": "Functionalism",
+          "type": "Extends",
+          "note": "Attention-based theories of consciousness are broadly functionalist, defining consciousness by attention's causal and informational role."
+        }
+      ],
+      "books": [
+        {
+          "title": "Consciousness and the Brain",
+          "author": "Stanislas Dehaene",
+          "url": "https://bookshop.org/a/philosophia/9780670025435",
+          "why": "Dehaene's rigorous account of how attention determines global workspace access and conscious awareness."
+        },
+        {
+          "title": "The Attentive Brain",
+          "author": "Raja Parasuraman (ed.)",
+          "url": "https://bookshop.org/a/philosophia/9780262661503",
+          "why": "A comprehensive scientific survey of attention research including Treisman's feature integration theory."
+        },
+        {
+          "title": "Supersizing the Mind",
+          "author": "Andy Clark",
+          "url": "https://bookshop.org/a/philosophia/9780199773688",
+          "why": "Clark connects attention and consciousness to broader questions about embodied and extended cognition."
+        }
+      ]
+    },
+    {
+      "name": "Emotions and Cognition",
+      "thinkerBio": "Richard Lazarus (1922-2002) developed cognitive appraisal theory in psychology; Martha Nussbaum (b. 1947) developed the most influential philosophical cognitive theory of emotions, treating them as evaluative judgments rather than mere bodily feelings.",
+      "quote": "Emotions are not just feelings but evaluative judgments about what matters to us -- grief is the judgment that something of great value has been lost.",
+      "tags": [
+        "mind",
+        "emotions",
+        "nussbaum",
+        "lazarus",
+        "cognitive-appraisal"
+      ],
+      "related": [
+        {
+          "name": "Moral Motivation",
+          "type": "Extends",
+          "note": "Nussbaum's cognitive theory of emotion supports a Humean-adjacent view that emotional appraisal, not pure reason, is central to practical and moral motivation."
+        },
+        {
+          "name": "Katharsis",
+          "type": "Extends",
+          "note": "Nussbaum's cognitive theory grounds the clarification interpretation of katharsis -- tragedy educates emotional intelligence rather than merely discharging feeling."
+        },
+        {
+          "name": "Moral Psychology",
+          "type": "Extends",
+          "note": "Cognitive appraisal theory connects to the broader empirical study of how emotion and reasoning interact in producing moral judgment."
+        },
+        {
+          "name": "Care Ethics",
+          "type": "Parallel",
+          "note": "Both cognitive emotion theory and care ethics treat emotional responsiveness as epistemically and morally significant rather than as mere irrational noise."
+        }
+      ],
+      "books": [
+        {
+          "title": "Upheavals of Thought",
+          "author": "Martha Nussbaum",
+          "url": "https://bookshop.org/a/philosophia/9780521531825",
+          "why": "Nussbaum's comprehensive philosophical development of the cognitive theory of emotions."
+        },
+        {
+          "title": "Emotion and Adaptation",
+          "author": "Richard Lazarus",
+          "url": "https://bookshop.org/a/philosophia/9780195092660",
+          "why": "Lazarus's foundational psychological theory of cognitive appraisal underlying emotional response."
+        },
+        {
+          "title": "The Fragility of Goodness",
+          "author": "Martha Nussbaum",
+          "url": "https://bookshop.org/a/philosophia/9780521794732",
+          "why": "Nussbaum's earlier work connecting emotion, vulnerability, and ethical luck in Greek philosophy and tragedy."
+        }
+      ]
+    },
+    {
+      "name": "Perception and Illusion",
+      "thinkerBio": "A.J. Ayer (1910-1989) developed the argument from illusion supporting sense-datum theory; John McDowell (b. 1942) at Pittsburgh developed disjunctivism as the most influential contemporary challenge to indirect realist theories of perception.",
+      "quote": "Veridical perception and hallucination are different in kind, not merely in cause -- there is no common factor shared between them that representational theories assume.",
+      "tags": [
+        "mind",
+        "perception",
+        "ayer",
+        "mcdowell",
+        "disjunctivism"
+      ],
+      "related": [
+        {
+          "name": "Skepticism",
+          "type": "Extends",
+          "note": "The argument from illusion historically motivated indirect realism, which in turn generates skeptical worries about whether sense data accurately represent external objects."
+        },
+        {
+          "name": "Phenomenology of Perception",
+          "type": "Parallel",
+          "note": "Both McDowell's disjunctivism and Merleau-Ponty's phenomenology resist reducing perception to an inner representational intermediary between mind and world."
+        },
+        {
+          "name": "Qualia",
+          "type": "Extends",
+          "note": "Debates about perception and illusion bear directly on whether qualia are inner mental objects (sense data) or features of direct perceptual contact with the world."
+        },
+        {
+          "name": "Functionalism",
+          "type": "Opposes",
+          "note": "Disjunctivism challenges purely functionalist accounts of perception by insisting that veridical perceptual states are categorically different from non-veridical ones."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Problem of Perception",
+          "author": "A.D. Smith",
+          "url": "https://bookshop.org/a/philosophia/9780262692646",
+          "why": "A comprehensive contemporary survey of theories of perception including sense-datum theory and disjunctivism."
+        },
+        {
+          "title": "Mind and World",
+          "author": "John McDowell",
+          "url": "https://bookshop.org/a/philosophia/9780674576101",
+          "why": "McDowell's foundational development of disjunctivism and his critique of the Myth of the Given."
+        },
+        {
+          "title": "The Foundations of Empirical Knowledge",
+          "author": "A.J. Ayer",
+          "url": "https://bookshop.org/a/philosophia/9780313234490",
+          "why": "Ayer's classic statement of sense-datum theory and the argument from illusion."
+        }
+      ]
+    },
+    {
+      "name": "Imagination and Mental Imagery",
+      "thinkerBio": "Jean-Paul Sartre (1905-1980) developed the phenomenology of imagination in The Imaginary (1940); Stephen Kosslyn (b. 1948) conducted the foundational experimental work supporting depictive theories of mental imagery in cognitive science.",
+      "quote": "Mental images are depictive, quasi-pictorial representations with genuine spatial properties, not merely propositional descriptions.",
+      "tags": [
+        "mind",
+        "imagination",
+        "sartre",
+        "kosslyn",
+        "mental-imagery"
+      ],
+      "related": [
+        {
+          "name": "Imagination",
+          "type": "Extends",
+          "note": "This entry connects philosophical accounts of imagination to the cognitive science debate over the depictive versus propositional nature of mental imagery."
+        },
+        {
+          "name": "Existence Precedes Essence",
+          "type": "Extends",
+          "note": "For Sartre, imagination is closely tied to freedom -- the capacity to posit absent or unreal objects is an exercise of the negating freedom of consciousness."
+        },
+        {
+          "name": "Qualia",
+          "type": "Parallel",
+          "note": "Whether mental images have genuine qualitative, picture-like character connects directly to broader debates about the nature of phenomenal qualia."
+        },
+        {
+          "name": "Language of Thought",
+          "type": "Opposes",
+          "note": "If mental imagery is genuinely depictive rather than propositional, this challenges Fodor's claim that all cognition operates through a language-like symbolic medium."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Imaginary",
+          "author": "Jean-Paul Sartre",
+          "url": "https://bookshop.org/a/philosophia/9780415287345",
+          "why": "Sartre's foundational phenomenological account distinguishing imagination from perception."
+        },
+        {
+          "title": "Image and Brain",
+          "author": "Stephen Kosslyn",
+          "url": "https://bookshop.org/a/philosophia/9780262611494",
+          "why": "Kosslyn's comprehensive presentation of the experimental case for depictive mental imagery."
+        },
+        {
+          "title": "The Imagery Debate",
+          "author": "Michael Tye",
+          "url": "https://bookshop.org/a/philosophia/9780262261136",
+          "why": "A balanced philosophical analysis of the depictive versus propositional debate over mental imagery."
+        }
+      ]
+    },
+    {
+      "name": "Concepts and Categorization",
+      "thinkerBio": "Ludwig Wittgenstein (1889-1951) introduced family resemblance as an alternative to definitional concepts; Eleanor Rosch (b. 1938) empirically confirmed prototype theory, showing that categories are organized around typical exemplars rather than necessary and sufficient conditions.",
+      "quote": "Games do not share a single common essence -- they share overlapping family resemblances, with no single feature common to all.",
+      "tags": [
+        "mind",
+        "concepts",
+        "wittgenstein",
+        "rosch",
+        "prototype-theory"
+      ],
+      "related": [
+        {
+          "name": "Language Games",
+          "type": "Extends",
+          "note": "Family resemblance is Wittgenstein's broader insight into how language and concepts function without fixed essential definitions, central to his theory of language games."
+        },
+        {
+          "name": "Essentialism",
+          "type": "Opposes",
+          "note": "Prototype theory and family resemblance directly challenge classical essentialism about concepts, which requires necessary and sufficient defining conditions."
+        },
+        {
+          "name": "The Problem of Universals",
+          "type": "Extends",
+          "note": "Whether categories are organized around shared universal essences or merely family resemblances bears directly on the metaphysics of natural kinds."
+        },
+        {
+          "name": "Embodied Cognition",
+          "type": "Parallel",
+          "note": "Prototype theory's emphasis on typical, embodied exemplars rather than abstract definitions connects to the broader embodied cognition research program."
+        }
+      ],
+      "books": [
+        {
+          "title": "Philosophical Investigations",
+          "author": "Ludwig Wittgenstein",
+          "url": "https://bookshop.org/a/philosophia/9781405159289",
+          "why": "Contains Wittgenstein's foundational discussion of family resemblance concepts using the example of games."
+        },
+        {
+          "title": "Women, Fire, and Dangerous Things",
+          "author": "George Lakoff",
+          "url": "https://bookshop.org/a/philosophia/9780226468013",
+          "why": "Lakoff's comprehensive synthesis of prototype theory and its implications for categorization and language."
+        },
+        {
+          "title": "Concepts: Where Cognitive Science Went Wrong",
+          "author": "Jerry Fodor",
+          "url": "https://bookshop.org/a/philosophia/9780198236368",
+          "why": "Fodor's critical engagement with prototype theory from a classical, atomistic theory of concepts."
+        }
+      ]
+    },
+    {
+      "name": "The Unconscious",
+      "thinkerBio": "Sigmund Freud (1856-1939) developed the dynamic unconscious as a motivated, active psychic system in The Interpretation of Dreams (1899); Jacques Lacan (1901-1981) reformulated it structurally as organized like a language.",
+      "quote": "The unconscious is structured like a language -- the subject is spoken by the language it inhabits rather than mastering its own discourse.",
+      "tags": [
+        "mind",
+        "unconscious",
+        "freud",
+        "lacan",
+        "psychoanalysis"
+      ],
+      "related": [
+        {
+          "name": "The Uncanny",
+          "type": "Extends",
+          "note": "For Freud, the uncanny arises from the return of repressed unconscious content -- what was formerly familiar but made strange by repression."
+        },
+        {
+          "name": "Structuralism",
+          "type": "Extends",
+          "note": "Lacan's structural reformulation of the unconscious applies Saussurean linguistic structuralism to psychoanalytic theory."
+        },
+        {
+          "name": "Ideology and False Consciousness",
+          "type": "Parallel",
+          "note": "Both the Freudian unconscious and Marxist false consciousness posit hidden psychic or social structures that distort and constrain conscious awareness."
+        },
+        {
+          "name": "Functionalism",
+          "type": "Opposes",
+          "note": "Contemporary cognitive science's 'adaptive unconscious' replaces Freudian motivated repression with computationally efficient automatic processing, challenging the psychoanalytic picture."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Interpretation of Dreams",
+          "author": "Sigmund Freud",
+          "url": "https://bookshop.org/a/philosophia/9780199639180",
+          "why": "Freud's foundational text developing the dynamic, motivated unconscious and its interpretive method."
+        },
+        {
+          "title": "Ecrits",
+          "author": "Jacques Lacan",
+          "url": "https://bookshop.org/a/philosophia/9780393329254",
+          "why": "Lacan's challenging but foundational reformulation of the unconscious through structural linguistics."
+        },
+        {
+          "title": "Strangers to Ourselves",
+          "author": "Timothy Wilson",
+          "url": "https://bookshop.org/a/philosophia/9780674013827",
+          "why": "Wilson's accessible cognitive scientific account of the 'adaptive unconscious' as an alternative to the Freudian model."
+        }
+      ]
+    },
+    {
+      "name": "Pain and Suffering",
+      "thinkerBio": "Ludwig Wittgenstein (1889-1951) used pain as the central case in his private language argument; Elaine Scarry (b. 1946) at Harvard developed the most influential philosophical analysis of pain's world-destroying and politically significant character in The Body in Pain (1985).",
+      "quote": "Intense pain is world-destroying -- it obliterates the capacity for speech, thought, and the sense of shared humanity.",
+      "tags": [
+        "mind",
+        "pain",
+        "wittgenstein",
+        "scarry",
+        "private-language"
+      ],
+      "related": [
+        {
+          "name": "Language Games",
+          "type": "Extends",
+          "note": "Wittgenstein's private language argument uses pain to show that meaning cannot be grounded in private, inner ostensive definition but requires public criteria."
+        },
+        {
+          "name": "Qualia",
+          "type": "Extends",
+          "note": "Pain is the paradigm case of a qualitative mental state -- its irreducible felt quality is central to debates about the nature of phenomenal qualia."
+        },
+        {
+          "name": "Buddhist Ethics",
+          "type": "Parallel",
+          "note": "Both Western philosophical analysis of pain and Buddhist diagnosis of dukkha treat suffering as a central category requiring careful philosophical attention."
+        },
+        {
+          "name": "Punishment",
+          "type": "Extends",
+          "note": "Scarry's analysis of how torture exploits pain's capacity to destroy language and agency connects directly to the ethics of state violence and punishment."
+        }
+      ],
+      "books": [
+        {
+          "title": "Philosophical Investigations",
+          "author": "Ludwig Wittgenstein",
+          "url": "https://bookshop.org/a/philosophia/9781405159289",
+          "why": "Contains the foundational private language argument with pain as the central illustrative case."
+        },
+        {
+          "title": "The Body in Pain",
+          "author": "Elaine Scarry",
+          "url": "https://bookshop.org/a/philosophia/9780195049961",
+          "why": "Scarry's profound philosophical and political analysis of pain's world-destroying character."
+        },
+        {
+          "title": "The Story of Pain",
+          "author": "Joanna Bourke",
+          "url": "https://bookshop.org/a/philosophia/9780198734430",
+          "why": "A historical and philosophical account of how pain has been understood and experienced across different periods."
+        }
+      ]
+    },
+    {
+      "name": "Philosophy of Action",
+      "thinkerBio": "G.E.M. Anscombe (1919-2001) founded contemporary philosophy of action in Intention (1957); Donald Davidson (1917-2003) developed the influential causal theory holding that reasons are the causes of intentional actions.",
+      "quote": "An action is intentional when it makes sense to ask why the agent performed it, and reasons can be given as the answer.",
+      "tags": [
+        "mind",
+        "action-theory",
+        "anscombe",
+        "davidson",
+        "intention"
+      ],
+      "related": [
+        {
+          "name": "Free Will vs Determinism",
+          "type": "Extends",
+          "note": "The causal theory of action connects directly to the free will debate -- if reasons are causes, intentional action may be compatible with a fully deterministic universe."
+        },
+        {
+          "name": "Speech Act Theory",
+          "type": "Parallel",
+          "note": "Both philosophy of action and speech act theory analyze the structure of intentional human doings, whether physical actions or linguistic performances."
+        },
+        {
+          "name": "Wu Wei",
+          "type": "Opposes",
+          "note": "The causal theory of action presupposes deliberate reasons guiding behavior, in contrast to the Taoist ideal of spontaneous, non-deliberate action."
+        },
+        {
+          "name": "Wang Yangming's Mind-Only Philosophy",
+          "type": "Parallel",
+          "note": "Both Davidsonian action theory and Wang Yangming's unity of knowing and acting investigate the tight connection between mental states and intentional behavior."
+        }
+      ],
+      "books": [
+        {
+          "title": "Intention",
+          "author": "G.E.M. Anscombe",
+          "url": "https://bookshop.org/a/philosophia/9780674003996",
+          "why": "Anscombe's foundational text establishing contemporary philosophy of action as a distinct field."
+        },
+        {
+          "title": "Essays on Actions and Events",
+          "author": "Donald Davidson",
+          "url": "https://bookshop.org/a/philosophia/9780199246270",
+          "why": "Davidson's collected papers developing the causal theory of action and reasons as causes."
+        },
+        {
+          "title": "Action, Reason, and Purpose",
+          "author": "Myles Brand (ed.)",
+          "url": "https://bookshop.org/a/philosophia/9780822984886",
+          "why": "An essential anthology covering the major positions in contemporary philosophy of action."
+        }
+      ]
+    },
+    {
+      "name": "Madhyamaka Philosophy",
+      "thinkerBio": "Nagarjuna (c. 150-250 CE) founded the Madhyamaka school of Buddhist philosophy with his Mulamadhyamakakarika, the most rigorous philosophical development of the doctrine of emptiness in the entire Buddhist tradition.",
+      "quote": "All phenomena are empty of intrinsic existence -- including emptiness itself, which is not a substitute absolute but merely another conventional designation.",
+      "tags": [
+        "eastern",
+        "madhyamaka",
+        "nagarjuna",
+        "emptiness",
+        "buddhism"
+      ],
+      "related": [
+        {
+          "name": "Dependent Origination",
+          "type": "Extends",
+          "note": "Nagarjuna radicalized dependent origination into a complete metaphysics of emptiness -- nothing has intrinsic existence apart from its conditions."
+        },
+        {
+          "name": "Anatta",
+          "type": "Extends",
+          "note": "Madhyamaka extends the doctrine of no-self universally -- not only persons but all phenomena lack intrinsic, independent existence."
+        },
+        {
+          "name": "Advaita Vedanta",
+          "type": "Parallel",
+          "note": "Both Madhyamaka and Advaita are non-dualist traditions that challenge conventional distinctions as ultimately unreal, though they differ on whether any ultimate reality remains."
+        },
+        {
+          "name": "Buddhism in China",
+          "type": "Extends",
+          "note": "The Tiantai school's three truths doctrine represents a sophisticated Chinese philosophical development of Nagarjuna's original two-truths framework."
+        }
+      ],
+      "books": [
+        {
+          "title": "Nagarjuna's Middle Way",
+          "author": "Nagarjuna (trans. Mark Siderits and Shoryu Katsura)",
+          "url": "https://bookshop.org/a/philosophia/9781614290319",
+          "why": "The definitive scholarly translation and commentary on Nagarjuna's foundational philosophical text."
+        },
+        {
+          "title": "Buddhism as Philosophy",
+          "author": "Mark Siderits",
+          "url": "https://bookshop.org/a/philosophia/9780872208074",
+          "why": "A clear analytic philosophical introduction to Madhyamaka emptiness and its place in Buddhist metaphysics."
+        },
+        {
+          "title": "Emptiness Yoga",
+          "author": "Jeffrey Hopkins",
+          "url": "https://bookshop.org/a/philosophia/9781559390222",
+          "why": "A detailed scholarly study of how Madhyamaka emptiness functions in Tibetan philosophical and meditative practice."
+        }
+      ]
+    },
+    {
+      "name": "Yogacara and Mind-Only",
+      "thinkerBio": "Vasubandhu (fourth century CE) and his brother Asanga developed the Yogacara school's idealist philosophy, arguing that reality as experienced consists entirely of mental representations arising from a shared storehouse consciousness.",
+      "quote": "Our experience of an external world is indistinguishable from dream experience, in which no external objects exist.",
+      "tags": [
+        "eastern",
+        "yogacara",
+        "vasubandhu",
+        "idealism",
+        "consciousness-only"
+      ],
+      "related": [
+        {
+          "name": "Advaita Vedanta",
+          "type": "Parallel",
+          "note": "Both Yogacara's consciousness-only and Advaita's Brahman-only are idealist responses to the problem of the external world, though from different metaphysical starting points."
+        },
+        {
+          "name": "Wang Yangming's Mind-Only Philosophy",
+          "type": "Parallel",
+          "note": "Both Yogacara and Wang Yangming's xinxue hold that mind is the fundamental reality, though for very different metaphysical and ethical purposes."
+        },
+        {
+          "name": "Idealism",
+          "type": "Parallel",
+          "note": "Yogacara's denial of mind-independent external objects has deep structural affinities with Western idealist traditions from Berkeley to absolute idealism."
+        },
+        {
+          "name": "Madhyamaka Philosophy",
+          "type": "Opposes",
+          "note": "Madhyamaka denies any ultimately existing entity including consciousness itself, while Yogacara grants a more positive ontological status to the storehouse consciousness."
+        }
+      ],
+      "books": [
+        {
+          "title": "Seven Works of Vasubandhu",
+          "author": "Vasubandhu (trans. Stefan Anacker)",
+          "url": "https://bookshop.org/a/philosophia/9788120808009",
+          "why": "The most comprehensive translation of Vasubandhu's key philosophical treatises developing Yogacara idealism."
+        },
+        {
+          "title": "Buddhist Phenomenology",
+          "author": "Dan Lusthaus",
+          "url": "https://bookshop.org/a/philosophia/9780415406102",
+          "why": "A rigorous scholarly study connecting Yogacara philosophy to Western phenomenological method."
+        },
+        {
+          "title": "Yogacara Buddhism and the Yogacarabhumi",
+          "author": "Ulrich Timme Kragh (ed.)",
+          "url": "https://bookshop.org/a/philosophia/9780674047297",
+          "why": "Comprehensive academic essays on the historical development and philosophical content of Yogacara."
+        }
+      ]
+    },
+    {
+      "name": "The Yijing and Correlative Thought",
+      "thinkerBio": "The Yijing developed across the Zhou dynasty (c. 1046-256 BCE), with its philosophical commentaries traditionally attributed to Confucius though composed somewhat later; it remains the most influential divinatory and cosmological text in Chinese intellectual history.",
+      "quote": "The hexagrams do not describe static states but transitions -- each situation contains the seeds of its own transformation into another.",
+      "tags": [
+        "eastern",
+        "yijing",
+        "correlative-thought",
+        "divination",
+        "change"
+      ],
+      "related": [
+        {
+          "name": "Yin-Yang",
+          "type": "Extends",
+          "note": "The Yijing's hexagram system is built directly on the interplay of yin and yang lines representing dynamic configurations of cosmic process."
+        },
+        {
+          "name": "Process Philosophy",
+          "type": "Parallel",
+          "note": "The Yijing's emphasis on transformation and dynamic configuration rather than static being has deep affinities with Whiteheadian process metaphysics."
+        },
+        {
+          "name": "Neo-Confucian Cosmology",
+          "type": "Extends",
+          "note": "The Yijing's correlative cosmology directly informed the qi-li framework developed by Zhang Zai, Cheng Yi, and Zhu Xi in Neo-Confucian philosophy."
+        },
+        {
+          "name": "Causation",
+          "type": "Opposes",
+          "note": "Correlative thinking in the Yijing understands events through their dynamic correlations rather than through Humean linear causal sequences."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Yijing",
+          "author": "trans. Richard John Lynn",
+          "url": "https://bookshop.org/a/philosophia/9780231082945",
+          "why": "A scholarly translation including Wang Bi's influential philosophical commentary on the text."
+        },
+        {
+          "title": "The I Ching or Book of Changes",
+          "author": "trans. Richard Wilhelm",
+          "url": "https://bookshop.org/a/philosophia/9780691018727",
+          "why": "The classic and most widely read translation, with Carl Jung's influential foreword on synchronicity."
+        },
+        {
+          "title": "The Philosophy of the I Ching",
+          "author": "Carol K. Anthony",
+          "url": "https://bookshop.org/a/philosophia/9780931872079",
+          "why": "An accessible philosophical exploration of correlative thinking and the text's underlying cosmology."
+        }
+      ]
+    },
+    {
+      "name": "Jain Philosophy of Ahimsa",
+      "thinkerBio": "Mahavira (traditional dates: 599-527 BCE) is the twenty-fourth Tirthankara of Jainism, whose teachings on non-violence extended to all living beings; the Jain tradition has developed the most rigorous and comprehensive philosophy of non-harm of any world religious tradition.",
+      "quote": "All souls are fundamentally equal -- the distinction between a human soul and an earthworm's soul is a difference of degree, not of kind.",
+      "tags": [
+        "eastern",
+        "jainism",
+        "ahimsa",
+        "mahavira",
+        "non-violence"
+      ],
+      "related": [
+        {
+          "name": "Environmental Ethics",
+          "type": "Parallel",
+          "note": "Jain ahimsa extended to all living beings -- even micro-organisms -- is the most radical non-Western parallel to contemporary environmental ethics."
+        },
+        {
+          "name": "Buddhist Ethics",
+          "type": "Parallel",
+          "note": "Both Jain ahimsa and Buddhist ethics extend moral concern to all sentient beings, though Jainism's prohibitions are considerably more absolute."
+        },
+        {
+          "name": "Civil Disobedience",
+          "type": "Extends",
+          "note": "Gandhi's satyagraha and his philosophy of nonviolent resistance drew explicitly on Jain ahimsa as a primary intellectual source."
+        },
+        {
+          "name": "Care Ethics",
+          "type": "Parallel",
+          "note": "Both Jain ahimsa and care ethics ground ethical obligation in attentive responsiveness to the vulnerability of others, extended in Jainism to the broadest possible scope."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Jaina Path of Purification",
+          "author": "Padmanabh Jaini",
+          "url": "https://bookshop.org/a/philosophia/9788120815780",
+          "why": "The definitive scholarly study of Jain philosophy and practice including the doctrine of ahimsa."
+        },
+        {
+          "title": "Ahimsa: Non-Violence in Indian Tradition",
+          "author": "Unto Tahtinen",
+          "url": "https://bookshop.org/a/philosophia/9780091394102",
+          "why": "A comparative philosophical study of non-violence doctrines across Jain, Hindu, and Buddhist traditions."
+        },
+        {
+          "title": "Hind Swaraj",
+          "author": "Mahatma Gandhi",
+          "url": "https://bookshop.org/a/philosophia/9780521369190",
+          "why": "Gandhi's own development of nonviolent philosophy, explicitly indebted to Jain ahimsa."
+        }
+      ]
+    },
+    {
+      "name": "Confucian Self and Society",
+      "thinkerBio": "Confucius (551-479 BCE) developed a relational conception of selfhood in the Analects, constituted through the five fundamental relationships; this relational account distinguishes Confucian moral philosophy from individualist Western traditions.",
+      "quote": "The superior person is distinguished not by social role alone but by the quality of moral cultivation they have achieved, which expresses itself through role-performance.",
+      "tags": [
+        "eastern",
+        "confucianism",
+        "self-society",
+        "relational-personhood",
+        "five-relationships"
+      ],
+      "related": [
+        {
+          "name": "Confucian Ren",
+          "type": "Extends",
+          "note": "Ren is constituted through relationships -- it is the quality of genuine co-humanity rather than an individual achievement separable from social context."
+        },
+        {
+          "name": "Ubuntu",
+          "type": "Parallel",
+          "note": "Confucian relational selfhood and Ubuntu's 'a person is a person through other persons' share the insight that personhood is constituted through relationship."
+        },
+        {
+          "name": "Liberalism",
+          "type": "Opposes",
+          "note": "The Confucian relational self directly challenges liberal individualism's assumption of a self prior to and independent of its social relationships."
+        },
+        {
+          "name": "Legalism and Political Realism",
+          "type": "Opposes",
+          "note": "Legalism explicitly rejects the Confucian view that good governance depends on the moral virtue of relationally constituted persons, favoring institutional design instead."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Analects",
+          "author": "Confucius (trans. Edward Slingerland)",
+          "url": "https://bookshop.org/a/philosophia/9780872206359",
+          "why": "The primary source for Confucius's relational conception of selfhood through the five relationships."
+        },
+        {
+          "title": "Thinking Through Confucius",
+          "author": "Roger Ames and David Hall",
+          "url": "https://bookshop.org/a/philosophia/9780887066392",
+          "why": "A rigorous philosophical development of Confucian relational personhood in dialogue with Western individualism."
+        },
+        {
+          "title": "Confucianism and Family Rituals in Imperial China",
+          "author": "Patricia Ebrey",
+          "url": "https://bookshop.org/a/philosophia/9780691031497",
+          "why": "Historical study of how relational personhood was institutionalized through Confucian ritual practice in imperial China."
+        }
+      ]
+    },
+    {
+      "name": "Idealism",
+      "thinkerBio": "George Berkeley (1685-1753) developed subjective idealism, holding that to be is to be perceived; G.W.F. Hegel (1770-1831) developed absolute idealism, identifying ultimate reality with the self-unfolding of Absolute Spirit through history.",
+      "quote": "Esse est percipi -- to be is to be perceived. There is no material substance existing independently of perceiving minds.",
+      "tags": [
+        "metaphysics",
+        "idealism",
+        "berkeley",
+        "hegel",
+        "mind-dependence"
+      ],
+      "related": [
+        {
+          "name": "Advaita Vedanta",
+          "type": "Parallel",
+          "note": "Both Advaita Vedanta and Western idealism hold that mind or consciousness is fundamental to reality, though through very different metaphysical frameworks."
+        },
+        {
+          "name": "Yogacara and Mind-Only",
+          "type": "Parallel",
+          "note": "Yogacara's denial of mind-independent external objects has deep structural affinities with Berkeleyan subjective idealism."
+        },
+        {
+          "name": "Substance Dualism",
+          "type": "Opposes",
+          "note": "Berkeley developed idealism partly to dissolve Cartesian dualism's interaction problem by denying material substance entirely rather than positing two substances."
+        },
+        {
+          "name": "Dialectics",
+          "type": "Extends",
+          "note": "Hegel's absolute idealism is the metaphysical framework within which his dialectical method of Spirit's self-development operates."
+        }
+      ],
+      "books": [
+        {
+          "title": "A Treatise Concerning the Principles of Human Knowledge",
+          "author": "George Berkeley",
+          "url": "https://bookshop.org/a/philosophia/9780872202958",
+          "why": "Berkeley's foundational and surprisingly rigorous defence of subjective idealism."
+        },
+        {
+          "title": "The Phenomenology of Spirit",
+          "author": "G.W.F. Hegel",
+          "url": "https://bookshop.org/a/philosophia/9780198245971",
+          "why": "Hegel's systematic development of absolute idealism through the dialectical history of consciousness."
+        },
+        {
+          "title": "Idealism: The History of a Philosophy",
+          "author": "Jeremy Dunham, Iain Hamilton Grant, and Sean Watson",
+          "url": "https://bookshop.org/a/philosophia/9780773538436",
+          "why": "A comprehensive historical survey of idealism from Berkeley through Hegel to its contemporary descendants."
+        }
+      ]
+    },
+    {
+      "name": "Naturalism",
+      "thinkerBio": "W.V.O. Quine (1908-2000) was the most influential proponent of philosophical naturalism, arguing that philosophy should be continuous with natural science rather than serving as its a priori foundation.",
+      "quote": "Philosophy of science is philosophy enough -- epistemology should be pursued as a chapter of empirical psychology, not as first philosophy prior to science.",
+      "tags": [
+        "metaphysics",
+        "naturalism",
+        "quine",
+        "physicalism",
+        "science"
+      ],
+      "related": [
+        {
+          "name": "Naturalized Epistemology",
+          "type": "Extends",
+          "note": "Quine's naturalized epistemology is the most influential application of naturalism specifically to questions about knowledge and justification."
+        },
+        {
+          "name": "Underdetermination",
+          "type": "Extends",
+          "note": "Quine's holism about belief, central to his attack on the analytic-synthetic distinction, is the philosophical foundation of his broader naturalism."
+        },
+        {
+          "name": "Grounding and Metaphysical Dependence",
+          "type": "Extends",
+          "note": "Naturalism is often expressed as the metaphysical claim that all facts are ultimately grounded in physical facts studied by natural science."
+        },
+        {
+          "name": "Functionalism",
+          "type": "Extends",
+          "note": "Functionalism in philosophy of mind is typically motivated by naturalistic commitments -- mental states must be explicable without positing non-physical substances."
+        }
+      ],
+      "books": [
+        {
+          "title": "Word and Object",
+          "author": "W.V.O. Quine",
+          "url": "https://bookshop.org/a/philosophia/9780262670005",
+          "why": "Quine's systematic development of naturalism and its implications for language, reference, and ontology."
+        },
+        {
+          "title": "Naturalism in Question",
+          "author": "Mario De Caro and David Macarthur (eds.)",
+          "url": "https://bookshop.org/a/philosophia/9780674010639",
+          "why": "An anthology examining the varieties and limits of contemporary philosophical naturalism."
+        },
+        {
+          "title": "From Stimulus to Science",
+          "author": "W.V.O. Quine",
+          "url": "https://bookshop.org/a/philosophia/9780674325555",
+          "why": "Quine's later accessible essays summarizing his naturalistic philosophy across logic, language, and epistemology."
+        }
+      ]
+    },
+    {
+      "name": "Stoic Ethics",
+      "thinkerBio": "Zeno of Citium (334-262 BCE) founded Stoicism; Epictetus (c. 50-135 CE), Seneca (4 BCE-65 CE), and Marcus Aurelius (121-180 CE) produced the most influential Roman Stoic texts, emphasizing virtue, reason, and acceptance of what is beyond one's control.",
+      "quote": "Some things are within our power, while others are not. Within our power are opinion, motivation, desire -- in a word, everything that is our own doing.",
+      "tags": [
+        "ethics",
+        "stoicism",
+        "epictetus",
+        "marcus-aurelius",
+        "virtue"
+      ],
+      "related": [
+        {
+          "name": "Eudaimonia",
+          "type": "Opposes",
+          "note": "Stoics held virtue alone sufficient for eudaimonia; Aristotle required external goods including health, friendship, and fortune for genuine flourishing."
+        },
+        {
+          "name": "Wu Wei",
+          "type": "Parallel",
+          "note": "Both Stoic amor fati and Taoist wu wei counsel aligning oneself with the natural order rather than straining against it, though from different metaphysical starting points."
+        },
+        {
+          "name": "The Bhagavad Gita and Action",
+          "type": "Parallel",
+          "note": "Both the Gita's nishkama karma and Stoic ethics counsel performing one's duty fully while remaining detached from outcomes outside one's control."
+        },
+        {
+          "name": "Dukkha",
+          "type": "Parallel",
+          "note": "Both Stoicism and Buddhism identify attachment to externals as a primary source of suffering, though their prescriptions and metaphysics differ significantly."
+        }
+      ],
+      "books": [
+        {
+          "title": "Meditations",
+          "author": "Marcus Aurelius",
+          "url": "https://bookshop.org/a/philosophia/9780812968255",
+          "why": "The most personally compelling Stoic text -- a Roman emperor's private philosophical journal on virtue and acceptance."
+        },
+        {
+          "title": "Discourses and Selected Writings",
+          "author": "Epictetus",
+          "url": "https://bookshop.org/a/philosophia/9780140449464",
+          "why": "The foundational Stoic text on the dichotomy of control and the practical cultivation of equanimity."
+        },
+        {
+          "title": "A Guide to the Good Life",
+          "author": "William Irvine",
+          "url": "https://bookshop.org/a/philosophia/9780195374612",
+          "why": "A clear contemporary introduction to Stoic philosophy and its practical application to modern life."
+        }
+      ]
+    },
+    {
+      "name": "Hedonism",
+      "thinkerBio": "Epicurus (341-270 BCE) developed philosophical hedonism distinguishing tranquil pleasures from base ones; contemporary hedonism about wellbeing is defended by Fred Feldman (b. 1941) and challenged by experience machine thought experiments.",
+      "quote": "Pleasure is the beginning and end of the blessed life -- but the highest pleasures are tranquility and freedom from disturbance, not mere bodily indulgence.",
+      "tags": [
+        "ethics",
+        "hedonism",
+        "epicurus",
+        "feldman",
+        "wellbeing"
+      ],
+      "related": [
+        {
+          "name": "Utilitarianism",
+          "type": "Extends",
+          "note": "Bentham's hedonic calculus is a direct descendant of Epicurean hedonism, treating pleasure and pain as the fundamental currency of moral value."
+        },
+        {
+          "name": "Eudaimonia",
+          "type": "Opposes",
+          "note": "Aristotle's objective eudaimonia requires activity and external goods; hedonism reduces wellbeing entirely to the subjective experience of pleasure."
+        },
+        {
+          "name": "Death and Dying",
+          "type": "Extends",
+          "note": "Epicurus's hedonism directly grounds his argument that death should not be feared -- it eliminates the subject of experience rather than causing painful experience."
+        },
+        {
+          "name": "Stoic Ethics",
+          "type": "Opposes",
+          "note": "Epicurean hedonism and Stoic virtue ethics represent the two great competing schools of Hellenistic philosophy on the nature of the good life."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Essential Epicurus",
+          "author": "Epicurus (trans. Eugene O'Connor)",
+          "url": "https://bookshop.org/a/philosophia/9780879757586",
+          "why": "The primary surviving texts of Epicurus including his letters and the foundational hedonist arguments."
+        },
+        {
+          "title": "Pleasure and the Good Life",
+          "author": "Fred Feldman",
+          "url": "https://bookshop.org/a/philosophia/9780198250338",
+          "why": "The most rigorous contemporary philosophical defence of hedonism about wellbeing."
+        },
+        {
+          "title": "The Nozick Reader",
+          "author": "Robert Nozick (David Schmidtz, ed.)",
+          "url": "https://bookshop.org/a/philosophia/9780262693735",
+          "why": "Contains Nozick's famous experience machine thought experiment, the central challenge to hedonism."
+        }
+      ]
+    },
+    {
+      "name": "Desire-Satisfaction Theory",
+      "thinkerBio": "Contemporary preference-satisfaction theories of wellbeing are developed by economists and philosophers including James Griffin (1933-2019), who refined the theory to require informed rather than merely actual desires.",
+      "quote": "A person's wellbeing consists in the satisfaction of their desires -- but only those desires that would survive full information and rational reflection.",
+      "tags": [
+        "ethics",
+        "desire-satisfaction",
+        "griffin",
+        "wellbeing",
+        "preference"
+      ],
+      "related": [
+        {
+          "name": "Hedonism",
+          "type": "Opposes",
+          "note": "Desire-satisfaction theory denies that wellbeing reduces to pleasurable experience -- desires can be satisfied without any accompanying subjective pleasure."
+        },
+        {
+          "name": "Eudaimonia",
+          "type": "Opposes",
+          "note": "Objective list theories like eudaimonia hold that some things are good for a person regardless of whether they desire them; desire theory denies this."
+        },
+        {
+          "name": "Utilitarianism",
+          "type": "Extends",
+          "note": "Contemporary preference utilitarianism replaces Benthamite hedonic calculus with the satisfaction of informed preferences as the relevant currency of welfare."
+        },
+        {
+          "name": "Adaptive Preferences",
+          "type": "Opposes",
+          "note": "The phenomenon of adaptive preferences -- desiring less under oppressive conditions -- poses a serious challenge to using actual desire satisfaction as a measure of genuine wellbeing."
+        }
+      ],
+      "books": [
+        {
+          "title": "Well-Being: Its Meaning, Measurement, and Moral Importance",
+          "author": "James Griffin",
+          "url": "https://bookshop.org/a/philosophia/9780198248431",
+          "why": "The most rigorous contemporary defence of informed desire-satisfaction as the correct account of wellbeing."
+        },
+        {
+          "title": "Reasons and Persons",
+          "author": "Derek Parfit",
+          "url": "https://bookshop.org/a/philosophia/9780198246152",
+          "why": "Parfit's influential discussion comparing hedonist, desire-satisfaction, and objective list theories of wellbeing."
+        },
+        {
+          "title": "Well-Being",
+          "author": "Richard Kraut",
+          "url": "https://bookshop.org/a/philosophia/9780199941494",
+          "why": "Kraut's developmental approach to wellbeing offering a critical alternative to pure desire-satisfaction theory."
+        }
+      ]
+    },
+    {
+      "name": "The Capabilities Approach",
+      "thinkerBio": "Amartya Sen (b. 1933) introduced the capabilities approach as an alternative to welfare economics in the 1980s; Martha Nussbaum (b. 1947) developed it into a comprehensive philosophical theory of justice and human development with a specific list of central capabilities.",
+      "quote": "Development is the expansion of human capabilities -- the freedoms people have to achieve the kinds of lives they have reason to value.",
+      "tags": [
+        "ethics",
+        "capabilities",
+        "sen",
+        "nussbaum",
+        "development"
+      ],
+      "related": [
+        {
+          "name": "Eudaimonia",
+          "type": "Extends",
+          "note": "Nussbaum's capabilities approach is the most systematic contemporary attempt to operationalize Aristotelian eudaimonia for development policy and political philosophy."
+        },
+        {
+          "name": "Consequentialism and Its Limits",
+          "type": "Extends",
+          "note": "Sen developed the capabilities approach partly to preserve consequentialist insights while avoiding strict utilitarian welfare aggregation's limits."
+        },
+        {
+          "name": "Feminist Political Philosophy",
+          "type": "Extends",
+          "note": "Nussbaum applies the capabilities approach specifically to women's global flourishing, addressing gendered barriers to capability development."
+        },
+        {
+          "name": "Desire-Satisfaction Theory",
+          "type": "Opposes",
+          "note": "The capabilities approach rejects pure desire-satisfaction as a measure of wellbeing, insisting that some capabilities are objectively valuable regardless of whether they are desired."
+        }
+      ],
+      "books": [
+        {
+          "title": "Development as Freedom",
+          "author": "Amartya Sen",
+          "url": "https://bookshop.org/a/philosophia/9780385720270",
+          "why": "Sen's foundational and accessible statement of the capabilities approach to development and freedom."
+        },
+        {
+          "title": "Creating Capabilities",
+          "author": "Martha Nussbaum",
+          "url": "https://bookshop.org/a/philosophia/9780674072350",
+          "why": "Nussbaum's systematic philosophical development of the capabilities approach with her specific list of central capabilities."
+        },
+        {
+          "title": "Inequality Reexamined",
+          "author": "Amartya Sen",
+          "url": "https://bookshop.org/a/philosophia/9780674452566",
+          "why": "Sen's more technical philosophical treatment connecting capabilities to debates about equality and justice."
+        }
+      ]
+    }
+  ]
+}

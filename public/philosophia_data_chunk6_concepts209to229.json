@@ -1,0 +1,1037 @@
+{
+  "_metadata": {
+    "version": "5.0",
+    "chunk": "6 of 7",
+    "concepts_in_chunk": "19 concepts, bringing running total to 227",
+    "instruction": "For each object, find the matching concept in concepts.json by 'name' (exact match, case-sensitive). Add or overwrite: thinkerBio, quote, tags, related, books. All other fields remain unchanged.",
+    "affiliate_note": "books[].url format: https://bookshop.org/a/philosophia/ISBN -- replace ISBN after joining Bookshop.org affiliate program."
+  },
+  "completion": [
+    {
+      "name": "The Spectacle",
+      "thinkerBio": "Guy Debord (1931-1994) was a French Marxist theorist and founding member of the Situationist International whose The Society of the Spectacle (1967) became the movement's central theoretical text and a foundational document of late twentieth-century media critique.",
+      "quote": "All that was once directly lived has moved away into a representation -- the spectacle is the self-presentation of the commodity economy to itself.",
+      "tags": [
+        "continental",
+        "debord",
+        "spectacle",
+        "situationist",
+        "mediatization"
+      ],
+      "related": [
+        {
+          "name": "Alienation",
+          "type": "Extends",
+          "note": "The spectacle is the fully developed alienation of modern capitalism -- authentic life replaced entirely by its representation and commodified display."
+        },
+        {
+          "name": "Alienation and Reification",
+          "type": "Extends",
+          "note": "Debord's spectacle theory is a direct extension of reification -- commodification extended beyond goods to experience and social relation itself."
+        },
+        {
+          "name": "Ideology and False Consciousness",
+          "type": "Parallel",
+          "note": "Both spectacle theory and ideology critique analyze how capitalist society produces forms of consciousness that obscure and naturalize its own contradictions."
+        },
+        {
+          "name": "The Gaze",
+          "type": "Parallel",
+          "note": "Debord's spectacle and feminist film theory's male gaze both analyze how visual culture structures power relations through the very organization of looking and representation."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Society of the Spectacle",
+          "author": "Guy Debord",
+          "url": "https://bookshop.org/a/philosophia/9781584350147",
+          "why": "The foundational text -- Debord's compressed theses on the spectacle's colonization of social life under late capitalism."
+        },
+        {
+          "title": "Comments on the Society of the Spectacle",
+          "author": "Guy Debord",
+          "url": "https://bookshop.org/a/philosophia/9781859840731",
+          "why": "Debord's later reflections updating his analysis for the era of integrated spectacle and media saturation."
+        },
+        {
+          "title": "Guy Debord and the Situationist International",
+          "author": "Tom McDonough (ed.)",
+          "url": "https://bookshop.org/a/philosophia/9780262134048",
+          "why": "A comprehensive scholarly anthology contextualizing Debord's theory within the broader Situationist movement."
+        }
+      ]
+    },
+    {
+      "name": "The Gaze",
+      "thinkerBio": "Jean-Paul Sartre (1905-1980) analyzed the ontological threat of the Other's gaze in Being and Nothingness; Jacques Lacan (1901-1981) reworked the gaze psychoanalytically; Laura Mulvey (b. 1941) applied it to film theory through the concept of the male gaze.",
+      "quote": "When another consciousness looks at me, I am transformed from a free subject who constitutes the world into a mere object in their world.",
+      "tags": [
+        "continental",
+        "gaze",
+        "sartre",
+        "lacan",
+        "mulvey"
+      ],
+      "related": [
+        {
+          "name": "Bad Faith",
+          "type": "Extends",
+          "note": "Sartre's analysis of the Other's gaze connects to bad faith -- we often adopt the Other's objectifying view of us as our fixed, essential nature."
+        },
+        {
+          "name": "Embodiment and Feminist Philosophy",
+          "type": "Extends",
+          "note": "Mulvey's male gaze in film theory extends feminist philosophy of embodiment by showing how visual media structurally position women as objects of looking."
+        },
+        {
+          "name": "The Spectacle",
+          "type": "Parallel",
+          "note": "Both the gaze and Debord's spectacle analyze how visual culture structures power relations through the organization of looking and representation."
+        },
+        {
+          "name": "The Unconscious",
+          "type": "Extends",
+          "note": "Lacan's psychoanalytic reworking of the gaze connects directly to his broader structural reformulation of the unconscious through the scopic drive."
+        }
+      ],
+      "books": [
+        {
+          "title": "Being and Nothingness",
+          "author": "Jean-Paul Sartre",
+          "url": "https://bookshop.org/a/philosophia/9780671867805",
+          "why": "Sartre's foundational phenomenological analysis of the Other's look and its ontologically threatening character."
+        },
+        {
+          "title": "Visual Pleasure and Narrative Cinema",
+          "author": "Laura Mulvey, in Visual and Other Pleasures",
+          "url": "https://bookshop.org/a/philosophia/9780333734793",
+          "why": "Mulvey's foundational feminist film theory essay introducing the concept of the male gaze."
+        },
+        {
+          "title": "The Four Fundamental Concepts of Psycho-Analysis",
+          "author": "Jacques Lacan",
+          "url": "https://bookshop.org/a/philosophia/9780393317756",
+          "why": "Lacan's seminar developing the gaze as a structural feature of the scopic drive and the subject's relation to the visual field."
+        }
+      ]
+    },
+    {
+      "name": "Dialectics of Enlightenment",
+      "thinkerBio": "Max Horkheimer (1895-1973) and Theodor Adorno (1903-1969) co-wrote Dialectic of Enlightenment (1944/1947) during their wartime American exile, producing the Frankfurt School's most radical critique of Enlightenment rationality.",
+      "quote": "Enlightenment, in becoming purely instrumental, has turned against its own liberatory aspirations -- reason itself has become a form of domination.",
+      "tags": [
+        "continental",
+        "horkheimer",
+        "adorno",
+        "enlightenment",
+        "instrumental-reason"
+      ],
+      "related": [
+        {
+          "name": "Critical Theory",
+          "type": "Extends",
+          "note": "Dialectic of Enlightenment is the central text developing critical theory's most radical and pessimistic diagnosis of modern rationality."
+        },
+        {
+          "name": "Alienation and Reification",
+          "type": "Extends",
+          "note": "The book's critique of instrumental reason extends reification theory to the domination of nature and the standardized culture industry."
+        },
+        {
+          "name": "Negative Dialectics",
+          "type": "Extends",
+          "note": "Adorno's later Negative Dialectics develops the methodological implications of the diagnosis offered jointly with Horkheimer in this earlier work."
+        },
+        {
+          "name": "Will to Power",
+          "type": "Opposes",
+          "note": "Where Nietzsche affirms instrumental mastery as an expression of will to power, Horkheimer and Adorno diagnose this same mastery as the source of modern domination and unfreedom."
+        }
+      ],
+      "books": [
+        {
+          "title": "Dialectic of Enlightenment",
+          "author": "Max Horkheimer and Theodor Adorno",
+          "url": "https://bookshop.org/a/philosophia/9780804736336",
+          "why": "The primary source -- the Frankfurt School's most radical and influential critique of Enlightenment rationality."
+        },
+        {
+          "title": "Minima Moralia",
+          "author": "Theodor Adorno",
+          "url": "https://bookshop.org/a/philosophia/9781844677935",
+          "why": "Adorno's companion aphoristic reflections written during the same period of exile, extending the diagnosis to everyday life."
+        },
+        {
+          "title": "The Dialectical Imagination",
+          "author": "Martin Jay",
+          "url": "https://bookshop.org/a/philosophia/9780520204737",
+          "why": "The definitive intellectual history situating Dialectic of Enlightenment within the broader Frankfurt School project."
+        }
+      ]
+    },
+    {
+      "name": "Negative Dialectics",
+      "thinkerBio": "Theodor Adorno (1903-1969) developed negative dialectics in his 1966 book of the same name, attempting a form of dialectical thinking that resists the drive toward Hegelian synthesis in favor of preserving irreducible non-identity.",
+      "quote": "After Auschwitz, philosophy can no longer proceed as if its task were to reconcile subject and object -- it must bear witness to what cannot be reconciled.",
+      "tags": [
+        "continental",
+        "adorno",
+        "negative-dialectics",
+        "non-identity",
+        "auschwitz"
+      ],
+      "related": [
+        {
+          "name": "Dialectics",
+          "type": "Opposes",
+          "note": "Negative dialectics retains the dialectical method while explicitly refusing Hegel's drive toward positive synthesis, insisting contradiction be preserved rather than resolved."
+        },
+        {
+          "name": "Dialectics of Enlightenment",
+          "type": "Extends",
+          "note": "Negative Dialectics develops the methodological implications of the diagnosis Adorno offered jointly with Horkheimer in their earlier collaborative work."
+        },
+        {
+          "name": "Critical Theory",
+          "type": "Extends",
+          "note": "Negative dialectics represents the most philosophically demanding and pessimistic development within the broader critical theory tradition."
+        },
+        {
+          "name": "The Problem of Universals",
+          "type": "Opposes",
+          "note": "Adorno's commitment to the non-identical -- what exceeds conceptual capture -- challenges any philosophy that assumes concepts can fully and adequately grasp particular things."
+        }
+      ],
+      "books": [
+        {
+          "title": "Negative Dialectics",
+          "author": "Theodor Adorno",
+          "url": "https://bookshop.org/a/philosophia/9780826401320",
+          "why": "Adorno's most demanding and systematic philosophical work, developing the method of negative dialectics in full."
+        },
+        {
+          "title": "Aesthetic Theory",
+          "author": "Theodor Adorno",
+          "url": "https://bookshop.org/a/philosophia/9780816618002",
+          "why": "Adorno's late aesthetic theory, applying negative dialectical method to art's relation to non-identity and social critique."
+        },
+        {
+          "title": "Adorno: A Critical Introduction",
+          "author": "Simon Jarvis",
+          "url": "https://bookshop.org/a/philosophia/9780745611501",
+          "why": "A clear and rigorous philosophical introduction to Adorno's notoriously difficult negative dialectical method."
+        }
+      ]
+    },
+    {
+      "name": "Hermeneutics of Suspicion",
+      "thinkerBio": "Paul Ricoeur (1913-2005) coined 'hermeneutics of suspicion' to name the interpretive approach shared by Karl Marx, Friedrich Nietzsche, and Sigmund Freud, each of whom taught readers to look beneath the manifest surface of texts and consciousness.",
+      "quote": "The three masters of suspicion teach us to read beneath the surface of texts, practices, and consciousness for hidden meanings that the manifest content conceals.",
+      "tags": [
+        "continental",
+        "ricoeur",
+        "suspicion",
+        "marx",
+        "nietzsche-freud"
+      ],
+      "related": [
+        {
+          "name": "Ideology and False Consciousness",
+          "type": "Extends",
+          "note": "Marxist ideology critique is one of the three foundational sources of the hermeneutics of suspicion, alongside Nietzsche's genealogy and Freud's psychoanalysis."
+        },
+        {
+          "name": "Will to Power",
+          "type": "Extends",
+          "note": "Nietzsche's genealogical method, reading moral claims as disguised expressions of will to power, is one of the three masters of suspicion's foundational approaches."
+        },
+        {
+          "name": "The Unconscious",
+          "type": "Extends",
+          "note": "Freudian psychoanalytic interpretation, reading manifest content as disguised unconscious wish, is the third foundational source of the hermeneutics of suspicion."
+        },
+        {
+          "name": "Hermeneutics",
+          "type": "Opposes",
+          "note": "Ricoeur explicitly contrasts the hermeneutics of suspicion with a hermeneutics of trust that opens itself to the meaning a text offers rather than reducing it to hidden causes."
+        }
+      ],
+      "books": [
+        {
+          "title": "Freud and Philosophy",
+          "author": "Paul Ricoeur",
+          "url": "https://bookshop.org/a/philosophia/9780300018343",
+          "why": "Ricoeur's foundational text introducing the concept of the hermeneutics of suspicion through a sustained engagement with Freud."
+        },
+        {
+          "title": "The Conflict of Interpretations",
+          "author": "Paul Ricoeur",
+          "url": "https://bookshop.org/a/philosophia/9780810105299",
+          "why": "Ricoeur's broader collection of essays on hermeneutic method, including the tension between suspicion and trust."
+        },
+        {
+          "title": "On the Genealogy of Morality",
+          "author": "Friedrich Nietzsche",
+          "url": "https://bookshop.org/a/philosophia/9780521694131",
+          "why": "Nietzsche's genealogical method is the paradigmatic exercise of suspicious interpretation that Ricoeur's concept names."
+        }
+      ]
+    },
+    {
+      "name": "The Rhizome",
+      "thinkerBio": "Gilles Deleuze (1925-1995) and Felix Guattari (1930-1992) introduced the rhizome in A Thousand Plateaus (1980), modeling a non-hierarchical form of structure in contrast to the hierarchical, tree-like model dominant in Western thought.",
+      "quote": "A rhizome has no center, no fixed origin -- it extends horizontally in all directions, can be entered from any point, and has no privileged beginning or end.",
+      "tags": [
+        "continental",
+        "deleuze",
+        "guattari",
+        "rhizome",
+        "anti-hierarchy"
+      ],
+      "related": [
+        {
+          "name": "Structuralism",
+          "type": "Opposes",
+          "note": "The rhizome is an explicit critique of structuralism's hierarchical, tree-like deep structures, proposing horizontal proliferation and connection instead."
+        },
+        {
+          "name": "Time, Difference, and Repetition",
+          "type": "Extends",
+          "note": "The rhizome extends Deleuze's earlier metaphysics of pure difference into a concrete model for organizing thought, culture, and political organization."
+        },
+        {
+          "name": "Hegemony",
+          "type": "Opposes",
+          "note": "Rhizomatic, distributed organization resists the centralized cultural leadership that Gramscian hegemony theory analyzes in dominant class power."
+        },
+        {
+          "name": "Process Philosophy",
+          "type": "Parallel",
+          "note": "Both the rhizome and Whiteheadian process philosophy reject fixed substantial structure in favor of ongoing connection, proliferation, and creative becoming."
+        }
+      ],
+      "books": [
+        {
+          "title": "A Thousand Plateaus",
+          "author": "Gilles Deleuze and Felix Guattari",
+          "url": "https://bookshop.org/a/philosophia/9780816614028",
+          "why": "The primary source -- Deleuze and Guattari's foundational development of the rhizome and its philosophical implications."
+        },
+        {
+          "title": "Anti-Oedipus",
+          "author": "Gilles Deleuze and Felix Guattari",
+          "url": "https://bookshop.org/a/philosophia/9780816614019",
+          "why": "The companion volume developing the broader project of schizoanalysis that the rhizome concept emerges from."
+        },
+        {
+          "title": "Deleuze and Guattari's A Thousand Plateaus",
+          "author": "Eugene Holland",
+          "url": "https://bookshop.org/a/philosophia/9781441106057",
+          "why": "A clear scholarly guide through the notoriously difficult and unconventionally structured original text."
+        }
+      ]
+    },
+    {
+      "name": "Semantic Externalism",
+      "thinkerBio": "Hilary Putnam (1926-2016) introduced the Twin Earth thought experiment in 'The Meaning of Meaning' (1975); Saul Kripke's earlier work on rigid designation provided the foundational framework that Putnam extended to natural kind terms.",
+      "quote": "Meanings just ain't in the head -- the reference of natural kind terms is partly constituted by the actual nature of things in the world, not by mental representations alone.",
+      "tags": [
+        "philosophy-of-language",
+        "putnam",
+        "externalism",
+        "twin-earth",
+        "natural-kinds"
+      ],
+      "related": [
+        {
+          "name": "Reference and Rigid Designation",
+          "type": "Extends",
+          "note": "Putnam's semantic externalism extends Kripke's rigid designation theory from proper names to natural kind terms like 'water.'"
+        },
+        {
+          "name": "Essentialism",
+          "type": "Extends",
+          "note": "Semantic externalism supports scientific essentialism -- the actual underlying nature of a kind, not surface appearance, determines what a term refers to."
+        },
+        {
+          "name": "The Intentionality of Consciousness",
+          "type": "Opposes",
+          "note": "Externalism challenges traditional internalist accounts of intentionality, which locate the content of mental states entirely within the head."
+        },
+        {
+          "name": "Language of Thought",
+          "type": "Opposes",
+          "note": "If meaning depends partly on external facts about the world, this complicates Fodor's picture of thought as purely internal symbol manipulation in a language of thought."
+        }
+      ],
+      "books": [
+        {
+          "title": "Mind, Language and Reality",
+          "author": "Hilary Putnam",
+          "url": "https://bookshop.org/a/philosophia/9780521295512",
+          "why": "Contains Putnam's foundational essay 'The Meaning of Meaning' introducing semantic externalism and the Twin Earth thought experiment."
+        },
+        {
+          "title": "Naming and Necessity",
+          "author": "Saul Kripke",
+          "url": "https://bookshop.org/a/philosophia/9780631128014",
+          "why": "Kripke's foundational work on rigid designation that provides the framework Putnam extends to natural kind terms."
+        },
+        {
+          "title": "Externalism and Self-Knowledge",
+          "author": "Peter Ludlow and Norah Martin (eds.)",
+          "url": "https://bookshop.org/a/philosophia/9781575860648",
+          "why": "An anthology examining the implications of semantic externalism for self-knowledge and philosophy of mind."
+        }
+      ]
+    },
+    {
+      "name": "Speech Act Revisited",
+      "thinkerBio": "Rae Langton (b. 1961) and Rebecca Kukla (b. 1971) developed revisionist extensions of Austinian speech act theory examining how speech constitutes social hierarchies through directive utterances and the silencing of marginalized speakers.",
+      "quote": "The same words function differently as commands, requests, or suggestions depending on the social position of speaker and listener -- speech acts are shaped by social testure.",
+      "tags": [
+        "philosophy-of-language",
+        "langton",
+        "kukla",
+        "speech-acts",
+        "social-hierarchy"
+      ],
+      "related": [
+        {
+          "name": "Speech Act Theory",
+          "type": "Extends",
+          "note": "This entry develops Austin's original framework in explicitly political and feminist directions, examining how speech constitutes social hierarchy."
+        },
+        {
+          "name": "Feminist Philosophy of Language",
+          "type": "Extends",
+          "note": "Langton's silencing thesis is the central case study developed at length in feminist philosophy of language's application of speech act theory."
+        },
+        {
+          "name": "Speech and Power",
+          "type": "Extends",
+          "note": "Both this entry and the broader topic of speech and power examine how language constitutes rather than merely describes social and political reality."
+        },
+        {
+          "name": "Power and Domination",
+          "type": "Parallel",
+          "note": "Kukla's social testures and Lukes's three-dimensional power both examine how power operates through structures that shape interaction without requiring explicit coercion."
+        }
+      ],
+      "books": [
+        {
+          "title": "Sexual Solipsism",
+          "author": "Rae Langton",
+          "url": "https://bookshop.org/a/philosophia/9780199282060",
+          "why": "Langton's collected essays developing her revisionist speech act analysis of pornography, objectification, and silencing."
+        },
+        {
+          "title": "Performative Force, Convention, and Discursive Injustice",
+          "author": "Rebecca Kukla, in Hypatia",
+          "url": "https://bookshop.org/a/philosophia/9780199282060",
+          "why": "Kukla's influential paper on social testures, included alongside related work in Langton's collection for accessibility."
+        },
+        {
+          "title": "How to Do Things with Words",
+          "author": "J.L. Austin",
+          "url": "https://bookshop.org/a/philosophia/9780674411528",
+          "why": "The foundational text that Langton and Kukla's revisionist extensions build upon and politically transform."
+        }
+      ]
+    },
+    {
+      "name": "The Language of Thought",
+      "thinkerBio": "Jerry Fodor (1935-2017) developed the language of thought hypothesis in The Language of Thought (1975), proposing that cognition occurs in a compositional mental symbol system he called mentalese.",
+      "quote": "Thinking is systematic and productive because it occurs in a compositional, language-like system of mental representation -- mentalese.",
+      "tags": [
+        "philosophy-of-language",
+        "fodor",
+        "mentalese",
+        "compositionality",
+        "cognitive-architecture"
+      ],
+      "related": [
+        {
+          "name": "Chinese Room",
+          "type": "Opposes",
+          "note": "Searle's Chinese Room directly challenges Fodor's hypothesis -- syntax alone, however systematically organized, may not be sufficient to generate genuine semantic content."
+        },
+        {
+          "name": "Semantic Externalism",
+          "type": "Opposes",
+          "note": "If meaning depends partly on external facts about the world, this complicates Fodor's picture of thought as purely internal symbol manipulation."
+        },
+        {
+          "name": "Functionalism",
+          "type": "Extends",
+          "note": "The language of thought hypothesis is the most developed functionalist cognitive architecture, treating mental states as computational relations to mentalese symbols."
+        },
+        {
+          "name": "Imagination and Mental Imagery",
+          "type": "Opposes",
+          "note": "If mental imagery is genuinely depictive rather than propositional, this challenges Fodor's claim that all cognition operates through a language-like symbolic medium."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Language of Thought",
+          "author": "Jerry Fodor",
+          "url": "https://bookshop.org/a/philosophia/9780674509849",
+          "why": "Fodor's foundational text introducing the language of thought hypothesis and mentalese."
+        },
+        {
+          "title": "Concepts: Where Cognitive Science Went Wrong",
+          "author": "Jerry Fodor",
+          "url": "https://bookshop.org/a/philosophia/9780198236368",
+          "why": "Fodor's later defence of an atomistic, classical theory of concepts against prototype-based alternatives."
+        },
+        {
+          "title": "Connectionism and the Mind",
+          "author": "William Bechtel and Adele Abrahamsen",
+          "url": "https://bookshop.org/a/philosophia/9780631200272",
+          "why": "The clearest accessible overview of the classical versus connectionist debate that the language of thought hypothesis sits at the center of."
+        }
+      ]
+    },
+    {
+      "name": "Relevance and Communication",
+      "thinkerBio": "Dan Sperber (b. 1942) and Deirdre Wilson (b. 1941) developed relevance theory in Relevance: Communication and Cognition (1986), replacing Grice's multiple conversational maxims with a single cognitive principle of optimal relevance.",
+      "quote": "Every act of ostensive communication communicates a presumption of its own optimal relevance -- the greatest cognitive effects for the least processing effort.",
+      "tags": [
+        "philosophy-of-language",
+        "sperber",
+        "wilson",
+        "relevance-theory",
+        "pragmatics"
+      ],
+      "related": [
+        {
+          "name": "Pragmatics",
+          "type": "Extends",
+          "note": "Relevance theory replaces Grice's four conversational maxims with a single unified cognitive principle explaining the full range of pragmatic phenomena."
+        },
+        {
+          "name": "Metaphor",
+          "type": "Extends",
+          "note": "Relevance theory explains metaphor as a case of optimal relevance achieved through loose, non-literal language rather than as a special rhetorical device requiring separate treatment."
+        },
+        {
+          "name": "Speech Act Theory",
+          "type": "Parallel",
+          "note": "Both relevance theory and speech act theory investigate how utterances communicate more than their literal semantic content through the exploitation of pragmatic principles."
+        },
+        {
+          "name": "Theory of Mind",
+          "type": "Extends",
+          "note": "Relevance theory presupposes sophisticated theory of mind capacities -- interpreting an utterance requires inferring the speaker's intended meaning from their presumed communicative intention."
+        }
+      ],
+      "books": [
+        {
+          "title": "Relevance: Communication and Cognition",
+          "author": "Dan Sperber and Deirdre Wilson",
+          "url": "https://bookshop.org/a/philosophia/9780631198789",
+          "why": "The foundational text developing relevance theory as a unified cognitive account of communication."
+        },
+        {
+          "title": "Meaning and Relevance",
+          "author": "Deirdre Wilson and Dan Sperber",
+          "url": "https://bookshop.org/a/philosophia/9780521747727",
+          "why": "A more recent collection of essays extending and refining relevance theory across a range of linguistic phenomena."
+        },
+        {
+          "title": "Studies in the Way of Words",
+          "author": "H.P. Grice",
+          "url": "https://bookshop.org/a/philosophia/9780674852716",
+          "why": "Grice's foundational essays on conversational implicature that relevance theory was developed to unify and explain."
+        }
+      ]
+    },
+    {
+      "name": "Discourse and Ideology",
+      "thinkerBio": "Norman Fairclough (b. 1941) developed critical discourse analysis examining language as simultaneously action, representation, and identification; Teun van Dijk (b. 1943) developed the socio-cognitive approach focusing on discourse's construction of mental models.",
+      "quote": "Discourse persuades by activating and manipulating the mental models that recipients use to interpret social reality, often establishing models as natural common sense.",
+      "tags": [
+        "philosophy-of-language",
+        "fairclough",
+        "van-dijk",
+        "critical-discourse-analysis",
+        "ideology"
+      ],
+      "related": [
+        {
+          "name": "Ideology and False Consciousness",
+          "type": "Extends",
+          "note": "Critical discourse analysis provides the linguistic methodology for examining how Althusserian and Gramscian ideology actually operates in concrete language use."
+        },
+        {
+          "name": "Hegemony",
+          "type": "Extends",
+          "note": "Critical discourse analysis examines the 'naturalization' of ideological content -- exactly the mechanism by which Gramscian hegemony achieves its effects through cultural common sense."
+        },
+        {
+          "name": "Power and Domination",
+          "type": "Extends",
+          "note": "Discourse analysis shows how power operates through specific discursive strategies in language use, complementing Lukes's more abstract three-dimensional analysis."
+        },
+        {
+          "name": "Speech Act Revisited",
+          "type": "Parallel",
+          "note": "Both critical discourse analysis and revisionist speech act theory examine how language constitutes rather than merely reflects relations of social power."
+        }
+      ],
+      "books": [
+        {
+          "title": "Language and Power",
+          "author": "Norman Fairclough",
+          "url": "https://bookshop.org/a/philosophia/9781408205772",
+          "why": "Fairclough's foundational text developing critical discourse analysis and its methodology."
+        },
+        {
+          "title": "Discourse and Power",
+          "author": "Teun van Dijk",
+          "url": "https://bookshop.org/a/philosophia/9780230579589",
+          "why": "Van Dijk's systematic development of the socio-cognitive approach to discourse and ideology."
+        },
+        {
+          "title": "Ideology: A Multidisciplinary Approach",
+          "author": "Teun van Dijk",
+          "url": "https://bookshop.org/a/philosophia/9780761966750",
+          "why": "Van Dijk's comprehensive theoretical framework connecting discourse analysis to cognitive and social theories of ideology."
+        }
+      ]
+    },
+    {
+      "name": "Animal Language",
+      "thinkerBio": "Noam Chomsky (b. 1928) argued human language is uniquely characterized by discrete infinity and recursion; the Kanzi bonobo experiments conducted by Sue Savage-Rumbaugh challenged sharp species boundaries by demonstrating sophisticated novel sentence comprehension.",
+      "quote": "Human language is uniquely characterized by the capacity to generate infinitely many sentences from finite means through recursive embedding.",
+      "tags": [
+        "philosophy-of-language",
+        "chomsky",
+        "animal-cognition",
+        "kanzi",
+        "recursion"
+      ],
+      "related": [
+        {
+          "name": "Animal Consciousness",
+          "type": "Parallel",
+          "note": "Both animal language research and animal consciousness studies investigate the cognitive sophistication of non-human animals and the boundaries of distinctively human capacities."
+        },
+        {
+          "name": "Theory of Mind",
+          "type": "Extends",
+          "note": "Whether animals capable of sophisticated communication also possess theory of mind is closely connected to debates about the nature and uniqueness of animal language abilities."
+        },
+        {
+          "name": "Concepts and Categorization",
+          "type": "Extends",
+          "note": "Animal language research bears on whether non-human animals possess genuine conceptual categorization or merely associative pattern recognition."
+        },
+        {
+          "name": "Multiple Realizability",
+          "type": "Parallel",
+          "note": "If different species achieve communicative function through different cognitive architectures, this connects to multiple realizability's broader claim about functional kinds across substrates."
+        }
+      ],
+      "books": [
+        {
+          "title": "Kanzi: The Ape at the Brink of the Human Mind",
+          "author": "Sue Savage-Rumbaugh and Roger Lewin",
+          "url": "https://bookshop.org/a/philosophia/9780471155349",
+          "why": "The primary account of the Kanzi experiments challenging sharp boundaries between human and animal linguistic capacity."
+        },
+        {
+          "title": "The Language Instinct",
+          "author": "Steven Pinker",
+          "url": "https://bookshop.org/a/philosophia/9780061336461",
+          "why": "Pinker's accessible defence of the Chomskyan view that human language is a unique biological adaptation distinct from animal communication."
+        },
+        {
+          "title": "Syntactic Structures",
+          "author": "Noam Chomsky",
+          "url": "https://bookshop.org/a/philosophia/9783110172799",
+          "why": "Chomsky's foundational linguistic text establishing the formal study of recursive grammatical structure central to his account of human language."
+        }
+      ]
+    },
+    {
+      "name": "Narrative and Self",
+      "thinkerBio": "Marya Schechtman (b. 1960) developed the narrative self-constitution view in The Constitution of Selves (1996); Galen Strawson (b. 1952) challenged universal narrativity by defending the legitimacy of an episodic, non-narrative mode of selfhood.",
+      "quote": "A self-constituting narrative is a lived, first-personal interpretation organizing memories, projects, values, and relationships into a coherent whole.",
+      "tags": [
+        "philosophy-of-language",
+        "schechtman",
+        "strawson",
+        "narrative-identity",
+        "selfhood"
+      ],
+      "related": [
+        {
+          "name": "Narrative Identity",
+          "type": "Extends",
+          "note": "This entry connects narrative self-constitution specifically to the philosophy of language's concern with how narrative as a linguistic form constitutes meaning."
+        },
+        {
+          "name": "Personal Identity",
+          "type": "Extends",
+          "note": "Schechtman's narrative view responds directly to Parfit by arguing that even if metaphysical identity is indeterminate, narrative self-constitution provides what matters for personhood."
+        },
+        {
+          "name": "Hermeneutics",
+          "type": "Extends",
+          "note": "Ricoeur's hermeneutic account of narrative identity is the philosophical predecessor that Schechtman's analytic development of narrative self-constitution builds upon."
+        },
+        {
+          "name": "Anatta",
+          "type": "Opposes",
+          "note": "Strawson's defence of episodic, non-narrative selfhood challenges the assumption, shared by some narrative theorists, that a unified self-narrative is necessary for genuine personhood."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Constitution of Selves",
+          "author": "Marya Schechtman",
+          "url": "https://bookshop.org/a/philosophia/9780801483581",
+          "why": "Schechtman's foundational development of the narrative self-constitution view as a response to Parfit's challenge to personal identity."
+        },
+        {
+          "title": "Against Narrativity",
+          "author": "Galen Strawson, in Ratio",
+          "url": "https://bookshop.org/a/philosophia/9780198530385",
+          "why": "Strawson's influential challenge to universal narrativity, defending episodic selfhood as a legitimate alternative."
+        },
+        {
+          "title": "Oneself as Another",
+          "author": "Paul Ricoeur",
+          "url": "https://bookshop.org/a/philosophia/9780226713298",
+          "why": "Ricoeur's foundational hermeneutic treatment of narrative identity that informs subsequent analytic developments."
+        }
+      ]
+    },
+    {
+      "name": "Metaethics: The Terrain",
+      "thinkerBio": "G.E. Moore (1873-1958), J.L. Mackie (1917-1981), and Simon Blackburn (b. 1944) represent the three major positions in contemporary metaethics -- realism, error theory, and expressivism respectively -- that organize the entire field's landscape.",
+      "quote": "Metaethics asks not what is good or right but what kind of thing 'good' and 'right' are, and how moral knowledge, if it exists, is possible.",
+      "tags": [
+        "analytic-ethics",
+        "metaethics",
+        "moore",
+        "mackie",
+        "blackburn"
+      ],
+      "related": [
+        {
+          "name": "Moral Realism",
+          "type": "Extends",
+          "note": "Moral realism is one of the three main positions this entry maps -- the view that moral claims express genuine beliefs that can be true and known."
+        },
+        {
+          "name": "Error Theory",
+          "type": "Extends",
+          "note": "Error theory is the second major position -- moral claims aspire to objective truth but systematically and uniformly fail to achieve it."
+        },
+        {
+          "name": "Expressivism",
+          "type": "Extends",
+          "note": "Expressivism is the third major position -- moral claims express non-cognitive attitudes rather than stating truth-apt propositions about facts."
+        },
+        {
+          "name": "Moral Realism vs Anti-Realism",
+          "type": "Parallel",
+          "note": "Both entries map the same fundamental metaethical landscape from complementary organizing angles."
+        }
+      ],
+      "books": [
+        {
+          "title": "Principia Ethica",
+          "author": "G.E. Moore",
+          "url": "https://bookshop.org/a/philosophia/9780521447027",
+          "why": "Moore's foundational text establishing non-naturalist realism as a distinct metaethical position."
+        },
+        {
+          "title": "Ethics: Inventing Right and Wrong",
+          "author": "J.L. Mackie",
+          "url": "https://bookshop.org/a/philosophia/9780140135588",
+          "why": "Mackie's foundational error theory, the second pole organizing the contemporary metaethical landscape."
+        },
+        {
+          "title": "Ethical Theory: An Anthology",
+          "author": "Russ Shafer-Landau (ed.)",
+          "url": "https://bookshop.org/a/philosophia/9781119143829",
+          "why": "The comprehensive anthology giving the clearest overview of the full metaethical terrain across all major positions."
+        }
+      ]
+    },
+    {
+      "name": "Norm and Value",
+      "thinkerBio": "Christine Korsgaard (b. 1952) developed Kantian constructivism grounding normativity in reflective endorsement; T.M. Scanlon (b. 1940) developed the buck-passing account of value, analyzing goodness in terms of reasons rather than as a primitive property.",
+      "quote": "To say something is good is to say it has properties that give reasons for certain responses -- the buck is passed to the reason-giving properties themselves.",
+      "tags": [
+        "analytic-ethics",
+        "korsgaard",
+        "scanlon",
+        "constructivism",
+        "buck-passing"
+      ],
+      "related": [
+        {
+          "name": "Categorical Imperative",
+          "type": "Extends",
+          "note": "Korsgaard's Kantian constructivism grounds normative force in the reflective endorsement structure that Kant's categorical imperative formalizes."
+        },
+        {
+          "name": "Moral Realism",
+          "type": "Opposes",
+          "note": "Constructivism holds that normative truths are constituted by rational activity rather than discovered as independent facts, challenging robust moral realism."
+        },
+        {
+          "name": "Contractualism",
+          "type": "Parallel",
+          "note": "Both Scanlon's buck-passing account of value and his contractualism analyze normative concepts in terms of reasons rather than treating them as metaphysically primitive."
+        },
+        {
+          "name": "Practical Reason",
+          "type": "Extends",
+          "note": "Both Korsgaard's constructivism and Scanlon's buck-passing are attempts to demystify metaethics by grounding normativity in a more tractable theory of practical reason."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Sources of Normativity",
+          "author": "Christine Korsgaard",
+          "url": "https://bookshop.org/a/philosophia/9780521559607",
+          "why": "Korsgaard's foundational development of Kantian constructivism and reflective endorsement as the source of normative authority."
+        },
+        {
+          "title": "What We Owe to Each Other",
+          "author": "T.M. Scanlon",
+          "url": "https://bookshop.org/a/philosophia/9780674004238",
+          "why": "Scanlon's foundational development of the buck-passing account of value within his broader contractualist framework."
+        },
+        {
+          "title": "Being Realistic about Reasons",
+          "author": "T.M. Scanlon",
+          "url": "https://bookshop.org/a/philosophia/9780198784692",
+          "why": "Scanlon's later defence of reasons-based realism, clarifying his commitments against both robust realism and pure constructivism."
+        }
+      ]
+    },
+    {
+      "name": "The Meaning of Life",
+      "thinkerBio": "Susan Wolf (b. 1952) at UNC Chapel Hill developed her two-condition theory of meaning in Meaning in Life and Why It Matters (2010); Thomas Nagel's earlier essay 'The Absurd' identified the structural source of meaninglessness in the collision of seriousness and cosmic insignificance.",
+      "quote": "Meaning arises from active engagement in projects of worth, combining subjective attraction with genuine objective value -- neither alone suffices.",
+      "tags": [
+        "analytic-ethics",
+        "wolf",
+        "nagel",
+        "meaning",
+        "absurdity"
+      ],
+      "related": [
+        {
+          "name": "The Absurd",
+          "type": "Parallel",
+          "note": "Both Wolf's meaning theory and Camus's confrontation with the absurd address what makes life worth living, though through very different philosophical methods."
+        },
+        {
+          "name": "Eudaimonia",
+          "type": "Parallel",
+          "note": "Wolf's meaningful life and Aristotle's eudaimonia are related but distinct -- eudaimonia is the objective good life; meaningful life adds the subjective engagement condition."
+        },
+        {
+          "name": "Hedonism",
+          "type": "Opposes",
+          "note": "Wolf explicitly denies that meaning reduces to either pleasure or pure subjective satisfaction -- it requires engagement with what is genuinely, objectively valuable."
+        },
+        {
+          "name": "Nihilism",
+          "type": "Opposes",
+          "note": "Wolf's account of meaning is a direct contemporary analytic answer to the nihilist challenge -- it specifies what makes life meaningful without requiring cosmic or religious backing."
+        }
+      ],
+      "books": [
+        {
+          "title": "Meaning in Life and Why It Matters",
+          "author": "Susan Wolf",
+          "url": "https://bookshop.org/a/philosophia/9780691154503",
+          "why": "Wolf's systematic and highly influential account of meaning as active engagement in projects of genuine worth."
+        },
+        {
+          "title": "Mortal Questions",
+          "author": "Thomas Nagel",
+          "url": "https://bookshop.org/a/philosophia/9780521406765",
+          "why": "Contains 'The Absurd,' Nagel's foundational essay on the structural source of meaninglessness in human self-reflection."
+        },
+        {
+          "title": "The Meaning of Life",
+          "author": "E.D. Klemke (ed.)",
+          "url": "https://bookshop.org/a/philosophia/9780195305375",
+          "why": "The essential anthology covering the full range of philosophical views on life's meaning from existentialism to analytic philosophy."
+        }
+      ]
+    },
+    {
+      "name": "Moral Epistemology",
+      "thinkerBio": "Robert Audi (b. 1941) defends a pluralistic intuitionism grounding moral knowledge in rational intuition; David Enoch (b. 1973) developed robust realism, using a 'companions in guilt' strategy comparing moral knowledge to mathematical knowledge.",
+      "quote": "Moral knowledge is no worse off epistemically than mathematical knowledge -- both involve grasping necessary truths that resist straightforward empirical verification.",
+      "tags": [
+        "analytic-ethics",
+        "audi",
+        "enoch",
+        "moral-epistemology",
+        "intuitionism"
+      ],
+      "related": [
+        {
+          "name": "Moral Intuitionism",
+          "type": "Extends",
+          "note": "Audi's pluralistic intuitionism is the contemporary development of the moral epistemology that Moore and Ross's intuitionism originally established."
+        },
+        {
+          "name": "Moral Realism",
+          "type": "Extends",
+          "note": "Enoch's robust realism requires a corresponding moral epistemology explaining how we can have reliable knowledge of the objective moral facts realism posits."
+        },
+        {
+          "name": "A Priori / A Posteriori",
+          "type": "Parallel",
+          "note": "The companions in guilt strategy draws a direct parallel between moral knowledge and mathematical a priori knowledge, both resistant to straightforward empirical verification."
+        },
+        {
+          "name": "Moral Uncertainty",
+          "type": "Opposes",
+          "note": "Moral epistemology asks how we can know moral truths at all; moral uncertainty assumes we often cannot achieve confident knowledge and asks how we should act regardless."
+        }
+      ],
+      "books": [
+        {
+          "title": "The Good in the Right",
+          "author": "Robert Audi",
+          "url": "https://bookshop.org/a/philosophia/9780691115678",
+          "why": "Audi's systematic development of pluralistic intuitionism as a contemporary moral epistemology."
+        },
+        {
+          "title": "Taking Morality Seriously",
+          "author": "David Enoch",
+          "url": "https://bookshop.org/a/philosophia/9780199575862",
+          "why": "Enoch's foundational development of robust moral realism and the companions in guilt epistemological strategy."
+        },
+        {
+          "title": "Moral Knowledge: New Readings in Moral Epistemology",
+          "author": "Sarah McGrath and Aaron Zimmerman (eds.)",
+          "url": "https://bookshop.org/a/philosophia/9780190941247",
+          "why": "A comprehensive contemporary anthology covering the major positions in moral epistemology."
+        }
+      ]
+    },
+    {
+      "name": "Practical Reason",
+      "thinkerBio": "Bernard Williams (1929-2003) developed internalism about reasons, requiring connection to an agent's existing motivational set; Derek Parfit (1942-2017) defended an objective list account of reasons that can apply regardless of an agent's actual desires.",
+      "quote": "An agent has a reason to act only if the action could be motivated by their existing subjective motivational set through sound deliberation.",
+      "tags": [
+        "analytic-ethics",
+        "williams",
+        "parfit",
+        "practical-reason",
+        "internalism"
+      ],
+      "related": [
+        {
+          "name": "Moral Motivation",
+          "type": "Extends",
+          "note": "The internalism-externalism debate about practical reasons directly extends the broader Hume-Kant debate about the sources of moral motivation."
+        },
+        {
+          "name": "Categorical Imperative",
+          "type": "Opposes",
+          "note": "Parfit's externalist objective list reasons echo Kant's view that genuine moral reasons can bind regardless of an agent's actual desires or motivational set."
+        },
+        {
+          "name": "Hedonism",
+          "type": "Extends",
+          "note": "Parfit's challenge to internalism through the case of the future-Tuesday-indifferent agent connects directly to broader debates about hedonism and rational self-interest."
+        },
+        {
+          "name": "Norm and Value",
+          "type": "Parallel",
+          "note": "Both Korsgaard's constructivism and the practical reason debate investigate what grounds the normative force of reasons for action."
+        }
+      ],
+      "books": [
+        {
+          "title": "Moral Luck",
+          "author": "Bernard Williams",
+          "url": "https://bookshop.org/a/philosophia/9780521317392",
+          "why": "Williams's collected essays including his foundational development of internalism about reasons for action."
+        },
+        {
+          "title": "On What Matters (Vols 1 & 2)",
+          "author": "Derek Parfit",
+          "url": "https://bookshop.org/a/philosophia/9780199572809",
+          "why": "Parfit's late masterwork defending an objective list account of reasons against internalist alternatives."
+        },
+        {
+          "title": "Weighing Reasons",
+          "author": "John Broome",
+          "url": "https://bookshop.org/a/philosophia/9780199682905",
+          "why": "Broome's careful analytic distinction between explanatory and normative reasons, clarifying much confusion in the practical reason debate."
+        }
+      ]
+    },
+    {
+      "name": "Agent-Relative vs Agent-Neutral",
+      "thinkerBio": "Thomas Nagel (b. 1937) developed the systematic distinction between agent-relative and agent-neutral reasons in The View from Nowhere (1986); Samuel Scheffler (b. 1951) developed the agent-centered prerogative as a hybrid accommodation within an otherwise consequentialist framework.",
+      "quote": "Agent-relative reasons essentially refer to the agent whose reasons they are; agent-neutral reasons are reasons for anyone regardless of their particular relation to the situation.",
+      "tags": [
+        "analytic-ethics",
+        "nagel",
+        "scheffler",
+        "agent-relative",
+        "prerogative"
+      ],
+      "related": [
+        {
+          "name": "Consequentialism and Its Limits",
+          "type": "Extends",
+          "note": "Scheffler's agent-centered prerogative is the most influential attempt to accommodate Williams's integrity-based critique within an otherwise consequentialist framework."
+        },
+        {
+          "name": "Utilitarianism",
+          "type": "Opposes",
+          "note": "Pure utilitarianism is agent-neutral, requiring impartial maximization; agent-relative reasons preserve the legitimacy of partiality toward one's own projects and relationships."
+        },
+        {
+          "name": "Categorical Imperative",
+          "type": "Parallel",
+          "note": "Kant's categorical imperative is agent-neutral in its universalizability requirement, though it generates agent-relative duties through the specific application of universal principles."
+        },
+        {
+          "name": "Care Ethics",
+          "type": "Parallel",
+          "note": "Care ethics' insistence on the moral legitimacy of partiality toward particular relationships is a strong, non-consequentialist defence of agent-relative reasons."
+        }
+      ],
+      "books": [
+        {
+          "title": "The View from Nowhere",
+          "author": "Thomas Nagel",
+          "url": "https://bookshop.org/a/philosophia/9780195056440",
+          "why": "Nagel's foundational systematic development of the agent-relative versus agent-neutral distinction within a broader philosophy of objectivity."
+        },
+        {
+          "title": "The Rejection of Consequentialism",
+          "author": "Samuel Scheffler",
+          "url": "https://bookshop.org/a/philosophia/9780198249450",
+          "why": "Scheffler's foundational development of the agent-centered prerogative as a hybrid response to the agent-relative challenge."
+        },
+        {
+          "title": "Equality and Partiality",
+          "author": "Thomas Nagel",
+          "url": "https://bookshop.org/a/philosophia/9780195098396",
+          "why": "Nagel's later attempt to reconcile impartial equality with the legitimacy of agent-relative personal partiality."
+        }
+      ]
+    }
+  ]
+}

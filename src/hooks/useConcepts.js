@@ -13,7 +13,9 @@ export function useConcepts() {
         return r.json()
       })
       .then(data => {
-        setConcepts(data)
+        // Only surface concepts with all required base fields populated
+        const complete = data.filter(c => c.name && c.thinker && c.category && c.era && c.description)
+        setConcepts(complete)
         setLoading(false)
       })
       .catch(err => {
@@ -25,12 +27,12 @@ export function useConcepts() {
   const fuse = useMemo(() => concepts.length ? buildFuse(concepts) : null, [concepts])
 
   const categories = useMemo(
-    () => [...new Set(concepts.map(c => c.category))].sort(),
+    () => [...new Set(concepts.map(c => c.category).filter(Boolean))].sort(),
     [concepts]
   )
 
   const eras = useMemo(
-    () => [...new Set(concepts.map(c => c.era))].sort(),
+    () => [...new Set(concepts.map(c => c.era).filter(Boolean))].sort(),
     [concepts]
   )
 
