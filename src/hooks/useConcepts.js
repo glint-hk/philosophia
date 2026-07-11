@@ -7,7 +7,7 @@ export function useConcepts() {
   const [error, setError] = useState(null)
 
   useEffect(() => {
-    fetch('/concepts.json')
+    fetch(`${import.meta.env.BASE_URL}concepts.json`)
       .then(r => {
         if (!r.ok) throw new Error(`Failed to load concepts: ${r.status}`)
         return r.json()
