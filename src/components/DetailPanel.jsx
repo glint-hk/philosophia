@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { toPlainText, toMarkdown, toObsidian } from '../utils/copyFormats'
+import { categoryColor } from '../utils/categories'
 
 const REL_COLORS = {
   opposes: 'rel-opposes',
@@ -9,7 +10,16 @@ const REL_COLORS = {
 }
 
 const DIFF_LABELS = { 1: 'Introductory', 2: 'Intermediate', 3: 'Advanced' }
-const DIFF_DOTS = { 1: '●○○', 2: '●●○', 3: '●●●' }
+
+function DiffDots({ level, className = '' }) {
+  return (
+    <div className={`detail-diff ${className}`} title={DIFF_LABELS[level]}>
+      {[1,2,3].map(i => (
+        <span key={i} className={`diff-dot${i > (level || 0) ? ' empty' : ''}`} />
+      ))}
+    </div>
+  )
+}
 
 export function DetailPanel({
   concept,
@@ -23,6 +33,8 @@ export function DetailPanel({
 
   if (!concept) return null
 
+  const color = categoryColor(concept.category)
+
   async function copy(format) {
     let text
     if (format === 'plain') text = toPlainText(concept)
@@ -35,7 +47,12 @@ export function DetailPanel({
   }
 
   return (
-    <aside className="detail-panel" role="complementary" aria-label="Concept details">
+    <aside
+      className="detail-panel"
+      style={{ '--cat-color': color }}
+      role="complementary"
+      aria-label="Concept details"
+    >
       <div className="detail-header">
         <button className="detail-close" onClick={onClose} aria-label="Close detail panel">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
@@ -48,9 +65,8 @@ export function DetailPanel({
           <button
             className={`btn-ghost ${inConstellation ? 'active' : ''}`}
             onClick={() => onConstellationToggle(concept.name)}
-            title={inConstellation ? 'Remove from constellation' : 'Add to constellation'}
           >
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true">
               <polygon
                 points="8,1.5 9.8,6 14.5,6 10.8,8.9 12.2,13.5 8,10.5 3.8,13.5 5.2,8.9 1.5,6 6.2,6"
                 stroke="currentColor"
@@ -58,15 +74,14 @@ export function DetailPanel({
                 fill={inConstellation ? 'currentColor' : 'none'}
               />
             </svg>
-            {inConstellation ? 'In Constellation' : 'Add to Constellation'}
+            {inConstellation ? 'Saved' : 'Save'}
           </button>
 
           <button
-            className="btn-ghost traverse-action"
+            className="btn-ghost"
             onClick={() => onTraverse(concept)}
-            title="Open in Traverse Mode"
           >
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true">
               <circle cx="8" cy="8" r="3" fill="currentColor" />
               <circle cx="2" cy="2" r="1.5" stroke="currentColor" strokeWidth="1.1" />
               <circle cx="14" cy="2" r="1.5" stroke="currentColor" strokeWidth="1.1" />
@@ -84,11 +99,12 @@ export function DetailPanel({
 
       <div className="detail-body">
         <div className="detail-meta">
-          <span className="detail-category">{concept.category}</span>
-          <span className="detail-era">{concept.era}</span>
-          <span className="detail-diff" title={DIFF_LABELS[concept.difficulty]}>
-            {DIFF_DOTS[concept.difficulty]}
+          <span className="detail-category-badge">
+            <span className="chip-dot" />
+            {concept.category}
           </span>
+          <span className="detail-era">{concept.era}</span>
+          <DiffDots level={concept.difficulty} />
         </div>
 
         <h2 className="detail-name">{concept.name}</h2>
@@ -105,7 +121,7 @@ export function DetailPanel({
 
         {concept.quote && (
           <blockquote className="detail-quote">
-            <p>"{concept.quote}"</p>
+            <p>{concept.quote}</p>
             <cite>— {concept.thinker}</cite>
           </blockquote>
         )}

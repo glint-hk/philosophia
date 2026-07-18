@@ -126,7 +126,7 @@ export default function App() {
   if (loading) {
     return (
       <div className="loading-screen">
-        <div className="loading-spinner" aria-label="Loading concepts" />
+        <div className="loading-mark" aria-label="Loading concepts" />
         <p>Loading Philosophia…</p>
       </div>
     )

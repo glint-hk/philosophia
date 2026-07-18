@@ -16,6 +16,7 @@ import { createRequire } from 'module'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const PUBLIC = join(__dirname, '..', 'public')
+const STALE = join(__dirname, '..', 'stale')
 
 import { execSync } from 'child_process'
 
@@ -144,7 +145,7 @@ const volumes = [
 const allNewConcepts = []
 
 for (const { file, range } of volumes) {
-  const filePath = join(PUBLIC, file)
+  const filePath = join(STALE, file)
   console.log(`\nParsing ${file}...`)
   try {
     const lines = readDocxLines(filePath)

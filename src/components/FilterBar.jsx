@@ -1,7 +1,9 @@
+import { categoryColor } from '../utils/categories'
+
 const DIFFICULTIES = [
-  { value: 1, label: '● Introductory' },
-  { value: 2, label: '●● Intermediate' },
-  { value: 3, label: '●●● Advanced' },
+  { value: 1, label: 'Introductory' },
+  { value: 2, label: 'Intermediate' },
+  { value: 3, label: 'Advanced' },
 ]
 
 export function FilterBar({ categories, eras, filters, onFilter, resultCount, total }) {
@@ -37,15 +39,21 @@ export function FilterBar({ categories, eras, filters, onFilter, resultCount, to
       <div className="filter-section">
         <span className="filter-label">Category</span>
         <div className="chip-list">
-          {categories.map(cat => (
-            <button
-              key={cat}
-              className={`chip ${filters.categories.includes(cat) ? 'chip-active' : ''}`}
-              onClick={() => toggleCategory(cat)}
-            >
-              {cat}
-            </button>
-          ))}
+          {categories.map(cat => {
+            const color = categoryColor(cat)
+            const active = filters.categories.includes(cat)
+            return (
+              <button
+                key={cat}
+                className={`chip ${active ? 'chip-active' : ''}`}
+                style={{ '--cat-color': color }}
+                onClick={() => toggleCategory(cat)}
+              >
+                <span className="chip-dot" style={{ background: active ? color : undefined }} />
+                {cat}
+              </button>
+            )
+          })}
         </div>
       </div>
 
@@ -65,7 +73,7 @@ export function FilterBar({ categories, eras, filters, onFilter, resultCount, to
       </div>
 
       <div className="filter-section">
-        <span className="filter-label">Difficulty</span>
+        <span className="filter-label">Depth</span>
         <div className="chip-list">
           {DIFFICULTIES.map(({ value, label }) => (
             <button
@@ -73,7 +81,7 @@ export function FilterBar({ categories, eras, filters, onFilter, resultCount, to
               className={`chip ${filters.difficulties.includes(value) ? 'chip-active' : ''}`}
               onClick={() => toggleDifficulty(value)}
             >
-              {label}
+              {'●'.repeat(value)}{'○'.repeat(3 - value)} {label}
             </button>
           ))}
         </div>
@@ -84,9 +92,7 @@ export function FilterBar({ categories, eras, filters, onFilter, resultCount, to
           {resultCount === total ? `${total} concepts` : `${resultCount} of ${total}`}
         </span>
         {hasFilters && (
-          <button className="clear-filters" onClick={clearAll}>
-            Clear all filters
-          </button>
+          <button className="clear-filters" onClick={clearAll}>Clear filters</button>
         )}
       </div>
     </div>
