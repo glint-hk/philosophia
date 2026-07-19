@@ -1,4 +1,4 @@
-import { useEffect, useRef, useCallback } from 'react'
+import { useEffect, useRef, useCallback, useMemo } from 'react'
 import * as d3 from 'd3'
 
 const REL_STYLE = {
@@ -13,7 +13,10 @@ export function TraverseMode({ concepts, centerConcept, onSelect, onClose, dark 
   const simRef = useRef(null)
   const stateRef = useRef({ center: centerConcept, selected: centerConcept })
 
-  const conceptMap = Object.fromEntries(concepts.map(c => [c.name, c]))
+  const conceptMap = useMemo(
+    () => Object.fromEntries(concepts.map(c => [c.name, c])),
+    [concepts]
+  )
 
   const draw = useCallback(() => {
     const center = stateRef.current.center
@@ -191,7 +194,7 @@ export function TraverseMode({ concepts, centerConcept, onSelect, onClose, dark 
 
       nodeEls.attr('transform', d => `translate(${d.x},${d.y})`)
     }
-  }, [concepts, conceptMap, dark, onSelect])
+  }, [conceptMap, dark, onSelect])
 
   useEffect(() => {
     stateRef.current.center = centerConcept

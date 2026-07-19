@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://glint-hk.github.io/philosophia/sitemap.xml

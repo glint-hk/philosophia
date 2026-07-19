@@ -9,10 +9,9 @@
  * Run:  node scripts/parse-volumes.js
  */
 
-import { readFileSync, writeFileSync, readdirSync } from 'fs'
+import { readFileSync, writeFileSync } from 'fs'
 import { join, dirname } from 'path'
 import { fileURLToPath } from 'url'
-import { createRequire } from 'module'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const PUBLIC = join(__dirname, '..', 'public')
@@ -170,7 +169,7 @@ let updated = 0
 let added = 0
 
 for (const concept of allNewConcepts) {
-  const { id, ...fields } = concept
+  const { id: _id, ...fields } = concept
   if (existingByName[fields.name]) {
     // Patch missing base fields onto existing entry (from chunk data)
     const existing = existingByName[fields.name]

@@ -42,7 +42,7 @@ export function ConceptGrid({
   }
 
   return (
-    <div className="concept-grid" role="list">
+    <div className="concept-grid">
       {visible.map(concept => (
         <ConceptCard
           key={concept.name}
@@ -55,15 +55,4 @@ export function ConceptGrid({
       ))}
     </div>
   )
-}
-
-export function getFilteredCount(concepts, fuse, searchQuery, filters) {
-  let list = concepts
-  if (searchQuery && fuse) {
-    list = search(fuse, searchQuery) || list
-  }
-  if (filters.categories.length) list = list.filter(c => filters.categories.includes(c.category))
-  if (filters.eras.length) list = list.filter(c => filters.eras.includes(c.era))
-  if (filters.difficulties.length) list = list.filter(c => filters.difficulties.includes(c.difficulty))
-  return list.length
 }

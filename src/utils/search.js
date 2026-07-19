@@ -7,7 +7,8 @@ export function buildFuse(concepts) {
     keys: [
       { name: 'name', weight: 3 },
       { name: 'thinker', weight: 2 },
-      { name: 'domain', weight: 1 },
+      { name: 'category', weight: 1 },
+      { name: 'tags', weight: 1 },
       { name: 'description', weight: 1 },
     ],
   })

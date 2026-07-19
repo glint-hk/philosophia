@@ -48,6 +48,7 @@ export function FilterBar({ categories, eras, filters, onFilter, resultCount, to
                 className={`chip ${active ? 'chip-active' : ''}`}
                 style={{ '--cat-color': color }}
                 onClick={() => toggleCategory(cat)}
+                aria-pressed={active}
               >
                 <span className="chip-dot" style={{ background: active ? color : undefined }} />
                 {cat}
@@ -65,6 +66,7 @@ export function FilterBar({ categories, eras, filters, onFilter, resultCount, to
               key={era}
               className={`chip ${filters.eras.includes(era) ? 'chip-active' : ''}`}
               onClick={() => toggleEra(era)}
+              aria-pressed={filters.eras.includes(era)}
             >
               {era}
             </button>
@@ -80,6 +82,7 @@ export function FilterBar({ categories, eras, filters, onFilter, resultCount, to
               key={value}
               className={`chip ${filters.difficulties.includes(value) ? 'chip-active' : ''}`}
               onClick={() => toggleDifficulty(value)}
+              aria-pressed={filters.difficulties.includes(value)}
             >
               {'●'.repeat(value)}{'○'.repeat(3 - value)} {label}
             </button>
@@ -88,7 +91,7 @@ export function FilterBar({ categories, eras, filters, onFilter, resultCount, to
       </div>
 
       <div className="filter-meta">
-        <span className="result-count">
+        <span className="result-count" aria-live="polite">
           {resultCount === total ? `${total} concepts` : `${resultCount} of ${total}`}
         </span>
         {hasFilters && (

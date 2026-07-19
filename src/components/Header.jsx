@@ -8,6 +8,7 @@ export function Header({
   dark,
   onDarkToggle,
   onConstellationOpen,
+  constellationOpen,
   constellationCount,
 }) {
   const inputRef = useRef(null)
@@ -66,6 +67,7 @@ export function Header({
           onClick={onModeToggle}
           title={mode === 'grid' ? 'Switch to Traverse Mode (T)' : 'Switch to Grid Mode (T)'}
           aria-label={mode === 'grid' ? 'Switch to Traverse Mode' : 'Switch to Grid Mode'}
+          aria-pressed={mode === 'traverse'}
         >
           {mode === 'grid' ? (
             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
@@ -91,10 +93,11 @@ export function Header({
         </button>
 
         <button
-          className="btn-ghost constellation-btn"
+          className={`btn-ghost constellation-btn ${constellationOpen ? 'active' : ''}`}
           onClick={onConstellationOpen}
           title="My Constellation (C)"
-          aria-label="Open My Constellation"
+          aria-label="My Constellation"
+          aria-expanded={constellationOpen}
         >
           <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
             <polygon points="9,2 10.8,7 16,7 11.8,10.2 13.6,15.2 9,12 4.4,15.2 6.2,10.2 2,7 7.2,7" stroke="currentColor" strokeWidth="1.3" fill="none" />
@@ -109,6 +112,7 @@ export function Header({
           onClick={onDarkToggle}
           title="Toggle dark mode (D)"
           aria-label={dark ? 'Switch to light mode' : 'Switch to dark mode'}
+          aria-pressed={dark}
         >
           {dark ? (
             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">

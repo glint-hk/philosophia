@@ -1,6 +1,7 @@
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import { toPlainText, toMarkdown, toObsidian } from '../utils/copyFormats'
 import { categoryColor } from '../utils/categories'
+import { useFocusTrap } from '../hooks/useFocusTrap'
 
 const REL_COLORS = {
   opposes: 'rel-opposes',
@@ -30,6 +31,8 @@ export function DetailPanel({
   onConstellationToggle,
 }) {
   const [copied, setCopied] = useState(null)
+  const panelRef = useRef(null)
+  useFocusTrap(panelRef, Boolean(concept))
 
   if (!concept) return null
 
@@ -48,10 +51,12 @@ export function DetailPanel({
 
   return (
     <aside
+      ref={panelRef}
       className="detail-panel"
       style={{ '--cat-color': color }}
-      role="complementary"
-      aria-label="Concept details"
+      role="dialog"
+      aria-modal="true"
+      aria-label={`${concept.name} details`}
     >
       <div className="detail-header">
         <button className="detail-close" onClick={onClose} aria-label="Close detail panel">

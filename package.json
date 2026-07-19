@@ -1,17 +1,18 @@
 {
-  "name": "philopsophia",
+  "name": "philosophia",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "parse-volumes": "node scripts/parse-volumes.js",
     "merge": "node scripts/merge-concepts.js",
-    "build-data": "npm run parse-volumes && npm run merge",
+    "generate-sitemap": "node scripts/generate-sitemap.js",
+    "build-data": "npm run parse-volumes && npm run merge && npm run generate-sitemap",
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    "predeploy": "npm run generate-sitemap && npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {

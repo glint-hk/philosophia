@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useMemo } from 'react'
+import { useState, useEffect, useCallback, useMemo, useRef } from 'react'
 import { useDarkMode } from './hooks/useDarkMode'
 import { useConstellation } from './hooks/useConstellation'
 import { useConcepts } from './hooks/useConcepts'
@@ -30,6 +30,14 @@ function pushUrl(state) {
   window.history.pushState(null, '', qs ? `?${qs}` : window.location.pathname)
 }
 
+const DEFAULT_TITLE = 'Philosophia — Explore Philosophical Concepts'
+const DEFAULT_DESCRIPTION =
+  'A graph-native explorer for 400 philosophical concepts across 15 traditions. Navigate ideas, discover connections, and build your own constellation of thought.'
+
+function setMetaDescription(text) {
+  document.querySelector('meta[name="description"]')?.setAttribute('content', text)
+}
+
 export default function App() {
   const { dark, toggle: toggleDark } = useDarkMode()
   const { constellation, toggle: constellationToggle } = useConstellation()
@@ -42,6 +50,7 @@ export default function App() {
   const [selectedConcept, setSelectedConcept] = useState(null)
   const [traverseConcept, setTraverseConcept] = useState(null)
   const [constellationOpen, setConstellationOpen] = useState(false)
+  const lastFocusedRef = useRef(null)
 
   const conceptMap = useMemo(
     () => Object.fromEntries(concepts.map(c => [c.name, c])),
@@ -65,6 +74,12 @@ export default function App() {
     })
   }, [mode, selectedConcept, traverseConcept, searchQuery])
 
+  useEffect(() => {
+    const active = traverseConcept || selectedConcept
+    document.title = active ? `${active.name} — Philosophia` : DEFAULT_TITLE
+    setMetaDescription(active ? `${active.description?.slice(0, 155)}…` : DEFAULT_DESCRIPTION)
+  }, [selectedConcept, traverseConcept])
+
   const toggleMode = useCallback(() => {
     setMode(m => {
       if (m === 'grid') return 'traverse'
@@ -78,16 +93,26 @@ export default function App() {
       if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return
       if (e.key === 'd' || e.key === 'D') toggleDark()
       if (e.key === 't' || e.key === 'T') toggleMode()
-      if (e.key === 'c' || e.key === 'C') setConstellationOpen(o => !o)
-      if (e.key === 'Escape') { setSelectedConcept(null); setConstellationOpen(false) }
+      if (e.key === 'c' || e.key === 'C') handleConstellationToggleOpen()
+      if (e.key === 'Escape' && (selectedConcept || constellationOpen)) {
+        setSelectedConcept(null)
+        setConstellationOpen(false)
+        requestAnimationFrame(() => lastFocusedRef.current?.focus?.())
+      }
     }
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
-  }, [toggleDark, toggleMode])
+  }, [toggleDark, toggleMode, selectedConcept, constellationOpen])
 
   function handleSelectConcept(concept) {
+    if (!selectedConcept) lastFocusedRef.current = document.activeElement
     setSelectedConcept(concept)
     setConstellationOpen(false)
+  }
+
+  function handleDetailClose() {
+    setSelectedConcept(null)
+    requestAnimationFrame(() => lastFocusedRef.current?.focus?.())
   }
 
   function handleTraverse(concept) {
@@ -104,6 +129,18 @@ export default function App() {
   function handleRelatedClick(name) {
     const concept = conceptMap[name]
     if (concept) setSelectedConcept(concept)
+  }
+
+  function handleConstellationToggleOpen() {
+    setConstellationOpen(o => {
+      if (!o) lastFocusedRef.current = document.activeElement
+      return !o
+    })
+  }
+
+  function handleConstellationClose() {
+    setConstellationOpen(false)
+    requestAnimationFrame(() => lastFocusedRef.current?.focus?.())
   }
 
   function handleConstellationSelect(concept) {
@@ -157,8 +194,12 @@ export default function App() {
     )
   }
 
+  const panelOpen = Boolean(selectedConcept || constellationOpen)
+
   return (
     <div className="app" data-mode="grid">
+      <a href="#main-content" className="skip-link">Skip to content</a>
+
       <Header
         mode={mode}
         onModeToggle={toggleMode}
@@ -166,7 +207,8 @@ export default function App() {
         onSearch={setSearchQuery}
         dark={dark}
         onDarkToggle={toggleDark}
-        onConstellationOpen={() => setConstellationOpen(o => !o)}
+        onConstellationOpen={handleConstellationToggleOpen}
+        constellationOpen={constellationOpen}
         constellationCount={constellationCount}
       />
 
@@ -179,7 +221,7 @@ export default function App() {
         total={concepts.length}
       />
 
-      <main className={`main-content ${selectedConcept || constellationOpen ? 'panel-open' : ''}`}>
+      <main id="main-content" tabIndex={-1} className={`main-content ${panelOpen ? 'panel-open' : ''}`}>
         <ConceptGrid
           concepts={concepts}
           fuse={fuse}
@@ -192,10 +234,22 @@ export default function App() {
         />
       </main>
 
+      {panelOpen && (
+        <div
+          className="scrim"
+          aria-hidden="true"
+          onClick={() => {
+            setSelectedConcept(null)
+            setConstellationOpen(false)
+            requestAnimationFrame(() => lastFocusedRef.current?.focus?.())
+          }}
+        />
+      )}
+
       {selectedConcept && (
         <DetailPanel
           concept={selectedConcept}
-          onClose={() => setSelectedConcept(null)}
+          onClose={handleDetailClose}
           onTraverse={handleTraverse}
           onRelatedClick={handleRelatedClick}
           inConstellation={Boolean(constellation[selectedConcept.name])}
@@ -207,7 +261,7 @@ export default function App() {
         <ConstellationPanel
           constellation={constellation}
           concepts={concepts}
-          onClose={() => setConstellationOpen(false)}
+          onClose={handleConstellationClose}
           onSelect={handleConstellationSelect}
         />
       )}

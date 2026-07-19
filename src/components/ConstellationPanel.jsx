@@ -1,8 +1,13 @@
+import { useRef } from 'react'
 import JSZip from 'jszip'
 import { saveAs } from 'file-saver'
 import { toObsidian } from '../utils/copyFormats'
+import { useFocusTrap } from '../hooks/useFocusTrap'
 
 export function ConstellationPanel({ constellation, concepts, onClose, onSelect }) {
+  const panelRef = useRef(null)
+  useFocusTrap(panelRef, true)
+
   const entries = Object.entries(constellation).sort((a, b) => new Date(b[1]) - new Date(a[1]))
   const conceptMap = Object.fromEntries(concepts.map(c => [c.name, c]))
 
@@ -38,7 +43,7 @@ export function ConstellationPanel({ constellation, concepts, onClose, onSelect 
   }
 
   return (
-    <aside className="constellation-panel" role="complementary" aria-label="My Constellation">
+    <aside ref={panelRef} className="constellation-panel" role="dialog" aria-modal="true" aria-label="My Constellation">
       <div className="panel-header">
         <h2>My Constellation</h2>
         <button className="detail-close" onClick={onClose} aria-label="Close constellation panel">
@@ -61,7 +66,7 @@ export function ConstellationPanel({ constellation, concepts, onClose, onSelect 
         <>
           <div className="constellation-stats">
             <span className="stat">{entries.length} concept{entries.length !== 1 ? 's' : ''}</span>
-            <span className="stat">{Object.keys(categoryBreakdown).length} categories</span>
+            <span className="stat">{Object.keys(categoryBreakdown).length} categor{Object.keys(categoryBreakdown).length !== 1 ? 'ies' : 'y'}</span>
           </div>
 
           <div className="category-breakdown">
