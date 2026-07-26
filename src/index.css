@@ -92,7 +92,7 @@
 
     --text-h:       #eefdf5;
     --text:         #8fc6a4;
-    --text-dim:     #4c7561;
+    --text-dim:     #5b8d75;
     --text-inv:     #05130c;
 
     --shadow-sm:    0 1px 2px rgba(0,0,0,0.35), 0 1px 1px rgba(0,0,0,0.2);
@@ -130,7 +130,7 @@
 
   --text-h:       #eefdf5;
   --text:         #8fc6a4;
-  --text-dim:     #4c7561;
+  --text-dim:     #5b8d75;
   --text-inv:     #05130c;
 
   --shadow-sm:    0 1px 2px rgba(0,0,0,0.35), 0 1px 1px rgba(0,0,0,0.2);
@@ -203,6 +203,19 @@ ul, ol { list-style: none; margin: 0; padding: 0; }
   background-clip: padding-box;
 }
 *::-webkit-scrollbar-thumb:hover { background: var(--text-dim); background-clip: padding-box; }
+
+/* ─── Screen-reader-only content ────────────────────────────── */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
 
 /* ─── Skip link ──────────────────────────────────────────────── */
 .skip-link {
@@ -578,6 +591,26 @@ body {
   background: var(--cat-color, var(--text-dim));
   flex-shrink: 0;
   box-shadow: 0 0 6px color-mix(in srgb, var(--cat-color, var(--text-dim)) 70%, transparent);
+}
+
+/* On narrow viewports, each filter group becomes a horizontally-scrolling
+   single row instead of wrapping — 21 chips wrapped to full-width rows
+   was pushing the concept grid a full viewport below the fold. */
+@media (max-width: 640px) {
+  .filter-bar { padding: 10px 16px; gap: 8px; }
+  .filter-section { align-items: flex-start; min-height: 0; }
+  .filter-label { min-width: 52px; font-size: 9.5px; padding-top: 6px; flex-shrink: 0; }
+  .chip-list {
+    flex: 1;
+    min-width: 0;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x proximity;
+    scrollbar-width: none;
+    padding-bottom: 2px;
+  }
+  .chip-list::-webkit-scrollbar { display: none; }
+  .chip { flex-shrink: 0; scroll-snap-align: start; }
 }
 .filter-meta {
   display: flex;
@@ -1206,6 +1239,15 @@ body {
   color: var(--text-dim);
 }
 .traverse-svg { flex: 1; width: 100%; }
+
+/* Graph nodes are keyboard-focusable <g> elements; show our own ring
+   instead of the browser's default (often clipped/rectangular) outline. */
+.traverse-svg .node { outline: none; }
+.traverse-svg .node .node-focus-ring { opacity: 0; }
+.traverse-svg .node:focus-visible .node-focus-ring {
+  opacity: 1;
+  filter: drop-shadow(0 0 4px var(--accent-glow));
+}
 
 /* ─── Mode toggle ────────────────────────────────────────────── */
 .mode-toggle span { font-size: 12.5px; }

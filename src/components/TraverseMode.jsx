@@ -1,4 +1,4 @@
-import { useEffect, useRef, useCallback, useMemo } from 'react'
+import { useEffect, useRef, useCallback, useMemo, useState } from 'react'
 import * as d3 from 'd3'
 
 const REL_STYLE = {
@@ -8,10 +8,19 @@ const REL_STYLE = {
   resolves: { stroke: '#3b82f6', strokeDasharray: null,  label: 'resolves' },
 }
 
+function ariaLabelFor(d) {
+  if (d.role === 'center') return `${d.name}, centered concept. Press Enter to open details.`
+  const relLabel = d.relType ? REL_STYLE[d.relType]?.label || d.relType : 'related'
+  return `${d.name}, ${relLabel} concept. Press Enter to re-center the graph here.`
+}
+
 export function TraverseMode({ concepts, centerConcept, onSelect, onClose, dark }) {
   const svgRef = useRef(null)
   const simRef = useRef(null)
   const stateRef = useRef({ center: centerConcept, selected: centerConcept })
+  const prevCenterNameRef = useRef(null)
+  const focusedNameRef = useRef(null)
+  const [announce, setAnnounce] = useState('')
 
   const conceptMap = useMemo(
     () => Object.fromEntries(concepts.map(c => [c.name, c])),
@@ -79,6 +88,18 @@ export function TraverseMode({ concepts, centerConcept, onSelect, onClose, dark 
     // Build id map for simulation
     const nodeById = Object.fromEntries(allNodes.map(n => [n.name, n]))
 
+    function activate(d) {
+      if (d.role === 'center') {
+        onSelect(d)
+        return
+      }
+      const full = conceptMap[d.name]
+      if (full) {
+        stateRef.current.center = full
+        draw()
+      }
+    }
+
     const g = svg.append('g')
 
     const zoom = d3.zoom()
@@ -115,6 +136,9 @@ export function TraverseMode({ concepts, centerConcept, onSelect, onClose, dark 
       .join('g')
       .attr('class', 'node')
       .attr('cursor', 'pointer')
+      .attr('tabindex', 0)
+      .attr('role', 'button')
+      .attr('aria-label', ariaLabelFor)
       .call(
         d3.drag()
           .on('start', (e, d) => {
@@ -129,16 +153,34 @@ export function TraverseMode({ concepts, centerConcept, onSelect, onClose, dark 
       )
       .on('click', (e, d) => {
         e.stopPropagation()
-        if (d.role === 'center') {
-          onSelect(d)
-        } else {
-          const full = conceptMap[d.name]
-          if (full) {
-            stateRef.current.center = full
-            draw()
-          }
+        activate(d)
+      })
+      .on('keydown', (e, d) => {
+        const i = allNodes.indexOf(d)
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault()
+          activate(d)
+        } else if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+          e.preventDefault()
+          const next = (i + 1) % allNodes.length
+          nodeEls.nodes()[next]?.focus()
+        } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+          e.preventDefault()
+          const prev = (i - 1 + allNodes.length) % allNodes.length
+          nodeEls.nodes()[prev]?.focus()
         }
       })
+      .on('focus', (e, d) => {
+        focusedNameRef.current = d.name
+        setAnnounce(ariaLabelFor(d))
+      })
+
+    nodeEls.append('circle')
+      .attr('class', 'node-focus-ring')
+      .attr('r', d => (d.role === 'center' ? 36 : d.role === 'orbit' ? 22 : 14) + 6)
+      .attr('fill', 'none')
+      .attr('stroke', 'var(--accent, #6ee7b7)')
+      .attr('stroke-width', 2.5)
 
     nodeEls.append('circle')
       .attr('r', d => d.role === 'center' ? 36 : d.role === 'orbit' ? 22 : 14)
@@ -194,6 +236,24 @@ export function TraverseMode({ concepts, centerConcept, onSelect, onClose, dark 
 
       nodeEls.attr('transform', d => `translate(${d.x},${d.y})`)
     }
+
+    // Every redraw wipes and rebuilds the whole SVG, which silently drops
+    // DOM focus — restore it to whichever node had focus before (by name,
+    // since the actual DOM elements are recreated each time), falling back
+    // to the center node on first mount. This also re-fires the 'focus'
+    // handler above, which keeps the aria-live announcement in sync.
+    // allNodes[0] is always the center-role node — note it's a spread copy of
+    // `center`, not the same object reference, so we can't fall back to `center`
+    // itself here or the equality check below would never match.
+    const restoreTarget = allNodes.find(n => n.name === focusedNameRef.current) || allNodes[0]
+    nodeEls.filter(d => d === restoreTarget).node()?.focus()
+
+    // A re-center (vs. an incidental redraw like a dark-mode toggle) gets
+    // its own, more specific announcement.
+    if (center.name !== prevCenterNameRef.current) {
+      prevCenterNameRef.current = center.name
+      setAnnounce(`Centered on ${center.name}`)
+    }
   }, [conceptMap, dark, onSelect])
 
   useEffect(() => {
@@ -232,14 +292,21 @@ export function TraverseMode({ concepts, centerConcept, onSelect, onClose, dark 
           ))}
         </div>
         <div className="traverse-hints">
-          <span>Click node to re-center</span>
+          <span>Click node, or Tab + Enter, to re-center</span>
+          <span>Arrow keys move between nodes</span>
           <span>Scroll to zoom</span>
         </div>
         <button className="btn-ghost" onClick={onClose} aria-label="Exit traverse mode">
           ← Back to Grid
         </button>
       </div>
-      <svg ref={svgRef} className="traverse-svg" />
+      <div className="sr-only" role="status" aria-live="polite">{announce}</div>
+      <svg
+        ref={svgRef}
+        className="traverse-svg"
+        role="group"
+        aria-label="Concept relationship graph. Use Tab or the arrow keys to move between nodes, Enter to activate one."
+      />
     </div>
   )
 }

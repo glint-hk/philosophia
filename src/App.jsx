@@ -52,6 +52,19 @@ export default function App() {
   const [constellationOpen, setConstellationOpen] = useState(false)
   const lastFocusedRef = useRef(null)
 
+  // Restores focus to whatever triggered a panel/mode — falling back to the
+  // header's mode toggle if that element no longer exists in the DOM (e.g.
+  // Traverse Mode fully unmounts Grid Mode, so the concept card that opened
+  // it is gone by the time we come back and a stale ref would silently drop
+  // focus to <body>).
+  const restoreFocus = useCallback(() => {
+    requestAnimationFrame(() => {
+      const el = lastFocusedRef.current
+      if (el && document.body.contains(el)) el.focus()
+      else document.querySelector('.mode-toggle')?.focus()
+    })
+  }, [])
+
   const conceptMap = useMemo(
     () => Object.fromEntries(concepts.map(c => [c.name, c])),
     [concepts]
@@ -82,11 +95,15 @@ export default function App() {
 
   const toggleMode = useCallback(() => {
     setMode(m => {
-      if (m === 'grid') return 'traverse'
+      if (m === 'grid') {
+        lastFocusedRef.current = document.activeElement
+        return 'traverse'
+      }
       setTraverseConcept(null)
+      restoreFocus()
       return 'grid'
     })
-  }, [])
+  }, [restoreFocus])
 
   useEffect(() => {
     function onKey(e) {
@@ -97,12 +114,12 @@ export default function App() {
       if (e.key === 'Escape' && (selectedConcept || constellationOpen)) {
         setSelectedConcept(null)
         setConstellationOpen(false)
-        requestAnimationFrame(() => lastFocusedRef.current?.focus?.())
+        restoreFocus()
       }
     }
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
-  }, [toggleDark, toggleMode, selectedConcept, constellationOpen])
+  }, [toggleDark, toggleMode, selectedConcept, constellationOpen, restoreFocus])
 
   function handleSelectConcept(concept) {
     if (!selectedConcept) lastFocusedRef.current = document.activeElement
@@ -112,10 +129,11 @@ export default function App() {
 
   function handleDetailClose() {
     setSelectedConcept(null)
-    requestAnimationFrame(() => lastFocusedRef.current?.focus?.())
+    restoreFocus()
   }
 
   function handleTraverse(concept) {
+    lastFocusedRef.current = document.activeElement
     setTraverseConcept(concept || concepts[0])
     setMode('traverse')
     setSelectedConcept(null)
@@ -124,6 +142,7 @@ export default function App() {
   function handleTraverseClose() {
     setMode('grid')
     setTraverseConcept(null)
+    restoreFocus()
   }
 
   function handleRelatedClick(name) {
@@ -140,7 +159,7 @@ export default function App() {
 
   function handleConstellationClose() {
     setConstellationOpen(false)
-    requestAnimationFrame(() => lastFocusedRef.current?.focus?.())
+    restoreFocus()
   }
 
   function handleConstellationSelect(concept) {
@@ -241,7 +260,7 @@ export default function App() {
           onClick={() => {
             setSelectedConcept(null)
             setConstellationOpen(false)
-            requestAnimationFrame(() => lastFocusedRef.current?.focus?.())
+            restoreFocus()
           }}
         />
       )}
