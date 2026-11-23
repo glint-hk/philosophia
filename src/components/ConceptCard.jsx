@@ -19,13 +19,17 @@ export function ConceptCard({ concept, onSelect, onTraverse, inConstellation, on
       className="concept-card"
       style={{ '--cat-color': color }}
       onClick={() => onSelect(concept)}
-      role="button"
-      tabIndex={0}
-      onKeyDown={e => (e.key === 'Enter' || e.key === ' ') && onSelect(concept)}
-      aria-label={`${concept.name} by ${concept.thinker}`}
     >
       <div className="card-header">
-        <h3 className="card-name">{concept.name}</h3>
+        <h3 className="card-name">
+          <button
+            className="card-open"
+            onClick={e => { e.stopPropagation(); onSelect(concept) }}
+            aria-label={`Open ${concept.name} by ${concept.thinker}`}
+          >
+            {concept.name}
+          </button>
+        </h3>
         <DiffDots level={concept.difficulty} />
       </div>
 

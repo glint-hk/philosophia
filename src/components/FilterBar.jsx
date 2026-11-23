@@ -1,4 +1,5 @@
 import { categoryColor } from '../utils/categories'
+import { useState } from 'react'
 
 const DIFFICULTIES = [
   { value: 1, label: 'Introductory' },
@@ -7,6 +8,8 @@ const DIFFICULTIES = [
 ]
 
 export function FilterBar({ categories, eras, filters, onFilter, resultCount, total }) {
+  const [expanded, setExpanded] = useState(false)
+  const selectedCount = filters.categories.length + filters.eras.length + filters.difficulties.length
   const hasFilters = filters.categories.length || filters.eras.length || filters.difficulties.length
 
   function toggleCategory(cat) {
@@ -35,7 +38,22 @@ export function FilterBar({ categories, eras, filters, onFilter, resultCount, to
   }
 
   return (
-    <div className="filter-bar">
+    <section className="filter-bar" aria-label="Filter the concept collection">
+      <div className="filter-summary">
+        <button className="filter-disclosure" aria-expanded={expanded} aria-controls="atlas-filter-options" onClick={() => setExpanded(value => !value)}>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true"><path d="M4 7h16M7 12h10M10 17h4" /></svg>
+          {expanded ? 'Hide filters' : 'Refine your exploration'}
+          {selectedCount > 0 && <span className="filter-count">{selectedCount}</span>}
+        </button>
+        <span className="result-count" aria-live="polite">{resultCount === total ? `${total} concepts` : `${resultCount} of ${total} concepts`}</span>
+        {Boolean(hasFilters) && <button className="clear-filters" onClick={clearAll}>Clear all</button>}
+      </div>
+      {selectedCount > 0 && <div className="active-filters" aria-label="Active filters">
+        {filters.categories.map(value => <button key={value} onClick={() => toggleCategory(value)} aria-label={`Remove ${value} filter`}>{value}<span aria-hidden="true">×</span></button>)}
+        {filters.eras.map(value => <button key={value} onClick={() => toggleEra(value)} aria-label={`Remove ${value} filter`}>{value}<span aria-hidden="true">×</span></button>)}
+        {filters.difficulties.map(value => <button key={value} onClick={() => toggleDifficulty(value)} aria-label={`Remove ${DIFFICULTIES[value - 1].label} filter`}>{DIFFICULTIES[value - 1].label}<span aria-hidden="true">×</span></button>)}
+      </div>}
+      <div id="atlas-filter-options" className="filter-options" hidden={!expanded}>
       <div className="filter-section">
         <span className="filter-label">Category</span>
         <div className="chip-list">
@@ -90,14 +108,8 @@ export function FilterBar({ categories, eras, filters, onFilter, resultCount, to
         </div>
       </div>
 
-      <div className="filter-meta">
-        <span className="result-count" aria-live="polite">
-          {resultCount === total ? `${total} concepts` : `${resultCount} of ${total}`}
-        </span>
-        {hasFilters && (
-          <button className="clear-filters" onClick={clearAll}>Clear filters</button>
-        )}
+      <div className="filter-done"><button className="hero-secondary" onClick={() => setExpanded(false)}>Show {resultCount} concepts</button></div>
       </div>
-    </div>
+    </section>
   )
 }

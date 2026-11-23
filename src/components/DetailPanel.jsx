@@ -31,6 +31,7 @@ export function DetailPanel({
   onConstellationToggle,
 }) {
   const [copied, setCopied] = useState(null)
+  const [copyError, setCopyError] = useState(false)
   const panelRef = useRef(null)
   useFocusTrap(panelRef, Boolean(concept))
 
@@ -44,9 +45,14 @@ export function DetailPanel({
     else if (format === 'markdown') text = toMarkdown(concept)
     else text = toObsidian(concept)
 
-    await navigator.clipboard.writeText(text)
-    setCopied(format)
-    setTimeout(() => setCopied(null), 2000)
+    try {
+      await navigator.clipboard.writeText(text)
+      setCopyError(false)
+      setCopied(format)
+      setTimeout(() => setCopied(null), 2000)
+    } catch {
+      setCopyError(true)
+    }
   }
 
   return (
@@ -176,7 +182,7 @@ export function DetailPanel({
       </div>
 
       <div className="detail-copy">
-        <span className="copy-label">Copy as</span>
+        <span className="copy-label">{copyError ? 'Clipboard unavailable' : 'Copy as'}</span>
         <button className={`copy-btn ${copied === 'plain' ? 'copied' : ''}`} onClick={() => copy('plain')}>
           {copied === 'plain' ? 'Copied!' : 'Plain text'}
         </button>

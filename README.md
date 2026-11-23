@@ -1,16 +1,71 @@
-# React + Vite
+# Philosophia
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Philosophia is an interactive atlas of 400 philosophical concepts across 15
+traditions. Search the collection, follow labeled relationships through a readable
+concept map, save a personal reading path, and export it to Obsidian.
 
-Currently, two official plugins are available:
+## Run locally
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Requires Node.js 20 or newer.
 
-## React Compiler
+```bash
+npm install
+npm run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Useful checks:
 
-## Expanding the Oxlint configuration
+```bash
+npm run check
+npm run validate-data
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Deploy on Embarko or another root-domain host
+
+The default production build uses `/` as its base path, which is suitable for
+an Embarko subdomain:
+
+```bash
+npm run build
+```
+
+Publish the generated `dist/` directory. Before submission, update the
+canonical and social URLs in `index.html`, then generate the sitemap for the
+final Embarko URL:
+
+```bash
+SITE_URL=https://your-app.embarko.app/ npm run generate-sitemap
+SITE_URL=https://your-app.embarko.app/ npm run build
+```
+
+## GitHub Pages
+
+GitHub Pages serves this repository from `/philosophia/`, so its workflow sets
+`VITE_BASE_PATH=/philosophia/`. The equivalent local build is:
+
+```bash
+npm run build:github
+```
+
+## Keyboard controls
+
+- `Command/Ctrl + K`: focus search
+- `T`: toggle graph mode
+- `D`: toggle dark mode
+- `C`: open My Constellation
+- `Escape`: close the active panel or graph
+- Arrow keys: move between graph nodes
+
+## Content pipeline
+
+`public/concepts.json` is the production dataset. Source DOCX files and prior
+enrichment drops are retained under `stale/` for provenance.
+
+- `npm run parse-volumes`: recover base fields from the source DOCX volumes
+- `npm run merge`: merge enrichment JSON files temporarily placed in `public/`
+- `npm run generate-sitemap`: rebuild the concept sitemap
+- `npm run build-data`: run the complete content pipeline
+
+The UI filters incomplete concepts defensively, while `npm run validate-data`
+fails CI when names, required fields, relationships, difficulty values, or book
+URLs are invalid.

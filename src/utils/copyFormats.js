@@ -55,7 +55,7 @@ export function toMarkdown(concept) {
   return lines.join('\n')
 }
 
-export function toObsidian(concept) {
+export function toObsidian(concept, linkName = name => name) {
   const diff = '●'.repeat(concept.difficulty) + '○'.repeat(3 - concept.difficulty)
   const frontmatter = [
     '---',
@@ -89,7 +89,9 @@ export function toObsidian(concept) {
   if (concept.related?.length) {
     body.push('', '## Related Concepts', '')
     concept.related.forEach(r => {
-      body.push(`- [[${r.name}]] *(${r.type})*`)
+      const target = linkName(r.name)
+      const link = target === r.name ? `[[${r.name}]]` : `[[${target}|${r.name}]]`
+      body.push(`- ${link} *(${r.type})*`)
     })
   }
 

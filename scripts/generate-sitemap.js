@@ -12,7 +12,7 @@ import { fileURLToPath } from 'url'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const PUBLIC = join(__dirname, '..', 'public')
-const SITE = 'https://glint-hk.github.io/philosophia/'
+const SITE = (process.env.SITE_URL || 'https://glint-hk.github.io/philosophia/').replace(/\/?$/, '/')
 
 const concepts = JSON.parse(readFileSync(join(PUBLIC, 'concepts.json'), 'utf8'))
 

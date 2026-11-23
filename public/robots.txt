@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://glint-hk.github.io/philosophia/sitemap.xml
+Sitemap: https://philosophia-atlas.embarko.app/sitemap.xml

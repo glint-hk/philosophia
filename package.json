@@ -7,12 +7,15 @@
     "parse-volumes": "node scripts/parse-volumes.js",
     "merge": "node scripts/merge-concepts.js",
     "generate-sitemap": "node scripts/generate-sitemap.js",
+    "validate-data": "node scripts/validate-data.js",
     "build-data": "npm run parse-volumes && npm run merge && npm run generate-sitemap",
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
+    "check": "npm run lint && npm run validate-data && npm run build",
     "preview": "vite preview",
-    "predeploy": "npm run generate-sitemap && npm run build",
+    "build:github": "VITE_BASE_PATH=/philosophia/ vite build",
+    "predeploy": "npm run generate-sitemap && npm run build:github",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {

@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useMemo, useRef } from 'react'
+import { useState, useEffect, useCallback, useMemo, useRef, lazy, Suspense } from 'react'
 import { useDarkMode } from './hooks/useDarkMode'
 import { useConstellation } from './hooks/useConstellation'
 import { useConcepts } from './hooks/useConcepts'
@@ -7,27 +7,35 @@ import { Header } from './components/Header'
 import { FilterBar } from './components/FilterBar'
 import { ConceptGrid } from './components/ConceptGrid'
 import { DetailPanel } from './components/DetailPanel'
-import { TraverseMode } from './components/TraverseMode'
-import { ConstellationPanel } from './components/ConstellationPanel'
+import { Hero } from './components/Hero'
+import { Discovery } from './components/Discovery'
+
+const TraverseMode = lazy(() =>
+  import('./components/TraverseMode').then(module => ({ default: module.TraverseMode }))
+)
+const ConstellationPanel = lazy(() =>
+  import('./components/ConstellationPanel').then(module => ({ default: module.ConstellationPanel }))
+)
 
 const EMPTY_FILTERS = { categories: [], eras: [], difficulties: [] }
 
 function parseUrl() {
   const params = new URLSearchParams(window.location.search)
+  const requestedMode = params.get('mode')
   return {
-    mode: params.get('mode') || 'grid',
+    mode: requestedMode === 'traverse' ? 'traverse' : 'grid',
     concept: params.get('concept') || null,
     q: params.get('q') || '',
   }
 }
 
-function pushUrl(state) {
+function syncUrl(state) {
   const params = new URLSearchParams()
   if (state.mode && state.mode !== 'grid') params.set('mode', state.mode)
   if (state.concept) params.set('concept', state.concept)
   if (state.q) params.set('q', state.q)
   const qs = params.toString()
-  window.history.pushState(null, '', qs ? `?${qs}` : window.location.pathname)
+  window.history.replaceState(null, '', qs ? `?${qs}` : window.location.pathname)
 }
 
 const DEFAULT_TITLE = 'Philosophia — Explore Philosophical Concepts'
@@ -43,7 +51,7 @@ export default function App() {
   const { constellation, toggle: constellationToggle } = useConstellation()
   const { concepts, loading, error, fuse, categories, eras } = useConcepts()
 
-  const initial = parseUrl()
+  const [initial] = useState(parseUrl)
   const [mode, setMode] = useState(initial.mode)
   const [searchQuery, setSearchQuery] = useState(initial.q)
   const [filters, setFilters] = useState(EMPTY_FILTERS)
@@ -61,7 +69,7 @@ export default function App() {
     requestAnimationFrame(() => {
       const el = lastFocusedRef.current
       if (el && document.body.contains(el)) el.focus()
-      else document.querySelector('.mode-toggle')?.focus()
+      else (document.querySelector('.map-center') || document.querySelector('.mode-toggle'))?.focus()
     })
   }, [])
 
@@ -76,16 +84,29 @@ export default function App() {
     if (!found) return
     if (initial.mode === 'traverse') setTraverseConcept(found)
     else setSelectedConcept(found)
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [concepts])
+  }, [concepts, conceptMap, initial])
 
   useEffect(() => {
-    pushUrl({
+    syncUrl({
       mode,
       concept: traverseConcept?.name || selectedConcept?.name || null,
       q: searchQuery,
     })
   }, [mode, selectedConcept, traverseConcept, searchQuery])
+
+  useEffect(() => {
+    function onPopState() {
+      const next = parseUrl()
+      const concept = next.concept ? conceptMap[next.concept] : null
+      setMode(next.mode)
+      setSearchQuery(next.q)
+      setSelectedConcept(next.mode === 'grid' ? concept : null)
+      setTraverseConcept(next.mode === 'traverse' ? concept : null)
+      setConstellationOpen(false)
+    }
+    window.addEventListener('popstate', onPopState)
+    return () => window.removeEventListener('popstate', onPopState)
+  }, [conceptMap])
 
   useEffect(() => {
     const active = traverseConcept || selectedConcept
@@ -94,38 +115,45 @@ export default function App() {
   }, [selectedConcept, traverseConcept])
 
   const toggleMode = useCallback(() => {
-    setMode(m => {
-      if (m === 'grid') {
+      if (mode === 'grid') {
         lastFocusedRef.current = document.activeElement
-        return 'traverse'
+        setTraverseConcept(selectedConcept || conceptMap.Existentialism || concepts[0])
+        setSelectedConcept(null)
+        setMode('traverse')
+        return
       }
       setTraverseConcept(null)
       restoreFocus()
-      return 'grid'
-    })
-  }, [restoreFocus])
+      setMode('grid')
+  }, [conceptMap, concepts, restoreFocus, selectedConcept, mode])
 
   useEffect(() => {
     function onKey(e) {
-      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return
+      if (e.target.closest('input, textarea, select, [contenteditable="true"]') || e.metaKey || e.ctrlKey || e.altKey) return
       if (e.key === 'd' || e.key === 'D') toggleDark()
       if (e.key === 't' || e.key === 'T') toggleMode()
       if (e.key === 'c' || e.key === 'C') handleConstellationToggleOpen()
-      if (e.key === 'Escape' && (selectedConcept || constellationOpen)) {
-        setSelectedConcept(null)
-        setConstellationOpen(false)
-        restoreFocus()
+      if (e.key === 'Escape') {
+        if (selectedConcept || constellationOpen) {
+          setSelectedConcept(null)
+          setConstellationOpen(false)
+          restoreFocus()
+        } else if (mode === 'traverse') {
+          setMode('grid')
+          setTraverseConcept(null)
+          restoreFocus()
+        }
       }
     }
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
-  }, [toggleDark, toggleMode, selectedConcept, constellationOpen, restoreFocus])
+  }, [toggleDark, toggleMode, selectedConcept, constellationOpen, mode, restoreFocus])
 
-  function handleSelectConcept(concept) {
-    if (!selectedConcept) lastFocusedRef.current = document.activeElement
+  const handleSelectConcept = useCallback((concept) => {
+    if (!document.querySelector('[role="dialog"]')) lastFocusedRef.current = document.activeElement
     setSelectedConcept(concept)
     setConstellationOpen(false)
-  }
+  }, [])
 
   function handleDetailClose() {
     setSelectedConcept(null)
@@ -143,6 +171,21 @@ export default function App() {
     setMode('grid')
     setTraverseConcept(null)
     restoreFocus()
+  }
+
+  const handleTraverseCenter = useCallback((concept) => {
+    setTraverseConcept(concept)
+    setSelectedConcept(null)
+  }, [])
+
+  function handleRandomConcept() {
+    if (!concepts.length) return
+    const concept = concepts[Math.floor(Math.random() * concepts.length)]
+    handleSelectConcept(concept)
+  }
+
+  function handleSearchFocus() {
+    document.querySelector('.search-input')?.focus()
   }
 
   function handleRelatedClick(name) {
@@ -200,15 +243,51 @@ export default function App() {
 
   if (mode === 'traverse') {
     const center = traverseConcept || concepts[0]
+    const panelOpen = Boolean(selectedConcept || constellationOpen)
     return (
       <div className="app" data-mode="traverse">
-        <TraverseMode
-          concepts={concepts}
-          centerConcept={center}
-          onSelect={handleSelectConcept}
-          onClose={handleTraverseClose}
-          dark={dark}
-        />
+        <Suspense fallback={<div className="mode-loading">Mapping the constellation…</div>}>
+          <TraverseMode
+            concepts={concepts}
+            centerConcept={center}
+            onCenterChange={handleTraverseCenter}
+            onSelect={handleSelectConcept}
+            onClose={handleTraverseClose}
+            dark={dark}
+          />
+        </Suspense>
+
+        {panelOpen && (
+          <div
+            className="scrim"
+            aria-hidden="true"
+            onClick={() => {
+              setSelectedConcept(null)
+              setConstellationOpen(false)
+              restoreFocus()
+            }}
+          />
+        )}
+        {selectedConcept && (
+          <DetailPanel
+            concept={selectedConcept}
+            onClose={handleDetailClose}
+            onTraverse={handleTraverseCenter}
+            onRelatedClick={handleRelatedClick}
+            inConstellation={Boolean(constellation[selectedConcept.name])}
+            onConstellationToggle={constellationToggle}
+          />
+        )}
+        {constellationOpen && (
+          <Suspense fallback={null}>
+            <ConstellationPanel
+              constellation={constellation}
+              concepts={concepts}
+              onClose={handleConstellationClose}
+              onSelect={handleConstellationSelect}
+            />
+          </Suspense>
+        )}
       </div>
     )
   }
@@ -230,6 +309,18 @@ export default function App() {
         constellationOpen={constellationOpen}
         constellationCount={constellationCount}
       />
+
+      {!searchQuery && <Hero
+        onExplore={handleSearchFocus}
+        onTraverse={() => handleTraverse(conceptMap.Existentialism || concepts[0])}
+        onRandom={handleRandomConcept}
+      />}
+
+      {!searchQuery && (
+        <Discovery concepts={concepts} onSelect={handleSelectConcept} onTraverse={handleTraverse} />
+      )}
+
+      <div className="atlas-heading"><div><p className="section-kicker">The collection</p><h2>Find your next idea.</h2></div><p>Search, filter, or follow a connection.</p></div>
 
       <FilterBar
         categories={categories}
@@ -277,12 +368,14 @@ export default function App() {
       )}
 
       {constellationOpen && (
-        <ConstellationPanel
-          constellation={constellation}
-          concepts={concepts}
-          onClose={handleConstellationClose}
-          onSelect={handleConstellationSelect}
-        />
+        <Suspense fallback={null}>
+          <ConstellationPanel
+            constellation={constellation}
+            concepts={concepts}
+            onClose={handleConstellationClose}
+            onSelect={handleConstellationSelect}
+          />
+        </Suspense>
       )}
     </div>
   )

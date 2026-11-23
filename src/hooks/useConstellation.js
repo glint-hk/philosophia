@@ -4,9 +4,18 @@ const KEY = 'philosophia-constellation'
 
 function load() {
   try {
-    return JSON.parse(localStorage.getItem(KEY)) || {}
+    const value = JSON.parse(localStorage.getItem(KEY))
+    return value && typeof value === 'object' && !Array.isArray(value) ? value : {}
   } catch {
     return {}
+  }
+}
+
+function persist(value) {
+  try {
+    localStorage.setItem(KEY, JSON.stringify(value))
+  } catch {
+    // Storage may be unavailable in private browsing or a restricted iframe.
   }
 }
 
@@ -17,7 +26,7 @@ export function useConstellation() {
     setConstellation(prev => {
       if (prev[name]) return prev
       const next = { ...prev, [name]: new Date().toISOString() }
-      localStorage.setItem(KEY, JSON.stringify(next))
+      persist(next)
       return next
     })
   }, [])
@@ -26,7 +35,7 @@ export function useConstellation() {
     setConstellation(prev => {
       const next = { ...prev }
       delete next[name]
-      localStorage.setItem(KEY, JSON.stringify(next))
+      persist(next)
       return next
     })
   }, [])
@@ -41,7 +50,7 @@ export function useConstellation() {
       } else {
         next[name] = new Date().toISOString()
       }
-      localStorage.setItem(KEY, JSON.stringify(next))
+      persist(next)
       return next
     })
   }, [])

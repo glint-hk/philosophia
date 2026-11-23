@@ -4,6 +4,10 @@ import { saveAs } from 'file-saver'
 import { toObsidian } from '../utils/copyFormats'
 import { useFocusTrap } from '../hooks/useFocusTrap'
 
+function safeFilename(name) {
+  return name.replace(/[\\/:*?"<>|]/g, ' - ').replace(/\s+/g, ' ').trim()
+}
+
 export function ConstellationPanel({ constellation, concepts, onClose, onSelect }) {
   const panelRef = useRef(null)
   useFocusTrap(panelRef, true)
@@ -24,7 +28,7 @@ export function ConstellationPanel({ constellation, concepts, onClose, onSelect 
     entries.forEach(([name]) => {
       const concept = conceptMap[name]
       if (concept) {
-        folder.file(`${name}.md`, toObsidian(concept))
+        folder.file(`${safeFilename(name)}.md`, toObsidian(concept, safeFilename))
       }
     })
 
@@ -34,7 +38,7 @@ export function ConstellationPanel({ constellation, concepts, onClose, onSelect 
       `Exported on ${new Date().toLocaleDateString()}`,
       '',
       `${entries.length} concept${entries.length !== 1 ? 's' : ''}:`,
-      ...entries.map(([name]) => `- [[${name}]]`),
+      ...entries.map(([name]) => `- [[${safeFilename(name)}|${name}]]`),
     ].join('\n')
     folder.file('_README.md', readme)
 
