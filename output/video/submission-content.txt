@@ -1,0 +1,87 @@
+PHILOSOPHIA — SOCIAL CONTENT AND RECORDING SCRIPT
+
+STATUS
+The revised 62-second motion-graphics edit meets the duration requirement and adds your introduction and deployment story. It is an edit draft, not yet a compliant recorded demo. Replace the stylized interface and deployment-story scenes with real screen recordings. Your personal experience and the source of your prompt also need your own words; the suggested line below is not a claimed testimonial.
+
+62-SECOND RECORDING PLAN / VOICEOVER
+
+00–03 | Hook
+“One question can change your world.”
+Visual: open on the real concept map, click a connected concept.
+
+03–10 | Part 1: introduction and purpose
+“I’m Hrishikesh. I built Philosophia with AI to make philosophy easier to explore—one connected idea at a time.”
+Visual: face-to-camera introduction, or your name over the app’s homepage.
+
+10–18 | Part 2: show what you built
+“Start with a question, search for a concept, or filter the collection by category, era, and depth.”
+Visual: scroll the homepage, expand filters, choose Ethics, open a concept.
+
+18–24 | Part 2 continued
+“Save the ideas that stay with you in your own constellation, then export them to Obsidian.”
+Visual: Save a concept, open My Constellation, show export control.
+
+24–32 | Part 3: your Embarko experience
+Personal line to complete: “I got the Embarko prompt from [actual source]. Using it felt [your honest reaction], because [one concrete reason].”
+Visual: the actual page or message where you got the prompt, then the AI chat. This personal line is pending confirmation and is not included as a fabricated testimonial in the draft.
+
+32–42 | Part 4: prompt to deployment
+“I pasted Embarko’s prompt into Codex. It packaged Philosophia, uploaded it, checked the build, and gave me a live link.”
+Visual: use the user-supplied screenshot of Codex in VS Code. First show the full screenshot briefly, then zoom into the right-hand prompt, then the “Open Philosophia” result. Label it “Original deployment conversation — screenshot.” This is authentic still evidence, not a recording of the deployment occurring. The initial expiry message belongs to the anonymous deployment; follow immediately with the permanent-claim narration. For the challenge's recorded-demo requirement, include real app scrolling and clicks as well.
+
+42–49 | Part 4 continued
+“Then I claimed the app to make it permanent. Here it is, running on its own Embarko link.”
+Visual: show the success message, then open https://philosophia-atlas.embarko.app. Keep the email and deployment key outside the recording.
+
+49–56 | Part 5: wow factor
+“The best part? Four hundred ideas and 1,506 connections. One question becomes a journey through human thought.”
+Visual: follow two real connections and use Previous idea to retrace your path.
+
+56–62 | Part 6: closing
+“Where will your curiosity take you? Try Philosophia. Hashtag Deploy With Embarko.”
+Visual: full link and #DeployWithEmbarko, held for six seconds.
+
+INSTAGRAM REEL CAPTION
+One question can change your world. What happens when you follow it?
+
+I’m Hrishikesh, and I built Philosophia with AI to turn philosophy into something you can explore: 400 concepts, 1,506 connections, and your own constellation of ideas.
+
+Search a question. Follow a connection. Save a thought that stays with you.
+
+To put it online, I pasted Embarko’s deployment prompt into Codex. It packaged and uploaded the app, checked the build, and returned a live link. I then claimed it to make it permanent.
+
+Which question would you start with: how should I live, am I really free, or what gives life meaning?
+
+Explore: https://philosophia-atlas.embarko.app
+
+#DeployWithEmbarko #Philosophy #BuildWithAI
+
+X POST — ATTACH THE VIDEO
+One question can change your world.
+
+I built Philosophia with AI: 400 ideas, 1,506 connections.
+
+Pasted Embarko’s prompt into Codex. It deployed the app and returned a live link.
+
+Where will your curiosity take you?
+https://philosophia-atlas.embarko.app
+#DeployWithEmbarko
+
+YOUTUBE SHORTS TITLE
+I turned philosophy into a map of ideas | #DeployWithEmbarko
+
+YOUTUBE DESCRIPTION
+What if one question led you into an entire world of ideas?
+
+I’m Hrishikesh, the creator of Philosophia: an AI-assisted philosophy explorer with 400 concepts and 1,506 connections. Search, filter, explore a concept map, and save your own constellation of thought.
+
+I pasted Embarko’s deployment prompt into Codex. It packaged the source, uploaded it anonymously, and checked the build status. After the app went live, I claimed it to make the deployment permanent.
+
+Try it: https://philosophia-atlas.embarko.app
+
+Tell me which idea you explored first.
+
+#DeployWithEmbarko #Philosophy #BuildWithAI
+
+POSTING NOTES
+Use the finished recorded-demo version for the challenge. Attach it to each post and keep the required hashtag and live URL. Add the app URL to your Instagram profile as well if you want an easily accessible destination. Do not claim footage is a live recording if you use the motion-graphics draft. No posts have been published by the assistant.
