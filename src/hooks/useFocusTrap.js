@@ -9,7 +9,7 @@ export function useFocusTrap(ref, active) {
     const focusable = () => Array.from(node.querySelectorAll(FOCUSABLE))
 
     const first = focusable()[0]
-    first?.focus()
+    first?.focus({ preventScroll: true })
 
     function onKeyDown(e) {
       if (e.key !== 'Tab') return

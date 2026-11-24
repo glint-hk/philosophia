@@ -59,6 +59,20 @@ export default function App() {
   const [traverseConcept, setTraverseConcept] = useState(null)
   const [constellationOpen, setConstellationOpen] = useState(false)
   const lastFocusedRef = useRef(null)
+  const panelOpen = Boolean(selectedConcept || constellationOpen)
+
+  // Fixed-body locking also prevents background scrolling in iOS Safari.
+  useEffect(() => {
+    if (!panelOpen) return
+    const scrollY = window.scrollY
+    const body = document.body
+    const previous = { position: body.style.position, top: body.style.top, width: body.style.width }
+    Object.assign(body.style, { position: 'fixed', top: `-${scrollY}px`, width: '100%' })
+    return () => {
+      Object.assign(body.style, previous)
+      window.scrollTo({ top: scrollY, behavior: 'instant' })
+    }
+  }, [panelOpen])
 
   // Restores focus to whatever triggered a panel/mode — falling back to the
   // header's mode toggle if that element no longer exists in the DOM (e.g.
@@ -243,7 +257,6 @@ export default function App() {
 
   if (mode === 'traverse') {
     const center = traverseConcept || concepts[0]
-    const panelOpen = Boolean(selectedConcept || constellationOpen)
     return (
       <div className="app" data-mode="traverse">
         <Suspense fallback={<div className="mode-loading">Mapping the constellation…</div>}>
@@ -292,7 +305,6 @@ export default function App() {
     )
   }
 
-  const panelOpen = Boolean(selectedConcept || constellationOpen)
 
   return (
     <div className="app" data-mode="grid">

@@ -1626,3 +1626,85 @@ body {
   .map-card strong { font-size: 17px; }
   .map-action { font-size: 11px; }
 }
+
+/* Phone layouts: readable content, touch controls, and browser/notch insets. */
+.detail-body, .constellation-list { min-height: 0; overscroll-behavior: contain; }
+.app[data-mode="traverse"], .relationship-view { height: 100dvh; }
+@media (pointer: coarse) {
+  .btn-ghost, .card-action-btn, .detail-close, .copy-btn,
+  .chip, .active-filters button { min-width: 44px; min-height: 44px; }
+  .related-link, .book-link { min-height: 44px; padding-block: 10px; }
+  button, a { touch-action: manipulation; }
+}
+@media (max-width: 760px) {
+  .header {
+    height: auto; grid-template-columns: minmax(0, 1fr) auto;
+    gap: 10px 8px; padding: max(10px, env(safe-area-inset-top)) max(14px, env(safe-area-inset-right)) 12px max(14px, env(safe-area-inset-left));
+  }
+  .header-left { grid-column: 1; grid-row: 1; min-width: 0; }
+  .header-right { grid-column: 2; grid-row: 1; gap: 2px; }
+  .header-center { grid-column: 1 / -1; grid-row: 2; }
+  .logo-text { display: inline; font-size: 20px; }
+  .header-right .btn-ghost { min-width: 44px; min-height: 44px; padding: 8px; }
+  .mode-toggle span { display: none; }
+  .search-input { height: 48px; font-size: 16px; padding-right: 48px; }
+  .search-clear { width: 44px; height: 44px; right: 2px; }
+  #main-content { scroll-margin-top: 140px; }
+  .hero { padding: 36px 20px 28px; gap: 20px; }
+  .hero h1 { font-size: clamp(40px, 10vw, 64px); }
+  .hero-lede { font-size: 16px; line-height: 1.65; }
+  .hero-actions { margin-top: 24px; gap: 10px; }
+  .hero-actions > button { min-height: 48px; }
+  .hero-visual { width: min(78vw, 320px); }
+  .hero-whisper { display: none; }
+  .discovery { padding-inline: 16px; }
+  .atlas-heading { padding-inline: 16px; }
+  .main-content { padding: 16px; }
+  .filter-bar { margin-inline: 16px; }
+  .filter-options .chip, .active-filters button { min-height: 44px; }
+  .concept-card { padding: 20px; }
+  .card-name { font-size: 23px; }
+  .card-thinker { font-size: 14px; }
+  .card-excerpt { font-size: 16px; line-height: 1.6; }
+  .card-cat-label { font-size: 12px; overflow-wrap: anywhere; }
+  .card-action-btn { width: 44px; height: 44px; }
+  .card-actions { flex-shrink: 0; }
+  .detail-panel, .constellation-panel {
+    top: max(8px, env(safe-area-inset-top)); bottom: 0;
+    left: env(safe-area-inset-left); right: env(safe-area-inset-right);
+    width: auto; height: auto; max-height: calc(100dvh - max(8px, env(safe-area-inset-top)));
+    border-radius: 24px 24px 0 0;
+  }
+  .detail-header, .panel-header { padding: 12px 16px; flex-shrink: 0; }
+  .detail-close, .detail-actions-top .btn-ghost { min-width: 44px; min-height: 44px; }
+  .detail-body { padding: 20px; }
+  .detail-name { overflow-wrap: anywhere; }
+  .detail-description, .detail-bio, .detail-thinker { font-size: 16px; line-height: 1.65; }
+  .detail-quote { font-size: 18px; }
+  .related-link, .book-link { min-height: 44px; padding-block: 10px; }
+  .detail-copy { padding: 12px 16px max(12px, env(safe-area-inset-bottom)); gap: 8px; }
+  .copy-label { width: 100%; font-size: 11px; }
+  .copy-btn { flex: 1; min-height: 44px; font-size: 13px; padding-inline: 8px; }
+  .category-breakdown { max-height: 18dvh; overflow-y: auto; overscroll-behavior: contain; }
+  .constellation-concept { min-height: 48px; }
+  .constellation-export { padding-bottom: max(16px, env(safe-area-inset-bottom)); }
+  .relationship-header { padding-top: max(16px, env(safe-area-inset-top)); }
+  .relationship-header h1 { overflow-wrap: anywhere; }
+  .relationship-header, .relationship-subheader, .relationship-footer {
+    padding-left: max(16px, env(safe-area-inset-left));
+    padding-right: max(16px, env(safe-area-inset-right));
+  }
+}
+@media (max-width: 479px) {
+  .concept-grid { grid-template-columns: minmax(0, 1fr); }
+  .map-card { padding: 16px 20px; }
+  .map-card strong { font-size: 22px; }
+  .map-thinker { font-size: 14px; }
+  .map-action { font-size: 13px; }
+  .relationship-header h1 { font-size: 24px; }
+}
+@media (max-height: 500px) and (orientation: landscape) {
+  .relationship-subheader p, .relationship-legend { display: none; }
+  .relationship-header { padding-block: max(8px, env(safe-area-inset-top)) 8px; }
+  .relationship-footer { padding-block: 4px max(4px, env(safe-area-inset-bottom)); }
+}

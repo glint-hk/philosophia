@@ -50,7 +50,10 @@ export function Header({
             ref={inputRef}
             type="search"
             className="search-input"
-            placeholder="Search concepts… (⌘K)"
+            placeholder="Search ideas or thinkers…"
+            enterKeyHint="search"
+            autoCapitalize="none"
+            autoCorrect="off"
             value={searchQuery}
             onChange={e => onSearch(e.target.value)}
             aria-label="Search philosophical concepts"
